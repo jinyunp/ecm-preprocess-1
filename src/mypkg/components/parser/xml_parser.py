@@ -415,12 +415,18 @@ class DocxXmlParser(BaseParser):
 
                 texts: List[str] = []
                 cell_inline_images: List[str] = []
-                for p in tc.findall("./w:p", NS):
-                    runs, _ = self._build_run_records(p, inline_images_map, doc_index)
-                    if runs:
-                        texts.append("".join(run.text for run in runs).strip())
-                        for run in runs:
-                            cell_inline_images.extend(run.image_rids)
+                for child_elem in tc:
+                    if child_elem.tag == f'{{{NS["w"]}}}p':
+                        runs, _ = self._build_run_records(child_elem, inline_images_map, doc_index)
+                        if runs:
+                            texts.append("".join(run.text for run in runs).strip())
+                            for run in runs:
+                                cell_inline_images.extend(run.image_rids)
+                    elif child_elem.tag == f'{{{NS["w"]}}}tbl':
+                        nested_table_text = self._extract_text_from_table(child_elem, inline_images_map, doc_index)
+                        if nested_table_text:
+                            texts.append(nested_table_text)
+
 
                 cell_text = " ".join(t for t in texts if t).strip()
                 if bg_color is None and style_id:
@@ -440,6 +446,24 @@ class DocxXmlParser(BaseParser):
             row_idx += 1
 
         return TableRecord(tid=f"t{doc_index}", rows=rows_data, doc_index=doc_index)
+
+    def _extract_text_from_table(self, tbl: ET.Element, inline_images_map: Dict[str, InlineImageRecord], doc_index: int) -> str:
+        all_texts: List[str] = []
+        for tr in tbl.findall("./w:tr", NS):
+            for tc in tr.findall("./w:tc", NS):
+                cell_texts: List[str] = []
+                for child_elem in tc:
+                    if child_elem.tag == f'{{{NS["w"]}}}p':
+                        runs, _ = self._build_run_records(child_elem, inline_images_map, doc_index)
+                        if runs:
+                            cell_texts.append("".join(run.text for run in runs).strip())
+                    elif child_elem.tag == f'{{{NS["w"]}}}tbl':
+                        nested_text = self._extract_text_from_table(child_elem, inline_images_map, doc_index)
+                        if nested_text:
+                            cell_texts.append(nested_text)
+                
+                all_texts.append(" ".join(t for t in cell_texts if t).strip())
+        return " ".join(t for t in all_texts if t).strip()
 
     def _parse_styles(
         self,
