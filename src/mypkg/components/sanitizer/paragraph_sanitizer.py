@@ -1,4 +1,5 @@
 from collections import Counter
+import copy
 from typing import Iterable, List, Optional, Set
 from mypkg.core.parser import ParagraphRecord, RunRecord
 
@@ -62,7 +63,7 @@ def _merge_paragraphs(paragraphs_docx: List[ParagraphRecord], paragraphs_xml: Li
     xml_norm_cache = []
     xml_norm_counts: Counter[str] = Counter()
     for p_xml in paragraphs_xml:
-        xml_text_norm = _normalize_for_compare(p_xml.xml_text or p_xml.text or "")
+        xml_text_norm = _normalize_for_compare(p_xml.text)
         xml_norm_cache.append(xml_text_norm)
         if xml_text_norm:
             xml_norm_counts[xml_text_norm] += 1
@@ -109,12 +110,12 @@ def _merge_paragraphs(paragraphs_docx: List[ParagraphRecord], paragraphs_xml: Li
             merged_paragraphs.append(p_xml)
         else:
             p_docx.doc_index = p_xml.doc_index
-            p_docx.numId = p_xml.numId
-            p_docx.ilvl = p_xml.ilvl
-            p_docx.numFmt = p_xml.numFmt
-            p_docx.list_type = p_xml.list_type
             p_docx.math_texts = list(getattr(p_xml, "math_texts", []) or [])
-            p_docx.xml_text = getattr(p_xml, "xml_text", p_xml.text)
+            if p_xml.doc_index is not None and p_docx.doc_index is not None:
+                if p_docx.source_doc_indices is None:
+                    p_docx.source_doc_indices = []
+                if p_xml.doc_index not in p_docx.source_doc_indices:
+                    p_docx.source_doc_indices.append(p_xml.doc_index)
             merged_paragraphs.append(p_docx)
 
         if xml_text_norm:
@@ -123,6 +124,83 @@ def _merge_paragraphs(paragraphs_docx: List[ParagraphRecord], paragraphs_xml: Li
                 remaining_xml_counts[xml_text_norm] = remaining - 1
 
     return merged_paragraphs
+
+
+_SUBTITLE_STYLE_KEYS = {"소제목2", "소제목 2", "subtitle 2"}
+
+
+def _normalize_style(style: Optional[str]) -> str:
+    return (style or "").strip().lower()
+
+
+def _join_paragraph_text(left: Optional[str], right: Optional[str]) -> str:
+    left_norm = (left or "").strip()
+    right_norm = (right or "").strip()
+    if not left_norm:
+        return right_norm
+    if not right_norm:
+        return left_norm
+    return f"{left_norm}\n{right_norm}"
+
+
+def _extend_unique_ints(target: List[int], values: Iterable[Optional[int]]) -> None:
+    seen = set(target)
+    for value in values:
+        if value is None:
+            continue
+        if value not in seen:
+            target.append(value)
+            seen.add(value)
+
+
+def _append_paragraph(target: ParagraphRecord, source: ParagraphRecord) -> None:
+    target.text = _join_paragraph_text(target.text, source.text)
+    target.emphasized.extend(seg for seg in source.emphasized if seg)
+    target.math_texts.extend(expr for expr in source.math_texts if expr)
+    target.runs.extend(copy.deepcopy(source.runs))
+
+    indices = source.source_doc_indices or ([source.doc_index] if source.doc_index is not None else [])
+    _extend_unique_ints(target.source_doc_indices, indices)
+    target.image_included = bool(target.image_included or source.image_included)
+
+
+def _merge_plain_paragraphs(paragraphs: List[ParagraphRecord]) -> List[ParagraphRecord]:
+    """연속된 기본 문단(style=None)을 하나로 묶어 본문 블록을 만든다."""
+
+    merged: List[ParagraphRecord] = []
+    buffer: Optional[ParagraphRecord] = None
+
+    for para in paragraphs:
+        if not para.source_doc_indices and para.doc_index is not None:
+            para.source_doc_indices = [para.doc_index]
+
+        style_norm = _normalize_style(para.style)
+        is_heading_like = style_norm.startswith("heading") or style_norm in _SUBTITLE_STYLE_KEYS
+        text_has_content = bool((para.text or "").strip()) or is_heading_like
+        is_plain = para.style is None and text_has_content
+
+        if is_plain:
+            if buffer is None:
+                buffer = copy.deepcopy(para)
+                if buffer.doc_index is not None and buffer.doc_index not in buffer.source_doc_indices:
+                    buffer.source_doc_indices.insert(0, buffer.doc_index)
+            else:
+                _append_paragraph(buffer, para)
+            continue
+
+        if buffer is not None:
+            merged.append(buffer)
+            buffer = None
+
+        # headings/소제목2 등은 그대로 보존
+        if para.doc_index is not None and para.doc_index not in para.source_doc_indices:
+            para.source_doc_indices.insert(0, para.doc_index)
+        merged.append(para)
+
+    if buffer is not None:
+        merged.append(buffer)
+
+    return merged
 
 
 def exclude_paragraphs_by_doc_index(paragraphs: List[ParagraphRecord], doc_indices: Iterable[Optional[int]]) -> List[ParagraphRecord]:
@@ -151,9 +229,6 @@ def _clean_runs(paragraphs: List[ParagraphRecord]) -> List[ParagraphRecord]:
     for p in paragraphs:
         original_text = (p.text or "").strip()
         if not p.runs:
-            xml_text = getattr(p, "xml_text", None)
-            if xml_text and not original_text:
-                p.text = xml_text.strip()
             continue
 
         for r in p.runs:
@@ -190,27 +265,15 @@ def _clean_runs(paragraphs: List[ParagraphRecord]) -> List[ParagraphRecord]:
                 txt = (r.text or "").strip()
                 if txt:
                     emphasized_segments.append(txt)
-        xml_text = getattr(p, "xml_text", None)
-
-        preferred = original_text or combined
-        preferred = preferred.strip()
-        xml_candidate = (xml_text or "").strip()
-
-        if xml_candidate:
-            if preferred:
-                if '[image:' in preferred:
-                    final_text = preferred
-                elif _normalize_for_compare(preferred) == _normalize_for_compare(xml_candidate):
-                    final_text = preferred
-                else:
-                    final_text = xml_candidate
-            else:
-                final_text = xml_candidate
-        else:
-            final_text = preferred
+        preferred = (original_text or combined or "").strip()
+        final_text = preferred
 
         p.text = final_text
         p.emphasized = emphasized_segments
+        has_image = any(r.image_rids for r in p.runs if r.image_rids)
+        p.image_included = bool(has_image)
+        if not p.source_doc_indices and p.doc_index is not None:
+            p.source_doc_indices = [p.doc_index]
         
     return paragraphs
 
@@ -224,4 +287,5 @@ class ParagraphSanitizer:
         """
         merged = _merge_paragraphs(paragraphs_docx, paragraphs_xml)
         cleaned = _clean_runs(merged)
-        return cleaned
+        merged_plain = _merge_plain_paragraphs(cleaned)
+        return merged_plain

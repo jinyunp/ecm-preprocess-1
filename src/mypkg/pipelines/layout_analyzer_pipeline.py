@@ -81,15 +81,28 @@ def run_pipeline(
     )
 
     if "lists" in components:
-        list_blocks = _blocks_from_dicts(components["lists"])
         consumed = set(components.get("consumed", []))
+        list_blocks = []
+        for idx, info in enumerate(components.get("lists", []) or []):
+            doc_index = info.get("doc_index")
+            text = info.get("text") or ""
+            block_id = f"list_{doc_index if isinstance(doc_index, int) else idx}"
+            list_blocks.append(
+                ContentBlock(
+                    id=block_id,
+                    type="list",
+                    doc_index=doc_index,
+                    text=text,
+                )
+            )
     else:
-        list_blocks, consumed = analyze_lists(paragraphs)
+        list_block_dicts, consumed = analyze_lists(paragraphs)
+        list_blocks = _blocks_from_dicts(list_block_dicts)
 
     if "tables" in components:
         table_blocks = _blocks_from_dicts(components["tables"])
     else:
-        table_blocks = analyze_tables(tables_ir)
+        table_blocks = _blocks_from_dicts(analyze_tables(tables_ir))
 
     inline_images_payload = components.get("inline_images")
     if isinstance(inline_images_payload, dict):

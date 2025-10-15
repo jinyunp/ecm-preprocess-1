@@ -34,15 +34,12 @@ class ParagraphRecord:
     doc_index: Optional[int] = None  # 문서 내 문단의 순서
     style: Optional[str] = None  # 문단 스타일 이름
     runs: List[RunRecord] = field(default_factory=list)  # 문단을 구성하는 Run 목록
+    source_doc_indices: List[int] = field(default_factory=list)  # 병합 시 원본 문단 doc_index 추적
 
     # xml_parser에서 주로 사용
-    numId: Optional[str] = None  # 번호 매기기 ID
-    ilvl: Optional[str] = None  # 들여쓰기 수준
-    numFmt: Optional[str] = None # 번호 매기기 형식 (e.g., 'decimal', 'bullet')
-    list_type: Optional[str] = None # 리스트 종류 ('number', 'bullet', or None)
     emphasized: List[str] = field(default_factory=list)  # bold 된 텍스트 조각
     math_texts: List[str] = field(default_factory=list)  # 추출된 수식 문자열들
-    xml_text: Optional[str] = None  # XML 기반 전체 텍스트(수식 포함)
+    image_included: bool = False  # 문단에 인라인 이미지가 포함되어 있는지 여부
 
 @dataclass
 class TableCellRecord:

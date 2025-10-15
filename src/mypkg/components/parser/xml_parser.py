@@ -271,7 +271,7 @@ class DocxXmlParser(BaseParser):
         runs: List[RunRecord] = []
         emphasized: List[str] = []
 
-        for r in paragraph.findall("w:r", NS):
+        for r in paragraph.findall(".//w:r", NS):
             text_segments: List[str] = []
             for t in r.findall(".//w:t", NS):
                 if t.text:
@@ -353,24 +353,9 @@ class DocxXmlParser(BaseParser):
 
         para_record = None
         if paragraph_text or math_texts:
-            numId, ilvl, numFmt, list_type = None, None, None, None
             style_name: Optional[str] = None
             pPr = p.find("w:pPr", NS)
             if pPr is not None:
-                numPr = pPr.find("w:numPr", NS)
-                if numPr is not None:
-                    numId_tag = numPr.find("w:numId", NS)
-                    ilvl_tag = numPr.find("w:ilvl", NS)
-                    if numId_tag is not None:
-                        numId = numId_tag.attrib.get(f'{{{NS["w"]}}}val')
-                    if ilvl_tag is not None:
-                        ilvl = ilvl_tag.attrib.get(f'{{{NS["w"]}}}val')
-
-                    if numId and ilvl and numId in numbering_info and ilvl in numbering_info[numId]:
-                        fmt_info = numbering_info[numId][ilvl]
-                        numFmt = fmt_info.get('numFmt')
-                        list_type = fmt_info.get('list_type')
-
                 pStyle = pPr.find("w:pStyle", NS)
                 if pStyle is not None:
                     style_id = pStyle.attrib.get(f'{{{NS["w"]}}}val')
@@ -381,15 +366,11 @@ class DocxXmlParser(BaseParser):
                 text=paragraph_text,
                 doc_index=doc_index,
                 style=style_name,
-                numId=numId,
-                ilvl=ilvl,
-                numFmt=numFmt,
-                list_type=list_type,
                 runs=runs,
                 emphasized=emphasized,
                 math_texts=math_texts,
-                xml_text=text_raw,
             )
+            para_record.source_doc_indices = [doc_index]
 
         return para_record
 

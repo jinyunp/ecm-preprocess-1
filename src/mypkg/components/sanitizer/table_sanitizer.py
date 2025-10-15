@@ -129,3 +129,30 @@ class TableSanitizer:
             out.append(t_out)
 
         return out
+
+    def build_components(self, sanitized_tables: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+        """sanitized 테이블을 컴포넌트(dict) 목록으로 변환한다."""
+
+        components: List[Dict[str, Any]] = []
+        for table in sanitized_tables or []:
+            doc_index = table.get("doc_index", -1)
+            components.append(
+                {
+                    "id": f"table_{table.get('tid', doc_index)}",
+                    "type": "table",
+                    "doc_index": doc_index,
+                    "text": table.get("preceding_text"),
+                    "level": None,
+                    "page": None,
+                    "semantic": None,
+                    "table": {
+                        "doc_index": doc_index,
+                        "rows": table.get("rows"),
+                        "cols": table.get("cols"),
+                        "data": table.get("data"),
+                    },
+                    "list_data": None,
+                }
+            )
+
+        return {"tables": components}

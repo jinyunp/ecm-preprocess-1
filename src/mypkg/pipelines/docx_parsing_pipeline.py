@@ -15,9 +15,15 @@ from mypkg.components.parser.xml_parser import DocxXmlParser
 # 정제기
 from mypkg.components.sanitizer.paragraph_sanitizer import ParagraphSanitizer
 from mypkg.components.sanitizer.table_sanitizer import TableSanitizer
+from mypkg.components.sanitizer.list_sanitizer import ListSanitizer
 
 # 코어 유틸리티
-from mypkg.core.io import write_json_output, save_inline_image_components_from_sanitized
+from mypkg.core.io import (
+    write_json_output,
+    save_inline_image_components_from_sanitized,
+    save_list_components_from_sanitized,
+    save_table_components_from_sanitized,
+)
 
 
 log = logging.getLogger(__name__)
@@ -33,11 +39,13 @@ class DocxParsingPipeline:
         xml_parser: Optional[DocxXmlParser] = None,
         para_sanitizer: Optional[ParagraphSanitizer] = None,
         table_sanitizer: Optional[TableSanitizer] = None,
+        list_sanitizer: Optional[ListSanitizer] = None,
     ) -> None:
 
         self.xml_parser = xml_parser or DocxXmlParser()
         self.para_sanitizer = para_sanitizer or ParagraphSanitizer()
         self.table_sanitizer = table_sanitizer or TableSanitizer()
+        self.list_sanitizer = list_sanitizer or ListSanitizer()
 
     def _enhance_inline_images(
         self,
@@ -143,8 +151,21 @@ class DocxParsingPipeline:
         sanitized_tables = self.table_sanitizer.apply(xml_content_data.get("tables", []), paragraphs_for_context)
 
         # 3. Assembling and saving sanitized result
+        def _paragraph_to_payload(p):
+            return {
+                "text": p.text,
+                "doc_index": p.doc_index,
+                "style": p.style,
+                "source_doc_indices": list(p.source_doc_indices or []),
+                "emphasized": list(p.emphasized or []),
+                "math_texts": list(p.math_texts or []),
+                "image_included": bool(p.image_included),
+            }
+
+        paragraph_payloads = [_paragraph_to_payload(p) for p in sanitized_paragraphs]
+
         final_result = {
-            "paragraphs": [asdict(p) for p in sanitized_paragraphs],
+            "paragraphs": paragraph_payloads,
             "tables": sanitized_tables,
             "relationships": {
                 "map": {k: asdict(v) for k, v in xml_content_data.get("relationships", {}).get("map", {}).items()}
@@ -154,6 +175,13 @@ class DocxParsingPipeline:
         
         sanitized_output_path = output_dir / f"{doc_name}_sanitized.json"
         write_json_output(final_result, sanitized_output_path)
+
+        # 리스트/테이블 컴포넌트 저장
+        list_components = self.list_sanitizer.build_components(sanitized_paragraphs)
+        save_list_components_from_sanitized(list_components, sanitized_output_path, doc_name)
+
+        table_components = self.table_sanitizer.build_components(sanitized_tables)
+        save_table_components_from_sanitized(table_components, sanitized_output_path, doc_name)
 
         # Inline image 컴포넌트 저장
         inline_image_payload = {"inline_images": final_result["inline_images"]}

@@ -143,8 +143,8 @@ def component_paths_from_sanitized(sanitized_path: str | Path, basename: str) ->
     """
     base = components_dir_from_sanitized(sanitized_path)
     return {
-        "list":    base / f"{basename}_list_components.json",
-        "table":   base / f"{basename}_table_components.json",
+        "list":    base / "list_comp.json",
+        "table":   base / "table_comp.json",
         "blocks":  base / f"{basename}_blocks.json",
         "inline_images": base / f"{basename}_inline_images.json",
     }
