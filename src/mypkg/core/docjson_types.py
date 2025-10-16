@@ -112,6 +112,8 @@ class ImageComponentData:
     ocr_text: Optional[str] = None
     is_in_table: bool = False
     is_in_paragraph: bool = False
+    preceding_text: Optional[str] = None
+    llm_text: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -126,6 +128,8 @@ class ImageComponentData:
             ocr_text=data.get("ocr_text"),
             is_in_table=data.get("is_in_table", False),
             is_in_paragraph=data.get("is_in_paragraph", False),
+            preceding_text=data.get("preceding_text"),
+            llm_text=data.get("llm_text"),
         )
 
 

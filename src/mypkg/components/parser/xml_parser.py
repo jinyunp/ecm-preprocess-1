@@ -383,6 +383,26 @@ class DocxXmlParser(BaseParser):
         inline_images_map: Dict[str, InlineImageRecord],
     ) -> TableRecord:
         rows_data: List[List[TableCellRecord]] = []
+        has_borders = True  # 기본적으로 테두리가 있다고 가정
+
+        tblPr = tbl.find("./w:tblPr", NS)
+        if tblPr is not None:
+            tblBorders = tblPr.find("./w:tblBorders", NS)
+            if tblBorders is not None:
+                border_tags = list(tblBorders)
+                if not border_tags:  # <w:tblBorders /> 와 같이 비어있는 경우
+                    has_borders = False
+                else:
+                    # 모든 테두리 정의가 'none' 또는 'nil'인지 확인
+                    all_borders_are_none = True
+                    for border_tag in border_tags:
+                        val = border_tag.get(f'{{{NS["w"]}}}val')
+                        if val not in ('none', 'nil'):
+                            all_borders_are_none = False
+                            break
+                    if all_borders_are_none:
+                        has_borders = False
+
         row_idx = 0
         for tr in tbl.findall("./w:tr", NS):
             row_data: List[TableCellRecord] = []
@@ -445,7 +465,7 @@ class DocxXmlParser(BaseParser):
             rows_data.append(row_data)
             row_idx += 1
 
-        return TableRecord(tid=f"t{doc_index}", rows=rows_data, doc_index=doc_index)
+        return TableRecord(tid=f"t{doc_index}", rows=rows_data, doc_index=doc_index, has_borders=has_borders)
 
     def _extract_text_from_table(self, tbl: ET.Element, inline_images_map: Dict[str, InlineImageRecord], doc_index: int) -> str:
         all_texts: List[str] = []

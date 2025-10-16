@@ -56,6 +56,7 @@ class TableRecord:
     tid: str  # 표 고유 ID
     rows: List[List[TableCellRecord]] = field(default_factory=list)  # 표의 행(row) 목록
     doc_index: Optional[int] = None  # 문서 내 순서
+    has_borders: bool = True  # 표의 테두리 유무
 
 @dataclass
 class HeaderFooterRecord:

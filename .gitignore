@@ -1,15 +1,15 @@
 .old
 .venv
 .vscode
+.env
 .pytest_cache
 *.pyc
 .DS_*
 __pycache__
-src/mypkg/tests/output/
+src/mypkg/ecmprep.egg-info
 data_store/
-.src/mypkg.egg.info
+tests/
 
 # 내 개발용 
 dist/
 wheels/
-src/mypkg.egg-info/

@@ -1,14 +1,9 @@
 
 # mypkg/cli/main.py
-# 디렉터리 구조 규칙 (자세한 사용 예시는 README.md 참고)
-
 from __future__ import annotations
 import argparse, sys, json
 from pathlib import Path
-from mypkg.pipelines.layout_analyzer_pipeline import run_pipeline
-from mypkg.core.docjson_types import DocumentDocJSON
 from mypkg.core.io import (
-    docjson_output_path_from_sanitized,
     resolve_sanitized_path,
     base_dir_from_sanitized,
     component_paths_from_sanitized,
@@ -26,17 +21,10 @@ def parse_args():
     ap.add_argument("--version", default="v0", help="출력 버전 태그 (기본: v0)")
     ap.add_argument("--processed-root", default="./data_store/processed", help="processed 루트 디렉터리 (기본: ./data_store/processed)")
     
-    # 출력 설정(파일 경로 또는 디렉터리). 단일 파일 처리 시에만 의미 있음.
-    ap.add_argument("--out", help="출력 DocJSON 경로(파일 또는 부모 디렉터리). 디렉터리 처리 시 자동 경로 사용")
-    
     # 디렉터리 처리 모드: 전체 또는 하나 선택(비대화식)
     grp = ap.add_mutually_exclusive_group()
     grp.add_argument("--all", action="store_true", help="디렉터리 입력 시 모든 DOCX 처리")
     grp.add_argument("--one", help="디렉터리 입력 시 하나만 처리(파일명 또는 경로). 예: sample1.docx 또는 하위경로/sample1.docx")
-    
-    # 분석 동작 옵션
-    ap.add_argument("--no-emit", action="store_true", help="컴포넌트 파일 생성 생략")
-    ap.add_argument("--no-use", action="store_true", help="기존 컴포넌트 미사용, 즉석 분석")
 
     # Inspect 모드(중간 산출물 조회) 옵션
     ap.add_argument("--inspect", choices=[
@@ -105,7 +93,6 @@ def _inspect(a) -> int:
     # 경로들 구성
     paths = component_paths_from_sanitized(san_path, base_name)
     meta_p = meta_path_from_sanitized(san_path, base_name)
-    docjson_p = docjson_output_path_from_sanitized(san_path, base_name)
 
     if a.inspect == "ls":
         _print_path_exists("sanitized", san_path)
@@ -114,7 +101,6 @@ def _inspect(a) -> int:
         _print_path_exists("comp.blocks", paths["blocks"])
         _print_path_exists("comp.inline_images", paths["inline_images"])
         _print_path_exists("meta", meta_p)
-        _print_path_exists("docjson", docjson_p)
         return 0
 
     if a.inspect in {"sanitized", "all"}:
@@ -209,23 +195,6 @@ def main():
         pipeline = _resolve_pipeline(docx_file)
         res = asyncio.run(pipeline.run(docx_file, base_dir))
         sanitized_path: Path = Path(res["sanitized_output"]).resolve()  # type: ignore[index]
-        # if a.out and (raw_path.is_file() or a.one):
-        #     out_target = Path(a.out).resolve()
-        # else:
-        #     out_target = docjson_output_path_from_sanitized(sanitized_path, base_name)
-        # docjson = run_pipeline(
-        #     sanitized_path=sanitized_path,
-        #     out_docjson_path=out_target,
-        #     emit_components=(not a.no_emit),
-        #     use_components=(not a.no_use),
-        #     doc_version=version,
-        #     tenant_key=None,
-        #     docjson_config=None,
-        # )
-        # sections = len(docjson.sections)
-        # blocks = len(docjson.blocks)
-        # final_path = out_target if out_target.suffix else docjson_output_path_from_sanitized(resolve_sanitized_path(sanitized_path), base_name)
-        # print(f"[ok] wrote: {final_path}  sections={sections} blocks={blocks}")
         print(f"[ok] Sanitizer-only mode: Processing stopped after sanitization.")
         print(f"Sanitized output at: {sanitized_path}")
 
