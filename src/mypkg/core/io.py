@@ -139,14 +139,15 @@ def component_paths_from_sanitized(sanitized_path: str | Path, basename: str) ->
         basename: 출력 파일명의 접두에 사용할 베이스 이름.
 
     반환값:
-        `list`, `table`, `blocks`, `inline_images` 키를 가지는 경로 매핑.
+        `list`, `table`, `blocks`, `image`, `paragraph` 키를 가지는 경로 매핑.
     """
     base = components_dir_from_sanitized(sanitized_path)
     return {
         "list":    base / "list_comp.json",
         "table":   base / "table_comp.json",
+        "paragraph": base / "parag_comp.json",
         "blocks":  base / f"{basename}_blocks.json",
-        "inline_images": base / f"{basename}_inline_images.json",
+        "image": base / "image_comp.json",
     }
 
 
@@ -201,15 +202,19 @@ def save_table_components_from_sanitized(obj: Dict[str, Any], sanitized_path: st
     return save_json(obj, component_paths_from_sanitized(sanitized_path, basename)["table"])
 
 
+def save_image_components_from_sanitized(obj: Dict[str, Any], sanitized_path: str | Path, basename: str) -> Path:
+    """이미지 컴포넌트 페이로드를 `_comp`에 저장한다."""
+    return save_json(obj, component_paths_from_sanitized(sanitized_path, basename)["image"])
+
+
+def save_paragraph_components_from_sanitized(obj: Dict[str, Any], sanitized_path: str | Path, basename: str) -> Path:
+    """문단 컴포넌트 페이로드를 `_comp`에 저장한다."""
+    return save_json(obj, component_paths_from_sanitized(sanitized_path, basename)["paragraph"])
+
 
 def save_blocks_components_from_sanitized(obj: Dict[str, Any], sanitized_path: str | Path, basename: str) -> Path:
     """문서 블록(assembled blocks) 컴포넌트를 `_comp`에 저장한다."""
     return save_json(obj, component_paths_from_sanitized(sanitized_path, basename)["blocks"])
-
-
-def save_inline_image_components_from_sanitized(obj: Dict[str, Any], sanitized_path: str | Path, basename: str) -> Path:
-    """인라인 이미지 컴포넌트 페이로드를 `_comp`에 저장한다."""
-    return save_json(obj, component_paths_from_sanitized(sanitized_path, basename)["inline_images"])
 
 
 def load_available_components_from_sanitized(sanitized_path: str | Path, basename: str) -> Dict[str, Any]:
@@ -223,10 +228,13 @@ def load_available_components_from_sanitized(sanitized_path: str | Path, basenam
     if paths["table"].exists():
         to = load_json(paths["table"])
         out["tables"] = to.get("tables", [])
+    if paths["paragraph"].exists():
+        po = load_json(paths["paragraph"])
+        out["paragraphs"] = po.get("paragraphs", [])
     if paths["blocks"].exists():
         bo = load_json(paths["blocks"])
         out["blocks"] = bo.get("blocks", [])
-    if paths["inline_images"].exists():
-        io = load_json(paths["inline_images"])
-        out["inline_images"] = io.get("inline_images", io)
+    if paths["image"].exists():
+        io = load_json(paths["image"])
+        out["images"] = io.get("images", io)
     return out

@@ -104,6 +104,32 @@ class InlineImageData:
 
 
 @dataclass
+class ImageComponentData:
+    rId: str
+    filename: Optional[str]
+    doc_index: Optional[int]
+    saved_path: Optional[str]
+    ocr_text: Optional[str] = None
+    is_in_table: bool = False
+    is_in_paragraph: bool = False
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+    @staticmethod
+    def from_dict(data: Dict[str, Any]) -> "ImageComponentData":
+        return ImageComponentData(
+            rId=data.get("rId"),
+            filename=data.get("filename"),
+            doc_index=data.get("doc_index"),
+            saved_path=data.get("saved_path"),
+            ocr_text=data.get("ocr_text"),
+            is_in_table=data.get("is_in_table", False),
+            is_in_paragraph=data.get("is_in_paragraph", False),
+        )
+
+
+@dataclass
 class ListData:
     ordered: bool
     items: List[str]

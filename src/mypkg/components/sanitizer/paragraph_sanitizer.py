@@ -1,6 +1,6 @@
 from collections import Counter
 import copy
-from typing import Iterable, List, Optional, Set
+from typing import Iterable, List, Optional, Set, Dict, Any
 from mypkg.core.parser import ParagraphRecord, RunRecord
 
 
@@ -289,3 +289,21 @@ class ParagraphSanitizer:
         cleaned = _clean_runs(merged)
         merged_plain = _merge_plain_paragraphs(cleaned)
         return merged_plain
+
+    def build_components(self, sanitized_paragraphs: List[ParagraphRecord]) -> Dict[str, List[Dict[str, Any]]]:
+        """sanitized 문단을 컴포넌트(dict) 목록으로 변환한다."""
+        payload = []
+        for p in sanitized_paragraphs:
+            # ParagraphRecord를 JSON 직렬화 가능한 dict로 변환
+            # 필요한 필드만 선택적으로 포함할 수 있음
+            p_dict = {
+                "text": p.text,
+                "doc_index": p.doc_index,
+                "style": p.style,
+                "emphasized": p.emphasized,
+                "math_texts": p.math_texts,
+                "image_included": p.image_included,
+                "source_doc_indices": p.source_doc_indices,
+            }
+            payload.append(p_dict)
+        return {"paragraphs": payload}
