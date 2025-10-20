@@ -6,10 +6,11 @@
 *.pyc
 .DS_*
 __pycache__
-src/mypkg/ecmprep.egg-info
+src/ecmprep.egg-info
 data_store/
 tests/
 
 # 내 개발용 
 dist/
 wheels/
+

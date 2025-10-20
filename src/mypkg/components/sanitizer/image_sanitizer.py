@@ -66,31 +66,15 @@ class ImageSanitizer:
         
         # Ollama는 mime_type 대신 base64 이미지 자체를 images 배열에 넣습니다.
 
-        prompt_text = """
-You are an expert in analyzing software documentation screenshots. Your task is to describe the provided image objectively, without making any interpretations or assumptions about its function. Follow these rules strictly:
+        prompt_text = (
+            "You document software UI captures. "
+            "Describe the capture in one plain sentence (max 40 words). "
+            "If it is a window, mention its title as 'the window titled …'; otherwise refer to it as a screenshot. "
+            "When the capture is a table or grid, focus on the header labels only. "
+            "Always include numbered markers such as '(1)', '(2)', '(3)' exactly as they appear if they are visible. "
+            "Highlight notable property or status values and return only the sentence—no extra wording."
+        )
 
-1.  **For user interface elements (e.g., dialog boxes, windows):**
-    *   **You must extract the main title of the window.** This is mandatory.
-    *   From the dialog's content, summarize or extract only the key text elements (e.g., selected options, important labels, or messages). You do not need to extract all text.
-    *   If an arrow or pointer is present, describe what it points to (e.g., "Arrow pointing to the 'OK' button").
-
-2.  **For text outside of dialogs (e.g., in reports):**
-    *   Extract all visible text verbatim, including statistical terms.
-
-3.  **For charts and graphs (e.g., line, bar, pie):**
-    *   Identify only the type of chart (e.g., "Line chart", "Bar chart", "Pie chart").
-    *   Do NOT analyze or interpret the data shown in the chart.
-
-4.  **For icons:**
-    *   Describe the visual appearance of the icon (e.g., "A shape resembling a floppy disk", "A blue circle with a white checkmark").
-    *   Do NOT infer the icon's function (e.g., do not name it "Save icon").
-
-5.  **For node images with text below:**
-    *   First, describe the visual appearance of the node/icon.
-    *   Second, provide the exact text written below it as its description.
-
-Output the final description as a concise series of phrases or a single, descriptive sentence.
-"""
         
         return {
             "model": model_name,
@@ -99,8 +83,21 @@ Output the final description as a concise series of phrases or a single, descrip
             "stream": False # 스트리밍 비활성화
         }
 
+    @staticmethod
+    def _normalize_summary(text: str | None) -> str | None:
+        if not text:
+            return None
+        summary = text.strip()
+        lowered = summary.lower()
+        for prefix in ("here is", "here's", "this is", "here are", "here're"):
+            if lowered.startswith(prefix):
+                cut_len = len(prefix)
+                summary = summary[cut_len:].lstrip(":,-. \t")
+                break
+        return summary
+
     # 기존 동기 파이프라인을 위한 동기 메서드
-    def _get_image_summary(self, image_path: Path, model_name: str = "gemma3:4b-it-qat") -> str | None:
+    def _get_image_summary(self, image_path: Path, model_name: str = "gemma3:4b") -> str | None:
         if not image_path.exists(): return None
 
         payload = self._get_image_payload(image_path, model_name)
@@ -159,7 +156,8 @@ Output the final description as a concise series of phrases or a single, descrip
                         llm_text = cached_data.get('llm_text')
                     else:
                         ocr_text = self._perform_ocr(full_image_path)
-                        summary = self._get_image_summary(full_image_path)
+                        summary_raw = self._get_image_summary(full_image_path)
+                        summary = self._normalize_summary(summary_raw)
                         self._llm_call_count += 1
                         if self._llm_call_count % 50 == 0:
                             log.info(f"Image summary generation completed for {self._llm_call_count} images.")
