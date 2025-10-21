@@ -1,4 +1,4 @@
-import logging, time, zipfile, xml.etree.ElementTree as ET
+import html, logging, time, zipfile, xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Dict, List, Union, BinaryIO, Optional, Tuple
 import copy
@@ -146,7 +146,7 @@ class DocxXmlParser(BaseParser):
                                     style_elem = tblPr.find("./w:tblStyle", NS)
                                     if style_elem is not None:
                                         style_id = style_elem.attrib.get(f'{{{NS["w"]}}}val')
-                                table_record = self._parse_table_element(
+                                table_record, nested_records = self._parse_table_element(
                                     elem,
                                     doc_index,
                                     table_styles,
@@ -155,6 +155,8 @@ class DocxXmlParser(BaseParser):
                                 )
                                 if table_record:
                                     tables.append(table_record)
+                                if nested_records:
+                                    tables.extend(nested_records)
                                 doc_index += 1
 
                 inline_images = list(inline_images_map.values())
@@ -381,27 +383,23 @@ class DocxXmlParser(BaseParser):
         table_styles: Dict[str, Dict[str, str]],
         style_id: Optional[str],
         inline_images_map: Dict[str, InlineImageRecord],
-    ) -> TableRecord:
+        tid_seed: Optional[str] = None,
+    ) -> Tuple[TableRecord, List[TableRecord]]:
         rows_data: List[List[TableCellRecord]] = []
-        has_borders = True  # 기본적으로 테두리가 있다고 가정
+        has_borders = False  # 기본값은 테두리 없음으로 가정
+        nested_tables: List[TableRecord] = []
+        nested_counter = 0
+        tid = tid_seed or f"t{doc_index}"
 
         tblPr = tbl.find("./w:tblPr", NS)
         if tblPr is not None:
             tblBorders = tblPr.find("./w:tblBorders", NS)
             if tblBorders is not None:
-                border_tags = list(tblBorders)
-                if not border_tags:  # <w:tblBorders /> 와 같이 비어있는 경우
-                    has_borders = False
-                else:
-                    # 모든 테두리 정의가 'none' 또는 'nil'인지 확인
-                    all_borders_are_none = True
-                    for border_tag in border_tags:
-                        val = border_tag.get(f'{{{NS["w"]}}}val')
-                        if val not in ('none', 'nil'):
-                            all_borders_are_none = False
-                            break
-                    if all_borders_are_none:
-                        has_borders = False
+                for border_tag in list(tblBorders):
+                    val = border_tag.get(f'{{{NS["w"]}}}val')
+                    if val and val.lower() not in ('none', 'nil'):
+                        has_borders = True
+                        break
 
         row_idx = 0
         for tr in tbl.findall("./w:tr", NS):
@@ -422,6 +420,13 @@ class DocxXmlParser(BaseParser):
                     vm = tcPr.find("w:vMerge", NS)
                     if vm is not None:
                         vMerge = vm.attrib.get('{%s}val' % NS["w"]) or "restart"
+                    tcBorders = tcPr.find("w:tcBorders", NS)
+                    if tcBorders is not None and not has_borders:
+                        for border_tag in list(tcBorders):
+                            val = border_tag.get(f'{{{NS["w"]}}}val')
+                            if val and val.lower() not in ('none', 'nil'):
+                                has_borders = True
+                                break
                     shd = tcPr.find("w:shd", NS)
                     if shd is not None:
                         fill = shd.attrib.get(f'{{{NS["w"]}}}fill')
@@ -443,10 +448,25 @@ class DocxXmlParser(BaseParser):
                             for run in runs:
                                 cell_inline_images.extend(run.image_rids)
                     elif child_elem.tag == f'{{{NS["w"]}}}tbl':
-                        nested_table_text = self._extract_text_from_table(child_elem, inline_images_map, doc_index)
-                        if nested_table_text:
-                            texts.append(nested_table_text)
-
+                        if not has_borders:
+                            nested_counter += 1
+                            nested_tid = f"{tid}_n{nested_counter}"
+                            nested_record, deeper_nested = self._parse_table_element(
+                                child_elem,
+                                doc_index,
+                                table_styles,
+                                style_id,
+                                inline_images_map,
+                                tid_seed=nested_tid,
+                            )
+                            nested_record.doc_index = doc_index
+                            nested_tables.append(nested_record)
+                            nested_tables.extend(deeper_nested)
+                            texts.append(f"[table:{nested_tid}]")
+                        else:
+                            nested_table_text = self._extract_text_from_table(child_elem, inline_images_map, doc_index)
+                            if nested_table_text:
+                                texts.append(nested_table_text)
 
                 cell_text = " ".join(t for t in texts if t).strip()
                 if bg_color is None and style_id:
@@ -465,7 +485,14 @@ class DocxXmlParser(BaseParser):
             rows_data.append(row_data)
             row_idx += 1
 
-        return TableRecord(tid=f"t{doc_index}", rows=rows_data, doc_index=doc_index, has_borders=has_borders)
+        # 테이블 스타일에서 테두리 정보를 가져와 보정
+        if not has_borders and style_id:
+            style_entry = table_styles.get(style_id)
+            if style_entry and style_entry.get("_hasBorders"):
+                has_borders = True
+
+        table_record = TableRecord(tid=tid, rows=rows_data, doc_index=doc_index, has_borders=has_borders)
+        return table_record, nested_tables
 
     def _extract_text_from_table(self, tbl: ET.Element, inline_images_map: Dict[str, InlineImageRecord], doc_index: int) -> str:
         all_texts: List[str] = []
@@ -509,12 +536,20 @@ class DocxXmlParser(BaseParser):
 
             if style_type == "table":
                 entry: Dict[str, str] = {}
+                has_style_borders = False
                 tblPr = style.find("w:tblPr", NS)
                 if tblPr is not None:
                     shd = tblPr.find("w:shd", NS)
                     fill = self._extract_shading_fill(shd)
                     if fill:
                         entry["wholeTable"] = fill
+                    tblBorders = tblPr.find("w:tblBorders", NS)
+                    if tblBorders is not None:
+                        for border_tag in list(tblBorders):
+                            val = border_tag.attrib.get(f'{{{NS["w"]}}}val')
+                            if val and val.lower() not in ('none', 'nil'):
+                                has_style_borders = True
+                                break
                 for tbl_style_pr in style.findall("w:tblStylePr", NS):
                     stype = tbl_style_pr.attrib.get(f'{{{NS["w"]}}}type')
                     if not stype:
@@ -529,6 +564,8 @@ class DocxXmlParser(BaseParser):
                     fill = self._extract_shading_fill(shd)
                     if fill:
                         entry[stype] = fill
+                if has_style_borders:
+                    entry["_hasBorders"] = True
                 if entry:
                     table_styles[style_id] = entry
 
@@ -709,3 +746,181 @@ class DocxXmlParser(BaseParser):
             drawings.append(entry)
             d_idx_in_p += 1
         return drawings, d_idx_in_p
+
+
+def _cell_text_from_matrix(matrix: List[List[Dict[str, Any]]], row: int, col: int) -> str:
+    """
+    Safely extracts stripped text from the sanitized table matrix.
+    """
+    if row < 0 or row >= len(matrix):
+        return ""
+    row_cells = matrix[row]
+    if col < 0 or col >= len(row_cells):
+        return ""
+    cell = row_cells[col]
+    text = ""
+    if isinstance(cell, dict):
+        text = cell.get("text") or ""
+    else:
+        text = str(cell or "")
+    return text.strip()
+
+
+def build_table_context_rows(
+    matrix: List[List[Dict[str, Any]]],
+    anchors: List[Dict[str, Any]],
+    is_rowheader: bool,
+    is_colheader: bool,
+) -> List[List[Dict[str, Any]]]:
+    """
+    Builds table context rows by pairing headers with non-header cell values.
+
+    When only column headers exist, the context is returned as a single column
+    (each entry wrapped in its own list). In all other header-aware cases,
+    the entries are grouped into a single row.
+    """
+    if not matrix:
+        return []
+
+    rows = len(matrix)
+    cols = len(matrix[0]) if rows else 0
+    if rows == 0 or cols == 0:
+        return []
+
+    data_row_start = 1 if is_rowheader else 0
+    data_col_start = 1 if is_colheader else 0
+    if data_row_start >= rows or data_col_start >= cols:
+        return []
+
+    row_headers: Dict[int, str] = {}
+    if is_colheader:
+        for r in range(data_row_start, rows):
+            row_headers[r] = _cell_text_from_matrix(matrix, r, 0)
+
+    col_headers: Dict[int, str] = {}
+    if is_rowheader:
+        for c in range(data_col_start, cols):
+            col_headers[c] = _cell_text_from_matrix(matrix, 0, c)
+
+    entries: List[Dict[str, Any]] = []
+    for anchor in anchors or []:
+        r = anchor.get("r")
+        c = anchor.get("c")
+        if r is None or c is None:
+            continue
+        if not isinstance(r, int) or not isinstance(c, int):
+            continue
+        if r >= rows or c >= cols:
+            continue
+        if anchor.get("vmerge") == "continue":
+            continue
+        if is_rowheader and r == 0:
+            continue
+        if is_colheader and c == 0:
+            continue
+        if r < data_row_start or c < data_col_start:
+            continue
+
+        cell_text = _cell_text_from_matrix(matrix, r, c)
+        if not cell_text:
+            continue
+
+        header_parts: List[str] = []
+        if is_colheader:
+            row_header = row_headers.get(r, "")
+            if row_header:
+                header_parts.append(row_header)
+        if is_rowheader:
+            col_header = col_headers.get(c, "")
+            if col_header:
+                header_parts.append(col_header)
+
+        header_text = " | ".join(part for part in header_parts if part).strip()
+        entries.append(
+            {
+                "header": header_text,
+                "headers": header_parts,
+                "cell": cell_text,
+                "row": r,
+                "col": c,
+            }
+        )
+
+    if not entries:
+        return []
+
+    if is_colheader and not is_rowheader:
+        return [[entry] for entry in entries]
+
+    return [entries]
+
+
+def render_table_html(
+    matrix: List[List[Dict[str, Any]]],
+    anchors: List[Dict[str, Any]],
+    is_rowheader: bool,
+    is_colheader: bool,
+) -> str:
+    """
+    Renders an HTML representation of the table, preserving basic header cues
+    and merged cell spans inferred from the anchor metadata.
+    """
+    if not matrix:
+        return "<table></table>"
+
+    rows = len(matrix)
+    cols = len(matrix[0]) if rows else 0
+    anchor_map: Dict[Tuple[int, int], Dict[str, Any]] = {}
+    for anchor in anchors or []:
+        r = anchor.get("r")
+        c = anchor.get("c")
+        if r is None or c is None:
+            continue
+        if not isinstance(r, int) or not isinstance(c, int):
+            continue
+        if anchor.get("vmerge") == "continue":
+            continue
+        anchor_map[(r, c)] = {
+            "rowspan": max(1, int(anchor.get("rowspan", 1) or 1)),
+            "colspan": max(1, int(anchor.get("colspan", 1) or 1)),
+        }
+
+    lines: List[str] = ["<table>"]
+    for r in range(rows):
+        lines.append("  <tr>")
+        c = 0
+        while c < cols:
+            anchor_info = anchor_map.get((r, c))
+            if anchor_info is None:
+                c += 1
+                continue
+
+            cell = matrix[r][c]
+            text = ""
+            color = None
+            if isinstance(cell, dict):
+                text = cell.get("text") or ""
+                color = cell.get("color")
+            else:
+                text = str(cell or "")
+
+            tag = "td"
+            if (is_rowheader and r == 0) or (is_colheader and c == 0):
+                tag = "th"
+
+            attrs: List[str] = []
+            rowspan = anchor_info.get("rowspan", 1)
+            colspan = anchor_info.get("colspan", 1)
+            if rowspan and rowspan > 1:
+                attrs.append(f'rowspan="{rowspan}"')
+            if colspan and colspan > 1:
+                attrs.append(f'colspan="{colspan}"')
+            if color:
+                attrs.append(f'style="background-color: {html.escape(color)};"')
+
+            attr_str = (" " + " ".join(attrs)) if attrs else ""
+            lines.append(f'    <{tag}{attr_str}>{html.escape(text)}</{tag}>')
+            c += max(1, colspan)
+        lines.append("  </tr>")
+    lines.append("</table>")
+    return "\n".join(lines)

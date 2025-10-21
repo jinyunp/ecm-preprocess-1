@@ -125,7 +125,10 @@ class ParagraphSanitizer:
             p.runs = merged_runs
             
             # 3. 정리된 Run을 바탕으로 문단 전체 텍스트 및 속성 업데이트
-            p.text = "".join(r.text for r in p.runs).strip()
+            combined_text = ""
+            for run in p.runs:
+                combined_text = self._concat_text(combined_text, run.text)
+            p.text = combined_text.strip()
             p.emphasized = [r.text.strip() for r in p.runs if getattr(r, "b", False) and r.text.strip()]
             p.image_included = any(r.image_rids for r in p.runs if r.image_rids)
             

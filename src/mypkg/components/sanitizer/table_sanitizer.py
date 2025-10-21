@@ -14,6 +14,7 @@
 """
 from typing import List, Dict, Any
 from mypkg.core.parser import TableRecord, TableCellRecord, ParagraphRecord
+from mypkg.components.parser.xml_parser import render_table_html
 
 class TableSanitizer:
     """테이블 데이터를 정제하고 분석하여 VDB에 적합한 컴포넌트를 생성합니다."""
@@ -82,9 +83,12 @@ class TableSanitizer:
                             vflags[r_idx][cc] = vmerge
 
                     anchors.append({
-                        "r": r_idx, "c": c_idx,
-                        "text": txt, "colspan": colspan,
-                        "vmerge": vmerge
+                        "r": r_idx,
+                        "c": c_idx,
+                        "text": txt,
+                        "colspan": max(1, colspan),
+                        "vmerge": vmerge,
+                        "rowspan": 1,
                     })
                     c_idx += colspan
 
@@ -103,6 +107,7 @@ class TableSanitizer:
                             break
                         rowspan += 1
                         rr += 1
+                a["rowspan"] = max(1, rowspan)
                 
                 # 계산된 rowspan, colspan에 따라 모든 병합된 셀에 데이터 복사
                 base_images = list(image_matrix[r0][c0])
@@ -140,6 +145,8 @@ class TableSanitizer:
                 if first_col_colors[0] is not None and all(c == first_col_colors[0] for c in first_col_colors):
                     is_colheader = True
 
+            table_html = render_table_html(cell_data_matrix, anchors, is_rowheader, is_colheader)
+
             t_out = {
                 "tid": t.tid,
                 "doc_index": t.doc_index,
@@ -150,6 +157,8 @@ class TableSanitizer:
                 "is_rowheader": is_rowheader,
                 "is_colheader": is_colheader,
                 "has_borders": t.has_borders,
+                "table_html": table_html,
+                "anchors": anchors,
             }
             out.append(t_out)
 

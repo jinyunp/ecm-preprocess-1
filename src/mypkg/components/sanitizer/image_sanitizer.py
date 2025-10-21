@@ -66,15 +66,17 @@ class ImageSanitizer:
         
         # Ollama는 mime_type 대신 base64 이미지 자체를 images 배열에 넣습니다.
 
-        prompt_text = (
-            "You document software UI captures. "
-            "Describe the capture in one plain sentence (max 40 words). "
-            "If it is a window, mention its title as 'the window titled …'; otherwise refer to it as a screenshot. "
-            "When the capture is a table or grid, focus on the header labels only. "
-            "Always include numbered markers such as '(1)', '(2)', '(3)' exactly as they appear if they are visible. "
-            "Highlight notable property or status values and return only the sentence—no extra wording."
-        )
+        prompt_text = """
+            Classify the image as one of: icon, software interface screenshot, table, or graph.
+            
+            Rules:
+            - If the image appears very small, minimal, or symbolic (like a toolbar icon or button), classify as icon.
+            - If it shows an entire application window or multiple interface panels, classify as software interface screenshot.
+            - ...
+            Output only one word.
 
+
+        """
         
         return {
             "model": model_name,
