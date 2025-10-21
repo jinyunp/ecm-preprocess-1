@@ -775,9 +775,7 @@ def build_table_context_rows(
     """
     Builds table context rows by pairing headers with non-header cell values.
 
-    When only column headers exist, the context is returned as a single column
-    (each entry wrapped in its own list). In all other header-aware cases,
-    the entries are grouped into a single row.
+    Returns a list of lists, where each inner list represents a logical row of the table.
     """
     if not matrix:
         return []
@@ -849,10 +847,19 @@ def build_table_context_rows(
     if not entries:
         return []
 
-    if is_colheader and not is_rowheader:
-        return [[entry] for entry in entries]
+    # Group entries by their row index
+    grouped_by_row: Dict[int, List[Dict[str, Any]]] = {}
+    for entry in entries:
+        row_idx = entry.get("row")
+        if row_idx is not None:
+            grouped_by_row.setdefault(row_idx, []).append(entry)
 
-    return [entries]
+    # Sort by row index and return the list of lists
+    sorted_rows: List[List[Dict[str, Any]]] = []
+    for row_idx in sorted(grouped_by_row.keys()):
+        sorted_rows.append(grouped_by_row[row_idx])
+
+    return sorted_rows
 
 
 def render_table_html(
