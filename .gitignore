@@ -7,8 +7,8 @@
 .DS_*
 __pycache__
 src/ecmprep.egg-info
-data_store/
 tests/
+data_store/processed
 
 # 내 개발용 
 dist/

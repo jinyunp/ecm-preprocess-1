@@ -155,10 +155,11 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
     buffer: List[Dict[str, Any]] = []
     current_path: Optional[str] = None
     list_group: Optional[Dict[str, Any]] = None
+    last_flushed_text: str = ""
 
     def flush_buffer() -> None:
         """누적된 본문을 contexts 목록에 저장한다."""
-        nonlocal buffer, current_path
+        nonlocal buffer, current_path, last_flushed_text
         if not buffer:
             return
         buffer_snapshot = list(buffer)
@@ -179,31 +180,78 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                     continue
                 seen.add(norm)
                 bold_texts.append(norm)
-        paragraph_contexts.append(
-            {
-                "path": path_str,
-                "context": context_text,
-                "doc_indices": doc_indices,
-                "bold_texts": bold_texts,
-            }
-        )
+        
+        image_ids: List[str] = []
+        found_images = IMAGE_TOKEN_PATTERN.findall(context_text)
+        for img_token in found_images:
+            rId = img_token.strip('[]').split(':')[1]
+            image_ids.append(rId)
+
+        modified_context = IMAGE_TOKEN_PATTERN.sub("(image included)", context_text)
+
+        entry = {
+            "path": path_str,
+            "context": modified_context,
+            "doc_indices": doc_indices,
+            "bold_texts": bold_texts,
+            "preceding_text": last_flushed_text,
+        }
+        if image_ids:
+            entry["images"] = list(dict.fromkeys(image_ids))
+        
+        paragraph_contexts.append(entry)
+        last_flushed_text = modified_context
 
     def flush_list_group() -> None:
         """list bullet/continue 시퀀스를 contexts에 반영한다."""
-        nonlocal list_group
+        nonlocal list_group, last_flushed_text
         if not list_group:
             return
+
         text_parts = list_group.get("texts") or []
-        context_text = " ".join(part for part in text_parts if part).strip()
+        image_ids: List[str] = []
+        
+        processed_parts: List[str] = []
+        if not text_parts:
+            list_group = None
+            return
+
+        for part in text_parts:
+            stripped_part = part.strip()
+            match = IMAGE_TOKEN_PATTERN.fullmatch(stripped_part)
+            
+            if match:
+                rId = stripped_part.strip('[]').split(':')[1]
+                image_ids.append(rId)
+                if processed_parts:
+                    processed_parts[-1] = f"{processed_parts[-1]} {stripped_part}"
+                else:
+                    processed_parts.append(stripped_part)
+            else:
+                processed_parts.append(part)
+
+        context_text = " ".join(part for part in processed_parts if part).strip()
+        
+        found_images = IMAGE_TOKEN_PATTERN.findall(context_text)
+        for img_token in found_images:
+            rId = img_token.strip('[]').split(':')[1]
+            image_ids.append(rId)
+
+        modified_context = IMAGE_TOKEN_PATTERN.sub("(image included)", context_text)
+
         if context_text:
-            paragraph_contexts.append(
-                {
-                    "path": list_group.get("path") or "",
-                    "context": context_text,
-                    "doc_indices": sorted(list(list_group.get("doc_indices") or [])),
-                    "bold_texts": list_group.get("bold_texts") or [],
-                }
-            )
+            entry = {
+                "path": list_group.get("path") or "",
+                "context": modified_context,
+                "doc_indices": sorted(list(list_group.get("doc_indices") or [])),
+                "bold_texts": list_group.get("bold_texts") or [],
+                "preceding_text": last_flushed_text,
+            }
+            if image_ids:
+                entry["images"] = list(dict.fromkeys(image_ids))
+            paragraph_contexts.append(entry)
+            last_flushed_text = modified_context
+            
         list_group = None
 
     def update_current_path() -> None:
@@ -312,9 +360,10 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
         def make_entry(context_text: str, images: List[str]) -> Dict[str, Any]:
             unique_images = list(dict.fromkeys(images))
             context_text = context_text.strip()
+            modified_context = IMAGE_TOKEN_PATTERN.sub("(image included)", context_text)
             return {
                 "path": path or "",
-                "context": context_text,
+                "context": modified_context,
                 "doc_index": doc_idx,
                 "bold_texts": [],
                 "table_tid": tid,
@@ -518,7 +567,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                     table_no_border_contexts.append(
                         {
                             "path": current_path or "",
-                            "context": table_text,
+                            "context": IMAGE_TOKEN_PATTERN.sub("(image included)", table_text),
                             "preceding_text": preceding_norm,
                             "doc_index": doc_idx,
                             "bold_texts": [],
@@ -542,7 +591,7 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                     table_others_contexts.append(
                         {
                             "path": current_path or "",
-                            "context": concatenated_text,
+                            "context": IMAGE_TOKEN_PATTERN.sub("(image included)", concatenated_text),
                             "doc_index": payload.get("doc_index"),
                             "table_tid": payload.get("tid"),
                             "preceding_text": preceding_norm,
@@ -560,17 +609,29 @@ def build_contexts(data: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dic
                 context_lines = header_entries_to_strings(header_rows)
                 if context_lines:
                     for idx, line in enumerate(context_lines):
-                        table_header_contexts.append(
-                            {
-                                "path": current_path or "",
-                                "doc_index": payload.get("doc_index"),
-                                "table_tid": payload.get("tid"),
-                                "context": line,
-                                "table_html": payload.get("table_html"),
-                                "row_index": idx,
-                                "preceding_text": preceding_norm,
-                            }
-                        )
+                        image_ids: List[str] = []
+                        found_images = IMAGE_TOKEN_PATTERN.findall(line)
+                        for img_token in found_images:
+                            rId = img_token.strip('[]').split(':')[1]
+                            image_ids.append(rId)
+
+                        entry = {
+                            "path": current_path or "",
+                            "doc_index": payload.get("doc_index"),
+                            "table_tid": payload.get("tid"),
+                            "context": IMAGE_TOKEN_PATTERN.sub("(image included)", line),
+                            "table_html": payload.get("table_html"),
+                            "row_index": idx,
+                            "preceding_text": preceding_norm,
+                        }
+                        if image_ids:
+                            entry["images"] = list(dict.fromkeys(image_ids))
+                        
+                        table_header_contexts.append(entry)
+            
+            table_full_text = table_cells_to_text(payload)
+            if table_full_text:
+                last_flushed_text = IMAGE_TOKEN_PATTERN.sub("(image included)", table_full_text)
 
     flush_buffer()
     flush_list_group()
@@ -582,13 +643,8 @@ def parse_args() -> argparse.Namespace:
     """CLI 실행 시 필요한 인자를 파싱한다."""
     parser = argparse.ArgumentParser(description="sanitized JSON을 VDB 적재용 path/context 형태로 변환한다.")
     parser.add_argument("--input", required=True, type=Path, help="*_sanitized.json 파일 경로")
-    parser.add_argument("--paragraph-output", type=Path, help="문단용 결과 JSON 경로")
-    parser.add_argument("--table-no-border-output", type=Path, help="테두리 없는 테이블용 결과 JSON 경로")
-    parser.add_argument("--table-image-output", type=Path, help="테이블 이미지용 결과 JSON 경로")
-    parser.add_argument("--table-combined-output", type=Path, help="테이블 통합 결과 JSON 경로")
-    parser.add_argument("--table-header-output", type=Path, help="테이블 헤더 컨텍스트 JSON 경로")
-    parser.add_argument("--table-others-output", type=Path, help="테두리 있는 일반 테이블용 결과 JSON 경로")
     parser.add_argument("--output-dir", type=Path, help="기본 출력 디렉터리 (미지정 시 <version>/_for_vdb)")
+    parser.add_argument("--output-vdb", type=Path, help="VDB 적재용 통합 JSON 경로")
     return parser.parse_args()
 
 
@@ -603,94 +659,98 @@ def main() -> None:
         table_header_contexts,
         table_others_contexts,
     ) = build_contexts(raw)
-    img_by_tid: Dict[str, List[Dict[str, Any]]] = {}
+
+    all_contexts_for_vdb = []
+
+    # Process para_contexts
+    for entry in para_contexts:
+        entry['source'] = 'paragraph'
+        if 'preceding_text' not in entry:
+            entry['preceding_text'] = ''
+        if 'images' not in entry:
+            entry['images'] = []
+        all_contexts_for_vdb.append(entry)
+
+    # Process table_no_border_contexts
+    for entry in table_no_border_contexts:
+        entry['source'] = 'table_no_border'
+        if 'images' not in entry:
+            image_ids = []
+            found_images = IMAGE_TOKEN_PATTERN.findall(entry.get('context', ''))
+            for img_token in found_images:
+                rId = img_token.strip('[]').split(':')[1]
+                image_ids.append(rId)
+            entry['images'] = list(dict.fromkeys(image_ids))
+        all_contexts_for_vdb.append(entry)
+
+    # Process table_image_contexts
     for entry in table_image_contexts:
-        tid = entry.get("table_tid")
-        if tid:
-            img_by_tid.setdefault(tid, []).append(entry)
+        entry['source'] = 'table_image'
+        if 'preceding_text' not in entry:
+            entry['preceding_text'] = ''
+        if 'images' not in entry:
+            entry['images'] = []
+        all_contexts_for_vdb.append(entry)
 
-    table_token_pattern = re.compile(r"\[table:([^\]]+)\]")
-    no_border_for_combined: List[Dict[str, Any]] = []
-    for no_border_entry in table_no_border_contexts:
-        modified_entry = copy.deepcopy(no_border_entry)
-        original_context_text = modified_entry.get("context", "") or ""
+    # Process table_header_contexts
+    for entry in table_header_contexts:
+        entry['source'] = 'table_header'
+        if 'images' not in entry:
+            entry['images'] = []
+        if 'preceding_text' not in entry:
+            entry['preceding_text'] = ''
+        all_contexts_for_vdb.append(entry)
 
-        def replace_nested_table_token(match: re.Match[str]) -> str:
-            nested_tid = match.group(1)
-            if nested_tid in img_by_tid:
-                image_contexts_for_tid = img_by_tid[nested_tid]
-                combined_image_text = " ".join(
-                    img_entry.get("context", "").strip()
-                    for img_entry in image_contexts_for_tid
-                    if img_entry.get("context")
-                ).strip()
-                return combined_image_text or match.group(0)
-            return match.group(0)
+    # Process table_others_contexts
+    for entry in table_others_contexts:
+        entry['source'] = 'table_others'
+        if 'images' not in entry:
+            image_ids = []
+            found_images = IMAGE_TOKEN_PATTERN.findall(entry.get('context', ''))
+            for img_token in found_images:
+                rId = img_token.strip('[]').split(':')[1]
+                image_ids.append(rId)
+            entry['images'] = list(dict.fromkeys(image_ids))
+        if 'preceding_text' not in entry:
+            entry['preceding_text'] = ''
+        all_contexts_for_vdb.append(entry)
 
-        new_context_text = table_token_pattern.sub(replace_nested_table_token, original_context_text)
-        modified_entry["context"] = new_context_text.strip()
-        no_border_for_combined.append(modified_entry)
+    # Sort the combined list
+    all_contexts_for_vdb.sort(key=lambda x: (x.get('doc_index', 0), x.get('row_index', 0) if x.get('row_index') is not None else 0))
 
-    combined_contexts: List[Dict[str, Any]] = []
-
-    def extend_with_priority(entries: Iterable[Dict[str, Any]], source_label: str) -> None:
-        for entry in entries:
-            cloned = copy.deepcopy(entry)
-            cloned["context_source"] = source_label
-            if "context" in cloned and isinstance(cloned["context"], str):
-                cloned["context"] = cloned["context"].strip()
-            combined_contexts.append(cloned)
-
-    extend_with_priority(table_header_contexts, "header")
-    extend_with_priority(table_image_contexts, "image")
-    extend_with_priority(no_border_for_combined, "no_border")
-    extend_with_priority(table_others_contexts, "others")
-
+    # Write to file
     sanitized_path = args.input.resolve()
-    base_dir = sanitized_path.parent.parent  # .../beta
+    base_dir = sanitized_path.parent.parent
     out_dir = Path(args.output_dir).resolve() if args.output_dir else (base_dir / "_for_vdb")
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = sanitized_path.stem
     base_stem = stem.removesuffix("_sanitized")
 
-    para_path = Path(args.paragraph_output) if args.paragraph_output else (out_dir / f"{base_stem}_paragraph_contexts.json")
-    para_path.parent.mkdir(parents=True, exist_ok=True)
-    para_path.write_text(json.dumps({"contexts": para_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    table_path = Path(args.table_no_border_output) if args.table_no_border_output else (out_dir / f"{base_stem}_table_no_border_contexts.json")
-    table_path.parent.mkdir(parents=True, exist_ok=True)
-    table_path.write_text(json.dumps({"contexts": table_no_border_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    table_image_path = Path(args.table_image_output) if args.table_image_output else (out_dir / f"{base_stem}_table_image_contexts.json")
-    table_image_path.parent.mkdir(parents=True, exist_ok=True)
-    table_image_path.write_text(json.dumps({"contexts": table_image_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    table_combined_path = Path(args.table_combined_output) if args.table_combined_output else (out_dir / f"{base_stem}_table_combined_contexts.json")
-    table_combined_path.parent.mkdir(parents=True, exist_ok=True)
-    table_combined_path.write_text(json.dumps({"contexts": combined_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    table_header_path = Path(args.table_header_output) if args.table_header_output else (out_dir / f"{base_stem}_table_header_contexts.json")
-    table_header_path.parent.mkdir(parents=True, exist_ok=True)
-    table_header_path.write_text(json.dumps({"contexts": table_header_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    table_others_path = Path(args.table_others_output) if args.table_others_output else (out_dir / f"{base_stem}_table_others_contexts.json")
-    table_others_path.parent.mkdir(parents=True, exist_ok=True)
-    table_others_path.write_text(json.dumps({"contexts": table_others_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    if (
-        not args.paragraph_output
-        and not args.table_no_border_output
-        and not args.table_image_output
-        and not args.table_combined_output
-        and not args.table_header_output
-        and not args.table_others_output
-        and not args.output_dir
-    ):
+    if args.output_vdb:
+        vdb_output_path = Path(args.output_vdb)
+        vdb_output_path.parent.mkdir(parents=True, exist_ok=True)
+        vdb_output_path.write_text(json.dumps({"contexts": all_contexts_for_vdb}, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[info] combined contexts for VDB -> {vdb_output_path}")
+    else:
+        # Fallback to old behavior if --output-vdb is not provided
+        para_path = out_dir / f"{base_stem}_paragraph_contexts.json"
+        para_path.write_text(json.dumps({"contexts": para_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[info] paragraph contexts → {para_path}")
-        print(f"[info] table no-border contexts → {table_path}")
+
+        table_no_border_path = out_dir / f"{base_stem}_table_no_border_contexts.json"
+        table_no_border_path.write_text(json.dumps({"contexts": table_no_border_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[info] table no-border contexts → {table_no_border_path}")
+
+        table_image_path = out_dir / f"{base_stem}_table_image_contexts.json"
+        table_image_path.write_text(json.dumps({"contexts": table_image_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[info] table image contexts → {table_image_path}")
-        print(f"[info] table combined contexts → {table_combined_path}")
+
+        table_header_path = out_dir / f"{base_stem}_table_header_contexts.json"
+        table_header_path.write_text(json.dumps({"contexts": table_header_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[info] table header contexts → {table_header_path}")
+
+        table_others_path = out_dir / f"{base_stem}_table_others_contexts.json"
+        table_others_path.write_text(json.dumps({"contexts": table_others_contexts}, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[info] table others contexts → {table_others_path}")
 
 
