@@ -13,6 +13,12 @@ if [[ -z "${UV_BIN}" ]]; then
   fi
 fi
 
+if ! command -v tesseract >/dev/null 2>&1; then
+  echo "error: 'tesseract' 명령을 찾을 수 없습니다. 다음 명령으로 설치하세요:" >&2
+  echo "  sudo apt install tesseract-ocr" >&2
+  exit 1
+fi
+
 (
   cd "${SCRIPT_DIR}"
   if [[ ! -d ".venv" ]]; then

@@ -27,7 +27,7 @@ dependencies = [
     "sortedcontainers==2.4.0",
     "trio==0.31.0",
     "typing-extensions==4.15.0",
-    "httpx"
+    "httpx",
 ]
 
 [project.scripts]
