@@ -8,7 +8,7 @@
 __pycache__
 src/ecmprep.egg-info
 tests/
-data_store/processed
+output/
 
 # 내 개발용 
 dist/
