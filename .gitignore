@@ -14,5 +14,5 @@ dist/
 wheels/
 
 # parsing / sanitized 추가결과물
+output/processed/*
 output/*
-!output/processed/1장_v3.1/v0/*

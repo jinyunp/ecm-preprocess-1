@@ -255,8 +255,8 @@
       ]
     },
     {
-      "tid": "t58",
-      "doc_index": 58,
+      "tid": "t59",
+      "doc_index": 59,
       "preceding_text": null,
       "rows": 9,
       "cols": 4,
@@ -700,8 +700,8 @@
       ]
     },
     {
-      "tid": "t64",
-      "doc_index": 64,
+      "tid": "t65",
+      "doc_index": 65,
       "preceding_text": null,
       "rows": 8,
       "cols": 2,
@@ -955,8 +955,8 @@
       ]
     },
     {
-      "tid": "t67",
-      "doc_index": 67,
+      "tid": "t68",
+      "doc_index": 68,
       "preceding_text": null,
       "rows": 3,
       "cols": 3,
@@ -1102,8 +1102,8 @@
       ]
     },
     {
-      "tid": "t71",
-      "doc_index": 71,
+      "tid": "t72",
+      "doc_index": 72,
       "preceding_text": "Tool Bar",
       "rows": 7,
       "cols": 4,
@@ -1534,8 +1534,8 @@
       ]
     },
     {
-      "tid": "t79",
-      "doc_index": 79,
+      "tid": "t80",
+      "doc_index": 80,
       "preceding_text": null,
       "rows": 8,
       "cols": 2,
@@ -1773,8 +1773,8 @@
       ]
     },
     {
-      "tid": "t94",
-      "doc_index": 94,
+      "tid": "t95",
+      "doc_index": 95,
       "preceding_text": "Various types of icons for different tasks.",
       "rows": 7,
       "cols": 3,
@@ -2093,8 +2093,8 @@
       ]
     },
     {
-      "tid": "t159",
-      "doc_index": 159,
+      "tid": "t160",
+      "doc_index": 160,
       "preceding_text": null,
       "rows": 5,
       "cols": 2,
@@ -2260,8 +2260,8 @@
       ]
     },
     {
-      "tid": "t208",
-      "doc_index": 208,
+      "tid": "t209",
+      "doc_index": 209,
       "preceding_text": null,
       "rows": 1,
       "cols": 1,
@@ -2292,8 +2292,8 @@
       ]
     },
     {
-      "tid": "t216",
-      "doc_index": 216,
+      "tid": "t217",
+      "doc_index": 217,
       "preceding_text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
       "rows": 6,
       "cols": 3,
@@ -2546,68 +2546,6 @@
           "r": 5,
           "c": 2,
           "text": "Note Message",
-          "colspan": 1,
-          "vmerge": null,
-          "rowspan": 1
-        }
-      ]
-    },
-    {
-      "tid": "t220",
-      "doc_index": 220,
-      "preceding_text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
-      "rows": 1,
-      "cols": 3,
-      "data": [
-        [
-          {
-            "text": "[image:rId123]",
-            "images": [
-              "rId123"
-            ],
-            "styled": false
-          },
-          {
-            "text": "[image:rId124]",
-            "images": [
-              "rId124"
-            ],
-            "styled": false
-          },
-          {
-            "text": "[image:rId125]",
-            "images": [
-              "rId125"
-            ],
-            "styled": false
-          }
-        ]
-      ],
-      "is_rowheader": false,
-      "is_colheader": false,
-      "has_borders": true,
-      "table_html": "<table>\n  <tr>\n    <td>[image:rId123]</td>\n    <td>[image:rId124]</td>\n    <td>[image:rId125]</td>\n  </tr>\n</table>",
-      "anchors": [
-        {
-          "r": 0,
-          "c": 0,
-          "text": "[image:rId123]",
-          "colspan": 1,
-          "vmerge": null,
-          "rowspan": 1
-        },
-        {
-          "r": 0,
-          "c": 1,
-          "text": "[image:rId124]",
-          "colspan": 1,
-          "vmerge": null,
-          "rowspan": 1
-        },
-        {
-          "r": 0,
-          "c": 2,
-          "text": "[image:rId125]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -4018,10 +3956,10 @@
       "data": [
         [
           {
-            "text": "[image:rId136] [image:rId137]",
+            "text": "[image:rId134] [image:rId135]",
             "images": [
-              "rId136",
-              "rId137"
+              "rId134",
+              "rId135"
             ],
             "styled": false
           },
@@ -4038,10 +3976,10 @@
         ],
         [
           {
-            "text": "[image:rId138] [image:rId139]",
+            "text": "[image:rId136] [image:rId137]",
             "images": [
-              "rId138",
-              "rId139"
+              "rId136",
+              "rId137"
             ],
             "styled": false
           },
@@ -4058,10 +3996,10 @@
         ],
         [
           {
-            "text": "[image:rId140] [image:rId141]",
+            "text": "[image:rId138] [image:rId139]",
             "images": [
-              "rId140",
-              "rId141"
+              "rId138",
+              "rId139"
             ],
             "styled": false
           },
@@ -4080,12 +4018,12 @@
       "is_rowheader": false,
       "is_colheader": false,
       "has_borders": true,
-      "table_html": "<table>\n  <tr>\n    <td>[image:rId136] [image:rId137]</td>\n    <td>Program Settings</td>\n    <td>Set the program defaults for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window, Program Look, etc.</td>\n  </tr>\n  <tr>\n    <td>[image:rId138] [image:rId139]</td>\n    <td>Default Database Setting</td>\n    <td>Set the default driver and login information for ODBC or OLE DB.</td>\n  </tr>\n  <tr>\n    <td>[image:rId140] [image:rId141]</td>\n    <td>Edit Frequently Used Nodes</td>\n    <td>You can add or delete the most used nodes.</td>\n  </tr>\n</table>",
+      "table_html": "<table>\n  <tr>\n    <td>[image:rId134] [image:rId135]</td>\n    <td>Program Settings</td>\n    <td>Set the program defaults for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window, Program Look, etc.</td>\n  </tr>\n  <tr>\n    <td>[image:rId136] [image:rId137]</td>\n    <td>Default Database Setting</td>\n    <td>Set the default driver and login information for ODBC or OLE DB.</td>\n  </tr>\n  <tr>\n    <td>[image:rId138] [image:rId139]</td>\n    <td>Edit Frequently Used Nodes</td>\n    <td>You can add or delete the most used nodes.</td>\n  </tr>\n</table>",
       "anchors": [
         {
           "r": 0,
           "c": 0,
-          "text": "[image:rId136] [image:rId137]",
+          "text": "[image:rId134] [image:rId135]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -4109,7 +4047,7 @@
         {
           "r": 1,
           "c": 0,
-          "text": "[image:rId138] [image:rId139]",
+          "text": "[image:rId136] [image:rId137]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -4133,7 +4071,7 @@
         {
           "r": 2,
           "c": 0,
-          "text": "[image:rId140] [image:rId141]",
+          "text": "[image:rId138] [image:rId139]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -4642,9 +4580,9 @@
         ],
         [
           {
-            "text": "[image:rId145]",
+            "text": "[image:rId143]",
             "images": [
-              "rId145"
+              "rId143"
             ],
             "styled": true
           },
@@ -4656,9 +4594,9 @@
         ],
         [
           {
-            "text": "[image:rId146]",
+            "text": "[image:rId144]",
             "images": [
-              "rId146"
+              "rId144"
             ],
             "styled": true
           },
@@ -4672,7 +4610,7 @@
       "is_rowheader": true,
       "is_colheader": true,
       "has_borders": true,
-      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">icon</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId145]</th>\n    <td>Adds the selected node to the Most Used Nodes list.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId146]</th>\n    <td>Deletes the selected node from the Most Used Nodes list.</td>\n  </tr>\n</table>",
+      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">icon</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId143]</th>\n    <td>Adds the selected node to the Most Used Nodes list.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId144]</th>\n    <td>Deletes the selected node from the Most Used Nodes list.</td>\n  </tr>\n</table>",
       "anchors": [
         {
           "r": 0,
@@ -4693,7 +4631,7 @@
         {
           "r": 1,
           "c": 0,
-          "text": "[image:rId145]",
+          "text": "[image:rId143]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -4709,7 +4647,7 @@
         {
           "r": 2,
           "c": 0,
-          "text": "[image:rId146]",
+          "text": "[image:rId144]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1

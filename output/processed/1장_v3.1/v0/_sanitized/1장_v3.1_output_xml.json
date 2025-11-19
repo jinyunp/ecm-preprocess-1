@@ -1325,7 +1325,7 @@
       },
       {
         "text": "1.3.1 Menu",
-        "doc_index": 61,
+        "doc_index": 62,
         "style": "heading 3",
         "runs": [
           {
@@ -1360,7 +1360,7 @@
           }
         ],
         "source_doc_indices": [
-          61
+          62
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1368,7 +1368,7 @@
       },
       {
         "text": "The menu is located at the top of the screen. It provides menus such as Project(P), Edit(E), View(V), Stream(S), Extension(A), Tool(T), Window(W), Help(H), and others.",
-        "doc_index": 62,
+        "doc_index": 63,
         "style": null,
         "runs": [
           {
@@ -1383,7 +1383,7 @@
           }
         ],
         "source_doc_indices": [
-          62
+          63
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1391,7 +1391,7 @@
       },
       {
         "text": "Tool's Option allows to set up the user-specific option.",
-        "doc_index": 66,
+        "doc_index": 67,
         "style": null,
         "runs": [
           {
@@ -1406,7 +1406,7 @@
           }
         ],
         "source_doc_indices": [
-          66
+          67
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1414,7 +1414,7 @@
       },
       {
         "text": "Tool Bar",
-        "doc_index": 70,
+        "doc_index": 71,
         "style": "소제목2",
         "runs": [
           {
@@ -1429,7 +1429,7 @@
           }
         ],
         "source_doc_indices": [
-          70
+          71
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1437,7 +1437,7 @@
       },
       {
         "text": "1.3.2 Node",
-        "doc_index": 74,
+        "doc_index": 75,
         "style": "heading 3",
         "runs": [
           {
@@ -1472,7 +1472,7 @@
           }
         ],
         "source_doc_indices": [
-          74
+          75
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1480,7 +1480,7 @@
       },
       {
         "text": "Data loading, data preprocessing, modeling and evaluation. Select and drag each node in order in the working space, and connect to each in turn.",
-        "doc_index": 75,
+        "doc_index": 76,
         "style": null,
         "runs": [
           {
@@ -1515,7 +1515,7 @@
           }
         ],
         "source_doc_indices": [
-          75
+          76
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1523,7 +1523,7 @@
       },
       {
         "text": "[image:rId61]",
-        "doc_index": 76,
+        "doc_index": 77,
         "style": null,
         "runs": [
           {
@@ -1540,7 +1540,7 @@
           }
         ],
         "source_doc_indices": [
-          76
+          77
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1548,7 +1548,7 @@
       },
       {
         "text": "The node window is classified into a total of seven categories.",
-        "doc_index": 78,
+        "doc_index": 79,
         "style": null,
         "runs": [
           {
@@ -1563,7 +1563,7 @@
           }
         ],
         "source_doc_indices": [
-          78
+          79
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1571,7 +1571,7 @@
       },
       {
         "text": "1.3.3 Project Window",
-        "doc_index": 81,
+        "doc_index": 82,
         "style": "heading 3",
         "runs": [
           {
@@ -1596,7 +1596,7 @@
           }
         ],
         "source_doc_indices": [
-          81
+          82
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1604,7 +1604,7 @@
       },
       {
         "text": "Start with Input Node, ‘Column filter’ and ‘Type change’ to define indep. & dep. Variables, and select either ‘Continuous’ or ‘Discrete’. Connect to modeling node.",
-        "doc_index": 82,
+        "doc_index": 83,
         "style": null,
         "runs": [
           {
@@ -1709,7 +1709,7 @@
           }
         ],
         "source_doc_indices": [
-          82
+          83
         ],
         "emphasized": [
           "Input Node",
@@ -1721,7 +1721,7 @@
       },
       {
         "text": "[image:rId62]",
-        "doc_index": 83,
+        "doc_index": 84,
         "style": null,
         "runs": [
           {
@@ -1738,7 +1738,7 @@
           }
         ],
         "source_doc_indices": [
-          83
+          84
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1746,7 +1746,7 @@
       },
       {
         "text": "The project window shows the flow map of the data analysis.",
-        "doc_index": 84,
+        "doc_index": 85,
         "style": null,
         "runs": [
           {
@@ -1761,7 +1761,7 @@
           }
         ],
         "source_doc_indices": [
-          84
+          85
         ],
         "emphasized": [],
         "math_texts": [],
@@ -1769,34 +1769,11 @@
       },
       {
         "text": "Select Project",
-        "doc_index": 86,
+        "doc_index": 87,
         "style": "소제목2",
         "runs": [
           {
             "text": "Select Project",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
-          86
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "To activate a project, press the tab on the top.",
-        "doc_index": 87,
-        "style": null,
-        "runs": [
-          {
-            "text": "To activate a project, press the tab on the top. ",
             "b": false,
             "i": false,
             "u": false,
@@ -1814,8 +1791,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId63] [image:rId64]",
+        "text": "To activate a project, press the tab on the top.",
         "doc_index": 88,
+        "style": null,
+        "runs": [
+          {
+            "text": "To activate a project, press the tab on the top. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          88
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId63] [image:rId64]",
+        "doc_index": 89,
         "style": null,
         "runs": [
           {
@@ -1854,29 +1854,6 @@
           }
         ],
         "source_doc_indices": [
-          88
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Close Project",
-        "doc_index": 89,
-        "style": "소제목2",
-        "runs": [
-          {
-            "text": "Close Project",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           89
         ],
         "emphasized": [],
@@ -1884,12 +1861,12 @@
         "image_included": false
       },
       {
-        "text": "Select \"Project > Close\" or press “X” button.",
+        "text": "Close Project",
         "doc_index": 90,
-        "style": null,
+        "style": "소제목2",
         "runs": [
           {
-            "text": "Select \"Project > Close\" or press “X” button.",
+            "text": "Close Project",
             "b": false,
             "i": false,
             "u": false,
@@ -1907,8 +1884,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId65].",
+        "text": "Select \"Project > Close\" or press “X” button.",
         "doc_index": 91,
+        "style": null,
+        "runs": [
+          {
+            "text": "Select \"Project > Close\" or press “X” button.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          91
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId65].",
+        "doc_index": 92,
         "style": null,
         "runs": [
           {
@@ -1935,29 +1935,6 @@
           }
         ],
         "source_doc_indices": [
-          91
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Nodes",
-        "doc_index": 92,
-        "style": "소제목2",
-        "runs": [
-          {
-            "text": "Nodes ",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           92
         ],
         "emphasized": [],
@@ -1965,12 +1942,12 @@
         "image_included": false
       },
       {
-        "text": "Various types of icons for different tasks.",
+        "text": "Nodes",
         "doc_index": 93,
-        "style": null,
+        "style": "소제목2",
         "runs": [
           {
-            "text": "Various types of icons for different tasks.",
+            "text": "Nodes ",
             "b": false,
             "i": false,
             "u": false,
@@ -1988,8 +1965,31 @@
         "image_included": false
       },
       {
+        "text": "Various types of icons for different tasks.",
+        "doc_index": 94,
+        "style": null,
+        "runs": [
+          {
+            "text": "Various types of icons for different tasks.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          94
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
         "text": "Context Menu",
-        "doc_index": 96,
+        "doc_index": 97,
         "style": "소제목2",
         "runs": [
           {
@@ -2004,7 +2004,7 @@
           }
         ],
         "source_doc_indices": [
-          96
+          97
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2012,7 +2012,7 @@
       },
       {
         "text": "Right-clicking in the project window displays all the menu nodes.",
-        "doc_index": 97,
+        "doc_index": 98,
         "style": null,
         "runs": [
           {
@@ -2047,7 +2047,7 @@
           }
         ],
         "source_doc_indices": [
-          97
+          98
         ],
         "emphasized": [
           "the project window"
@@ -2057,7 +2057,7 @@
       },
       {
         "text": "[image:rId78]",
-        "doc_index": 98,
+        "doc_index": 99,
         "style": null,
         "runs": [
           {
@@ -2074,7 +2074,7 @@
           }
         ],
         "source_doc_indices": [
-          98
+          99
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2082,7 +2082,7 @@
       },
       {
         "text": "The newly added feature in this latest version, 'Insert Memo', is added for users to make notes when configuring nodes and projects",
-        "doc_index": 99,
+        "doc_index": 100,
         "style": null,
         "runs": [
           {
@@ -2097,7 +2097,7 @@
           }
         ],
         "source_doc_indices": [
-          99
+          100
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2105,7 +2105,7 @@
       },
       {
         "text": "1.3.4 Node Properties",
-        "doc_index": 101,
+        "doc_index": 102,
         "style": "heading 3",
         "runs": [
           {
@@ -2140,7 +2140,7 @@
           }
         ],
         "source_doc_indices": [
-          101
+          102
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2148,7 +2148,7 @@
       },
       {
         "text": "It shows the properties of the project or the selected node.",
-        "doc_index": 102,
+        "doc_index": 103,
         "style": null,
         "runs": [
           {
@@ -2163,7 +2163,7 @@
           }
         ],
         "source_doc_indices": [
-          102
+          103
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2171,7 +2171,7 @@
       },
       {
         "text": "Project Properties",
-        "doc_index": 104,
+        "doc_index": 105,
         "style": "소제목2",
         "runs": [
           {
@@ -2186,7 +2186,7 @@
           }
         ],
         "source_doc_indices": [
-          104
+          105
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2194,7 +2194,7 @@
       },
       {
         "text": "In the project properties window, you may add a memo of the project's objective and description. The Project Creator shows the username of the person logged into Windows and cannot be changed.[image:rId79]",
-        "doc_index": 105,
+        "doc_index": 106,
         "style": null,
         "runs": [
           {
@@ -2231,29 +2231,6 @@
           }
         ],
         "source_doc_indices": [
-          105
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Node Property about data",
-        "doc_index": 106,
-        "style": "소제목2",
-        "runs": [
-          {
-            "text": "Node Property about data",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           106
         ],
         "emphasized": [],
@@ -2261,12 +2238,12 @@
         "image_included": false
       },
       {
-        "text": "Node property for data tells the variable names and data type. Data types can be changed.",
+        "text": "Node Property about data",
         "doc_index": 107,
-        "style": "List Bullet",
+        "style": "소제목2",
         "runs": [
           {
-            "text": "Node property for data tells the variable names and data type. Data types can be changed. ",
+            "text": "Node Property about data",
             "b": false,
             "i": false,
             "u": false,
@@ -2284,12 +2261,12 @@
         "image_included": false
       },
       {
-        "text": "Exclusion of variable in ‘Column Filter’.",
+        "text": "Node property for data tells the variable names and data type. Data types can be changed.",
         "doc_index": 108,
         "style": "List Bullet",
         "runs": [
           {
-            "text": "Exclusion of variable in ‘Column Filter’. ",
+            "text": "Node property for data tells the variable names and data type. Data types can be changed. ",
             "b": false,
             "i": false,
             "u": false,
@@ -2307,12 +2284,12 @@
         "image_included": false
       },
       {
-        "text": "Define the dependent and independent variables in ‘Type Change’.",
+        "text": "Exclusion of variable in ‘Column Filter’.",
         "doc_index": 109,
         "style": "List Bullet",
         "runs": [
           {
-            "text": "Define the dependent and independent variables in ‘Type Change’.",
+            "text": "Exclusion of variable in ‘Column Filter’. ",
             "b": false,
             "i": false,
             "u": false,
@@ -2330,8 +2307,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId80]",
+        "text": "Define the dependent and independent variables in ‘Type Change’.",
         "doc_index": 110,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "Define the dependent and independent variables in ‘Type Change’.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          110
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId80]",
+        "doc_index": 111,
         "style": "List Bullet",
         "runs": [
           {
@@ -2348,7 +2348,7 @@
           }
         ],
         "source_doc_indices": [
-          110
+          111
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2356,7 +2356,7 @@
       },
       {
         "text": "1.3.5 Resource Window",
-        "doc_index": 113,
+        "doc_index": 114,
         "style": "heading 3",
         "runs": [
           {
@@ -2391,7 +2391,7 @@
           }
         ],
         "source_doc_indices": [
-          113
+          114
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2399,7 +2399,7 @@
       },
       {
         "text": "In ECMiner™, resources refer to all files including data, results, models, and project files.",
-        "doc_index": 114,
+        "doc_index": 115,
         "style": null,
         "runs": [
           {
@@ -2414,7 +2414,7 @@
           }
         ],
         "source_doc_indices": [
-          114
+          115
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2422,7 +2422,7 @@
       },
       {
         "text": "[image:rId81]",
-        "doc_index": 115,
+        "doc_index": 116,
         "style": null,
         "runs": [
           {
@@ -2439,7 +2439,7 @@
           }
         ],
         "source_doc_indices": [
-          115
+          116
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2447,7 +2447,7 @@
       },
       {
         "text": "Resource Menu",
-        "doc_index": 117,
+        "doc_index": 118,
         "style": "소제목2",
         "runs": [
           {
@@ -2462,7 +2462,7 @@
           }
         ],
         "source_doc_indices": [
-          117
+          118
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2470,7 +2470,7 @@
       },
       {
         "text": "Local menu displays a list of files in the resource list.",
-        "doc_index": 118,
+        "doc_index": 119,
         "style": "List Bullet",
         "runs": [
           {
@@ -2505,29 +2505,6 @@
           }
         ],
         "source_doc_indices": [
-          118
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Model menu shows the list of model files. You may utilize it for future runs.",
-        "doc_index": 119,
-        "style": "List Bullet",
-        "runs": [
-          {
-            "text": "Model menu shows the list of model files. You may utilize it for future runs. ",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           119
         ],
         "emphasized": [],
@@ -2535,12 +2512,12 @@
         "image_included": false
       },
       {
-        "text": "Output menu displays the list of output for each project.",
+        "text": "Model menu shows the list of model files. You may utilize it for future runs.",
         "doc_index": 120,
         "style": "List Bullet",
         "runs": [
           {
-            "text": "Output menu displays the list of output for each project.",
+            "text": "Model menu shows the list of model files. You may utilize it for future runs. ",
             "b": false,
             "i": false,
             "u": false,
@@ -2558,12 +2535,12 @@
         "image_included": false
       },
       {
-        "text": "Resource List",
-        "doc_index": 122,
-        "style": "소제목2",
+        "text": "Output menu displays the list of output for each project.",
+        "doc_index": 121,
+        "style": "List Bullet",
         "runs": [
           {
-            "text": "Resource List",
+            "text": "Output menu displays the list of output for each project.",
             "b": false,
             "i": false,
             "u": false,
@@ -2574,19 +2551,19 @@
           }
         ],
         "source_doc_indices": [
-          122
+          121
         ],
         "emphasized": [],
         "math_texts": [],
         "image_included": false
       },
       {
-        "text": "When selecting the Local menu",
+        "text": "Resource List",
         "doc_index": 123,
-        "style": "List Paragraph",
+        "style": "소제목2",
         "runs": [
           {
-            "text": "When selecting the Local menu",
+            "text": "Resource List",
             "b": false,
             "i": false,
             "u": false,
@@ -2604,8 +2581,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId82]",
+        "text": "When selecting the Local menu",
         "doc_index": 124,
+        "style": "List Paragraph",
+        "runs": [
+          {
+            "text": "When selecting the Local menu",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          124
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId82]",
+        "doc_index": 125,
         "style": "List Continue 2",
         "runs": [
           {
@@ -2622,29 +2622,6 @@
           }
         ],
         "source_doc_indices": [
-          124
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
-        "doc_index": 125,
-        "style": "List Continue 2",
-        "runs": [
-          {
-            "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           125
         ],
         "emphasized": [],
@@ -2652,12 +2629,12 @@
         "image_included": false
       },
       {
-        "text": "When selecting the Model menu",
+        "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
         "doc_index": 126,
-        "style": "List Paragraph",
+        "style": "List Continue 2",
         "runs": [
           {
-            "text": "When selecting the Model menu",
+            "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
             "b": false,
             "i": false,
             "u": false,
@@ -2675,8 +2652,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId83]",
+        "text": "When selecting the Model menu",
         "doc_index": 127,
+        "style": "List Paragraph",
+        "runs": [
+          {
+            "text": "When selecting the Model menu",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          127
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId83]",
+        "doc_index": 128,
         "style": "List Continue 2",
         "runs": [
           {
@@ -2703,29 +2703,6 @@
           }
         ],
         "source_doc_indices": [
-          127
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
-        "doc_index": 128,
-        "style": "List Continue 2",
-        "runs": [
-          {
-            "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           128
         ],
         "emphasized": [],
@@ -2733,12 +2710,12 @@
         "image_included": false
       },
       {
-        "text": "When selecting the Output menu",
+        "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
         "doc_index": 129,
-        "style": "List Paragraph",
+        "style": "List Continue 2",
         "runs": [
           {
-            "text": "When selecting the Output menu",
+            "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
             "b": false,
             "i": false,
             "u": false,
@@ -2756,8 +2733,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId84]",
+        "text": "When selecting the Output menu",
         "doc_index": 130,
+        "style": "List Paragraph",
+        "runs": [
+          {
+            "text": "When selecting the Output menu",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          130
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId84]",
+        "doc_index": 131,
         "style": "List Continue 2",
         "runs": [
           {
@@ -2784,7 +2784,7 @@
           }
         ],
         "source_doc_indices": [
-          130
+          131
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2792,7 +2792,7 @@
       },
       {
         "text": "After running modeling, the output results are listed in the project with sub-tree. Select the results you want to view. It shows the results for comparison. Additionally, it offers the ability to save results or view previously saved results.",
-        "doc_index": 131,
+        "doc_index": 132,
         "style": "List Continue 2",
         "runs": [
           {
@@ -2807,7 +2807,7 @@
           }
         ],
         "source_doc_indices": [
-          131
+          132
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2815,7 +2815,7 @@
       },
       {
         "text": "1.3.6 Resource Window -Local",
-        "doc_index": 133,
+        "doc_index": 134,
         "style": "heading 3",
         "runs": [
           {
@@ -2840,7 +2840,7 @@
           }
         ],
         "source_doc_indices": [
-          133
+          134
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2848,7 +2848,7 @@
       },
       {
         "text": "Task Folder",
-        "doc_index": 134,
+        "doc_index": 135,
         "style": "소제목2",
         "runs": [
           {
@@ -2863,7 +2863,7 @@
           }
         ],
         "source_doc_indices": [
-          134
+          135
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2871,7 +2871,7 @@
       },
       {
         "text": "A task folder in ECMiner™ is a frequently used one, which can be renamed (aliased) with another name. Users need to add the task folder themselves, and once added, the work folders will appear in the Local menu within the resource window.[image:rId85]You may Add/Delete/Modify the folder using the toolbar",
-        "doc_index": 135,
+        "doc_index": 136,
         "style": null,
         "runs": [
           {
@@ -2918,7 +2918,7 @@
           }
         ],
         "source_doc_indices": [
-          135
+          136
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2926,7 +2926,7 @@
       },
       {
         "text": "Add Task Folder",
-        "doc_index": 137,
+        "doc_index": 138,
         "style": "소제목2",
         "runs": [
           {
@@ -2941,7 +2941,7 @@
           }
         ],
         "source_doc_indices": [
-          137
+          138
         ],
         "emphasized": [],
         "math_texts": [],
@@ -2949,7 +2949,7 @@
       },
       {
         "text": "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name.",
-        "doc_index": 138,
+        "doc_index": 139,
         "style": "소제목2",
         "runs": [
           {
@@ -2986,7 +2986,7 @@
           }
         ],
         "source_doc_indices": [
-          138
+          139
         ],
         "emphasized": [
           "Set the path where you want to add as a \"Task Folder\" pressing the",
@@ -2998,7 +2998,7 @@
       },
       {
         "text": "[image:rId87]",
-        "doc_index": 139,
+        "doc_index": 140,
         "style": null,
         "runs": [
           {
@@ -3015,7 +3015,7 @@
           }
         ],
         "source_doc_indices": [
-          139
+          140
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3023,7 +3023,7 @@
       },
       {
         "text": "Modify Task Folder",
-        "doc_index": 140,
+        "doc_index": 141,
         "style": "List Paragraph",
         "runs": [
           {
@@ -3038,7 +3038,7 @@
           }
         ],
         "source_doc_indices": [
-          140
+          141
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3046,7 +3046,7 @@
       },
       {
         "text": "To change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.",
-        "doc_index": 141,
+        "doc_index": 142,
         "style": "List Continue 2",
         "runs": [
           {
@@ -3083,7 +3083,7 @@
           }
         ],
         "source_doc_indices": [
-          141
+          142
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3091,7 +3091,7 @@
       },
       {
         "text": "Delete Task Folder",
-        "doc_index": 142,
+        "doc_index": 143,
         "style": "List Paragraph",
         "runs": [
           {
@@ -3106,7 +3106,7 @@
           }
         ],
         "source_doc_indices": [
-          142
+          143
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3114,7 +3114,7 @@
       },
       {
         "text": "To delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.",
-        "doc_index": 143,
+        "doc_index": 144,
         "style": "List Continue 2",
         "runs": [
           {
@@ -3151,7 +3151,7 @@
           }
         ],
         "source_doc_indices": [
-          143
+          144
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3159,7 +3159,7 @@
       },
       {
         "text": "Reload",
-        "doc_index": 144,
+        "doc_index": 145,
         "style": "List Paragraph",
         "runs": [
           {
@@ -3174,7 +3174,7 @@
           }
         ],
         "source_doc_indices": [
-          144
+          145
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3182,7 +3182,7 @@
       },
       {
         "text": "To reload the file list of the task folder, click the [image:rId90] button in the toolbar.",
-        "doc_index": 145,
+        "doc_index": 146,
         "style": "List Continue 2",
         "runs": [
           {
@@ -3219,29 +3219,6 @@
           }
         ],
         "source_doc_indices": [
-          145
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Create New Folder",
-        "doc_index": 146,
-        "style": "List Paragraph",
-        "runs": [
-          {
-            "text": "Create New Folder",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           146
         ],
         "emphasized": [],
@@ -3249,12 +3226,12 @@
         "image_included": false
       },
       {
-        "text": "Right-clicking on the task folder in the Resource menu.",
+        "text": "Create New Folder",
         "doc_index": 147,
-        "style": "List Continue 2",
+        "style": "List Paragraph",
         "runs": [
           {
-            "text": "Right-clicking on the task folder in the Resource menu. ",
+            "text": "Create New Folder",
             "b": false,
             "i": false,
             "u": false,
@@ -3272,8 +3249,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId91]",
+        "text": "Right-clicking on the task folder in the Resource menu.",
         "doc_index": 148,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "Right-clicking on the task folder in the Resource menu. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          148
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId91]",
+        "doc_index": 149,
         "style": "List Continue 2",
         "runs": [
           {
@@ -3290,7 +3290,7 @@
           }
         ],
         "source_doc_indices": [
-          148
+          149
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3298,7 +3298,7 @@
       },
       {
         "text": "Give the name of folder, it will add the task folder.",
-        "doc_index": 149,
+        "doc_index": 150,
         "style": "List Continue 2",
         "runs": [
           {
@@ -3313,7 +3313,7 @@
           }
         ],
         "source_doc_indices": [
-          149
+          150
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3321,34 +3321,11 @@
       },
       {
         "text": "Utilizing Task Folders",
-        "doc_index": 151,
+        "doc_index": 152,
         "style": "소제목2",
         "runs": [
           {
             "text": "Utilizing Task Folders",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
-          151
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Project Management",
-        "doc_index": 152,
-        "style": "List Paragraph",
-        "runs": [
-          {
-            "text": "Project Management",
             "b": false,
             "i": false,
             "u": false,
@@ -3366,12 +3343,12 @@
         "image_included": false
       },
       {
-        "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
+        "text": "Project Management",
         "doc_index": 153,
-        "style": "List Continue 2",
+        "style": "List Paragraph",
         "runs": [
           {
-            "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
+            "text": "Project Management",
             "b": false,
             "i": false,
             "u": false,
@@ -3389,12 +3366,12 @@
         "image_included": false
       },
       {
-        "text": "Data Sharing",
+        "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
         "doc_index": 154,
-        "style": "List Paragraph",
+        "style": "List Continue 2",
         "runs": [
           {
-            "text": "Data Sharing",
+            "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
             "b": false,
             "i": false,
             "u": false,
@@ -3412,12 +3389,12 @@
         "image_included": false
       },
       {
-        "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
+        "text": "Data Sharing",
         "doc_index": 155,
-        "style": "List Continue 2",
+        "style": "List Paragraph",
         "runs": [
           {
-            "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
+            "text": "Data Sharing",
             "b": false,
             "i": false,
             "u": false,
@@ -3435,12 +3412,12 @@
         "image_included": false
       },
       {
-        "text": "Resource List",
+        "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
         "doc_index": 156,
-        "style": "소제목2",
+        "style": "List Continue 2",
         "runs": [
           {
-            "text": "Resource List",
+            "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
             "b": false,
             "i": false,
             "u": false,
@@ -3458,12 +3435,12 @@
         "image_included": false
       },
       {
-        "text": "The file lists of the selected folder.",
+        "text": "Resource List",
         "doc_index": 157,
-        "style": null,
+        "style": "소제목2",
         "runs": [
           {
-            "text": "The file lists of the selected folder.",
+            "text": "Resource List",
             "b": false,
             "i": false,
             "u": false,
@@ -3481,8 +3458,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId92]",
+        "text": "The file lists of the selected folder.",
         "doc_index": 158,
+        "style": null,
+        "runs": [
+          {
+            "text": "The file lists of the selected folder.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          158
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId92]",
+        "doc_index": 159,
         "style": null,
         "runs": [
           {
@@ -3499,7 +3499,7 @@
           }
         ],
         "source_doc_indices": [
-          158
+          159
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3507,34 +3507,11 @@
       },
       {
         "text": "Utilizing the Resource List",
-        "doc_index": 161,
+        "doc_index": 162,
         "style": "소제목2",
         "runs": [
           {
             "text": "Utilizing the Resource List",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
-          161
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.",
-        "doc_index": 162,
-        "style": null,
-        "runs": [
-          {
-            "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.",
             "b": false,
             "i": false,
             "u": false,
@@ -3552,8 +3529,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId101]",
+        "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.",
         "doc_index": 163,
+        "style": null,
+        "runs": [
+          {
+            "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          163
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId101]",
+        "doc_index": 164,
         "style": null,
         "runs": [
           {
@@ -3570,7 +3570,7 @@
           }
         ],
         "source_doc_indices": [
-          163
+          164
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3578,7 +3578,7 @@
       },
       {
         "text": "1.3.7 Resource Window -Model",
-        "doc_index": 166,
+        "doc_index": 167,
         "style": "heading 3",
         "runs": [
           {
@@ -3613,7 +3613,7 @@
           }
         ],
         "source_doc_indices": [
-          166
+          167
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3621,7 +3621,7 @@
       },
       {
         "text": "After running the model stream, temporary models are listed in the resource window. [image:rId102]",
-        "doc_index": 167,
+        "doc_index": 168,
         "style": null,
         "runs": [
           {
@@ -3658,29 +3658,6 @@
           }
         ],
         "source_doc_indices": [
-          167
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Temporary Model",
-        "doc_index": 168,
-        "style": "소제목2",
-        "runs": [
-          {
-            "text": "Temporary Model",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           168
         ],
         "emphasized": [],
@@ -3688,12 +3665,12 @@
         "image_included": false
       },
       {
-        "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.",
+        "text": "Temporary Model",
         "doc_index": 169,
-        "style": null,
+        "style": "소제목2",
         "runs": [
           {
-            "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.",
+            "text": "Temporary Model",
             "b": false,
             "i": false,
             "u": false,
@@ -3711,8 +3688,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId102]",
+        "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.",
         "doc_index": 170,
+        "style": null,
+        "runs": [
+          {
+            "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          170
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId102]",
+        "doc_index": 171,
         "style": null,
         "runs": [
           {
@@ -3729,7 +3729,7 @@
           }
         ],
         "source_doc_indices": [
-          170
+          171
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3737,7 +3737,7 @@
       },
       {
         "text": "Delete Model",
-        "doc_index": 171,
+        "doc_index": 172,
         "style": "소제목2",
         "runs": [
           {
@@ -3752,7 +3752,7 @@
           }
         ],
         "source_doc_indices": [
-          171
+          172
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3760,7 +3760,7 @@
       },
       {
         "text": "To remove an output file in the list, press  [image:rId103]",
-        "doc_index": 172,
+        "doc_index": 173,
         "style": null,
         "runs": [
           {
@@ -3827,7 +3827,7 @@
           }
         ],
         "source_doc_indices": [
-          172
+          173
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3835,7 +3835,7 @@
       },
       {
         "text": "Save Model",
-        "doc_index": 173,
+        "doc_index": 174,
         "style": "소제목2",
         "runs": [
           {
@@ -3850,7 +3850,7 @@
           }
         ],
         "source_doc_indices": [
-          173
+          174
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3858,7 +3858,7 @@
       },
       {
         "text": "[image:rId104]",
-        "doc_index": 174,
+        "doc_index": 175,
         "style": null,
         "runs": [
           {
@@ -3875,7 +3875,7 @@
           }
         ],
         "source_doc_indices": [
-          174
+          175
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3883,7 +3883,7 @@
       },
       {
         "text": "To save a temporary model for another use, press [image:rId105]  Give the model name and specify the path, \"given_model name.gms\" is saved in the task folder.",
-        "doc_index": 175,
+        "doc_index": 176,
         "style": null,
         "runs": [
           {
@@ -3990,7 +3990,7 @@
           }
         ],
         "source_doc_indices": [
-          175
+          176
         ],
         "emphasized": [],
         "math_texts": [],
@@ -3998,7 +3998,7 @@
       },
       {
         "text": "[image:rId106]",
-        "doc_index": 176,
+        "doc_index": 177,
         "style": null,
         "runs": [
           {
@@ -4015,7 +4015,7 @@
           }
         ],
         "source_doc_indices": [
-          176
+          177
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4023,7 +4023,7 @@
       },
       {
         "text": "Another method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).",
-        "doc_index": 177,
+        "doc_index": 178,
         "style": null,
         "runs": [
           {
@@ -4038,7 +4038,7 @@
           }
         ],
         "source_doc_indices": [
-          177
+          178
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4046,7 +4046,7 @@
       },
       {
         "text": "[image:rId107]",
-        "doc_index": 178,
+        "doc_index": 179,
         "style": null,
         "runs": [
           {
@@ -4063,7 +4063,7 @@
           }
         ],
         "source_doc_indices": [
-          178
+          179
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4071,7 +4071,7 @@
       },
       {
         "text": "[image:rId108]In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms\" in the task folder (or subfolder) where you dropped it, indicating the save path.",
-        "doc_index": 179,
+        "doc_index": 180,
         "style": null,
         "runs": [
           {
@@ -4138,7 +4138,7 @@
           }
         ],
         "source_doc_indices": [
-          179
+          180
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4146,7 +4146,7 @@
       },
       {
         "text": "1.3.8 Resource Window -Output",
-        "doc_index": 180,
+        "doc_index": 181,
         "style": "heading 3",
         "runs": [
           {
@@ -4171,7 +4171,7 @@
           }
         ],
         "source_doc_indices": [
-          180
+          181
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4179,7 +4179,7 @@
       },
       {
         "text": "The results created after executing the stream will appear in the list when the Output menu is selected.",
-        "doc_index": 181,
+        "doc_index": 182,
         "style": null,
         "runs": [
           {
@@ -4194,7 +4194,7 @@
           }
         ],
         "source_doc_indices": [
-          181
+          182
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4202,7 +4202,7 @@
       },
       {
         "text": "[image:rId109]",
-        "doc_index": 182,
+        "doc_index": 183,
         "style": null,
         "runs": [
           {
@@ -4219,7 +4219,7 @@
           }
         ],
         "source_doc_indices": [
-          182
+          183
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4227,7 +4227,7 @@
       },
       {
         "text": "Output Review",
-        "doc_index": 183,
+        "doc_index": 184,
         "style": "소제목2",
         "runs": [
           {
@@ -4242,7 +4242,7 @@
           }
         ],
         "source_doc_indices": [
-          183
+          184
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4250,7 +4250,7 @@
       },
       {
         "text": "To view a generated output again, double-click the output from the Result list. Alternatively, after selecting one or more outputs, press the [image:rId110] button located on the toolbar.",
-        "doc_index": 184,
+        "doc_index": 185,
         "style": null,
         "runs": [
           {
@@ -4287,29 +4287,6 @@
           }
         ],
         "source_doc_indices": [
-          184
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "Output toolbar",
-        "doc_index": 185,
-        "style": "소제목2",
-        "runs": [
-          {
-            "text": "Output toolbar",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
           185
         ],
         "emphasized": [],
@@ -4317,12 +4294,12 @@
         "image_included": false
       },
       {
-        "text": "The toolbar provides the following functions:",
+        "text": "Output toolbar",
         "doc_index": 186,
-        "style": null,
+        "style": "소제목2",
         "runs": [
           {
-            "text": "The toolbar provides the following functions:",
+            "text": "Output toolbar",
             "b": false,
             "i": false,
             "u": false,
@@ -4340,8 +4317,31 @@
         "image_included": false
       },
       {
-        "text": "[image:rId110] Open Output",
+        "text": "The toolbar provides the following functions:",
         "doc_index": 187,
+        "style": null,
+        "runs": [
+          {
+            "text": "The toolbar provides the following functions:",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          187
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId110] Open Output",
+        "doc_index": 188,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4378,7 +4378,7 @@
           }
         ],
         "source_doc_indices": [
-          187
+          188
         ],
         "emphasized": [
           "[image:rId110]"
@@ -4388,7 +4388,7 @@
       },
       {
         "text": "Display all selected outputs from the list.",
-        "doc_index": 188,
+        "doc_index": 189,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4403,7 +4403,7 @@
           }
         ],
         "source_doc_indices": [
-          188
+          189
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4411,7 +4411,7 @@
       },
       {
         "text": "[image:rId111] Delete Output",
-        "doc_index": 189,
+        "doc_index": 190,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4458,7 +4458,7 @@
           }
         ],
         "source_doc_indices": [
-          189
+          190
         ],
         "emphasized": [
           "[image:rId111]"
@@ -4468,7 +4468,7 @@
       },
       {
         "text": "Delete all selected outputs from the list",
-        "doc_index": 190,
+        "doc_index": 191,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4483,7 +4483,7 @@
           }
         ],
         "source_doc_indices": [
-          190
+          191
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4491,7 +4491,7 @@
       },
       {
         "text": "[image:rId112] Close All Outputs",
-        "doc_index": 191,
+        "doc_index": 192,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4528,7 +4528,7 @@
           }
         ],
         "source_doc_indices": [
-          191
+          192
         ],
         "emphasized": [
           "[image:rId112]"
@@ -4538,7 +4538,7 @@
       },
       {
         "text": "Close all open output windows.",
-        "doc_index": 192,
+        "doc_index": 193,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4553,7 +4553,7 @@
           }
         ],
         "source_doc_indices": [
-          192
+          193
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4561,7 +4561,7 @@
       },
       {
         "text": "[image:rId113] Output Window Grid Alignment",
-        "doc_index": 193,
+        "doc_index": 194,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4588,7 +4588,7 @@
           }
         ],
         "source_doc_indices": [
-          193
+          194
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4596,7 +4596,7 @@
       },
       {
         "text": "If two or more output windows are currently open, arrange them into a grid format.",
-        "doc_index": 194,
+        "doc_index": 195,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4611,7 +4611,7 @@
           }
         ],
         "source_doc_indices": [
-          194
+          195
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4619,7 +4619,7 @@
       },
       {
         "text": "[image:rId114]",
-        "doc_index": 195,
+        "doc_index": 196,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4636,7 +4636,7 @@
           }
         ],
         "source_doc_indices": [
-          195
+          196
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4644,7 +4644,7 @@
       },
       {
         "text": "[image:rId115]Display Grid Alignment",
-        "doc_index": 196,
+        "doc_index": 197,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4671,7 +4671,7 @@
           }
         ],
         "source_doc_indices": [
-          196
+          197
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4679,7 +4679,7 @@
       },
       {
         "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a grid format.",
-        "doc_index": 197,
+        "doc_index": 198,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4704,7 +4704,7 @@
           }
         ],
         "source_doc_indices": [
-          197
+          198
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4712,7 +4712,7 @@
       },
       {
         "text": "[image:rId116]Output Window Cascade Alignment",
-        "doc_index": 198,
+        "doc_index": 199,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4739,7 +4739,7 @@
           }
         ],
         "source_doc_indices": [
-          198
+          199
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4747,7 +4747,7 @@
       },
       {
         "text": "Arranges the currently open output windows in a cascading format.",
-        "doc_index": 199,
+        "doc_index": 200,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4762,7 +4762,7 @@
           }
         ],
         "source_doc_indices": [
-          199
+          200
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4770,7 +4770,7 @@
       },
       {
         "text": "[image:rId117]Display Cascade Alignment",
-        "doc_index": 200,
+        "doc_index": 201,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4797,7 +4797,7 @@
           }
         ],
         "source_doc_indices": [
-          200
+          201
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4805,7 +4805,7 @@
       },
       {
         "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a cascading format.",
-        "doc_index": 201,
+        "doc_index": 202,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4820,7 +4820,7 @@
           }
         ],
         "source_doc_indices": [
-          201
+          202
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4828,7 +4828,7 @@
       },
       {
         "text": "[image:rId118]Save output",
-        "doc_index": 202,
+        "doc_index": 203,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4855,7 +4855,7 @@
           }
         ],
         "source_doc_indices": [
-          202
+          203
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4863,7 +4863,7 @@
       },
       {
         "text": "Save the output to the desired path in the *.ept file format",
-        "doc_index": 203,
+        "doc_index": 204,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4898,7 +4898,7 @@
           }
         ],
         "source_doc_indices": [
-          203
+          204
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4906,7 +4906,7 @@
       },
       {
         "text": "[image:rId119]Load saved output",
-        "doc_index": 204,
+        "doc_index": 205,
         "style": "List Paragraph",
         "runs": [
           {
@@ -4933,7 +4933,7 @@
           }
         ],
         "source_doc_indices": [
-          204
+          205
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4941,7 +4941,7 @@
       },
       {
         "text": "Open the saved output file(*.ept). The results will be added to the list under the \"Other” category",
-        "doc_index": 205,
+        "doc_index": 206,
         "style": "List Continue 2",
         "runs": [
           {
@@ -4976,7 +4976,7 @@
           }
         ],
         "source_doc_indices": [
-          205
+          206
         ],
         "emphasized": [],
         "math_texts": [],
@@ -4984,7 +4984,7 @@
       },
       {
         "text": "[image:rId120]",
-        "doc_index": 206,
+        "doc_index": 207,
         "style": "List Continue 2",
         "runs": [
           {
@@ -5001,7 +5001,7 @@
           }
         ],
         "source_doc_indices": [
-          206
+          207
         ],
         "emphasized": [],
         "math_texts": [],
@@ -5009,7 +5009,7 @@
       },
       {
         "text": "1.3.9 Message Window",
-        "doc_index": 210,
+        "doc_index": 211,
         "style": "heading 3",
         "runs": [
           {
@@ -5054,7 +5054,7 @@
           }
         ],
         "source_doc_indices": [
-          210
+          211
         ],
         "emphasized": [],
         "math_texts": [],
@@ -5062,7 +5062,7 @@
       },
       {
         "text": "The Message window displays execution information and errors related nodes during stream execution.",
-        "doc_index": 211,
+        "doc_index": 212,
         "style": null,
         "runs": [
           {
@@ -5077,7 +5077,7 @@
           }
         ],
         "source_doc_indices": [
-          211
+          212
         ],
         "emphasized": [],
         "math_texts": [],
@@ -5085,7 +5085,7 @@
       },
       {
         "text": "[image:rId122]",
-        "doc_index": 212,
+        "doc_index": 213,
         "style": null,
         "runs": [
           {
@@ -5102,7 +5102,7 @@
           }
         ],
         "source_doc_indices": [
-          212
+          213
         ],
         "emphasized": [],
         "math_texts": [],
@@ -5110,34 +5110,11 @@
       },
       {
         "text": "Type of Messages",
-        "doc_index": 214,
+        "doc_index": 215,
         "style": "소제목2",
         "runs": [
           {
             "text": "Type of Messages",
-            "b": false,
-            "i": false,
-            "u": false,
-            "rStyle": null,
-            "sz": null,
-            "color": null,
-            "image_rids": []
-          }
-        ],
-        "source_doc_indices": [
-          214
-        ],
-        "emphasized": [],
-        "math_texts": [],
-        "image_included": false
-      },
-      {
-        "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
-        "doc_index": 215,
-        "style": null,
-        "runs": [
-          {
-            "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
             "b": false,
             "i": false,
             "u": false,
@@ -5155,8 +5132,31 @@
         "image_included": false
       },
       {
+        "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
+        "doc_index": 216,
+        "style": null,
+        "runs": [
+          {
+            "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          216
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
         "text": "1.3.10 Dynamic Help",
-        "doc_index": 218,
+        "doc_index": 219,
         "style": "heading 3",
         "runs": [
           {
@@ -5191,7 +5191,7 @@
           }
         ],
         "source_doc_indices": [
-          218
+          219
         ],
         "emphasized": [],
         "math_texts": [],
@@ -5199,7 +5199,7 @@
       },
       {
         "text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.",
-        "doc_index": 219,
+        "doc_index": 220,
         "style": null,
         "runs": [
           {
@@ -5214,7 +5214,32 @@
           }
         ],
         "source_doc_indices": [
-          219
+          220
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId123]",
+        "doc_index": 221,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId123]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId123"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          221
         ],
         "emphasized": [],
         "math_texts": [],
@@ -5244,12 +5269,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId126]  Toggle Help",
+        "text": "[image:rId124]  Toggle Help",
         "doc_index": 223,
         "style": "List Paragraph",
         "runs": [
           {
-            "text": "[image:rId126]",
+            "text": "[image:rId124]",
             "b": false,
             "i": false,
             "u": false,
@@ -5257,7 +5282,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId126"
+              "rId124"
             ]
           },
           {
@@ -5325,12 +5350,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId127] Index Search",
+        "text": "[image:rId125] Index Search",
         "doc_index": 226,
         "style": "List Paragraph",
         "runs": [
           {
-            "text": "[image:rId127]",
+            "text": "[image:rId125]",
             "b": false,
             "i": false,
             "u": false,
@@ -5338,7 +5363,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId127"
+              "rId125"
             ]
           },
           {
@@ -5495,12 +5520,22 @@
         "image_included": false
       },
       {
-        "text": "1. Left-click and hold the title of the control window with the mouse",
+        "text": "Left-click and hold the title of the control window with the mouse",
         "doc_index": 234,
         "style": "List Paragraph",
         "runs": [
           {
-            "text": "1. Left-click and hold the title of the control window with the mouse",
+            "text": "Left-click",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " and hold the title of the control window with the mouse",
             "b": false,
             "i": false,
             "u": false,
@@ -5518,12 +5553,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId128]",
+        "text": "[image:rId126]",
         "doc_index": 235,
         "style": "List Continue 2",
         "runs": [
           {
-            "text": "[image:rId128]",
+            "text": "[image:rId126]",
             "b": false,
             "i": false,
             "u": false,
@@ -5531,7 +5566,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId128"
+              "rId126"
             ]
           }
         ],
@@ -5543,12 +5578,12 @@
         "image_included": false
       },
       {
-        "text": "2. While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
+        "text": "While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
         "doc_index": 236,
         "style": "List Paragraph",
         "runs": [
           {
-            "text": "2. While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
+            "text": "While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
             "b": false,
             "i": false,
             "u": false,
@@ -5662,12 +5697,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId129]",
+        "text": "[image:rId127]",
         "doc_index": 241,
         "style": "List Continue 2",
         "runs": [
           {
-            "text": "[image:rId129]",
+            "text": "[image:rId127]",
             "b": false,
             "i": false,
             "u": false,
@@ -5675,7 +5710,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId129"
+              "rId127"
             ]
           }
         ],
@@ -5687,12 +5722,12 @@
         "image_included": false
       },
       {
-        "text": "3. A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
+        "text": "A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
         "doc_index": 242,
         "style": "List Paragraph",
         "runs": [
           {
-            "text": "3. A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
+            "text": "A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
             "b": false,
             "i": false,
             "u": false,
@@ -5710,12 +5745,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId130]",
+        "text": "[image:rId128]",
         "doc_index": 243,
         "style": "List Continue 2",
         "runs": [
           {
-            "text": "[image:rId130]",
+            "text": "[image:rId128]",
             "b": false,
             "i": false,
             "u": false,
@@ -5723,7 +5758,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId130"
+              "rId128"
             ]
           }
         ],
@@ -5758,7 +5793,7 @@
         "image_included": false
       },
       {
-        "text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId131] , [image:rId132] ).",
+        "text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId129] , [image:rId130] ).",
         "doc_index": 248,
         "style": null,
         "runs": [
@@ -5773,7 +5808,7 @@
             "image_rids": []
           },
           {
-            "text": "[image:rId131]",
+            "text": "[image:rId129]",
             "b": false,
             "i": false,
             "u": false,
@@ -5781,7 +5816,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId131"
+              "rId129"
             ]
           },
           {
@@ -5795,7 +5830,7 @@
             "image_rids": []
           },
           {
-            "text": "[image:rId132]",
+            "text": "[image:rId130]",
             "b": false,
             "i": false,
             "u": false,
@@ -5803,7 +5838,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId132"
+              "rId130"
             ]
           },
           {
@@ -5940,7 +5975,7 @@
         "image_included": false
       },
       {
-        "text": "Pressing the [image:rId133]button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up.[image:rId134]",
+        "text": "Pressing the [image:rId131]button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up.[image:rId132]",
         "doc_index": 257,
         "style": null,
         "runs": [
@@ -5955,7 +5990,7 @@
             "image_rids": []
           },
           {
-            "text": "[image:rId133]",
+            "text": "[image:rId131]",
             "b": false,
             "i": false,
             "u": false,
@@ -5963,7 +5998,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId133"
+              "rId131"
             ]
           },
           {
@@ -5987,7 +6022,7 @@
             "image_rids": []
           },
           {
-            "text": "[image:rId134]",
+            "text": "[image:rId132]",
             "b": false,
             "i": false,
             "u": false,
@@ -5995,7 +6030,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId134"
+              "rId132"
             ]
           },
           {
@@ -6421,12 +6456,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId135]",
+        "text": "[image:rId133]",
         "doc_index": 278,
         "style": null,
         "runs": [
           {
-            "text": "[image:rId135]",
+            "text": "[image:rId133]",
             "b": false,
             "i": false,
             "u": false,
@@ -6434,7 +6469,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId135"
+              "rId133"
             ]
           }
         ],
@@ -6548,12 +6583,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId142]",
+        "text": "[image:rId140]",
         "doc_index": 288,
         "style": null,
         "runs": [
           {
-            "text": "[image:rId142]",
+            "text": "[image:rId140]",
             "b": false,
             "i": false,
             "u": false,
@@ -6561,7 +6596,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId142"
+              "rId140"
             ]
           }
         ],
@@ -6629,12 +6664,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId143]",
+        "text": "[image:rId141]",
         "doc_index": 294,
         "style": null,
         "runs": [
           {
-            "text": "[image:rId143]",
+            "text": "[image:rId141]",
             "b": false,
             "i": false,
             "u": false,
@@ -6642,7 +6677,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId143"
+              "rId141"
             ]
           }
         ],
@@ -6692,7 +6727,17 @@
         "style": null,
         "runs": [
           {
-            "text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.",
+            "text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "or removed nodes can be checked in the Most used nodes tab of the Node window.",
             "b": false,
             "i": false,
             "u": false,
@@ -6710,12 +6755,12 @@
         "image_included": false
       },
       {
-        "text": "[image:rId144]",
+        "text": "[image:rId142]",
         "doc_index": 300,
         "style": null,
         "runs": [
           {
-            "text": "[image:rId144]",
+            "text": "[image:rId142]",
             "b": false,
             "i": false,
             "u": false,
@@ -6723,7 +6768,7 @@
             "sz": null,
             "color": null,
             "image_rids": [
-              "rId144"
+              "rId142"
             ]
           }
         ],
@@ -6902,7 +6947,7 @@
         "has_borders": true
       },
       {
-        "tid": "t58",
+        "tid": "t59",
         "rows": [
           [
             {
@@ -7126,11 +7171,11 @@
             }
           ]
         ],
-        "doc_index": 58,
+        "doc_index": 59,
         "has_borders": true
       },
       {
-        "tid": "t64",
+        "tid": "t65",
         "rows": [
           [
             {
@@ -7277,11 +7322,11 @@
             }
           ]
         ],
-        "doc_index": 64,
+        "doc_index": 65,
         "has_borders": true
       },
       {
-        "tid": "t67",
+        "tid": "t68",
         "rows": [
           [
             {
@@ -7362,11 +7407,11 @@
             }
           ]
         ],
-        "doc_index": 67,
+        "doc_index": 68,
         "has_borders": true
       },
       {
-        "tid": "t71",
+        "tid": "t72",
         "rows": [
           [
             {
@@ -7618,11 +7663,11 @@
             }
           ]
         ],
-        "doc_index": 71,
+        "doc_index": 72,
         "has_borders": true
       },
       {
-        "tid": "t79",
+        "tid": "t80",
         "rows": [
           [
             {
@@ -7753,11 +7798,11 @@
             }
           ]
         ],
-        "doc_index": 79,
+        "doc_index": 80,
         "has_borders": true
       },
       {
-        "tid": "t94",
+        "tid": "t95",
         "rows": [
           [
             {
@@ -7939,11 +7984,11 @@
             }
           ]
         ],
-        "doc_index": 94,
+        "doc_index": 95,
         "has_borders": true
       },
       {
-        "tid": "t159",
+        "tid": "t160",
         "rows": [
           [
             {
@@ -8038,11 +8083,11 @@
             }
           ]
         ],
-        "doc_index": 159,
+        "doc_index": 160,
         "has_borders": true
       },
       {
-        "tid": "t208",
+        "tid": "t209",
         "rows": [
           [
             {
@@ -8056,11 +8101,11 @@
             }
           ]
         ],
-        "doc_index": 208,
+        "doc_index": 209,
         "has_borders": false
       },
       {
-        "tid": "t216",
+        "tid": "t217",
         "rows": [
           [
             {
@@ -8201,43 +8246,7 @@
             }
           ]
         ],
-        "doc_index": 216,
-        "has_borders": true
-      },
-      {
-        "tid": "t220",
-        "rows": [
-          [
-            {
-              "text": "[image:rId123]",
-              "gridSpan": 1,
-              "vMerge": null,
-              "inline_images": [
-                "rId123"
-              ],
-              "has_style": false
-            },
-            {
-              "text": "[image:rId124]",
-              "gridSpan": 1,
-              "vMerge": null,
-              "inline_images": [
-                "rId124"
-              ],
-              "has_style": false
-            },
-            {
-              "text": "[image:rId125]",
-              "gridSpan": 1,
-              "vMerge": null,
-              "inline_images": [
-                "rId125"
-              ],
-              "has_style": false
-            }
-          ]
-        ],
-        "doc_index": 220,
+        "doc_index": 217,
         "has_borders": true
       },
       {
@@ -9018,12 +9027,12 @@
         "rows": [
           [
             {
-              "text": "[image:rId136] [image:rId137]",
+              "text": "[image:rId134] [image:rId135]",
               "gridSpan": 1,
               "vMerge": null,
               "inline_images": [
-                "rId136",
-                "rId137"
+                "rId134",
+                "rId135"
               ],
               "has_style": false
             },
@@ -9044,12 +9053,12 @@
           ],
           [
             {
-              "text": "[image:rId138] [image:rId139]",
+              "text": "[image:rId136] [image:rId137]",
               "gridSpan": 1,
               "vMerge": null,
               "inline_images": [
-                "rId138",
-                "rId139"
+                "rId136",
+                "rId137"
               ],
               "has_style": false
             },
@@ -9070,12 +9079,12 @@
           ],
           [
             {
-              "text": "[image:rId140] [image:rId141]",
+              "text": "[image:rId138] [image:rId139]",
               "gridSpan": 1,
               "vMerge": null,
               "inline_images": [
-                "rId140",
-                "rId141"
+                "rId138",
+                "rId139"
               ],
               "has_style": false
             },
@@ -9380,11 +9389,11 @@
           ],
           [
             {
-              "text": "[image:rId145]",
+              "text": "[image:rId143]",
               "gridSpan": 1,
               "vMerge": null,
               "inline_images": [
-                "rId145"
+                "rId143"
               ],
               "has_style": true
             },
@@ -9398,11 +9407,11 @@
           ],
           [
             {
-              "text": "[image:rId146]",
+              "text": "[image:rId144]",
               "gridSpan": 1,
               "vMerge": null,
               "inline_images": [
-                "rId146"
+                "rId144"
               ],
               "has_style": true
             },
@@ -9423,110 +9432,110 @@
       {
         "rId": "rId26",
         "filename": "image18.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image18.png"
       },
       {
         "rId": "rId117",
         "filename": "image83.png",
-        "doc_index": 200,
+        "doc_index": 201,
         "doc_indices": [
-          200
+          201
         ],
         "saved_path": "word/media/image83.png"
       },
       {
         "rId": "rId21",
         "filename": "image13.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image13.png"
       },
       {
         "rId": "rId42",
         "filename": "oleObject7.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject7.bin"
       },
       {
         "rId": "rId47",
         "filename": "image30.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image30.png"
       },
       {
         "rId": "rId63",
         "filename": "image39.png",
-        "doc_index": 88,
+        "doc_index": 89,
         "doc_indices": [
-          88
+          89
         ],
         "saved_path": "word/media/image39.png"
       },
       {
         "rId": "rId68",
         "filename": "image43.png",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/media/image43.png"
       },
       {
         "rId": "rId84",
         "filename": "image54.png",
-        "doc_index": 130,
+        "doc_index": 131,
         "doc_indices": [
-          130
+          131
         ],
         "saved_path": "word/media/image54.png"
       },
       {
         "rId": "rId89",
         "filename": "image59.png",
-        "doc_index": 143,
+        "doc_index": 144,
         "doc_indices": [
-          143
+          144
         ],
         "saved_path": "word/media/image59.png"
       },
       {
         "rId": "rId112",
         "filename": "image78.png",
-        "doc_index": 191,
+        "doc_index": 192,
         "doc_indices": [
-          191
+          192
         ],
         "saved_path": "word/media/image78.png"
       },
       {
         "rId": "rId133",
         "filename": "image99.png",
-        "doc_index": 257,
+        "doc_index": 278,
         "doc_indices": [
-          257
+          278
         ],
         "saved_path": "word/media/image99.png"
       },
       {
         "rId": "rId138",
-        "filename": "image103.png",
+        "filename": "image102.png",
         "doc_index": 283,
         "doc_indices": [
           283
         ],
-        "saved_path": "word/media/image103.png"
+        "saved_path": "word/media/image102.png"
       },
       {
         "rId": "rId16",
@@ -9540,9 +9549,9 @@
       {
         "rId": "rId107",
         "filename": "image73.png",
-        "doc_index": 178,
+        "doc_index": 179,
         "doc_indices": [
-          178
+          179
         ],
         "saved_path": "word/media/image73.png"
       },
@@ -9558,217 +9567,217 @@
       {
         "rId": "rId32",
         "filename": "oleObject2.bin",
-        "doc_index": 67,
+        "doc_index": 68,
         "doc_indices": [
-          67
+          68
         ],
         "saved_path": "word/embeddings/oleObject2.bin"
       },
       {
         "rId": "rId37",
         "filename": "image25.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image25.png"
       },
       {
         "rId": "rId53",
         "filename": "image33.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image33.png"
       },
       {
         "rId": "rId58",
         "filename": "oleObject15.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject15.bin"
       },
       {
         "rId": "rId74",
         "filename": "image46.png",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/media/image46.png"
       },
       {
         "rId": "rId79",
         "filename": "image49.png",
-        "doc_index": 105,
+        "doc_index": 106,
         "doc_indices": [
-          105
+          106
         ],
         "saved_path": "word/media/image49.png"
       },
       {
         "rId": "rId102",
         "filename": "image68.png",
-        "doc_index": 167,
+        "doc_index": 168,
         "doc_indices": [
-          167,
-          170
+          168,
+          171
         ],
         "saved_path": "word/media/image68.png"
       },
       {
         "rId": "rId123",
         "filename": "image89.png",
-        "doc_index": 220,
+        "doc_index": 221,
         "doc_indices": [
-          220
+          221
         ],
         "saved_path": "word/media/image89.png"
       },
       {
         "rId": "rId128",
         "filename": "image94.png",
-        "doc_index": 235,
+        "doc_index": 243,
         "doc_indices": [
-          235
+          243
         ],
         "saved_path": "word/media/image94.png"
       },
       {
         "rId": "rId144",
         "filename": "image107.png",
-        "doc_index": 300,
+        "doc_index": 304,
         "doc_indices": [
-          300
+          304
         ],
         "saved_path": "word/media/image107.png"
       },
       {
         "rId": "rId90",
         "filename": "image60.png",
-        "doc_index": 145,
+        "doc_index": 146,
         "doc_indices": [
-          145
+          146
         ],
         "saved_path": "word/media/image60.png"
       },
       {
         "rId": "rId95",
         "filename": "image64.png",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/media/image64.png"
       },
       {
         "rId": "rId22",
         "filename": "image14.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image14.png"
       },
       {
         "rId": "rId27",
         "filename": "image19.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image19.png"
       },
       {
         "rId": "rId43",
         "filename": "image28.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image28.png"
       },
       {
         "rId": "rId48",
         "filename": "oleObject10.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject10.bin"
       },
       {
         "rId": "rId64",
         "filename": "image40.png",
-        "doc_index": 88,
+        "doc_index": 89,
         "doc_indices": [
-          88
+          89
         ],
         "saved_path": "word/media/image40.png"
       },
       {
         "rId": "rId69",
         "filename": "oleObject18.bin",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/embeddings/oleObject18.bin"
       },
       {
         "rId": "rId113",
         "filename": "image79.png",
-        "doc_index": 193,
+        "doc_index": 194,
         "doc_indices": [
-          193
+          194
         ],
         "saved_path": "word/media/image79.png"
       },
       {
         "rId": "rId118",
         "filename": "image84.png",
-        "doc_index": 202,
+        "doc_index": 203,
         "doc_indices": [
-          202
+          203
         ],
         "saved_path": "word/media/image84.png"
       },
       {
         "rId": "rId134",
         "filename": "image100.png",
-        "doc_index": 257,
+        "doc_index": 283,
         "doc_indices": [
-          257
+          283
         ],
         "saved_path": "word/media/image100.png"
       },
       {
         "rId": "rId139",
-        "filename": "oleObject28.bin",
+        "filename": "oleObject29.bin",
         "doc_index": 283,
         "doc_indices": [
           283
         ],
-        "saved_path": "word/embeddings/oleObject28.bin"
+        "saved_path": "word/embeddings/oleObject29.bin"
       },
       {
         "rId": "rId80",
         "filename": "image50.png",
-        "doc_index": 110,
+        "doc_index": 111,
         "doc_indices": [
-          110
+          111
         ],
         "saved_path": "word/media/image50.png"
       },
       {
         "rId": "rId85",
         "filename": "image55.png",
-        "doc_index": 135,
+        "doc_index": 136,
         "doc_indices": [
-          135
+          136
         ],
         "saved_path": "word/media/image55.png"
       },
@@ -9793,110 +9802,110 @@
       {
         "rId": "rId25",
         "filename": "image17.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image17.png"
       },
       {
         "rId": "rId33",
         "filename": "image23.png",
-        "doc_index": 67,
+        "doc_index": 68,
         "doc_indices": [
-          67
+          68
         ],
         "saved_path": "word/media/image23.png"
       },
       {
         "rId": "rId38",
         "filename": "oleObject5.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject5.bin"
       },
       {
         "rId": "rId46",
         "filename": "oleObject9.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject9.bin"
       },
       {
         "rId": "rId59",
         "filename": "image36.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image36.png"
       },
       {
         "rId": "rId67",
         "filename": "oleObject17.bin",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/embeddings/oleObject17.bin"
       },
       {
         "rId": "rId103",
         "filename": "image69.png",
-        "doc_index": 172,
+        "doc_index": 173,
         "doc_indices": [
-          172
+          173
         ],
         "saved_path": "word/media/image69.png"
       },
       {
         "rId": "rId108",
         "filename": "image74.png",
-        "doc_index": 179,
+        "doc_index": 180,
         "doc_indices": [
-          179
+          180
         ],
         "saved_path": "word/media/image74.png"
       },
       {
         "rId": "rId116",
         "filename": "image82.png",
-        "doc_index": 198,
+        "doc_index": 199,
         "doc_indices": [
-          198
+          199
         ],
         "saved_path": "word/media/image82.png"
       },
       {
         "rId": "rId124",
         "filename": "image90.png",
-        "doc_index": 220,
+        "doc_index": 223,
         "doc_indices": [
-          220
+          223
         ],
         "saved_path": "word/media/image90.png"
       },
       {
         "rId": "rId129",
         "filename": "image95.png",
-        "doc_index": 241,
+        "doc_index": 248,
         "doc_indices": [
-          241
+          248
         ],
         "saved_path": "word/media/image95.png"
       },
       {
         "rId": "rId137",
-        "filename": "oleObject27.bin",
+        "filename": "oleObject28.bin",
         "doc_index": 283,
         "doc_indices": [
           283
         ],
-        "saved_path": "word/embeddings/oleObject27.bin"
+        "saved_path": "word/embeddings/oleObject28.bin"
       },
       {
         "rId": "rId20",
@@ -9910,119 +9919,110 @@
       {
         "rId": "rId41",
         "filename": "image27.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image27.png"
       },
       {
         "rId": "rId54",
         "filename": "oleObject13.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject13.bin"
       },
       {
         "rId": "rId62",
         "filename": "image38.png",
-        "doc_index": 83,
+        "doc_index": 84,
         "doc_indices": [
-          83
+          84
         ],
         "saved_path": "word/media/image38.png"
       },
       {
         "rId": "rId70",
         "filename": "image44.png",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/media/image44.png"
       },
       {
         "rId": "rId75",
         "filename": "oleObject21.bin",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/embeddings/oleObject21.bin"
       },
       {
         "rId": "rId83",
         "filename": "image53.png",
-        "doc_index": 127,
+        "doc_index": 128,
         "doc_indices": [
-          127
+          128
         ],
         "saved_path": "word/media/image53.png"
       },
       {
         "rId": "rId88",
         "filename": "image58.png",
-        "doc_index": 141,
+        "doc_index": 142,
         "doc_indices": [
-          141
+          142
         ],
         "saved_path": "word/media/image58.png"
       },
       {
         "rId": "rId91",
         "filename": "image61.png",
-        "doc_index": 148,
+        "doc_index": 149,
         "doc_indices": [
-          148
+          149
         ],
         "saved_path": "word/media/image61.png"
       },
       {
         "rId": "rId96",
         "filename": "oleObject24.bin",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/embeddings/oleObject24.bin"
       },
       {
         "rId": "rId111",
         "filename": "image77.png",
-        "doc_index": 189,
+        "doc_index": 190,
         "doc_indices": [
-          189
+          190
         ],
         "saved_path": "word/media/image77.png"
       },
       {
         "rId": "rId132",
         "filename": "image98.png",
-        "doc_index": 248,
+        "doc_index": 257,
         "doc_indices": [
-          248
+          257
         ],
         "saved_path": "word/media/image98.png"
       },
       {
         "rId": "rId140",
-        "filename": "image104.png",
-        "doc_index": 283,
+        "filename": "image103.png",
+        "doc_index": 288,
         "doc_indices": [
-          283
+          288
         ],
-        "saved_path": "word/media/image104.png"
-      },
-      {
-        "rId": "rId145",
-        "filename": "image108.png",
-        "doc_index": 304,
-        "doc_indices": [
-          304
-        ],
-        "saved_path": "word/media/image108.png"
+        "saved_path": "word/media/image103.png"
       },
       {
         "rId": "rId15",
@@ -10036,81 +10036,81 @@
       {
         "rId": "rId23",
         "filename": "image15.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image15.png"
       },
       {
         "rId": "rId28",
         "filename": "image20.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image20.png"
       },
       {
         "rId": "rId36",
         "filename": "oleObject4.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject4.bin"
       },
       {
         "rId": "rId49",
         "filename": "image31.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image31.png"
       },
       {
         "rId": "rId57",
         "filename": "image35.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image35.png"
       },
       {
         "rId": "rId106",
         "filename": "image72.png",
-        "doc_index": 176,
+        "doc_index": 177,
         "doc_indices": [
-          176
+          177
         ],
         "saved_path": "word/media/image72.png"
       },
       {
         "rId": "rId114",
         "filename": "image80.png",
-        "doc_index": 195,
+        "doc_index": 196,
         "doc_indices": [
-          195
+          196
         ],
         "saved_path": "word/media/image80.png"
       },
       {
         "rId": "rId119",
         "filename": "image85.png",
-        "doc_index": 204,
+        "doc_index": 205,
         "doc_indices": [
-          204
+          205
         ],
         "saved_path": "word/media/image85.png"
       },
       {
         "rId": "rId127",
         "filename": "image93.png",
-        "doc_index": 226,
+        "doc_index": 241,
         "doc_indices": [
-          226
+          241
         ],
         "saved_path": "word/media/image93.png"
       },
@@ -10126,144 +10126,144 @@
       {
         "rId": "rId31",
         "filename": "image22.png",
-        "doc_index": 67,
+        "doc_index": 68,
         "doc_indices": [
-          67
+          68
         ],
         "saved_path": "word/media/image22.png"
       },
       {
         "rId": "rId44",
         "filename": "oleObject8.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject8.bin"
       },
       {
         "rId": "rId52",
         "filename": "oleObject12.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject12.bin"
       },
       {
         "rId": "rId60",
         "filename": "oleObject16.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject16.bin"
       },
       {
         "rId": "rId65",
         "filename": "image41.png",
-        "doc_index": 91,
+        "doc_index": 92,
         "doc_indices": [
-          91
+          92
         ],
         "saved_path": "word/media/image41.png"
       },
       {
         "rId": "rId73",
         "filename": "oleObject20.bin",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/embeddings/oleObject20.bin"
       },
       {
         "rId": "rId78",
         "filename": "image48.png",
-        "doc_index": 98,
+        "doc_index": 99,
         "doc_indices": [
-          98
+          99
         ],
         "saved_path": "word/media/image48.png"
       },
       {
         "rId": "rId81",
         "filename": "image51.png",
-        "doc_index": 115,
+        "doc_index": 116,
         "doc_indices": [
-          115
+          116
         ],
         "saved_path": "word/media/image51.png"
       },
       {
         "rId": "rId86",
         "filename": "image56.png",
-        "doc_index": 138,
+        "doc_index": 139,
         "doc_indices": [
-          138
+          139
         ],
         "saved_path": "word/media/image56.png"
       },
       {
         "rId": "rId94",
         "filename": "oleObject23.bin",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/embeddings/oleObject23.bin"
       },
       {
         "rId": "rId99",
         "filename": "image66.png",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/media/image66.png"
       },
       {
         "rId": "rId101",
         "filename": "image67.png",
-        "doc_index": 163,
+        "doc_index": 164,
         "doc_indices": [
-          163
+          164
         ],
         "saved_path": "word/media/image67.png"
       },
       {
         "rId": "rId122",
         "filename": "image88.png",
-        "doc_index": 212,
+        "doc_index": 213,
         "doc_indices": [
-          212
+          213
         ],
         "saved_path": "word/media/image88.png"
       },
       {
         "rId": "rId130",
         "filename": "image96.png",
-        "doc_index": 243,
+        "doc_index": 248,
         "doc_indices": [
-          243
+          248
         ],
         "saved_path": "word/media/image96.png"
       },
       {
         "rId": "rId135",
-        "filename": "image101.png",
-        "doc_index": 278,
+        "filename": "oleObject27.bin",
+        "doc_index": 283,
         "doc_indices": [
-          278
+          283
         ],
-        "saved_path": "word/media/image101.png"
+        "saved_path": "word/embeddings/oleObject27.bin"
       },
       {
         "rId": "rId143",
         "filename": "image106.png",
-        "doc_index": 294,
+        "doc_index": 304,
         "doc_indices": [
-          294
+          304
         ],
         "saved_path": "word/media/image106.png"
       },
@@ -10297,235 +10297,226 @@
       {
         "rId": "rId39",
         "filename": "image26.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image26.png"
       },
       {
         "rId": "rId109",
         "filename": "image75.png",
-        "doc_index": 182,
+        "doc_index": 183,
         "doc_indices": [
-          182
+          183
         ],
         "saved_path": "word/media/image75.png"
       },
       {
         "rId": "rId34",
         "filename": "oleObject3.bin",
-        "doc_index": 67,
+        "doc_index": 68,
         "doc_indices": [
-          67
+          68
         ],
         "saved_path": "word/embeddings/oleObject3.bin"
       },
       {
         "rId": "rId50",
         "filename": "oleObject11.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject11.bin"
       },
       {
         "rId": "rId55",
         "filename": "image34.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image34.png"
       },
       {
         "rId": "rId76",
         "filename": "image47.png",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/media/image47.png"
       },
       {
         "rId": "rId97",
         "filename": "image65.png",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/media/image65.png"
       },
       {
         "rId": "rId104",
         "filename": "image70.png",
-        "doc_index": 174,
+        "doc_index": 175,
         "doc_indices": [
-          174
+          175
         ],
         "saved_path": "word/media/image70.png"
       },
       {
         "rId": "rId120",
         "filename": "image86.png",
-        "doc_index": 206,
+        "doc_index": 207,
         "doc_indices": [
-          206
+          207
         ],
         "saved_path": "word/media/image86.png"
       },
       {
         "rId": "rId125",
         "filename": "image91.png",
-        "doc_index": 220,
+        "doc_index": 226,
         "doc_indices": [
-          220
+          226
         ],
         "saved_path": "word/media/image91.png"
       },
       {
         "rId": "rId141",
-        "filename": "oleObject29.bin",
-        "doc_index": 283,
+        "filename": "image104.png",
+        "doc_index": 294,
         "doc_indices": [
-          283
+          294
         ],
-        "saved_path": "word/embeddings/oleObject29.bin"
-      },
-      {
-        "rId": "rId146",
-        "filename": "image109.png",
-        "doc_index": 304,
-        "doc_indices": [
-          304
-        ],
-        "saved_path": "word/media/image109.png"
+        "saved_path": "word/media/image104.png"
       },
       {
         "rId": "rId71",
         "filename": "oleObject19.bin",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/embeddings/oleObject19.bin"
       },
       {
         "rId": "rId92",
         "filename": "image62.png",
-        "doc_index": 158,
+        "doc_index": 159,
         "doc_indices": [
-          158
+          159
         ],
         "saved_path": "word/media/image62.png"
       },
       {
         "rId": "rId29",
         "filename": "image21.png",
-        "doc_index": 67,
+        "doc_index": 68,
         "doc_indices": [
-          67
+          68
         ],
         "saved_path": "word/media/image21.png"
       },
       {
         "rId": "rId24",
         "filename": "image16.png",
-        "doc_index": 64,
+        "doc_index": 65,
         "doc_indices": [
-          64
+          65
         ],
         "saved_path": "word/media/image16.png"
       },
       {
         "rId": "rId40",
         "filename": "oleObject6.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject6.bin"
       },
       {
         "rId": "rId45",
         "filename": "image29.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image29.png"
       },
       {
         "rId": "rId66",
         "filename": "image42.png",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/media/image42.png"
       },
       {
         "rId": "rId87",
         "filename": "image57.png",
-        "doc_index": 139,
+        "doc_index": 140,
         "doc_indices": [
-          139
+          140
         ],
         "saved_path": "word/media/image57.png"
       },
       {
         "rId": "rId110",
         "filename": "image76.png",
-        "doc_index": 184,
+        "doc_index": 185,
         "doc_indices": [
-          184,
-          187
+          185,
+          188
         ],
         "saved_path": "word/media/image76.png"
       },
       {
         "rId": "rId115",
         "filename": "image81.png",
-        "doc_index": 196,
+        "doc_index": 197,
         "doc_indices": [
-          196
+          197
         ],
         "saved_path": "word/media/image81.png"
       },
       {
         "rId": "rId131",
         "filename": "image97.png",
-        "doc_index": 248,
+        "doc_index": 257,
         "doc_indices": [
-          248
+          257
         ],
         "saved_path": "word/media/image97.png"
       },
       {
         "rId": "rId136",
-        "filename": "image102.png",
+        "filename": "image101.png",
         "doc_index": 283,
         "doc_indices": [
           283
         ],
-        "saved_path": "word/media/image102.png"
+        "saved_path": "word/media/image101.png"
       },
       {
         "rId": "rId61",
         "filename": "image37.png",
-        "doc_index": 76,
+        "doc_index": 77,
         "doc_indices": [
-          76
+          77
         ],
         "saved_path": "word/media/image37.png"
       },
       {
         "rId": "rId82",
         "filename": "image52.png",
-        "doc_index": 124,
+        "doc_index": 125,
         "doc_indices": [
-          124
+          125
         ],
         "saved_path": "word/media/image52.png"
       },
@@ -10550,123 +10541,123 @@
       {
         "rId": "rId30",
         "filename": "oleObject1.bin",
-        "doc_index": 67,
+        "doc_index": 68,
         "doc_indices": [
-          67
+          68
         ],
         "saved_path": "word/embeddings/oleObject1.bin"
       },
       {
         "rId": "rId35",
         "filename": "image24.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image24.png"
       },
       {
         "rId": "rId56",
         "filename": "oleObject14.bin",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/embeddings/oleObject14.bin"
       },
       {
         "rId": "rId77",
         "filename": "oleObject22.bin",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/embeddings/oleObject22.bin"
       },
       {
         "rId": "rId100",
         "filename": "oleObject26.bin",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/embeddings/oleObject26.bin"
       },
       {
         "rId": "rId105",
         "filename": "image71.png",
-        "doc_index": 175,
+        "doc_index": 176,
         "doc_indices": [
-          175
+          176
         ],
         "saved_path": "word/media/image71.png"
       },
       {
         "rId": "rId126",
         "filename": "image92.png",
-        "doc_index": 223,
+        "doc_index": 235,
         "doc_indices": [
-          223
+          235
         ],
         "saved_path": "word/media/image92.png"
       },
       {
         "rId": "rId51",
         "filename": "image32.png",
-        "doc_index": 71,
+        "doc_index": 72,
         "doc_indices": [
-          71
+          72
         ],
         "saved_path": "word/media/image32.png"
       },
       {
         "rId": "rId72",
         "filename": "image45.png",
-        "doc_index": 94,
+        "doc_index": 95,
         "doc_indices": [
-          94
+          95
         ],
         "saved_path": "word/media/image45.png"
       },
       {
         "rId": "rId93",
         "filename": "image63.png",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/media/image63.png"
       },
       {
         "rId": "rId98",
         "filename": "oleObject25.bin",
-        "doc_index": 159,
+        "doc_index": 160,
         "doc_indices": [
-          159
+          160
         ],
         "saved_path": "word/embeddings/oleObject25.bin"
       },
       {
         "rId": "rId121",
         "filename": "image87.png",
-        "doc_index": 208,
+        "doc_index": 209,
         "doc_indices": [
-          208
+          209
         ],
         "saved_path": "word/media/image87.png"
       },
       {
         "rId": "rId142",
         "filename": "image105.png",
-        "doc_index": 288,
+        "doc_index": 300,
         "doc_indices": [
-          288
+          300
         ],
         "saved_path": "word/media/image105.png"
       }
     ]
   },
   "error": null,
-  "processing_time": 0.03584551811218262,
+  "processing_time": 0.044577836990356445,
   "payload_tag": "docx_xml"
 }

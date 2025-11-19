@@ -31,7 +31,7 @@ uv sync          # pyproject.toml + uv.lock 기반 패키지 설치/업데이트
 
 예)
 ```bash
-./start.sh 1장_v3.1.docx --version v0
+./start.sh Appendix_v2.docx --version v0
 ./start.sh ../_datasets/ecminer --all --version v0   # 디렉터리 전체 처리
 ```
 

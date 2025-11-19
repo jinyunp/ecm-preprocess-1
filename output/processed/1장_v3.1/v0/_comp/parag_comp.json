@@ -295,76 +295,76 @@
     },
     {
       "text": "1.3.1 Menu",
-      "doc_index": 61,
+      "doc_index": 62,
       "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        61
+        62
       ]
     },
     {
       "text": "The menu is located at the top of the screen. It provides menus such as Project(P), Edit(E), View(V), Stream(S), Extension(A), Tool(T), Window(W), Help(H), and others.\nTool's Option allows to set up the user-specific option.",
-      "doc_index": 62,
+      "doc_index": 63,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        62,
-        66
+        63,
+        67
       ]
     },
     {
       "text": "Tool Bar",
-      "doc_index": 70,
+      "doc_index": 71,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        70
+        71
       ]
     },
     {
       "text": "1.3.2 Node",
-      "doc_index": 74,
+      "doc_index": 75,
       "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        74
+        75
       ]
     },
     {
       "text": "Data loading, data preprocessing, modeling and evaluation. Select and drag each node in order in the working space, and connect to each in turn.\n[image:rId61]\nThe node window is classified into a total of seven categories.",
-      "doc_index": 75,
+      "doc_index": 76,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        75,
         76,
-        78
+        77,
+        79
       ]
     },
     {
       "text": "1.3.3 Project Window",
-      "doc_index": 81,
+      "doc_index": 82,
       "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        81
+        82
       ]
     },
     {
       "text": "S tart with Input Node, ‘Column filter’ and ‘Type change’ to define indep. & dep. Variables, and select either ‘Continuous’ or ‘Discrete’. Connect to modeling node.\n[image:rId62]\nThe project window shows the flow map of the data analysis.",
-      "doc_index": 82,
+      "doc_index": 83,
       "style": null,
       "emphasized": [
         "Input Node",
@@ -374,72 +374,61 @@
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        82,
         83,
-        84
+        84,
+        85
       ]
     },
     {
       "text": "Select Project",
-      "doc_index": 86,
+      "doc_index": 87,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        86
+        87
       ]
     },
     {
       "text": "To activate a project, press the tab on the top.\n[image:rId63] [image:rId64]",
-      "doc_index": 87,
+      "doc_index": 88,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        87,
-        88
-      ]
-    },
-    {
-      "text": "Close Project",
-      "doc_index": 89,
-      "style": "소제목2",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
+        88,
         89
       ]
     },
     {
-      "text": "Select \"Project > Close\" or press “X” button.\n[image:rId65].",
+      "text": "Close Project",
       "doc_index": 90,
-      "style": null,
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": true,
-      "source_doc_indices": [
-        90,
-        91
-      ]
-    },
-    {
-      "text": "Nodes",
-      "doc_index": 92,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
+        90
+      ]
+    },
+    {
+      "text": "Select \"Project > Close\" or press “X” button.\n[image:rId65].",
+      "doc_index": 91,
+      "style": null,
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
+      "source_doc_indices": [
+        91,
         92
       ]
     },
     {
-      "text": "Various types of icons for different tasks.",
+      "text": "Nodes",
       "doc_index": 93,
-      "style": null,
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -448,19 +437,30 @@
       ]
     },
     {
+      "text": "Various types of icons for different tasks.",
+      "doc_index": 94,
+      "style": null,
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
+      "source_doc_indices": [
+        94
+      ]
+    },
+    {
       "text": "Context Menu",
-      "doc_index": 96,
+      "doc_index": 97,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        96
+        97
       ]
     },
     {
       "text": "Right-clicking in the project window displays all the menu nodes.\n[image:rId78]\nThe newly added feature in this latest version, 'Insert Memo', is added for users to make notes when configuring nodes and projects",
-      "doc_index": 97,
+      "doc_index": 98,
       "style": null,
       "emphasized": [
         "the project window"
@@ -468,26 +468,15 @@
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        97,
         98,
-        99
+        99,
+        100
       ]
     },
     {
       "text": "1.3.4 Node Properties",
-      "doc_index": 101,
-      "style": "heading 3",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
-        101
-      ]
-    },
-    {
-      "text": "It shows the properties of the project or the selected node.",
       "doc_index": 102,
-      "style": null,
+      "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -496,42 +485,42 @@
       ]
     },
     {
-      "text": "Project Properties",
-      "doc_index": 104,
-      "style": "소제목2",
+      "text": "It shows the properties of the project or the selected node.",
+      "doc_index": 103,
+      "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        104
+        103
       ]
     },
     {
-      "text": "In the project properties window, you may add a memo of the project's objective and description. The Project Creator shows the username of the person logged into Windows and cannot be changed. [image:rId79]",
+      "text": "Project Properties",
       "doc_index": 105,
-      "style": null,
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         105
       ]
     },
     {
-      "text": "Node Property about data",
+      "text": "In the project properties window, you may add a memo of the project's objective and description. The Project Creator shows the username of the person logged into Windows and cannot be changed. [image:rId79]",
       "doc_index": 106,
-      "style": "소제목2",
+      "style": null,
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         106
       ]
     },
     {
-      "text": "Node property for data tells the variable names and data type. Data types can be changed.",
+      "text": "Node Property about data",
       "doc_index": 107,
-      "style": "List Bullet",
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -540,7 +529,7 @@
       ]
     },
     {
-      "text": "Exclusion of variable in ‘Column Filter’.",
+      "text": "Node property for data tells the variable names and data type. Data types can be changed.",
       "doc_index": 108,
       "style": "List Bullet",
       "emphasized": [],
@@ -551,7 +540,7 @@
       ]
     },
     {
-      "text": "Define the dependent and independent variables in ‘Type Change’.",
+      "text": "Exclusion of variable in ‘Column Filter’.",
       "doc_index": 109,
       "style": "List Bullet",
       "emphasized": [],
@@ -562,54 +551,54 @@
       ]
     },
     {
-      "text": "[image:rId80]",
+      "text": "Define the dependent and independent variables in ‘Type Change’.",
       "doc_index": 110,
       "style": "List Bullet",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         110
       ]
     },
     {
+      "text": "[image:rId80]",
+      "doc_index": 111,
+      "style": "List Bullet",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
+      "source_doc_indices": [
+        111
+      ]
+    },
+    {
       "text": "1.3.5 Resource Window",
-      "doc_index": 113,
+      "doc_index": 114,
       "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        113
+        114
       ]
     },
     {
       "text": "In ECMiner™, resources refer to all files including data, results, models, and project files.\n[image:rId81]",
-      "doc_index": 114,
+      "doc_index": 115,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        114,
-        115
+        115,
+        116
       ]
     },
     {
       "text": "Resource Menu",
-      "doc_index": 117,
-      "style": "소제목2",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
-        117
-      ]
-    },
-    {
-      "text": "Local menu displays a list of files in the resource list.",
       "doc_index": 118,
-      "style": "List Bullet",
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -618,7 +607,7 @@
       ]
     },
     {
-      "text": "Model menu shows the list of model files. You may utilize it for future runs.",
+      "text": "Local menu displays a list of files in the resource list.",
       "doc_index": 119,
       "style": "List Bullet",
       "emphasized": [],
@@ -629,7 +618,7 @@
       ]
     },
     {
-      "text": "Output menu displays the list of output for each project.",
+      "text": "Model menu shows the list of model files. You may utilize it for future runs.",
       "doc_index": 120,
       "style": "List Bullet",
       "emphasized": [],
@@ -640,20 +629,20 @@
       ]
     },
     {
-      "text": "Resource List",
-      "doc_index": 122,
-      "style": "소제목2",
+      "text": "Output menu displays the list of output for each project.",
+      "doc_index": 121,
+      "style": "List Bullet",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        122
+        121
       ]
     },
     {
-      "text": "When selecting the Local menu",
+      "text": "Resource List",
       "doc_index": 123,
-      "style": "List Paragraph",
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -662,31 +651,31 @@
       ]
     },
     {
-      "text": "[image:rId82]",
+      "text": "When selecting the Local menu",
       "doc_index": 124,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         124
       ]
     },
     {
-      "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
+      "text": "[image:rId82]",
       "doc_index": 125,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         125
       ]
     },
     {
-      "text": "When selecting the Model menu",
+      "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
       "doc_index": 126,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -695,31 +684,31 @@
       ]
     },
     {
-      "text": "[image:rId83]",
+      "text": "When selecting the Model menu",
       "doc_index": 127,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         127
       ]
     },
     {
-      "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
+      "text": "[image:rId83]",
       "doc_index": 128,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         128
       ]
     },
     {
-      "text": "When selecting the Output menu",
+      "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
       "doc_index": 129,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -728,42 +717,42 @@
       ]
     },
     {
-      "text": "[image:rId84]",
+      "text": "When selecting the Output menu",
       "doc_index": 130,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         130
       ]
     },
     {
-      "text": "After running modeling, the output results are listed in the project with sub-tree. Select the results you want to view. It shows the results for comparison. Additionally, it offers the ability to save results or view previously saved results.",
+      "text": "[image:rId84]",
       "doc_index": 131,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         131
       ]
     },
     {
-      "text": "1.3.6 Resource Window -Local",
-      "doc_index": 133,
-      "style": "heading 3",
+      "text": "After running modeling, the output results are listed in the project with sub-tree. Select the results you want to view. It shows the results for comparison. Additionally, it offers the ability to save results or view previously saved results.",
+      "doc_index": 132,
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        133
+        132
       ]
     },
     {
-      "text": "Task Folder",
+      "text": "1.3.6 Resource Window -Local",
       "doc_index": 134,
-      "style": "소제목2",
+      "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -772,30 +761,41 @@
       ]
     },
     {
-      "text": "A task folder in ECMiner™ is a frequently used one, which can be renamed (aliased) with another name. Users need to add the task folder themselves, and once added, the work folders will appear in the Local menu within the resource window. [image:rId85] You may Add/Delete/Modify the folder using the toolbar",
+      "text": "Task Folder",
       "doc_index": 135,
-      "style": null,
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": true,
-      "source_doc_indices": [
-        135
-      ]
-    },
-    {
-      "text": "Add Task Folder",
-      "doc_index": 137,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        137
+        135
+      ]
+    },
+    {
+      "text": "A task folder in ECMiner™ is a frequently used one, which can be renamed (aliased) with another name. Users need to add the task folder themselves, and once added, the work folders will appear in the Local menu within the resource window. [image:rId85] You may Add/Delete/Modify the folder using the toolbar",
+      "doc_index": 136,
+      "style": null,
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
+      "source_doc_indices": [
+        136
+      ]
+    },
+    {
+      "text": "Add Task Folder",
+      "doc_index": 138,
+      "style": "소제목2",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
+      "source_doc_indices": [
+        138
       ]
     },
     {
       "text": "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name.",
-      "doc_index": 138,
+      "doc_index": 139,
       "style": "소제목2",
       "emphasized": [
         "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
@@ -803,101 +803,90 @@
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        138
+        139
       ]
     },
     {
       "text": "[image:rId87]",
-      "doc_index": 139,
+      "doc_index": 140,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        139
-      ]
-    },
-    {
-      "text": "Modify Task Folder",
-      "doc_index": 140,
-      "style": "List Paragraph",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
         140
       ]
     },
     {
-      "text": "To change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.",
+      "text": "Modify Task Folder",
       "doc_index": 141,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         141
       ]
     },
     {
-      "text": "Delete Task Folder",
+      "text": "To change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.",
       "doc_index": 142,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         142
       ]
     },
     {
-      "text": "To delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.",
+      "text": "Delete Task Folder",
       "doc_index": 143,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         143
       ]
     },
     {
-      "text": "Reload",
+      "text": "To delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.",
       "doc_index": 144,
-      "style": "List Paragraph",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
-        144
-      ]
-    },
-    {
-      "text": "To reload the file list of the task folder, click the [image:rId90] button in the toolbar.",
-      "doc_index": 145,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        145
+        144
       ]
     },
     {
-      "text": "Create New Folder",
-      "doc_index": 146,
+      "text": "Reload",
+      "doc_index": 145,
       "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
+        145
+      ]
+    },
+    {
+      "text": "To reload the file list of the task folder, click the [image:rId90] button in the toolbar.",
+      "doc_index": 146,
+      "style": "List Continue 2",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
+      "source_doc_indices": [
         146
       ]
     },
     {
-      "text": "Right-clicking on the task folder in the Resource menu.",
+      "text": "Create New Folder",
       "doc_index": 147,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -906,42 +895,42 @@
       ]
     },
     {
-      "text": "[image:rId91]",
+      "text": "Right-clicking on the task folder in the Resource menu.",
       "doc_index": 148,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         148
       ]
     },
     {
-      "text": "Give the name of folder, it will add the task folder.",
+      "text": "[image:rId91]",
       "doc_index": 149,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         149
       ]
     },
     {
-      "text": "Utilizing Task Folders",
-      "doc_index": 151,
-      "style": "소제목2",
+      "text": "Give the name of folder, it will add the task folder.",
+      "doc_index": 150,
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        151
+        150
       ]
     },
     {
-      "text": "Project Management",
+      "text": "Utilizing Task Folders",
       "doc_index": 152,
-      "style": "List Paragraph",
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -950,9 +939,9 @@
       ]
     },
     {
-      "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
+      "text": "Project Management",
       "doc_index": 153,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -961,9 +950,9 @@
       ]
     },
     {
-      "text": "Data Sharing",
+      "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
       "doc_index": 154,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -972,9 +961,9 @@
       ]
     },
     {
-      "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
+      "text": "Data Sharing",
       "doc_index": 155,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -983,9 +972,9 @@
       ]
     },
     {
-      "text": "Resource List",
+      "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
       "doc_index": 156,
-      "style": "소제목2",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -994,194 +983,194 @@
       ]
     },
     {
-      "text": "The file lists of the selected folder.\n[image:rId92]",
+      "text": "Resource List",
       "doc_index": 157,
-      "style": null,
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": true,
-      "source_doc_indices": [
-        157,
-        158
-      ]
-    },
-    {
-      "text": "Utilizing the Resource List",
-      "doc_index": 161,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        161
+        157
       ]
     },
     {
-      "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.\n[image:rId101]",
-      "doc_index": 162,
+      "text": "The file lists of the selected folder.\n[image:rId92]",
+      "doc_index": 158,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        162,
-        163
+        158,
+        159
       ]
     },
     {
-      "text": "1.3.7 Resource Window -Model",
-      "doc_index": 166,
-      "style": "heading 3",
+      "text": "Utilizing the Resource List",
+      "doc_index": 162,
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        166
+        162
       ]
     },
     {
-      "text": "After running the model stream, temporary models are listed in the resource window. [image:rId102]",
-      "doc_index": 167,
+      "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.\n[image:rId101]",
+      "doc_index": 163,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
+      "source_doc_indices": [
+        163,
+        164
+      ]
+    },
+    {
+      "text": "1.3.7 Resource Window -Model",
+      "doc_index": 167,
+      "style": "heading 3",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
       "source_doc_indices": [
         167
       ]
     },
     {
-      "text": "Temporary Model",
+      "text": "After running the model stream, temporary models are listed in the resource window. [image:rId102]",
       "doc_index": 168,
-      "style": "소제목2",
+      "style": null,
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         168
       ]
     },
     {
-      "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.\n[image:rId102]",
+      "text": "Temporary Model",
       "doc_index": 169,
-      "style": null,
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": true,
-      "source_doc_indices": [
-        169,
-        170
-      ]
-    },
-    {
-      "text": "Delete Model",
-      "doc_index": 171,
       "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        171
+        169
       ]
     },
     {
-      "text": "To remove an ou t put file in the list, press [image:rId103]",
-      "doc_index": 172,
+      "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.\n[image:rId102]",
+      "doc_index": 170,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
+      "source_doc_indices": [
+        170,
+        171
+      ]
+    },
+    {
+      "text": "Delete Model",
+      "doc_index": 172,
+      "style": "소제목2",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
       "source_doc_indices": [
         172
       ]
     },
     {
-      "text": "Save Model",
+      "text": "To remove an ou t put file in the list, press [image:rId103]",
       "doc_index": 173,
-      "style": "소제목2",
+      "style": null,
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         173
       ]
     },
     {
-      "text": "[image:rId104]\nTo save a temporary model for another use, press [image:rId105] Give the model name and specify the path, \"given_model name.gms \" is saved in the task folder.\n[image:rId106]\nAnother method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).\n[image:rId107]\n[image:rId108] In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms \" in the task folder (or subfolder) where you dropped it, indicating the save path.",
+      "text": "Save Model",
       "doc_index": 174,
+      "style": "소제목2",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
+      "source_doc_indices": [
+        174
+      ]
+    },
+    {
+      "text": "[image:rId104]\nTo save a temporary model for another use, press [image:rId105] Give the model name and specify the path, \"given_model name.gms \" is saved in the task folder.\n[image:rId106]\nAnother method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).\n[image:rId107]\n[image:rId108] In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms \" in the task folder (or subfolder) where you dropped it, indicating the save path.",
+      "doc_index": 175,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        174,
         175,
         176,
         177,
         178,
-        179
+        179,
+        180
       ]
     },
     {
       "text": "1.3.8 Resource Window -Output",
-      "doc_index": 180,
+      "doc_index": 181,
       "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        180
+        181
       ]
     },
     {
       "text": "The results created after executing the stream will appear in the list when the Output menu is selected.\n[image:rId109]",
-      "doc_index": 181,
+      "doc_index": 182,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        181,
-        182
-      ]
-    },
-    {
-      "text": "Output Review",
-      "doc_index": 183,
-      "style": "소제목2",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
+        182,
         183
       ]
     },
     {
-      "text": "To view a generated output again, double-click the output from the Result list. Alternatively, after selecting one or more outputs, press the [image:rId110] button located on the toolbar.",
+      "text": "Output Review",
       "doc_index": 184,
-      "style": null,
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         184
       ]
     },
     {
-      "text": "Output toolbar",
+      "text": "To view a generated output again, double-click the output from the Result list. Alternatively, after selecting one or more outputs, press the [image:rId110] button located on the toolbar.",
       "doc_index": 185,
-      "style": "소제목2",
+      "style": null,
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         185
       ]
     },
     {
-      "text": "The toolbar provides the following functions:",
+      "text": "Output toolbar",
       "doc_index": 186,
-      "style": null,
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -1190,8 +1179,19 @@
       ]
     },
     {
-      "text": "[image:rId110] Open Output",
+      "text": "The toolbar provides the following functions:",
       "doc_index": 187,
+      "style": null,
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
+      "source_doc_indices": [
+        187
+      ]
+    },
+    {
+      "text": "[image:rId110] Open Output",
+      "doc_index": 188,
       "style": "List Paragraph",
       "emphasized": [
         "[image:rId110]"
@@ -1199,23 +1199,23 @@
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        187
+        188
       ]
     },
     {
       "text": "Display all selected outputs from the list.",
-      "doc_index": 188,
+      "doc_index": 189,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        188
+        189
       ]
     },
     {
       "text": "[image:rId111] Delete Output",
-      "doc_index": 189,
+      "doc_index": 190,
       "style": "List Paragraph",
       "emphasized": [
         "[image:rId111]"
@@ -1223,23 +1223,23 @@
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        189
+        190
       ]
     },
     {
       "text": "Delete all selected outputs from the list",
-      "doc_index": 190,
+      "doc_index": 191,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        190
+        191
       ]
     },
     {
       "text": "[image:rId112] Close All Outputs",
-      "doc_index": 191,
+      "doc_index": 192,
       "style": "List Paragraph",
       "emphasized": [
         "[image:rId112]"
@@ -1247,57 +1247,46 @@
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        191
-      ]
-    },
-    {
-      "text": "Close all open output windows.",
-      "doc_index": 192,
-      "style": "List Continue 2",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
         192
       ]
     },
     {
-      "text": "[image:rId113] Output Window Grid Alignment",
+      "text": "Close all open output windows.",
       "doc_index": 193,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         193
       ]
     },
     {
-      "text": "If two or more output windows are currently open, arrange them into a grid format.",
+      "text": "[image:rId113] Output Window Grid Alignment",
       "doc_index": 194,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         194
       ]
     },
     {
-      "text": "[image:rId114]",
+      "text": "If two or more output windows are currently open, arrange them into a grid format.",
       "doc_index": 195,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         195
       ]
     },
     {
-      "text": "[image:rId115] Display Grid Alignment",
+      "text": "[image:rId114]",
       "doc_index": 196,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
@@ -1306,153 +1295,153 @@
       ]
     },
     {
-      "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a grid format.",
+      "text": "[image:rId115] Display Grid Alignment",
       "doc_index": 197,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         197
       ]
     },
     {
-      "text": "[image:rId116] Output Window Cascade Alignment",
+      "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a grid format.",
       "doc_index": 198,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         198
       ]
     },
     {
-      "text": "Arranges the currently open output windows in a cascading format.",
+      "text": "[image:rId116] Output Window Cascade Alignment",
       "doc_index": 199,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         199
       ]
     },
     {
-      "text": "[image:rId117] Display Cascade Alignment",
+      "text": "Arranges the currently open output windows in a cascading format.",
       "doc_index": 200,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         200
       ]
     },
     {
-      "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a cascading format.",
+      "text": "[image:rId117] Display Cascade Alignment",
       "doc_index": 201,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
-      "image_included": false,
+      "image_included": true,
       "source_doc_indices": [
         201
       ]
     },
     {
-      "text": "[image:rId118] Save output",
+      "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a cascading format.",
       "doc_index": 202,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         202
       ]
     },
     {
-      "text": "Save the output to the desired path in the *. ept file format",
+      "text": "[image:rId118] Save output",
       "doc_index": 203,
-      "style": "List Continue 2",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
-        203
-      ]
-    },
-    {
-      "text": "[image:rId119] Load saved output",
-      "doc_index": 204,
       "style": "List Paragraph",
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        204
+        203
       ]
     },
     {
-      "text": "Open the saved output file(*. ept). The results will be added to the list under the \"Other” category",
-      "doc_index": 205,
+      "text": "Save the output to the desired path in the *. ept file format",
+      "doc_index": 204,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
+      "source_doc_indices": [
+        204
+      ]
+    },
+    {
+      "text": "[image:rId119] Load saved output",
+      "doc_index": 205,
+      "style": "List Paragraph",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
       "source_doc_indices": [
         205
       ]
     },
     {
-      "text": "[image:rId120]",
+      "text": "Open the saved output file(*. ept). The results will be added to the list under the \"Other” category",
       "doc_index": 206,
       "style": "List Continue 2",
       "emphasized": [],
       "math_texts": [],
-      "image_included": true,
+      "image_included": false,
       "source_doc_indices": [
         206
       ]
     },
     {
+      "text": "[image:rId120]",
+      "doc_index": 207,
+      "style": "List Continue 2",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
+      "source_doc_indices": [
+        207
+      ]
+    },
+    {
       "text": "1.3.9 Message Window",
-      "doc_index": 210,
+      "doc_index": 211,
       "style": "heading 3",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        210
+        211
       ]
     },
     {
       "text": "The Message window displays execution information and errors related nodes during stream execution.\n[image:rId122]",
-      "doc_index": 211,
+      "doc_index": 212,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": true,
       "source_doc_indices": [
-        211,
-        212
+        212,
+        213
       ]
     },
     {
       "text": "Type of Messages",
-      "doc_index": 214,
-      "style": "소제목2",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
-        214
-      ]
-    },
-    {
-      "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
       "doc_index": 215,
-      "style": null,
+      "style": "소제목2",
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
@@ -1461,30 +1450,42 @@
       ]
     },
     {
-      "text": "1.3.10 Dynamic Help",
-      "doc_index": 218,
-      "style": "heading 3",
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false,
-      "source_doc_indices": [
-        218
-      ]
-    },
-    {
-      "text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
-      "doc_index": 219,
+      "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
+      "doc_index": 216,
       "style": null,
       "emphasized": [],
       "math_texts": [],
       "image_included": false,
       "source_doc_indices": [
-        219,
+        216
+      ]
+    },
+    {
+      "text": "1.3.10 Dynamic Help",
+      "doc_index": 219,
+      "style": "heading 3",
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false,
+      "source_doc_indices": [
+        219
+      ]
+    },
+    {
+      "text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\n[image:rId123]\nThe toolbar provides following functions:",
+      "doc_index": 220,
+      "style": null,
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true,
+      "source_doc_indices": [
+        220,
+        221,
         222
       ]
     },
     {
-      "text": "[image:rId126] Toggle Help",
+      "text": "[image:rId124] Toggle Help",
       "doc_index": 223,
       "style": "List Paragraph",
       "emphasized": [],
@@ -1517,7 +1518,7 @@
       ]
     },
     {
-      "text": "[image:rId127] Index Search",
+      "text": "[image:rId125] Index Search",
       "doc_index": 226,
       "style": "List Paragraph",
       "emphasized": [],
@@ -1583,7 +1584,7 @@
       ]
     },
     {
-      "text": "1. Left-click and hold the title of the control window with the mouse",
+      "text": "Left-click and hold the title of the control window with the mouse",
       "doc_index": 234,
       "style": "List Paragraph",
       "emphasized": [],
@@ -1594,7 +1595,7 @@
       ]
     },
     {
-      "text": "[image:rId128]",
+      "text": "[image:rId126]",
       "doc_index": 235,
       "style": "List Continue 2",
       "emphasized": [],
@@ -1605,7 +1606,7 @@
       ]
     },
     {
-      "text": "2. While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
+      "text": "While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
       "doc_index": 236,
       "style": "List Paragraph",
       "emphasized": [],
@@ -1664,7 +1665,7 @@
       ]
     },
     {
-      "text": "[image:rId129]",
+      "text": "[image:rId127]",
       "doc_index": 241,
       "style": "List Continue 2",
       "emphasized": [],
@@ -1675,7 +1676,7 @@
       ]
     },
     {
-      "text": "3. A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
+      "text": "A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
       "doc_index": 242,
       "style": "List Paragraph",
       "emphasized": [],
@@ -1686,7 +1687,7 @@
       ]
     },
     {
-      "text": "[image:rId130]",
+      "text": "[image:rId128]",
       "doc_index": 243,
       "style": "List Continue 2",
       "emphasized": [],
@@ -1708,7 +1709,7 @@
       ]
     },
     {
-      "text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId131], [image:rId132]).",
+      "text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId129], [image:rId130]).",
       "doc_index": 248,
       "style": null,
       "emphasized": [],
@@ -1774,7 +1775,7 @@
       ]
     },
     {
-      "text": "Pressing the [image:rId133] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId134]",
+      "text": "Pressing the [image:rId131] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId132]",
       "doc_index": 257,
       "style": null,
       "emphasized": [],
@@ -1928,7 +1929,7 @@
       ]
     },
     {
-      "text": "The Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId135]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.",
+      "text": "The Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId133]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.",
       "doc_index": 277,
       "style": null,
       "emphasized": [
@@ -1955,7 +1956,7 @@
       ]
     },
     {
-      "text": "When you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId142]",
+      "text": "When you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId140]",
       "doc_index": 287,
       "style": null,
       "emphasized": [],
@@ -1978,7 +1979,7 @@
       ]
     },
     {
-      "text": "Selecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId143]",
+      "text": "Selecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId141]",
       "doc_index": 293,
       "style": null,
       "emphasized": [],
@@ -2001,7 +2002,7 @@
       ]
     },
     {
-      "text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId144]",
+      "text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId142]",
       "doc_index": 299,
       "style": null,
       "emphasized": [],
