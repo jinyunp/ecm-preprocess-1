@@ -13,7 +13,7 @@ from transformers import AutoProcessor, AutoModelForVision2Seq
 # ---------------- Qwen2-VL 설정 ----------------
 
 # 원하는 Qwen2-VL 모델 이름 (필요시 변경)
-MODEL_NAME = "Qwen/Qwen2-VL-7B-Instruct"
+MODEL_NAME = "/workspace/qwen" #"Qwen/Qwen2-VL-7B-Instruct"
 
 # 한 줄 요약 프롬프트
 SUMMARY_PROMPT = (
