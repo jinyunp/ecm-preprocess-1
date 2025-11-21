@@ -1,0 +1,1143 @@
+[
+  {
+    "Context": "This content is about the section ECMiner™ Overview.\n\nECMiner™ is a data analytics software developed by ECMiner Co., Ltd. Most of the features of ECMiner™ are pull-down menus easily accessible to non-technical users. Academics with expertise in analytical algorithms collaborated in the early days of the development ECMiner™. Subsequent versions are developed for providing a variety of data management, transforming, and model evaluation for real-world problems.\nThe key advantage of ECMiner™ is the following:\n\nLarge-Scale Data Handling\n\nIt supports various types of database formats, ECL (a proprietary data structure), TEXT, EXCEL, etc. Large volumes of data are manageable.\n\nUser-friendly tool\n\nPull and drag option for modeling is very convenient to users from loading data to analytics. Easily modified model deleting to adding nodes in analytical schema.\n\nScalability\n\nConfiguration of full model is easily modified.\n\nDiverse Analytical Features\n\nPrediction, classification, clustering, and Association Rules (AR), a powerful preprocessing node, a data browser, and charting for data visualization.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0001",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview"
+    ],
+    "Section_length": 1,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to System Requirements.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0002",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.1 System Requirements"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to System Requirements, focusing on Recommended System Requirements.\n\n[Table:t21]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0003",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t21"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.1 System Requirements",
+      "Recommended System Requirements"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to System Requirements, focusing on System Minimum Requirements.\n\n[Table:t24]\n\nNOTE The performance of the system may vary depending on the number of users and the size of the database; the database size generally increases by about 500 Mbytes per year, assuming 1 Gbyte for each\n\nyear (500 Mbytes x 2) of data entry is typical.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0004",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t24"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.1 System Requirements",
+      "System Minimum Requirements"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Install and Uninstall ECMiner™.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0005",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Install and Uninstall ECMiner™, focusing on Install.\n\nDownload the setup file and run it to install the software. For a trial version, you can download the trial version from the ECMiner Co., Ltd. website at www.ecminer.com.\n[image:rId9]\nSelect Setup Language “English”.\n[image:rId10]\nSelect [I accept the agreement(A)] and then click [Next(N)].\n[image:rId11]\n[image:rId12]\nChoose whether to Create a desktop shortcut or Create a Quick Launch shortcut. ‘Create a desktop shortcut’ is recommended.\n[image:rId13]\n[image:rId14]\nInstallation is processing.\n[image:rId15]\nIt checks the necessary .NET framework version for ECMiner operation. If it is already installed, this display does not come up.\n[image:rId16] The installation is complete. Clicking [image:rId17] icon, the program starts.\n[image:rId18]\n\n[Image:rId9]\n\n[Image:rId10]\n\n[Image:rId11]\n\n[Image:rId12]\n\n[Image:rId13]\n\n[Image:rId14]\n\n[Image:rId15]\n\n[Image:rId16]\n\n[Image:rId17]\n\n[Image:rId18]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0006",
+    "Is_image": true,
+    "Image_ids": [
+      "rId9",
+      "rId10",
+      "rId11",
+      "rId12",
+      "rId13",
+      "rId14",
+      "rId15",
+      "rId16",
+      "rId17",
+      "rId18"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Install"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Install and Uninstall ECMiner™, focusing on Uninstall.\n\nIn \"Windows Settings (Control Panel)” _ \"Apps > Installed apps\", select ECMiner™ and click the 'Uninstall' button\n[image:rId19]\n\n[Image:rId19]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0007",
+    "Is_image": true,
+    "Image_ids": [
+      "rId19"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.2 Install and Uninstall ECMiner™",
+      "Uninstall"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface.\n\nECMiner™ offers a user-friendly interface. Users can create various analytical models depending on the purpose.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0008",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Main Window.\n\nECMiner™ provides the following main window to enable easy and efficient data mining.\n[image:rId20]\n\n[Image:rId20]\n\n[Table:t58]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0009",
+    "Is_image": true,
+    "Image_ids": [
+      "rId20"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t58"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "Main Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Menu.\n\nThe menu is located at the top of the screen. It provides menus such as Project(P), Edit(E), View(V), Stream(S), Extension(A), Tool(T), Window(W), Help(H), and others.\nTool's Option allows to set up the user-specific option.\n\n[Table:t64]\n\n[Image:rId26]\n\n[Image:rId21]\n\n[Image:rId22]\n\n[Image:rId27]\n\n[Image:rId25]\n\n[Image:rId23]\n\n[Image:rId28]\n\n[Image:rId24]\n\n[Table:t67]\n\n[Image:rId32]\n\n[Image:rId33]\n\n[Image:rId31]\n\n[Image:rId34]\n\n[Image:rId29]\n\n[Image:rId30]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0010",
+    "Is_image": true,
+    "Image_ids": [
+      "rId26",
+      "rId21",
+      "rId22",
+      "rId27",
+      "rId25",
+      "rId23",
+      "rId28",
+      "rId24",
+      "rId32",
+      "rId33",
+      "rId31",
+      "rId34",
+      "rId29",
+      "rId30"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t64",
+      "t67"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Menu, with a detailed reference to Tool Bar.\n\n[Table:t71]\n\n[Image:rId42]\n\n[Image:rId47]\n\n[Image:rId37]\n\n[Image:rId53]\n\n[Image:rId58]\n\n[Image:rId43]\n\n[Image:rId48]\n\n[Image:rId38]\n\n[Image:rId46]\n\n[Image:rId59]\n\n[Image:rId41]\n\n[Image:rId54]\n\n[Image:rId36]\n\n[Image:rId49]\n\n[Image:rId57]\n\n[Image:rId44]\n\n[Image:rId52]\n\n[Image:rId60]\n\n[Image:rId39]\n\n[Image:rId50]\n\n[Image:rId55]\n\n[Image:rId40]\n\n[Image:rId45]\n\n[Image:rId35]\n\n[Image:rId56]\n\n[Image:rId51]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0011",
+    "Is_image": true,
+    "Image_ids": [
+      "rId42",
+      "rId47",
+      "rId37",
+      "rId53",
+      "rId58",
+      "rId43",
+      "rId48",
+      "rId38",
+      "rId46",
+      "rId59",
+      "rId41",
+      "rId54",
+      "rId36",
+      "rId49",
+      "rId57",
+      "rId44",
+      "rId52",
+      "rId60",
+      "rId39",
+      "rId50",
+      "rId55",
+      "rId40",
+      "rId45",
+      "rId35",
+      "rId56",
+      "rId51"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t71"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.1 Menu",
+      "Tool Bar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Node.\n\nData loading, data preprocessing, modeling and evaluation. Select and drag each node in order in the working space, and connect to each in turn.\n[image:rId61]\nThe node window is classified into a total of seven categories.\n\n[Image:rId61]\n\n[Table:t79]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0012",
+    "Is_image": true,
+    "Image_ids": [
+      "rId61"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t79"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.2 Node"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Project Window.\n\nS tart with Input Node, ‘Column filter’ and ‘Type change’ to define indep. & dep. Variables, and select either ‘Continuous’ or ‘Discrete’. Connect to modeling node.\n[image:rId62]\nThe project window shows the flow map of the data analysis.\n\n[Image:rId62]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0013",
+    "Is_image": true,
+    "Image_ids": [
+      "rId62"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Project Window, with a detailed reference to Select Project.\n\nTo activate a project, press the tab on the top.\n[image:rId63] [image:rId64]\n\n[Image:rId63]\n\n[Image:rId64]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0014",
+    "Is_image": true,
+    "Image_ids": [
+      "rId63",
+      "rId64"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Select Project"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Project Window, with a detailed reference to Close Project.\n\nSelect \"Project > Close\" or press “X” button.\n[image:rId65].\n\n[Image:rId65]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0015",
+    "Is_image": true,
+    "Image_ids": [
+      "rId65"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Close Project"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Project Window, with a detailed reference to Nodes.\n\nVarious types of icons for different tasks.\n\n[Table:t94]\n\n[Image:rId68]\n\n[Image:rId74]\n\n[Image:rId69]\n\n[Image:rId67]\n\n[Image:rId70]\n\n[Image:rId75]\n\n[Image:rId73]\n\n[Image:rId76]\n\n[Image:rId71]\n\n[Image:rId66]\n\n[Image:rId77]\n\n[Image:rId72]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0016",
+    "Is_image": true,
+    "Image_ids": [
+      "rId68",
+      "rId74",
+      "rId69",
+      "rId67",
+      "rId70",
+      "rId75",
+      "rId73",
+      "rId76",
+      "rId71",
+      "rId66",
+      "rId77",
+      "rId72"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t94"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Nodes"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Project Window, with a detailed reference to Context Menu.\n\nRight-clicking in the project window displays all the menu nodes.\n[image:rId78]\nThe newly added feature in this latest version, 'Insert Memo', is added for users to make notes when configuring nodes and projects\n\n[Image:rId78]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0017",
+    "Is_image": true,
+    "Image_ids": [
+      "rId78"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.3 Project Window",
+      "Context Menu"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Node Properties.\n\nIt shows the properties of the project or the selected node.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0018",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.4 Node Properties"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Node Properties, with a detailed reference to Project Properties.\n\nIn the project properties window, you may add a memo of the project's objective and description. The Project Creator shows the username of the person logged into Windows and cannot be changed. [image:rId79]\n\n[Image:rId79]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0019",
+    "Is_image": true,
+    "Image_ids": [
+      "rId79"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.4 Node Properties",
+      "Project Properties"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Node Properties, with a detailed reference to Node Property about data.\n\nNode property for data tells the variable names and data type. Data types can be changed.\n\nExclusion of variable in ‘Column Filter’.\n\nDefine the dependent and independent variables in ‘Type Change’.\n\n[image:rId80]\n\n[Image:rId80]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0020",
+    "Is_image": true,
+    "Image_ids": [
+      "rId80"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.4 Node Properties",
+      "Node Property about data"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Resource Window.\n\nIn ECMiner™, resources refer to all files including data, results, models, and project files.\n[image:rId81]\n\n[Image:rId81]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0021",
+    "Is_image": true,
+    "Image_ids": [
+      "rId81"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window, with a detailed reference to Resource Menu.\n\nLocal menu displays a list of files in the resource list.\n\nModel menu shows the list of model files. You may utilize it for future runs.\n\nOutput menu displays the list of output for each project.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0022",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window",
+      "Resource Menu"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window, with a detailed reference to Resource List.\n\nWhen selecting the Local menu\n\n[image:rId82]\n\n[Image:rId82]\n\nFrom the resource lists, you can filter the files using the toolbar buttons at the top.\n\nWhen selecting the Model menu\n\n[image:rId83]\n\n[Image:rId83]\n\nAfter running modeling, the output models are listed. You may take out a model in the list which is not necessary.\n\nWhen selecting the Output menu\n\n[image:rId84]\n\n[Image:rId84]\n\nAfter running modeling, the output results are listed in the project with sub-tree. Select the results you want to view. It shows the results for comparison. Additionally, it offers the ability to save results or view previously saved results.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0023",
+    "Is_image": true,
+    "Image_ids": [
+      "rId82",
+      "rId83",
+      "rId84"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.5 Resource Window",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Resource Window -Local.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0024",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Local, with a detailed reference to Task Folder.\n\nA task folder in ECMiner™ is a frequently used one, which can be renamed (aliased) with another name. Users need to add the task folder themselves, and once added, the work folders will appear in the Local menu within the resource window. [image:rId85] You may Add/Delete/Modify the folder using the toolbar\n\n[Image:rId85]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0025",
+    "Is_image": true,
+    "Image_ids": [
+      "rId85"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Task Folder"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Local, with a detailed reference to Add Task Folder.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0026",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Add Task Folder"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Local, with a detailed reference to Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name..\n\n[Image:rId86]\n\n[image:rId87]\n\n[Image:rId87]\n\nModify Task Folder\n\nTo change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.\n\n[Image:rId88]\n\nDelete Task Folder\n\nTo delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.\n\n[Image:rId89]\n\nReload\n\nTo reload the file list of the task folder, click the [image:rId90] button in the toolbar.\n\n[Image:rId90]\n\nCreate New Folder\n\nRight-clicking on the task folder in the Resource menu.\n\n[image:rId91]\n\n[Image:rId91]\n\nGive the name of folder, it will add the task folder.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0027",
+    "Is_image": true,
+    "Image_ids": [
+      "rId86",
+      "rId87",
+      "rId88",
+      "rId89",
+      "rId90",
+      "rId91"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Local, with a detailed reference to Utilizing Task Folders.\n\nProject Management\n\nBy creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.\n\nData Sharing\n\nCreating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0028",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Utilizing Task Folders"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Local, with a detailed reference to Resource List.\n\nThe file lists of the selected folder.\n[image:rId92]\n\n[Image:rId92]\n\n[Table:t159]\n\n[Image:rId95]\n\n[Image:rId96]\n\n[Image:rId94]\n\n[Image:rId99]\n\n[Image:rId97]\n\n[Image:rId100]\n\n[Image:rId93]\n\n[Image:rId98]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0029",
+    "Is_image": true,
+    "Image_ids": [
+      "rId92",
+      "rId95",
+      "rId96",
+      "rId94",
+      "rId99",
+      "rId97",
+      "rId100",
+      "rId93",
+      "rId98"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t159"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Local, with a detailed reference to Utilizing the Resource List.\n\nIf the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.\n[image:rId101]\n\n[Image:rId101]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0030",
+    "Is_image": true,
+    "Image_ids": [
+      "rId101"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.6 Resource Window -Local",
+      "Utilizing the Resource List"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Resource Window -Model.\n\nAfter running the model stream, temporary models are listed in the resource window. [image:rId102]\n\n[Image:rId102]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0031",
+    "Is_image": true,
+    "Image_ids": [
+      "rId102"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Model, with a detailed reference to Temporary Model.\n\nFiles in the resource window are the result of executing the stream. The name executing result is identical with model node name.\n[image:rId102]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0032",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Temporary Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Model, with a detailed reference to Delete Model.\n\nTo remove an ou t put file in the list, press [image:rId103]\n\n[Image:rId103]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0033",
+    "Is_image": true,
+    "Image_ids": [
+      "rId103"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Delete Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Model, with a detailed reference to Save Model.\n\n[image:rId104]\nTo save a temporary model for another use, press [image:rId105] Give the model name and specify the path, \"given_model name.gms \" is saved in the task folder.\n[image:rId106]\nAnother method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).\n[image:rId107]\n[image:rId108] In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms \" in the task folder (or subfolder) where you dropped it, indicating the save path.\n\n[Image:rId104]\n\n[Image:rId105]\n\n[Image:rId106]\n\n[Image:rId107]\n\n[Image:rId108]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0034",
+    "Is_image": true,
+    "Image_ids": [
+      "rId104",
+      "rId105",
+      "rId106",
+      "rId107",
+      "rId108"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.7 Resource Window -Model",
+      "Save Model"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Resource Window -Output.\n\nThe results created after executing the stream will appear in the list when the Output menu is selected.\n[image:rId109]\n\n[Image:rId109]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0035",
+    "Is_image": true,
+    "Image_ids": [
+      "rId109"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Output, with a detailed reference to Output Review.\n\nTo view a generated output again, double-click the output from the Result list. Alternatively, after selecting one or more outputs, press the [image:rId110] button located on the toolbar.\n\n[Image:rId110]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0036",
+    "Is_image": true,
+    "Image_ids": [
+      "rId110"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output Review"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Resource Window -Output, with a detailed reference to Output toolbar.\n\nThe toolbar provides the following functions:\n\n[image:rId110] Open Output\n\nDisplay all selected outputs from the list.\n\n[image:rId111] Delete Output\n\n[Image:rId111]\n\nDelete all selected outputs from the list\n\n[image:rId112] Close All Outputs\n\n[Image:rId112]\n\nClose all open output windows.\n\n[image:rId113] Output Window Grid Alignment\n\n[Image:rId113]\n\nIf two or more output windows are currently open, arrange them into a grid format.\n\n[image:rId114]\n\n[Image:rId114]\n\n[image:rId115] Display Grid Alignment\n\n[Image:rId115]\n\nSimilar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a grid format.\n\n[image:rId116] Output Window Cascade Alignment\n\n[Image:rId116]\n\nArranges the currently open output windows in a cascading format.\n\n[image:rId117] Display Cascade Alignment\n\n[Image:rId117]\n\nSimilar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a cascading format.\n\n[image:rId118] Save output\n\n[Image:rId118]\n\nSave the output to the desired path in the *. ept file format\n\n[image:rId119] Load saved output\n\n[Image:rId119]\n\nOpen the saved output file(*. ept). The results will be added to the list under the \"Other” category\n\n[image:rId120]\n\n[Image:rId120]\n\n[Table:t208]\n\n[Image:rId121]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0037",
+    "Is_image": true,
+    "Image_ids": [
+      "rId111",
+      "rId112",
+      "rId113",
+      "rId114",
+      "rId115",
+      "rId116",
+      "rId117",
+      "rId118",
+      "rId119",
+      "rId120",
+      "rId121"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t208"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.8 Resource Window -Output",
+      "Output toolbar"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Message Window.\n\nThe Message window displays execution information and errors related nodes during stream execution.\n[image:rId122]\n\n[Image:rId122]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0038",
+    "Is_image": true,
+    "Image_ids": [
+      "rId122"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.9 Message Window"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Message Window, with a detailed reference to Type of Messages.\n\nThe types of messages can be categorized into five categories, differentiated by color as follows:\n\n[Table:t216]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0039",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t216"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.9 Message Window",
+      "Type of Messages"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Dynamic Help.\n\nWhen you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:\n\n[Table:t220]\n\n[Image:rId123]\n\n[Image:rId124]\n\n[Image:rId125]\n\n[image:rId126] Toggle Help\n\n[Image:rId126]\n\nNavigate to the help for the selected node\n\nNote: Pressing the button again will return to the dynamic help\n\n[image:rId127] Index Search\n\n[Image:rId127]\n\nOpen the help window and search for the desired topic",
+    "Context_id": "1장_v3.1_sanitized::chunk_0040",
+    "Is_image": true,
+    "Image_ids": [
+      "rId123",
+      "rId124",
+      "rId125",
+      "rId126",
+      "rId127"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t220"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.10 Dynamic Help"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, focusing on Window Control.\n\nAll control windows in ECMiner™ can be repositioned and resized to fit the user's preferences.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0041",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Window Control, with a detailed reference to Reposition.\n\nTo reposition the windows, follow each step:\n\n1. Left-click and hold the title of the control window with the mouse\n\n[image:rId128]\n\n[Image:rId128]\n\n2. While dragging, move the mouse pointer over the icon of the location where you want to place the control window.\n\nCentral four-direction icon\n\nThese icons indicate the top, bottom, left, and right sides within the control window that the mouse moves during the dragging process\n\nSurrounding four-direction icon\n\nThese icons indicate the top, bottom, left, and right sides of the entire program window.\n\n[image:rId129]\n\n[Image:rId129]\n\n3. A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.\n\n[image:rId130]\n\n[Image:rId130]\n\n[Table:t245]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0042",
+    "Is_image": true,
+    "Image_ids": [
+      "rId128",
+      "rId129",
+      "rId130"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t245"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Reposition"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Window Control, with a detailed reference to Resize.\n\nTo resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId131], [image:rId132]).\n\n[Image:rId132]\n\n[Image:rId131]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0043",
+    "Is_image": true,
+    "Image_ids": [
+      "rId132",
+      "rId131"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Resize"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Window Control, with a detailed reference to Close the control window.\n\nTo close the control window, press “X” button or select \"View > Toolbar\" from the main menu.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0044",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Close the control window"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Window Control, with a detailed reference to Open control window.\n\nTo open a closed (invisible) control window, select \"View > Toolbar\" from the main menu.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0045",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Open control window"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to User Interface, under the subsection Window Control, with a detailed reference to Auto-Hide control window.\n\nPressing the [image:rId133] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId134]\n\n[Image:rId133]\n\n[Image:rId134]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0046",
+    "Is_image": true,
+    "Image_ids": [
+      "rId133",
+      "rId134"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.3 User Interface",
+      "1.3.11 Window Control",
+      "Auto-Hide control window"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Mouse usage.\n\nA left-click is used for function menus, a right-click is for support menus, and a double left-click is for results display.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0047",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.4 Mouse usage"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Mouse usage, focusing on Drag & Drop.\n\nDrag & drop the nodes you need in your ‘Stream’ in the Project window.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0048",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.4 Mouse usage",
+      "Drag & Drop"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Mouse usage, focusing on Click Left Button.\n\nClicking on a node in the Project window will display its properties.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0049",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.4 Mouse usage",
+      "Click Left Button"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Mouse usage, focusing on Click Right Button.\n\nRight-clicking pops up a menu for connect or disconnect nodes, delete nodes.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0050",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.4 Mouse usage",
+      "Click Right Button"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Mouse usage, focusing on Left Button Double Click.\n\nDouble-clicking on results icon displays information about the result in the Output window.",
+    "Context_id": "1장_v3.1_sanitized::chunk_0051",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.4 Mouse usage",
+      "Left Button Double Click"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Shortcut key.\n\nThe shortcut key is shown in the table. F5 is for ‘execute’ and Ctrl & S is for ‘save’ and so on.\n\n[Table:t273]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0052",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": true,
+    "Table_ids": [
+      "t273"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.5 Shortcut key"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Program Settings.\n\nThe Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId135]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.\n\n[Image:rId135]\n\n[Table:t283]\n\n[Image:rId138]\n\n[Image:rId139]\n\n[Image:rId137]\n\n[Image:rId140]\n\n[Image:rId141]\n\n[Image:rId136]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0053",
+    "Is_image": true,
+    "Image_ids": [
+      "rId135",
+      "rId138",
+      "rId139",
+      "rId137",
+      "rId140",
+      "rId141",
+      "rId136"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t283"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Program Settings, focusing on Program Settings.\n\nWhen you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId142]\n\n[Image:rId142]\n\n[Table:t289]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0054",
+    "Is_image": true,
+    "Image_ids": [
+      "rId142"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t289"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.1 Program Settings"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Program Settings, focusing on Default Database Setting.\n\nSelecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId143]\n\n[Image:rId143]\n\n[Table:t295]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0055",
+    "Is_image": true,
+    "Image_ids": [
+      "rId143"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t295"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.2 Default Database Setting"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Program Settings, focusing on Edit Frequently Used Nodes.\n\nSelecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId144]\n\n[Image:rId144]\n\n[Table:t301]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0056",
+    "Is_image": true,
+    "Image_ids": [
+      "rId144"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t301"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section ECMiner™ Overview, and more specifically it belongs to Program Settings, under the subsection Edit Frequently Used Nodes, with a detailed reference to Function button.\n\n[Table:t304]\n\n[Image:rId145]\n\n[Image:rId146]",
+    "Context_id": "1장_v3.1_sanitized::chunk_0057",
+    "Is_image": true,
+    "Image_ids": [
+      "rId145",
+      "rId146"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t304"
+    ],
+    "Section_path": [
+      "Chapter 1 ECMiner™ Overview",
+      "1.6 Program Settings",
+      "1.6.3 Edit Frequently Used Nodes",
+      "Function button"
+    ],
+    "Section_length": 4,
+    "Page_number": null,
+    "File_name": "1장_v3.1_sanitized.json"
+  }
+]

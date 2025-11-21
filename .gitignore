@@ -1,0 +1,55 @@
+.old
+.venv
+.vscode
+.env
+.pytest_cache
+*.pyc
+.DS_*
+__pycache__
+src/ecmprep.egg-info
+tests/
+build/
+
+# 내 개발용 
+dist/
+wheels/
+
+# 제외할 폴더
+output/processed/**/_comp/
+output/processed/**/_assets/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+.history/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace cache
+hf_cache/
+~/.cache/huggingface/
+
+# Transformers / torch cache
+~/.cache/torch/
+~/.cache/transformers/
+
+# Qwen 모델 다운로드 디렉토리
+workspace/qwen/
+workspace/qwen2vl/
+models/
+qwen/
+
+# Image summary output
+*_image_llm.json
+
+# Logs
+*.log
+
+# System / environment junk
+.DS_Store
+*.swp
+*.swo

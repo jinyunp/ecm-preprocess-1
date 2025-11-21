@@ -1,0 +1,3242 @@
+{
+  "success": true,
+  "content": {
+    "paragraphs": [
+      {
+        "text": "Chapter 2 Stream",
+        "doc_index": 3,
+        "style": "heading 1",
+        "runs": [
+          {
+            "text": "Chapter ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "2",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          3
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "ECMiner™ allows for easy and convenient analytical model by connecting Nodes into a Stream.",
+        "doc_index": 5,
+        "style": null,
+        "runs": [
+          {
+            "text": "ECMiner™ allows for easy and convenient analytical model by connecting ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Nodes",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " into a ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": ". ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          5
+        ],
+        "emphasized": [
+          "Nodes",
+          "Stream"
+        ],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Stream is the series of connected nodes, from data loading to the output node. This stream represents a workflow map for data analytics, allowing for easy modifications during execution.",
+        "doc_index": 6,
+        "style": null,
+        "runs": [
+          {
+            "text": "Stream",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " is the series of connected nodes, from data loading to the output node. This stream represents a workflow map for data analytics, allowing for easy modifications during execution.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          6
+        ],
+        "emphasized": [
+          "Stream"
+        ],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "A brief example for Principal component analysis (ex.PCA):",
+        "doc_index": 8,
+        "style": null,
+        "runs": [
+          {
+            "text": "A brief example for Principal component analysis (",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "ex.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "PCA",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "):",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          8
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "1. Load data (Input data: production data)",
+        "doc_index": 9,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "1. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Load data (Input data: production data)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          9
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "2. Data preprocessing (Missing Value, Type Change, etc.)",
+        "doc_index": 10,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "2. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Data preprocessing (Missing Value, Type Change, etc.)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          10
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "3. Principal component analysis (PCA)",
+        "doc_index": 11,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "3. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Principal component analysis (PCA)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          11
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "4. Control Charts for the principal component",
+        "doc_index": 12,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "4. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Control Charts for the principal component",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          12
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId7]",
+        "doc_index": 13,
+        "style": "이미지(중간정렬)",
+        "runs": [
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[image:rId7]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId7"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          13
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "2.1 Stream Configuration",
+        "doc_index": 16,
+        "style": "heading 2",
+        "runs": [
+          {
+            "text": "2.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "1",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream Configuration",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          16
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "A stream is set up to connect nodes which you choose in each step of data analysis.",
+        "doc_index": 17,
+        "style": null,
+        "runs": [
+          {
+            "text": "A stream is set up to connect nodes which you choose in each step of data analysis.  ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          17
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "1. Pull down nodes (Input data, Preprocessing, Chart, Modeling, Output)",
+        "doc_index": 18,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "1. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Pull down nodes (Input data, Preprocessing, Chart, Modeling, Output)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          18
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "2. Edit node properties",
+        "doc_index": 19,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "2. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Edit node properties",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          19
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "3. Connect node (right-click the mouse and choose 'Connect' to link to the next node)",
+        "doc_index": 20,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "3. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Connect node (right-click the mouse and choose 'Connect' to link to the next node)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          20
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Create nodes",
+        "doc_index": 23,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "Create nodes ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          23
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Pull down nodes in the working project window.",
+        "doc_index": 24,
+        "style": null,
+        "runs": [
+          {
+            "text": "Pull down nodes in the working project window.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          24
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId8]",
+        "doc_index": 25,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId8]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId8"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          25
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId9]",
+        "doc_index": 26,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId9]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId9"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          26
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "User can add or drop a node in the current project.",
+        "doc_index": 27,
+        "style": null,
+        "runs": [
+          {
+            "text": "User can add or drop a node in the current project.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          27
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Connect nodes",
+        "doc_index": 29,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "Connect nodes",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          29
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Right-click the mouse, choose 'Connect' and drag the arrow to the next node.[image:rId10]",
+        "doc_index": 30,
+        "style": null,
+        "runs": [
+          {
+            "text": "Right-click the mouse, choose 'Connect' and drag the arrow to the next node.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[image:rId10]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId10"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          30
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "In Project window, you can manage node connections.[image:rId11]",
+        "doc_index": 31,
+        "style": null,
+        "runs": [
+          {
+            "text": "In Project window, you can manage node connections.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[image:rId11]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId11"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          31
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Alternatively, select the node and press the middle mouse button (wheel).",
+        "doc_index": 32,
+        "style": null,
+        "runs": [
+          {
+            "text": "Alternatively, select the node and press the middle mouse button (wheel).",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          32
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId12]",
+        "doc_index": 33,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId12]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId12"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          33
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Holding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.",
+        "doc_index": 34,
+        "style": null,
+        "runs": [
+          {
+            "text": "Holding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          34
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Disconnect nodes",
+        "doc_index": 36,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "Disconnect nodes",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          36
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "To disconnect nodes, right-click the mouse and select \"Disconnect\".",
+        "doc_index": 37,
+        "style": null,
+        "runs": [
+          {
+            "text": "To disconnect nodes, right-click the mouse and select \"Disconnect\".",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": 10.0,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          37
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId13]",
+        "doc_index": 38,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId13]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId13"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          38
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Remove nodes",
+        "doc_index": 40,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "Remove nodes ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          40
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "To remove a node, click \"Delete\".",
+        "doc_index": 41,
+        "style": null,
+        "runs": [
+          {
+            "text": "To remove a node, click \"Delete\".",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          41
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId14]",
+        "doc_index": 42,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId14]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId14"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          42
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Edit node properties",
+        "doc_index": 44,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "Edit node properties",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          44
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Double-click the node that you want to revise or modify, and change the option of the node property.",
+        "doc_index": 45,
+        "style": null,
+        "runs": [
+          {
+            "text": "Double-click the node that you want to revise or modify, and change the option of the node property. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          45
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId15]",
+        "doc_index": 46,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId15]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId15"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          46
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Connectivity of nodes",
+        "doc_index": 47,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Connectivity of nodes",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          47
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Consider the following guidelines when configuring your stream:",
+        "doc_index": 48,
+        "style": null,
+        "runs": [
+          {
+            "text": "Consider the following guidelines when configuring your stream:",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          48
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "1) Nodes generally have one input and can have multiple outputs.2) However, Merge, Add, and Column Combiner nodes are exceptions, as they can accept multiple inputs.3) Chart and Output nodes are output-only nodes that generate results, so they cannot serve as inputs to other nodes.",
+        "doc_index": 49,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "1) Nodes generally have one input and can have multiple outputs.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "2) However, Merge, Add, and Column Combiner nodes are exceptions, as they can accept multiple inputs.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "3) Chart and Output nodes are output-only nodes that generate results, so they cannot serve as inputs to other nodes.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          49
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "ECMiner™ provides visual indicators to show how it works",
+        "doc_index": 51,
+        "style": null,
+        "runs": [
+          {
+            "text": "ECMiner™ provides visual indicators to show how it works",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          51
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "2.2 Stream Configuration Rules",
+        "doc_index": 55,
+        "style": "heading 2",
+        "runs": [
+          {
+            "text": "2.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "2",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream Configuration Rules",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          55
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "The stream set-up rules:",
+        "doc_index": 56,
+        "style": null,
+        "runs": [
+          {
+            "text": "The stream set-up rules:",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          56
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "A stream includes input, preprocessing, modeling, and output node. Each node is connected to the next, constructing a stream. You may add or remove a node.",
+        "doc_index": 57,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "A stream includes input, preprocessing, modeling, and output node. Each node is connected to the next, constructing a stream. You may add or remove a node.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          57
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Import data from a file, make some modifications, and then save the file. You may modify configuration stream in \"File Reader -> Derived Column -> File Writer”",
+        "doc_index": 58,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "Import data from a file, make some modifications, and then save the file. You may modify configuration stream in \"File Reader -> Derived Column -> File Writer”",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          58
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "If there are multiple streams in the Project window, ECMiner™ determines the order of their execution. Streams are executed sequentially, beginning with the first one in order.",
+        "doc_index": 59,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "If there are multiple streams in the Project window, ECMiner™ determines the order of their execution. Streams are executed sequentially, beginning with the first one in order.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          59
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "If node property is not correctly specified, it will not execute. If you have error message, then correct the node property.",
+        "doc_index": 60,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "If node property is not correctly specified, it will not execute. If you have error message, then correct the node property.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          60
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "In a stream, nodes can have one-to-many connections. This means a node can receive data from a single source but can send data to multiple nodes.",
+        "doc_index": 61,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "In a stream, nodes can have one-to-many connections. This means a node can receive data from a single source but can send data to multiple nodes. ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          61
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "2.3 Stream Execution",
+        "doc_index": 64,
+        "style": "heading 2",
+        "runs": [
+          {
+            "text": "2.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "3",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream Execution",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          64
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "To run a stream, select \"Stream > Execute\" or \"Stream > Part Execute\" from the main menu.",
+        "doc_index": 65,
+        "style": null,
+        "runs": [
+          {
+            "text": "To run a stream, select \"Stream > Execute\" or \"Stream > Part Execute\" from the main menu.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          65
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId52]",
+        "doc_index": 66,
+        "style": null,
+        "runs": [
+          {
+            "text": "[image:rId52]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId52"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          66
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Select [Stream(S)] > [Execute] from the main menu or press F5 to execute all streams (1) through (4).",
+        "doc_index": 67,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "Select ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "(S)]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " > ",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[Execute]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " from the main menu or press F5 to execute all streams (1) through (4).",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          67
+        ],
+        "emphasized": [
+          "[",
+          "Stream",
+          "(S)]",
+          ">",
+          "[Execute]"
+        ],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Select [Stream(S)] > [Execute] if you want to run a part of the stream, for example, node 1 (Split node). To continue running another part, such as node 2 (RandomForests node), select 'Part Execute' again.",
+        "doc_index": 68,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "Select ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "(S)]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " > ",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[Execute]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " if you want to run a part of the stream, for example, node ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "1 (Split node)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": ". To continue running another part, such as node ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "2 (",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "RandomForests",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " node)",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": ", select 'Part Execute' again.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          68
+        ],
+        "emphasized": [
+          "[",
+          "Stream",
+          "(S)]",
+          ">",
+          "[Execute]"
+        ],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Folder Execute",
+        "doc_index": 70,
+        "style": "소제목2",
+        "runs": [
+          {
+            "text": "Folder Execute",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          70
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "This feature allows you to repeatedly execute the same project on multiple files of the same format within a specific folder. You can run it as follows:",
+        "doc_index": 71,
+        "style": null,
+        "runs": [
+          {
+            "text": "This feature allows you to repeatedly execute the same project on multiple files of the same format within a specific folder. You can run it as follows:",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          71
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "(1) Create the project you want to execute in the workspace.",
+        "doc_index": 72,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "(",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "1) ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Create",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " the project you want to execute in the workspace.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          72
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId53](2) Select [Menu] > [Stream(S)] > [Folder Execute].",
+        "doc_index": 73,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "[image:rId53]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId53"
+            ]
+          },
+          {
+            "text": "",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "(",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "2) ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Select ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Menu",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " > ",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Stream",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "(S)]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " ",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "> ",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "[",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Folder",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " Execute]",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": ".",
+            "b": true,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          73
+        ],
+        "emphasized": [
+          "[",
+          "Menu",
+          "]",
+          ">",
+          "[",
+          "Stream",
+          "(S)]",
+          ">",
+          "[",
+          "Folder",
+          "Execute]",
+          "."
+        ],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId54]",
+        "doc_index": 74,
+        "style": "List Continue 2",
+        "runs": [
+          {
+            "text": "[image:rId54]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId54"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          74
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "(3) Folder Execute Window will appear as shown below.",
+        "doc_index": 76,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "(3",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": ") ",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": "Folder Execute Window will appear as shown below.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          76
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId55]",
+        "doc_index": 77,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "[image:rId55]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId55"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          77
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "(4) Follow the following steps to set the options for the Folder Execute.",
+        "doc_index": 78,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "(4) Follow the following steps to set the options for the Folder Execute.",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          78
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "Note. Folder Execution Option",
+        "doc_index": 81,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "Note.",
+            "b": true,
+            "i": true,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          },
+          {
+            "text": " Folder Execution Option",
+            "b": true,
+            "i": true,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": []
+          }
+        ],
+        "source_doc_indices": [
+          81
+        ],
+        "emphasized": [
+          "Note.",
+          "Folder Execution Option"
+        ],
+        "math_texts": [],
+        "image_included": false
+      },
+      {
+        "text": "[image:rId56]",
+        "doc_index": 82,
+        "style": "List Bullet",
+        "runs": [
+          {
+            "text": "[image:rId56]",
+            "b": false,
+            "i": false,
+            "u": false,
+            "rStyle": null,
+            "sz": null,
+            "color": null,
+            "image_rids": [
+              "rId56"
+            ]
+          }
+        ],
+        "source_doc_indices": [
+          82
+        ],
+        "emphasized": [],
+        "math_texts": [],
+        "image_included": false
+      }
+    ],
+    "tables": [
+      {
+        "tid": "t52",
+        "rows": [
+          [
+            {
+              "text": "",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Input Node",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Preprocessing Node",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Chart Node",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Modeling Node",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Output Node",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "ModelNode",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            }
+          ],
+          [
+            {
+              "text": "Origin",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "[image:rId16] [image:rId17]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId16",
+                "rId17"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId18] [image:rId19]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId18",
+                "rId19"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId20] [image:rId21]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId20",
+                "rId21"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId22] [image:rId23]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId22",
+                "rId23"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId24] [image:rId25]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId24",
+                "rId25"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId26] [image:rId27]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId26",
+                "rId27"
+              ],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "Connectable",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "[image:rId28] [image:rId29]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId28",
+                "rId29"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId30] [image:rId31]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId30",
+                "rId31"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId32] [image:rId33]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId32",
+                "rId33"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId34] [image:rId35]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId34",
+                "rId35"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId36] [image:rId37]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId36",
+                "rId37"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId38] [image:rId39]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId38",
+                "rId39"
+              ],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "Unconnectable",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "[image:rId40] [image:rId41]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId40",
+                "rId41"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId42] [image:rId43]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId42",
+                "rId43"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId44] [image:rId45]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId44",
+                "rId45"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId46] [image:rId47]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId46",
+                "rId47"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId48] [image:rId49]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId48",
+                "rId49"
+              ],
+              "has_style": false
+            },
+            {
+              "text": "[image:rId50] [image:rId51]",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [
+                "rId50",
+                "rId51"
+              ],
+              "has_style": false
+            }
+          ]
+        ],
+        "doc_index": 52,
+        "has_borders": true
+      },
+      {
+        "tid": "t79",
+        "rows": [
+          [
+            {
+              "text": "Steps",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Setting name",
+              "gridSpan": 2,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Description",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            }
+          ],
+          [
+            {
+              "text": "(1)",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Input Folder",
+              "gridSpan": 2,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "Type in the folder directory or click the right search button to find.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "(2)",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Filter Option",
+              "gridSpan": 1,
+              "vMerge": "restart",
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "File Extension",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "Type in the file extension of the files within the executing folder.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "(3)",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "",
+              "gridSpan": 1,
+              "vMerge": "restart",
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "File Name",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "Type in the common file name within the executing folder.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "(4)",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Input/Output Settings",
+              "gridSpan": 2,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "(5)",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Folder Execution Option",
+              "gridSpan": 2,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            },
+            {
+              "text": "Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ]
+        ],
+        "doc_index": 79,
+        "has_borders": true
+      },
+      {
+        "tid": "t83",
+        "rows": [
+          [
+            {
+              "text": "File",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "The default log file storage path is the ECMiner™ installation location.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            }
+          ],
+          [
+            {
+              "text": "Rotation",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Logs can be rotated daily, weekly, or monthly, with the default set to never.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "Archive",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Log file names can be based on numbers or timestamps, with timestamps as the default.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "Level",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Only logs at or above the specified level are recorded, with trace capturing the most details.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "Times",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "The reference time for log rotation defaults to local time.",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ],
+          [
+            {
+              "text": "Format",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": true
+            },
+            {
+              "text": "Logs are stored in the format \"[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t\" by default. * %s : Log record source %t: Log record",
+              "gridSpan": 1,
+              "vMerge": null,
+              "inline_images": [],
+              "has_style": false
+            }
+          ]
+        ],
+        "doc_index": 83,
+        "has_borders": true
+      }
+    ],
+    "inline_images": [
+      {
+        "rId": "rId13",
+        "filename": "image7.png",
+        "doc_index": 38,
+        "doc_indices": [
+          38
+        ],
+        "saved_path": "word/media/image7.png"
+      },
+      {
+        "rId": "rId18",
+        "filename": "image11.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image11.png"
+      },
+      {
+        "rId": "rId26",
+        "filename": "image15.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image15.png"
+      },
+      {
+        "rId": "rId39",
+        "filename": "oleObject12.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject12.bin"
+      },
+      {
+        "rId": "rId21",
+        "filename": "oleObject3.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject3.bin"
+      },
+      {
+        "rId": "rId34",
+        "filename": "image19.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image19.png"
+      },
+      {
+        "rId": "rId42",
+        "filename": "image23.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image23.png"
+      },
+      {
+        "rId": "rId47",
+        "filename": "oleObject16.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject16.bin"
+      },
+      {
+        "rId": "rId50",
+        "filename": "image27.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image27.png"
+      },
+      {
+        "rId": "rId55",
+        "filename": "image31.png",
+        "doc_index": 77,
+        "doc_indices": [
+          77
+        ],
+        "saved_path": "word/media/image31.png"
+      },
+      {
+        "rId": "rId7",
+        "filename": "image1.png",
+        "doc_index": 13,
+        "doc_indices": [
+          13
+        ],
+        "saved_path": "word/media/image1.png"
+      },
+      {
+        "rId": "rId12",
+        "filename": "image6.png",
+        "doc_index": 33,
+        "doc_indices": [
+          33
+        ],
+        "saved_path": "word/media/image6.png"
+      },
+      {
+        "rId": "rId17",
+        "filename": "oleObject1.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject1.bin"
+      },
+      {
+        "rId": "rId25",
+        "filename": "oleObject5.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject5.bin"
+      },
+      {
+        "rId": "rId33",
+        "filename": "oleObject9.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject9.bin"
+      },
+      {
+        "rId": "rId38",
+        "filename": "image21.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image21.png"
+      },
+      {
+        "rId": "rId46",
+        "filename": "image25.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image25.png"
+      },
+      {
+        "rId": "rId16",
+        "filename": "image10.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image10.png"
+      },
+      {
+        "rId": "rId20",
+        "filename": "image12.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image12.png"
+      },
+      {
+        "rId": "rId29",
+        "filename": "oleObject7.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject7.bin"
+      },
+      {
+        "rId": "rId41",
+        "filename": "oleObject13.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject13.bin"
+      },
+      {
+        "rId": "rId54",
+        "filename": "image30.png",
+        "doc_index": 74,
+        "doc_indices": [
+          74
+        ],
+        "saved_path": "word/media/image30.png"
+      },
+      {
+        "rId": "rId11",
+        "filename": "image5.png",
+        "doc_index": 31,
+        "doc_indices": [
+          31
+        ],
+        "saved_path": "word/media/image5.png"
+      },
+      {
+        "rId": "rId24",
+        "filename": "image14.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image14.png"
+      },
+      {
+        "rId": "rId32",
+        "filename": "image18.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image18.png"
+      },
+      {
+        "rId": "rId37",
+        "filename": "oleObject11.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject11.bin"
+      },
+      {
+        "rId": "rId40",
+        "filename": "image22.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image22.png"
+      },
+      {
+        "rId": "rId45",
+        "filename": "oleObject15.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject15.bin"
+      },
+      {
+        "rId": "rId53",
+        "filename": "image29.png",
+        "doc_index": 73,
+        "doc_indices": [
+          73
+        ],
+        "saved_path": "word/media/image29.png"
+      },
+      {
+        "rId": "rId15",
+        "filename": "image9.png",
+        "doc_index": 46,
+        "doc_indices": [
+          46
+        ],
+        "saved_path": "word/media/image9.png"
+      },
+      {
+        "rId": "rId23",
+        "filename": "oleObject4.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject4.bin"
+      },
+      {
+        "rId": "rId28",
+        "filename": "image16.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image16.png"
+      },
+      {
+        "rId": "rId36",
+        "filename": "image20.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image20.png"
+      },
+      {
+        "rId": "rId49",
+        "filename": "oleObject17.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject17.bin"
+      },
+      {
+        "rId": "rId10",
+        "filename": "image4.png",
+        "doc_index": 30,
+        "doc_indices": [
+          30
+        ],
+        "saved_path": "word/media/image4.png"
+      },
+      {
+        "rId": "rId19",
+        "filename": "oleObject2.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject2.bin"
+      },
+      {
+        "rId": "rId31",
+        "filename": "oleObject8.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject8.bin"
+      },
+      {
+        "rId": "rId44",
+        "filename": "image24.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image24.png"
+      },
+      {
+        "rId": "rId52",
+        "filename": "image28.png",
+        "doc_index": 66,
+        "doc_indices": [
+          66
+        ],
+        "saved_path": "word/media/image28.png"
+      },
+      {
+        "rId": "rId9",
+        "filename": "image3.png",
+        "doc_index": 26,
+        "doc_indices": [
+          26
+        ],
+        "saved_path": "word/media/image3.png"
+      },
+      {
+        "rId": "rId14",
+        "filename": "image8.png",
+        "doc_index": 42,
+        "doc_indices": [
+          42
+        ],
+        "saved_path": "word/media/image8.png"
+      },
+      {
+        "rId": "rId22",
+        "filename": "image13.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image13.png"
+      },
+      {
+        "rId": "rId27",
+        "filename": "oleObject6.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject6.bin"
+      },
+      {
+        "rId": "rId30",
+        "filename": "image17.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image17.png"
+      },
+      {
+        "rId": "rId35",
+        "filename": "oleObject10.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject10.bin"
+      },
+      {
+        "rId": "rId43",
+        "filename": "oleObject14.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject14.bin"
+      },
+      {
+        "rId": "rId48",
+        "filename": "image26.png",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/media/image26.png"
+      },
+      {
+        "rId": "rId56",
+        "filename": "image32.png",
+        "doc_index": 82,
+        "doc_indices": [
+          82
+        ],
+        "saved_path": "word/media/image32.png"
+      },
+      {
+        "rId": "rId8",
+        "filename": "image2.png",
+        "doc_index": 25,
+        "doc_indices": [
+          25
+        ],
+        "saved_path": "word/media/image2.png"
+      },
+      {
+        "rId": "rId51",
+        "filename": "oleObject18.bin",
+        "doc_index": 52,
+        "doc_indices": [
+          52
+        ],
+        "saved_path": "word/embeddings/oleObject18.bin"
+      }
+    ]
+  },
+  "error": null,
+  "processing_time": 0.022395610809326172,
+  "payload_tag": "docx_xml"
+}

@@ -1,0 +1,2093 @@
+{
+  "paragraphs": [
+    {
+      "text": "Chapter 2 Stream",
+      "doc_index": 3,
+      "style": "heading 1",
+      "source_doc_indices": [
+        3
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "ECMiner™ allows for easy and convenient analytical model by connecting Nodes into a Stream.\nStream is the series of connected nodes, from data loading to the output node. This stream represents a workflow map for data analytics, allowing for easy modifications during execution.\nA brief example for Principal component analysis (ex. PCA):",
+      "doc_index": 5,
+      "style": null,
+      "source_doc_indices": [
+        5,
+        6,
+        8
+      ],
+      "emphasized": [
+        "Nodes",
+        "Stream",
+        "Stream"
+      ],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "1. Load data (Input data: production data)",
+      "doc_index": 9,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        9
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "2. Data preprocessing (Missing Value, Type Change, etc.)",
+      "doc_index": 10,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        10
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "3. Principal component analysis (PCA)",
+      "doc_index": 11,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        11
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "4. Control Charts for the principal component",
+      "doc_index": 12,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        12
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "[image:rId7]",
+      "doc_index": 13,
+      "style": "이미지(중간정렬)",
+      "source_doc_indices": [
+        13
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "2.1 Stream Configuration",
+      "doc_index": 16,
+      "style": "heading 2",
+      "source_doc_indices": [
+        16
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "A stream is set up to connect nodes which you choose in each step of data analysis.",
+      "doc_index": 17,
+      "style": null,
+      "source_doc_indices": [
+        17
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "1. Pull down nodes (Input data, Preprocessing, Chart, Modeling, Output)",
+      "doc_index": 18,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        18
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "2. Edit node properties",
+      "doc_index": 19,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        19
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "3. Connect node (right-click the mouse and choose 'Connect' to link to the next node)",
+      "doc_index": 20,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        20
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Create nodes",
+      "doc_index": 23,
+      "style": "소제목2",
+      "source_doc_indices": [
+        23
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Pull down nodes in the working project window.\n[image:rId8]\n[image:rId9]\nUser can add or drop a node in the current project.",
+      "doc_index": 24,
+      "style": null,
+      "source_doc_indices": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "Connect nodes",
+      "doc_index": 29,
+      "style": "소제목2",
+      "source_doc_indices": [
+        29
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Right-click the mouse, choose 'Connect' and drag the arrow to the next node. [image:rId10]\nIn Project window, you can manage node connections. [image:rId11]\nAlternatively, select the node and press the middle mouse button (wheel).\n[image:rId12]\nHolding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.",
+      "doc_index": 30,
+      "style": null,
+      "source_doc_indices": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "Disconnect nodes",
+      "doc_index": 36,
+      "style": "소제목2",
+      "source_doc_indices": [
+        36
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "To disconnect nodes, right-click the mouse and select \"Disconnect\".\n[image:rId13]",
+      "doc_index": 37,
+      "style": null,
+      "source_doc_indices": [
+        37,
+        38
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "Remove nodes",
+      "doc_index": 40,
+      "style": "소제목2",
+      "source_doc_indices": [
+        40
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "To remove a node, click \"Delete\".\n[image:rId14]",
+      "doc_index": 41,
+      "style": null,
+      "source_doc_indices": [
+        41,
+        42
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "Edit node properties",
+      "doc_index": 44,
+      "style": "소제목2",
+      "source_doc_indices": [
+        44
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Double-click the node that you want to revise or modify, and change the option of the node property.\n[image:rId15]",
+      "doc_index": 45,
+      "style": null,
+      "source_doc_indices": [
+        45,
+        46
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "Connectivity of nodes",
+      "doc_index": 47,
+      "style": "소제목2",
+      "source_doc_indices": [
+        47
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Consider the following guidelines when configuring your stream:",
+      "doc_index": 48,
+      "style": null,
+      "source_doc_indices": [
+        48
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "1) Nodes generally have one input and can have multiple outputs.2) However, Merge, Add, and Column Combiner nodes are exceptions, as they can accept multiple inputs.3) Chart and Output nodes are output-only nodes that generate results, so they cannot serve as inputs to other nodes.",
+      "doc_index": 49,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        49
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "ECMiner™ provides visual indicators to show how it works",
+      "doc_index": 51,
+      "style": null,
+      "source_doc_indices": [
+        51
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "2.2 Stream Configuration Rules",
+      "doc_index": 55,
+      "style": "heading 2",
+      "source_doc_indices": [
+        55
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "The stream set-up rules:",
+      "doc_index": 56,
+      "style": null,
+      "source_doc_indices": [
+        56
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "A stream includes input, preprocessing, modeling, and output node. Each node is connected to the next, constructing a stream. You may add or remove a node.",
+      "doc_index": 57,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        57
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Import data from a file, make some modifications, and then save the file. You may modify configuration stream in \"File Reader -> Derived Column -> File Writer”",
+      "doc_index": 58,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        58
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "If there are multiple streams in the Project window, ECMiner™ determines the order of their execution. Streams are executed sequentially, beginning with the first one in order.",
+      "doc_index": 59,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        59
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "If node property is not correctly specified, it will not execute. If you have error message, then correct the node property.",
+      "doc_index": 60,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        60
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "In a stream, nodes can have one-to-many connections. This means a node can receive data from a single source but can send data to multiple nodes.",
+      "doc_index": 61,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        61
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "2.3 Stream Execution",
+      "doc_index": 64,
+      "style": "heading 2",
+      "source_doc_indices": [
+        64
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "To run a stream, select \"Stream > Execute\" or \"Stream > Part Execute\" from the main menu.\n[image:rId52]",
+      "doc_index": 65,
+      "style": null,
+      "source_doc_indices": [
+        65,
+        66
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "Select [Stream (S)] > [Execute] from the main menu or press F5 to execute all streams (1) through (4).",
+      "doc_index": 67,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        67
+      ],
+      "emphasized": [
+        "[Stream (S)] > [Execute]"
+      ],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Select [Stream (S)] > [Execute] if you want to run a part of the stream, for example, node 1 (Split node). To continue running another part, such as node 2 (RandomForests node), select 'Part Execute' again.",
+      "doc_index": 68,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        68
+      ],
+      "emphasized": [
+        "[Stream (S)] > [Execute]"
+      ],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Folder Execute",
+      "doc_index": 70,
+      "style": "소제목2",
+      "source_doc_indices": [
+        70
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "This feature allows you to repeatedly execute the same project on multiple files of the same format within a specific folder. You can run it as follows:",
+      "doc_index": 71,
+      "style": null,
+      "source_doc_indices": [
+        71
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "(1) Create the project you want to execute in the workspace.",
+      "doc_index": 72,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        72
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "[image:rId53] (2) Select [Menu] > [Stream (S)] > [Folder Execute].",
+      "doc_index": 73,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        73
+      ],
+      "emphasized": [
+        "[Menu] > [Stream (S)] > [Folder Execute]."
+      ],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "[image:rId54]",
+      "doc_index": 74,
+      "style": "List Continue 2",
+      "source_doc_indices": [
+        74
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "(3) Folder Execute Window will appear as shown below.",
+      "doc_index": 76,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        76
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "[image:rId55]",
+      "doc_index": 77,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        77
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "(4) Follow the following steps to set the options for the Folder Execute.",
+      "doc_index": 78,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        78
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Note. Folder Execution Option",
+      "doc_index": 81,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        81
+      ],
+      "emphasized": [
+        "Note. Folder Execution Option"
+      ],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "[image:rId56]",
+      "doc_index": 82,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        82
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    }
+  ],
+  "lists": [
+    {
+      "text": "a. A stream includes input, preprocessing, modeling, and output node. Each node is connected to the next, constructing a stream. You may add or remove a node.\nb. Import data from a file, make some modifications, and then save the file. You may modify configuration stream in \"File Reader -> Derived Column -> File Writer”\nc. If there are multiple streams in the Project window, ECMiner™ determines the order of their execution. Streams are executed sequentially, beginning with the first one in order.\nd. If node property is not correctly specified, it will not execute. If you have error message, then correct the node property.\ne. In a stream, nodes can have one-to-many connections. This means a node can receive data from a single source but can send data to multiple nodes.",
+      "doc_index": 57,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "a. Select [Stream (S)] > [Execute] from the main menu or press F5 to execute all streams (1) through (4).\nb. Select [Stream (S)] > [Execute] if you want to run a part of the stream, for example, node 1 (Split node). To continue running another part, such as node 2 (RandomForests node), select 'Part Execute' again.",
+      "doc_index": 67,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        67,
+        68
+      ],
+      "emphasized": [
+        "[Stream (S)] > [Execute]",
+        "[Stream (S)] > [Execute]"
+      ],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "a. (3) Folder Execute Window will appear as shown below.\nb. [image:rId55]\nc. (4) Follow the following steps to set the options for the Folder Execute.",
+      "doc_index": 76,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        76,
+        77,
+        78
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "a. Note. Folder Execution Option\nb. [image:rId56]",
+      "doc_index": 81,
+      "style": "List Bullet",
+      "source_doc_indices": [
+        81,
+        82
+      ],
+      "emphasized": [
+        "Note. Folder Execution Option"
+      ],
+      "math_texts": [],
+      "image_included": true
+    }
+  ],
+  "tables": [
+    {
+      "tid": "t52",
+      "doc_index": 52,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "rows": 4,
+      "cols": 7,
+      "data": [
+        [
+          {
+            "text": "",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Input Node",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Preprocessing Node",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Chart Node",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Modeling Node",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Output Node",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "ModelNode",
+            "images": [],
+            "styled": true
+          }
+        ],
+        [
+          {
+            "text": "Origin",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "[image:rId16] [image:rId17]",
+            "images": [
+              "rId16",
+              "rId17"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId18] [image:rId19]",
+            "images": [
+              "rId18",
+              "rId19"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId20] [image:rId21]",
+            "images": [
+              "rId20",
+              "rId21"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId22] [image:rId23]",
+            "images": [
+              "rId22",
+              "rId23"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId24] [image:rId25]",
+            "images": [
+              "rId24",
+              "rId25"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId26] [image:rId27]",
+            "images": [
+              "rId26",
+              "rId27"
+            ],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "Connectable",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "[image:rId28] [image:rId29]",
+            "images": [
+              "rId28",
+              "rId29"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId30] [image:rId31]",
+            "images": [
+              "rId30",
+              "rId31"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId32] [image:rId33]",
+            "images": [
+              "rId32",
+              "rId33"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId34] [image:rId35]",
+            "images": [
+              "rId34",
+              "rId35"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId36] [image:rId37]",
+            "images": [
+              "rId36",
+              "rId37"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId38] [image:rId39]",
+            "images": [
+              "rId38",
+              "rId39"
+            ],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "Unconnectable",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "[image:rId40] [image:rId41]",
+            "images": [
+              "rId40",
+              "rId41"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId42] [image:rId43]",
+            "images": [
+              "rId42",
+              "rId43"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId44] [image:rId45]",
+            "images": [
+              "rId44",
+              "rId45"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId46] [image:rId47]",
+            "images": [
+              "rId46",
+              "rId47"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId48] [image:rId49]",
+            "images": [
+              "rId48",
+              "rId49"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId50] [image:rId51]",
+            "images": [
+              "rId50",
+              "rId51"
+            ],
+            "styled": false
+          }
+        ]
+      ],
+      "is_rowheader": true,
+      "is_colheader": true,
+      "has_borders": true,
+      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\"></th>\n    <th style=\"background-color: #f2f2f2;\">Input Node</th>\n    <th style=\"background-color: #f2f2f2;\">Preprocessing Node</th>\n    <th style=\"background-color: #f2f2f2;\">Chart Node</th>\n    <th style=\"background-color: #f2f2f2;\">Modeling Node</th>\n    <th style=\"background-color: #f2f2f2;\">Output Node</th>\n    <th style=\"background-color: #f2f2f2;\">ModelNode</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Origin</th>\n    <td>[image:rId16] [image:rId17]</td>\n    <td>[image:rId18] [image:rId19]</td>\n    <td>[image:rId20] [image:rId21]</td>\n    <td>[image:rId22] [image:rId23]</td>\n    <td>[image:rId24] [image:rId25]</td>\n    <td>[image:rId26] [image:rId27]</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Connectable</th>\n    <td>[image:rId28] [image:rId29]</td>\n    <td>[image:rId30] [image:rId31]</td>\n    <td>[image:rId32] [image:rId33]</td>\n    <td>[image:rId34] [image:rId35]</td>\n    <td>[image:rId36] [image:rId37]</td>\n    <td>[image:rId38] [image:rId39]</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Unconnectable</th>\n    <td>[image:rId40] [image:rId41]</td>\n    <td>[image:rId42] [image:rId43]</td>\n    <td>[image:rId44] [image:rId45]</td>\n    <td>[image:rId46] [image:rId47]</td>\n    <td>[image:rId48] [image:rId49]</td>\n    <td>[image:rId50] [image:rId51]</td>\n  </tr>\n</table>",
+      "anchors": [
+        {
+          "r": 0,
+          "c": 0,
+          "text": "",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "text": "Input Node",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "text": "Preprocessing Node",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "text": "Chart Node",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "text": "Modeling Node",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "text": "Output Node",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "text": "ModelNode",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "text": "Origin",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "text": "[image:rId16] [image:rId17]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "text": "[image:rId18] [image:rId19]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "text": "[image:rId20] [image:rId21]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "text": "[image:rId22] [image:rId23]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "text": "[image:rId24] [image:rId25]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "text": "[image:rId26] [image:rId27]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "text": "Connectable",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "text": "[image:rId28] [image:rId29]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "text": "[image:rId30] [image:rId31]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "text": "[image:rId32] [image:rId33]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "text": "[image:rId34] [image:rId35]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "text": "[image:rId36] [image:rId37]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "text": "[image:rId38] [image:rId39]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "text": "Unconnectable",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "text": "[image:rId40] [image:rId41]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "text": "[image:rId42] [image:rId43]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "text": "[image:rId44] [image:rId45]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "text": "[image:rId46] [image:rId47]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "text": "[image:rId48] [image:rId49]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "text": "[image:rId50] [image:rId51]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        }
+      ]
+    },
+    {
+      "tid": "t79",
+      "doc_index": 79,
+      "preceding_text": "(4) Follow the following steps to set the options for the Folder Execute.",
+      "rows": 6,
+      "cols": 4,
+      "data": [
+        [
+          {
+            "text": "Steps",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Setting name",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Setting name",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Description",
+            "images": [],
+            "styled": true
+          }
+        ],
+        [
+          {
+            "text": "(1)",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Input Folder",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Input Folder",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Type in the folder directory or click the right search button to find.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "(2)",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Filter Option",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "File Extension",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Type in the file extension of the files within the executing folder.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "(3)",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "File Name",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Type in the common file name within the executing folder.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "(4)",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Input/Output Settings",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Input/Output Settings",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "(5)",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Folder Execution Option",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Folder Execution Option",
+            "images": [],
+            "styled": false
+          },
+          {
+            "text": "Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)",
+            "images": [],
+            "styled": false
+          }
+        ]
+      ],
+      "is_rowheader": true,
+      "is_colheader": true,
+      "has_borders": true,
+      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Steps</th>\n    <th colspan=\"2\" style=\"background-color: #f2f2f2;\">Setting name</th>\n    <th style=\"background-color: #f2f2f2;\">Description</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(1)</th>\n    <td colspan=\"2\">Input Folder</td>\n    <td>Type in the folder directory or click the right search button to find.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(2)</th>\n    <td>Filter Option</td>\n    <td>File Extension</td>\n    <td>Type in the file extension of the files within the executing folder.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(3)</th>\n    <td></td>\n    <td>File Name</td>\n    <td>Type in the common file name within the executing folder.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(4)</th>\n    <td colspan=\"2\">Input/Output Settings</td>\n    <td>Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">(5)</th>\n    <td colspan=\"2\">Folder Execution Option</td>\n    <td>Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)</td>\n  </tr>\n</table>",
+      "anchors": [
+        {
+          "r": 0,
+          "c": 0,
+          "text": "Steps",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "text": "Setting name",
+          "colspan": 2,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "text": "Description",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "text": "(1)",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "text": "Input Folder",
+          "colspan": 2,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "text": "Type in the folder directory or click the right search button to find.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "text": "(2)",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "text": "Filter Option",
+          "colspan": 1,
+          "vmerge": "restart",
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "text": "File Extension",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "text": "Type in the file extension of the files within the executing folder.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "text": "(3)",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "text": "",
+          "colspan": 1,
+          "vmerge": "restart",
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "text": "File Name",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "text": "Type in the common file name within the executing folder.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 4,
+          "c": 0,
+          "text": "(4)",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "text": "Input/Output Settings",
+          "colspan": 2,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "text": "Set the Input and Output node within the executing project file by clicking the Input Node Setting and Output Node Setting. Click the Output Node Delete to delete the inserted output node settings.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 5,
+          "c": 0,
+          "text": "(5)",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 5,
+          "c": 1,
+          "text": "Folder Execution Option",
+          "colspan": 2,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "text": "Log file of the folder execution process can be saved by setting the Folder Execution Options. (Not required)",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        }
+      ]
+    },
+    {
+      "tid": "t83",
+      "doc_index": 83,
+      "preceding_text": "[image:rId56]",
+      "rows": 6,
+      "cols": 2,
+      "data": [
+        [
+          {
+            "text": "File",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "The default log file storage path is the ECMiner™ installation location.",
+            "images": [],
+            "styled": true
+          }
+        ],
+        [
+          {
+            "text": "Rotation",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Logs can be rotated daily, weekly, or monthly, with the default set to never.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "Archive",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Log file names can be based on numbers or timestamps, with timestamps as the default.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "Level",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Only logs at or above the specified level are recorded, with trace capturing the most details.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "Times",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "The reference time for log rotation defaults to local time.",
+            "images": [],
+            "styled": false
+          }
+        ],
+        [
+          {
+            "text": "Format",
+            "images": [],
+            "styled": true
+          },
+          {
+            "text": "Logs are stored in the format \"[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t\" by default. * %s : Log record source %t: Log record",
+            "images": [],
+            "styled": false
+          }
+        ]
+      ],
+      "is_rowheader": false,
+      "is_colheader": true,
+      "has_borders": true,
+      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">File</th>\n    <td style=\"background-color: #f2f2f2;\">The default log file storage path is the ECMiner™ installation location.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Rotation</th>\n    <td>Logs can be rotated daily, weekly, or monthly, with the default set to never.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Archive</th>\n    <td>Log file names can be based on numbers or timestamps, with timestamps as the default.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Level</th>\n    <td>Only logs at or above the specified level are recorded, with trace capturing the most details.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Times</th>\n    <td>The reference time for log rotation defaults to local time.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">Format</th>\n    <td>Logs are stored in the format &quot;[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t&quot; by default. * %s : Log record source %t: Log record</td>\n  </tr>\n</table>",
+      "anchors": [
+        {
+          "r": 0,
+          "c": 0,
+          "text": "File",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "text": "The default log file storage path is the ECMiner™ installation location.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "text": "Rotation",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "text": "Logs can be rotated daily, weekly, or monthly, with the default set to never.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "text": "Archive",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "text": "Log file names can be based on numbers or timestamps, with timestamps as the default.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "text": "Level",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "text": "Only logs at or above the specified level are recorded, with trace capturing the most details.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 4,
+          "c": 0,
+          "text": "Times",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "text": "The reference time for log rotation defaults to local time.",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 5,
+          "c": 0,
+          "text": "Format",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 5,
+          "c": 1,
+          "text": "Logs are stored in the format \"[%Y-%m-%d %H:%M:%S.%i][%q][%s] %t\" by default. * %s : Log record source %t: Log record",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "map": {}
+  },
+  "inline_images": [
+    {
+      "rId": "rId13",
+      "filename": "image7.png",
+      "doc_index": 38,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image7.png",
+      "ocr_text": "Ai Project x |\n\nDisconnect(L)\n\nproduction_deviation “ayes\n\n20\naa\n\nType Change\n\n^\n\nOo\nx\n\n‘Add Node(A)\nPart Execute\n\n000\n\n00000\nPaste(P)\nDelete(D)\n\n| Data Browser(€)",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": "To disconnect nodes, right-click the mouse and select \"Disconnect\".\n[image:rId13]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId18",
+      "filename": "image11.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image11.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId26",
+      "filename": "image15.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image15.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId39",
+      "filename": "oleObject12.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject12.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId21",
+      "filename": "oleObject3.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject3.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId34",
+      "filename": "image19.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image19.png",
+      "ocr_text": "(",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId42",
+      "filename": "image23.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image23.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId47",
+      "filename": "oleObject16.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject16.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId50",
+      "filename": "image27.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image27.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId55",
+      "filename": "image31.png",
+      "doc_index": 77,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image31.png",
+      "ocr_text": "folder Execute                                                                                                                           x\n\nInput Folder : ||                                                                              Pa]\n\nFilter Option\n\n2) [Erie tenon |\n[Frenne |\n\n(4)\nInput/Output Settings\n\nInput Node Setting ||Output Node Setting || Output Node Delete\n\n# | Type | Node Name | Folder                    | File Name\nFile Input -         -                        ==\n\nFa Eaton Om]",
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "[image:rId55]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId7",
+      "filename": "image1.png",
+      "doc_index": 13,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image1.png",
+      "ocr_text": "-트\n:\n\nproduction_deviation “ayes\n\n20               에에 Control Chart\n—\naa          ~,\n\nType Change      PCA           i\n\nDisplay",
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "[image:rId7]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId12",
+      "filename": "image6.png",
+      "doc_index": 33,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image6.png",
+      "ocr_text": "BP Project! x\n\na\n\n_-- Standardize\n\nfond] =\n\nproduction_deviation — Missing Yalue\n\n20 ke”   »     \"Control Chart\nType 01    ~ |\n\n\\                       Sow\n\n제\nPress the middle mouse button(wheel)\nand connect",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": null,
+      "llm_text": null
+    },
+    {
+      "rId": "rId17",
+      "filename": "oleObject1.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject1.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId25",
+      "filename": "oleObject5.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject5.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId33",
+      "filename": "oleObject9.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject9.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId38",
+      "filename": "image21.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image21.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId46",
+      "filename": "image25.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image25.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId16",
+      "filename": "image10.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image10.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId20",
+      "filename": "image12.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image12.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId29",
+      "filename": "oleObject7.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject7.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId41",
+      "filename": "oleObject13.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject13.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId54",
+      "filename": "image30.png",
+      "doc_index": 74,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image30.png",
+      "ocr_text": "@ ECMiner x64 - [Project]\nProject(P) Edit(E) View(V) | Stream(s)\n\nAI(A)_Extension(E) Tool() Window(W) Help(H)\n\nAO 다 | Add Nodeta)               ,\nNode                                           Connect(N)\nWW Most used nodes @input|       Disconnect(l)\n\n9 | Ml output | AK Model Evaluation |\n\nP|            >) Execute(R)                             FS\n\nAccess R,., CopyaPa,,, Fil] © top Execution(s)       이마이 |: Re. Oracle Re,., PosFram,.,\n\n=         Part Execute(N)            Ctrl+ FS\n4               Repeat Execute                                      s\n\nAdd Input Excel Re,., Fill Folderxeute (IBA, Oracle Ree...\n\na &",
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "[image:rId54]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId11",
+      "filename": "image5.png",
+      "doc_index": 31,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image5.png",
+      "ocr_text": "Bi Project! x\n\nhI\n\n_- Standardize\n\nControl Chart\n을 Change     ry\n\nbcos\n\n를\n\nproduction_deviation Missin Value",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": "Right-click the mouse, choose 'Connect' and drag the arrow to the next node. [image:rId10]\nIn Project window, you can manage node connections. [image:rId11]\nAlternatively, select the node and press the middle mouse button (wheel).\n[image:rId12]\nHolding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.",
+      "llm_text": null
+    },
+    {
+      "rId": "rId24",
+      "filename": "image14.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image14.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId32",
+      "filename": "image18.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image18.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId37",
+      "filename": "oleObject11.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject11.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId40",
+      "filename": "image22.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image22.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId45",
+      "filename": "oleObject15.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject15.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId53",
+      "filename": "image29.png",
+      "doc_index": 73,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image29.png",
+      "ocr_text": "File Reader       Column Filter        Type Change            File Writer",
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "[image:rId53] (2) Select [Menu] > [Stream (S)] > [Folder Execute].",
+      "llm_text": null
+    },
+    {
+      "rId": "rId15",
+      "filename": "image9.png",
+      "doc_index": 46,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image9.png",
+      "ocr_text": "00900 0 x |\n\na\n\nStandardize\n\n—e\n\nproduction_deviation “ayes\n\n20               에에 Control Chart\n—\nia          ~,\n\nType Change      PCA           i\n\nDisplay\n\nNode Properties                                    a\na\nNode Name                        Standardize\nName                              Standardize\nDescription\na\nCreation status                    Gives\nSuffix                             STD\nStandardization Mean               0.000000\n\nStandardization Standard Deviation 1,000000\n\nE-Maximum correction               100,000000\na\nCreation status                    DNno\nSuffix                             RATIO\na\n\nReference Variable:\n\nnie",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": "Double-click the node that you want to revise or modify, and change the option of the node property.\n[image:rId15]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId23",
+      "filename": "oleObject4.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject4.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId28",
+      "filename": "image16.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image16.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId36",
+      "filename": "image20.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image20.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId49",
+      "filename": "oleObject17.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject17.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId10",
+      "filename": "image4.png",
+      "doc_index": 30,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image4.png",
+      "ocr_text": "Bi Project! x\n\nproduction_deviation\n\nMissi\n\nType\n\n5\n\n| %ㅁㅋ5\n\ncI\n\nStandardize\n\n‘Add Node(A)\n‘Connect Upon Creating Node(C)\n\nPart Execute\n\nCutt)\n00000\nPaste(P)\nDelete(D)\n\nData Browser(E)..\n\nSave Model(M)",
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "Right-click the mouse, choose 'Connect' and drag the arrow to the next node. [image:rId10]\nIn Project window, you can manage node connections. [image:rId11]\nAlternatively, select the node and press the middle mouse button (wheel).\n[image:rId12]\nHolding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.",
+      "llm_text": null
+    },
+    {
+      "rId": "rId19",
+      "filename": "oleObject2.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject2.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId31",
+      "filename": "oleObject8.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject8.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId44",
+      "filename": "image24.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image24.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId52",
+      "filename": "image28.png",
+      "doc_index": 66,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image28.png",
+      "ocr_text": "0100400010\\%1006 Change      Split                         Display\ndeviation\n\nvm Change     Split        ir       Display\n@    -ㅡ~\nRandomForests Display\n10}\nEl go oe\ncustomer Type Change        CART   Display\n\nsegmentation",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": "To run a stream, select \"Stream > Execute\" or \"Stream > Part Execute\" from the main menu.\n[image:rId52]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId9",
+      "filename": "image3.png",
+      "doc_index": 26,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image3.png",
+      "ocr_text": "W Most used nodes |@ Input 를 Preprocessing |* Chart | A&A Modeling | HJ Output | 을 Model Evaluation\n\nSe: sea\n\nAultiple... RANKING Row 56... Split. Column...\n\nPeas 2 때\n\n>reproc,., Sampling Row Se... Type C.,, Standar...\n\nHrProjectt_ x |\n\nStandardize (0)\n\n보ㅡ트\n\nproduction_deviation “yen\n\n회  > + \"Control Chart\nType Change  oe\n\nDisplay",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": null,
+      "llm_text": null
+    },
+    {
+      "rId": "rId14",
+      "filename": "image8.png",
+      "doc_index": 42,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image8.png",
+      "ocr_text": "Bi Project! x\n\nfi        Connect(N)\n\nStandar(\n‘Add Node(A)                            +\n~                                         .\n‘Connect Upon Creating Node(C)        +\nproduction_deviation — Missing Value\nPart Execute\ny\nKo}             A cum\n~.\n~      EI 000\nType Change     PUP] Paste)\nXK] Deleted)\n| Data Browser(€).\nSave Model(M)",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": "To remove a node, click \"Delete\".\n[image:rId14]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId22",
+      "filename": "image13.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image13.png",
+      "ocr_text": "Ge",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId27",
+      "filename": "oleObject6.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject6.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId30",
+      "filename": "image17.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image17.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId35",
+      "filename": "oleObject10.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject10.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId43",
+      "filename": "oleObject14.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject14.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId48",
+      "filename": "image26.png",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image26.png",
+      "ocr_text": "",
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    },
+    {
+      "rId": "rId56",
+      "filename": "image32.png",
+      "doc_index": 82,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image32.png",
+      "ocr_text": "r\n\nFolder Execution Option\n\nTemporary Folder :                                                    fa]\nLog Settings\n\nProperty                           Value\n\nfile                                D:WECMiner_x64_EN_v5, 2.0, 7971...\nrotation                            never\n\narchive                            timestamp\n\nlevel                              trace\n\ntimes                              local\n\nformat                             [%Y-%m-%d %H:%Mi%S, %I]L%...,",
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "[image:rId56]",
+      "llm_text": null
+    },
+    {
+      "rId": "rId8",
+      "filename": "image2.png",
+      "doc_index": 25,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image2.png",
+      "ocr_text": "술 Most used nodes | @ Input 를 Preprocessing | @ Chart | 을 Modeling | 를 Output | 를 Model Evaluation\n\n@etes eo &\n\ndultiple,., RANKING Row 56... Split Column,\n\n2    Ss 2°\na\n\nPSB 2 ¢\n\n>reproc,,, Sampling Row 56... Type C... |Standar,\n\nRpProjectt x |\n\n— +i\n\nproduction_deviation Missin Value\n\noO                     ^\na         .             Control Chart\nType Change      PCA          ‘a\n\nDisplay",
+      "is_in_table": false,
+      "is_in_paragraph": false,
+      "preceding_text": "Pull down nodes in the working project window.\n[image:rId8]\n[image:rId9]\nUser can add or drop a node in the current project.",
+      "llm_text": null
+    },
+    {
+      "rId": "rId51",
+      "filename": "oleObject18.bin",
+      "doc_index": 52,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/oleObject18.bin",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "ECMiner™ provides visual indicators to show how it works",
+      "llm_text": null
+    }
+  ]
+}

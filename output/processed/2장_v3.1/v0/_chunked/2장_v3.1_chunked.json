@@ -1,0 +1,237 @@
+[
+  {
+    "Context": "This content is about the section Stream.\n\nECMiner™ allows for easy and convenient analytical model by connecting Nodes into a Stream.\nStream is the series of connected nodes, from data loading to the output node. This stream represents a workflow map for data analytics, allowing for easy modifications during execution.\nA brief example for Principal component analysis (ex. PCA):\n\n1. Load data (Input data: production data)\n\n2. Data preprocessing (Missing Value, Type Change, etc.)\n\n3. Principal component analysis (PCA)\n\n4. Control Charts for the principal component\n\n[image:rId7]\n\n[Image:rId7]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0001",
+    "Is_image": true,
+    "Image_ids": [
+      "rId7"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream"
+    ],
+    "Section_length": 1,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration.\n\nA stream is set up to connect nodes which you choose in each step of data analysis.\n\n1. Pull down nodes (Input data, Preprocessing, Chart, Modeling, Output)\n\n2. Edit node properties\n\n3. Connect node (right-click the mouse and choose 'Connect' to link to the next node)",
+    "Context_id": "2장_v3.1_sanitized::chunk_0002",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Create nodes.\n\nPull down nodes in the working project window.\n[image:rId8]\n[image:rId9]\nUser can add or drop a node in the current project.\n\n[Image:rId8]\n\n[Image:rId9]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0003",
+    "Is_image": true,
+    "Image_ids": [
+      "rId8",
+      "rId9"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Create nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Connect nodes.\n\nRight-click the mouse, choose 'Connect' and drag the arrow to the next node. [image:rId10]\nIn Project window, you can manage node connections. [image:rId11]\nAlternatively, select the node and press the middle mouse button (wheel).\n[image:rId12]\nHolding the middle button, move the mouse pointer to the node you want to connect to, and then release the button.\n\n[Image:rId10]\n\n[Image:rId11]\n\n[Image:rId12]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0004",
+    "Is_image": true,
+    "Image_ids": [
+      "rId10",
+      "rId11",
+      "rId12"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Disconnect nodes.\n\nTo disconnect nodes, right-click the mouse and select \"Disconnect\".\n[image:rId13]\n\n[Image:rId13]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0005",
+    "Is_image": true,
+    "Image_ids": [
+      "rId13"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Disconnect nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Remove nodes.\n\nTo remove a node, click \"Delete\".\n[image:rId14]\n\n[Image:rId14]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0006",
+    "Is_image": true,
+    "Image_ids": [
+      "rId14"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Remove nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Edit node properties.\n\nDouble-click the node that you want to revise or modify, and change the option of the node property.\n[image:rId15]\n\n[Image:rId15]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0007",
+    "Is_image": true,
+    "Image_ids": [
+      "rId15"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Edit node properties"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration, focusing on Connectivity of nodes.\n\nConsider the following guidelines when configuring your stream:\n\n1) Nodes generally have one input and can have multiple outputs.2) However, Merge, Add, and Column Combiner nodes are exceptions, as they can accept multiple inputs.3) Chart and Output nodes are output-only nodes that generate results, so they cannot serve as inputs to other nodes.\n\nECMiner™ provides visual indicators to show how it works\n\n[Table:t52]\n\n[Image:rId18]\n\n[Image:rId26]\n\n[Image:rId39]\n\n[Image:rId21]\n\n[Image:rId34]\n\n[Image:rId42]\n\n[Image:rId47]\n\n[Image:rId50]\n\n[Image:rId17]\n\n[Image:rId25]\n\n[Image:rId33]\n\n[Image:rId38]\n\n[Image:rId46]\n\n[Image:rId16]\n\n[Image:rId20]\n\n[Image:rId29]\n\n[Image:rId41]\n\n[Image:rId24]\n\n[Image:rId32]\n\n[Image:rId37]\n\n[Image:rId40]\n\n[Image:rId45]\n\n[Image:rId23]\n\n[Image:rId28]\n\n[Image:rId36]\n\n[Image:rId49]\n\n[Image:rId19]\n\n[Image:rId31]\n\n[Image:rId44]\n\n[Image:rId22]\n\n[Image:rId27]\n\n[Image:rId30]\n\n[Image:rId35]\n\n[Image:rId43]\n\n[Image:rId48]\n\n[Image:rId51]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0008",
+    "Is_image": true,
+    "Image_ids": [
+      "rId18",
+      "rId26",
+      "rId39",
+      "rId21",
+      "rId34",
+      "rId42",
+      "rId47",
+      "rId50",
+      "rId17",
+      "rId25",
+      "rId33",
+      "rId38",
+      "rId46",
+      "rId16",
+      "rId20",
+      "rId29",
+      "rId41",
+      "rId24",
+      "rId32",
+      "rId37",
+      "rId40",
+      "rId45",
+      "rId23",
+      "rId28",
+      "rId36",
+      "rId49",
+      "rId19",
+      "rId31",
+      "rId44",
+      "rId22",
+      "rId27",
+      "rId30",
+      "rId35",
+      "rId43",
+      "rId48",
+      "rId51"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t52"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.1 Stream Configuration",
+      "Connectivity of nodes"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Configuration Rules.\n\nThe stream set-up rules:\n\nA stream includes input, preprocessing, modeling, and output node. Each node is connected to the next, constructing a stream. You may add or remove a node.\n\nImport data from a file, make some modifications, and then save the file. You may modify configuration stream in \"File Reader -> Derived Column -> File Writer”\n\nIf there are multiple streams in the Project window, ECMiner™ determines the order of their execution. Streams are executed sequentially, beginning with the first one in order.\n\nIf node property is not correctly specified, it will not execute. If you have error message, then correct the node property.\n\nIn a stream, nodes can have one-to-many connections. This means a node can receive data from a single source but can send data to multiple nodes.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0009",
+    "Is_image": false,
+    "Image_ids": [],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.2 Stream Configuration Rules"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Execution.\n\nTo run a stream, select \"Stream > Execute\" or \"Stream > Part Execute\" from the main menu.\n[image:rId52]\n\n[Image:rId52]\n\nSelect [Stream (S)] > [Execute] from the main menu or press F5 to execute all streams (1) through (4).\n\nSelect [Stream (S)] > [Execute] if you want to run a part of the stream, for example, node 1 (Split node). To continue running another part, such as node 2 (RandomForests node), select 'Part Execute' again.",
+    "Context_id": "2장_v3.1_sanitized::chunk_0010",
+    "Is_image": true,
+    "Image_ids": [
+      "rId52"
+    ],
+    "Is_table": false,
+    "Table_ids": [],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution"
+    ],
+    "Section_length": 2,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  },
+  {
+    "Context": "This content is about the section Stream, and more specifically it belongs to Stream Execution, focusing on Folder Execute.\n\nThis feature allows you to repeatedly execute the same project on multiple files of the same format within a specific folder. You can run it as follows:\n\n(1) Create the project you want to execute in the workspace.\n\n[image:rId53] (2) Select [Menu] > [Stream (S)] > [Folder Execute].\n\n[Image:rId53]\n\n[image:rId54]\n\n[Image:rId54]\n\n(3) Folder Execute Window will appear as shown below.\n\n[image:rId55]\n\n[Image:rId55]\n\n(4) Follow the following steps to set the options for the Folder Execute.\n\n[Table:t79]\n\nNote. Folder Execution Option\n\n[image:rId56]\n\n[Image:rId56]\n\n[Table:t83]",
+    "Context_id": "2장_v3.1_sanitized::chunk_0011",
+    "Is_image": true,
+    "Image_ids": [
+      "rId53",
+      "rId54",
+      "rId55",
+      "rId56"
+    ],
+    "Is_table": true,
+    "Table_ids": [
+      "t79",
+      "t83"
+    ],
+    "Section_path": [
+      "Chapter 2 Stream",
+      "2.3 Stream Execution",
+      "Folder Execute"
+    ],
+    "Section_length": 3,
+    "Page_number": null,
+    "File_name": "2장_v3.1_sanitized.json"
+  }
+]
