@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 import json
-import os
 import sys
 from typing import Any, Dict, List
 
 from PIL import Image
-import torch
 from transformers import AutoProcessor, AutoModelForVision2Seq
+import torch
+import os
 
 # ---------------- Qwen2-VL 설정 ----------------
 
 # 원하는 Qwen2-VL 모델 이름 (필요시 변경)
-MODEL_NAME = "/workspace/qwen" #"Qwen/Qwen2-VL-7B-Instruct"
+MODEL_NAME = os.environ.get("QWEN_MODEL_PATH", "/workspace/qwen")
 
 # 한 줄 요약 프롬프트
 SUMMARY_PROMPT = (
@@ -26,10 +26,11 @@ print(f"[INFO] Loading model: {MODEL_NAME}")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = AutoModelForVision2Seq.from_pretrained(
     MODEL_NAME,
-    torch_dtype="auto",
-    device_map="auto" if device == "cuda" else None,
+    torch_dtype=torch.float16,
+    device_map="auto",
+    trust_remote_code=True,
 )
-processor = AutoProcessor.from_pretrained(MODEL_NAME)
+processor = AutoProcessor.from_pretrained(MODEL_NAME, trust_remote_code=True)
 print(f"[INFO] Model loaded on device: {device}")
 
 def clean_qwen_output(raw: str) -> str:

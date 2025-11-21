@@ -8,7 +8,7 @@
 __pycache__
 src/ecmprep.egg-info
 tests/
-qwen_env/
+build/
 
 # 내 개발용 
 dist/

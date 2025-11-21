@@ -295,10 +295,10 @@
     },
     {
       "text": "1.3.1 Menu",
-      "doc_index": 62,
+      "doc_index": 61,
       "style": "heading 3",
       "source_doc_indices": [
-        62
+        61
       ],
       "emphasized": [],
       "math_texts": [],
@@ -306,11 +306,11 @@
     },
     {
       "text": "The menu is located at the top of the screen. It provides menus such as Project(P), Edit(E), View(V), Stream(S), Extension(A), Tool(T), Window(W), Help(H), and others.\nTool's Option allows to set up the user-specific option.",
-      "doc_index": 63,
+      "doc_index": 62,
       "style": null,
       "source_doc_indices": [
-        63,
-        67
+        62,
+        66
       ],
       "emphasized": [],
       "math_texts": [],
@@ -318,10 +318,10 @@
     },
     {
       "text": "Tool Bar",
-      "doc_index": 71,
+      "doc_index": 70,
       "style": "소제목2",
       "source_doc_indices": [
-        71
+        70
       ],
       "emphasized": [],
       "math_texts": [],
@@ -329,10 +329,10 @@
     },
     {
       "text": "1.3.2 Node",
-      "doc_index": 75,
+      "doc_index": 74,
       "style": "heading 3",
       "source_doc_indices": [
-        75
+        74
       ],
       "emphasized": [],
       "math_texts": [],
@@ -340,12 +340,12 @@
     },
     {
       "text": "Data loading, data preprocessing, modeling and evaluation. Select and drag each node in order in the working space, and connect to each in turn.\n[image:rId61]\nThe node window is classified into a total of seven categories.",
-      "doc_index": 76,
+      "doc_index": 75,
       "style": null,
       "source_doc_indices": [
+        75,
         76,
-        77,
-        79
+        78
       ],
       "emphasized": [],
       "math_texts": [],
@@ -353,10 +353,10 @@
     },
     {
       "text": "1.3.3 Project Window",
-      "doc_index": 82,
+      "doc_index": 81,
       "style": "heading 3",
       "source_doc_indices": [
-        82
+        81
       ],
       "emphasized": [],
       "math_texts": [],
@@ -364,12 +364,12 @@
     },
     {
       "text": "S tart with Input Node, ‘Column filter’ and ‘Type change’ to define indep. & dep. Variables, and select either ‘Continuous’ or ‘Discrete’. Connect to modeling node.\n[image:rId62]\nThe project window shows the flow map of the data analysis.",
-      "doc_index": 83,
+      "doc_index": 82,
       "style": null,
       "source_doc_indices": [
+        82,
         83,
-        84,
-        85
+        84
       ],
       "emphasized": [
         "Input Node",
@@ -381,10 +381,10 @@
     },
     {
       "text": "Select Project",
-      "doc_index": 87,
+      "doc_index": 86,
       "style": "소제목2",
       "source_doc_indices": [
-        87
+        86
       ],
       "emphasized": [],
       "math_texts": [],
@@ -392,11 +392,11 @@
     },
     {
       "text": "To activate a project, press the tab on the top.\n[image:rId63] [image:rId64]",
-      "doc_index": 88,
+      "doc_index": 87,
       "style": null,
       "source_doc_indices": [
-        88,
-        89
+        87,
+        88
       ],
       "emphasized": [],
       "math_texts": [],
@@ -404,10 +404,10 @@
     },
     {
       "text": "Close Project",
-      "doc_index": 90,
+      "doc_index": 89,
       "style": "소제목2",
       "source_doc_indices": [
-        90
+        89
       ],
       "emphasized": [],
       "math_texts": [],
@@ -415,11 +415,11 @@
     },
     {
       "text": "Select \"Project > Close\" or press “X” button.\n[image:rId65].",
-      "doc_index": 91,
+      "doc_index": 90,
       "style": null,
       "source_doc_indices": [
-        91,
-        92
+        90,
+        91
       ],
       "emphasized": [],
       "math_texts": [],
@@ -427,8 +427,19 @@
     },
     {
       "text": "Nodes",
-      "doc_index": 93,
+      "doc_index": 92,
       "style": "소제목2",
+      "source_doc_indices": [
+        92
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Various types of icons for different tasks.",
+      "doc_index": 93,
+      "style": null,
       "source_doc_indices": [
         93
       ],
@@ -437,22 +448,11 @@
       "image_included": false
     },
     {
-      "text": "Various types of icons for different tasks.",
-      "doc_index": 94,
-      "style": null,
-      "source_doc_indices": [
-        94
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "Context Menu",
-      "doc_index": 97,
+      "doc_index": 96,
       "style": "소제목2",
       "source_doc_indices": [
-        97
+        96
       ],
       "emphasized": [],
       "math_texts": [],
@@ -460,12 +460,12 @@
     },
     {
       "text": "Right-clicking in the project window displays all the menu nodes.\n[image:rId78]\nThe newly added feature in this latest version, 'Insert Memo', is added for users to make notes when configuring nodes and projects",
-      "doc_index": 98,
+      "doc_index": 97,
       "style": null,
       "source_doc_indices": [
+        97,
         98,
-        99,
-        100
+        99
       ],
       "emphasized": [
         "the project window"
@@ -475,8 +475,19 @@
     },
     {
       "text": "1.3.4 Node Properties",
-      "doc_index": 102,
+      "doc_index": 101,
       "style": "heading 3",
+      "source_doc_indices": [
+        101
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "It shows the properties of the project or the selected node.",
+      "doc_index": 102,
+      "style": null,
       "source_doc_indices": [
         102
       ],
@@ -485,22 +496,11 @@
       "image_included": false
     },
     {
-      "text": "It shows the properties of the project or the selected node.",
-      "doc_index": 103,
-      "style": null,
-      "source_doc_indices": [
-        103
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "Project Properties",
-      "doc_index": 105,
+      "doc_index": 104,
       "style": "소제목2",
       "source_doc_indices": [
-        105
+        104
       ],
       "emphasized": [],
       "math_texts": [],
@@ -508,10 +508,10 @@
     },
     {
       "text": "In the project properties window, you may add a memo of the project's objective and description. The Project Creator shows the username of the person logged into Windows and cannot be changed. [image:rId79]",
-      "doc_index": 106,
+      "doc_index": 105,
       "style": null,
       "source_doc_indices": [
-        106
+        105
       ],
       "emphasized": [],
       "math_texts": [],
@@ -519,8 +519,19 @@
     },
     {
       "text": "Node Property about data",
-      "doc_index": 107,
+      "doc_index": 106,
       "style": "소제목2",
+      "source_doc_indices": [
+        106
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Node property for data tells the variable names and data type. Data types can be changed.",
+      "doc_index": 107,
+      "style": "List Bullet",
       "source_doc_indices": [
         107
       ],
@@ -529,7 +540,7 @@
       "image_included": false
     },
     {
-      "text": "Node property for data tells the variable names and data type. Data types can be changed.",
+      "text": "Exclusion of variable in ‘Column Filter’.",
       "doc_index": 108,
       "style": "List Bullet",
       "source_doc_indices": [
@@ -540,7 +551,7 @@
       "image_included": false
     },
     {
-      "text": "Exclusion of variable in ‘Column Filter’.",
+      "text": "Define the dependent and independent variables in ‘Type Change’.",
       "doc_index": 109,
       "style": "List Bullet",
       "source_doc_indices": [
@@ -551,7 +562,7 @@
       "image_included": false
     },
     {
-      "text": "Define the dependent and independent variables in ‘Type Change’.",
+      "text": "[image:rId80]",
       "doc_index": 110,
       "style": "List Bullet",
       "source_doc_indices": [
@@ -559,25 +570,14 @@
       ],
       "emphasized": [],
       "math_texts": [],
-      "image_included": false
-    },
-    {
-      "text": "[image:rId80]",
-      "doc_index": 111,
-      "style": "List Bullet",
-      "source_doc_indices": [
-        111
-      ],
-      "emphasized": [],
-      "math_texts": [],
       "image_included": true
     },
     {
       "text": "1.3.5 Resource Window",
-      "doc_index": 114,
+      "doc_index": 113,
       "style": "heading 3",
       "source_doc_indices": [
-        114
+        113
       ],
       "emphasized": [],
       "math_texts": [],
@@ -585,11 +585,11 @@
     },
     {
       "text": "In ECMiner™, resources refer to all files including data, results, models, and project files.\n[image:rId81]",
-      "doc_index": 115,
+      "doc_index": 114,
       "style": null,
       "source_doc_indices": [
-        115,
-        116
+        114,
+        115
       ],
       "emphasized": [],
       "math_texts": [],
@@ -597,8 +597,19 @@
     },
     {
       "text": "Resource Menu",
-      "doc_index": 118,
+      "doc_index": 117,
       "style": "소제목2",
+      "source_doc_indices": [
+        117
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Local menu displays a list of files in the resource list.",
+      "doc_index": 118,
+      "style": "List Bullet",
       "source_doc_indices": [
         118
       ],
@@ -607,7 +618,7 @@
       "image_included": false
     },
     {
-      "text": "Local menu displays a list of files in the resource list.",
+      "text": "Model menu shows the list of model files. You may utilize it for future runs.",
       "doc_index": 119,
       "style": "List Bullet",
       "source_doc_indices": [
@@ -618,7 +629,7 @@
       "image_included": false
     },
     {
-      "text": "Model menu shows the list of model files. You may utilize it for future runs.",
+      "text": "Output menu displays the list of output for each project.",
       "doc_index": 120,
       "style": "List Bullet",
       "source_doc_indices": [
@@ -629,20 +640,20 @@
       "image_included": false
     },
     {
-      "text": "Output menu displays the list of output for each project.",
-      "doc_index": 121,
-      "style": "List Bullet",
+      "text": "Resource List",
+      "doc_index": 122,
+      "style": "소제목2",
       "source_doc_indices": [
-        121
+        122
       ],
       "emphasized": [],
       "math_texts": [],
       "image_included": false
     },
     {
-      "text": "Resource List",
+      "text": "When selecting the Local menu",
       "doc_index": 123,
-      "style": "소제목2",
+      "style": "List Paragraph",
       "source_doc_indices": [
         123
       ],
@@ -651,22 +662,11 @@
       "image_included": false
     },
     {
-      "text": "When selecting the Local menu",
-      "doc_index": 124,
-      "style": "List Paragraph",
-      "source_doc_indices": [
-        124
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "[image:rId82]",
-      "doc_index": 125,
+      "doc_index": 124,
       "style": "List Continue 2",
       "source_doc_indices": [
-        125
+        124
       ],
       "emphasized": [],
       "math_texts": [],
@@ -674,8 +674,19 @@
     },
     {
       "text": "From the resource lists, you can filter the files using the toolbar buttons at the top.",
-      "doc_index": 126,
+      "doc_index": 125,
       "style": "List Continue 2",
+      "source_doc_indices": [
+        125
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "When selecting the Model menu",
+      "doc_index": 126,
+      "style": "List Paragraph",
       "source_doc_indices": [
         126
       ],
@@ -684,22 +695,11 @@
       "image_included": false
     },
     {
-      "text": "When selecting the Model menu",
-      "doc_index": 127,
-      "style": "List Paragraph",
-      "source_doc_indices": [
-        127
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "[image:rId83]",
-      "doc_index": 128,
+      "doc_index": 127,
       "style": "List Continue 2",
       "source_doc_indices": [
-        128
+        127
       ],
       "emphasized": [],
       "math_texts": [],
@@ -707,8 +707,19 @@
     },
     {
       "text": "After running modeling, the output models are listed. You may take out a model in the list which is not necessary.",
-      "doc_index": 129,
+      "doc_index": 128,
       "style": "List Continue 2",
+      "source_doc_indices": [
+        128
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "When selecting the Output menu",
+      "doc_index": 129,
+      "style": "List Paragraph",
       "source_doc_indices": [
         129
       ],
@@ -717,22 +728,11 @@
       "image_included": false
     },
     {
-      "text": "When selecting the Output menu",
-      "doc_index": 130,
-      "style": "List Paragraph",
-      "source_doc_indices": [
-        130
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "[image:rId84]",
-      "doc_index": 131,
+      "doc_index": 130,
       "style": "List Continue 2",
       "source_doc_indices": [
-        131
+        130
       ],
       "emphasized": [],
       "math_texts": [],
@@ -740,10 +740,10 @@
     },
     {
       "text": "After running modeling, the output results are listed in the project with sub-tree. Select the results you want to view. It shows the results for comparison. Additionally, it offers the ability to save results or view previously saved results.",
-      "doc_index": 132,
+      "doc_index": 131,
       "style": "List Continue 2",
       "source_doc_indices": [
-        132
+        131
       ],
       "emphasized": [],
       "math_texts": [],
@@ -751,8 +751,19 @@
     },
     {
       "text": "1.3.6 Resource Window -Local",
-      "doc_index": 134,
+      "doc_index": 133,
       "style": "heading 3",
+      "source_doc_indices": [
+        133
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Task Folder",
+      "doc_index": 134,
+      "style": "소제목2",
       "source_doc_indices": [
         134
       ],
@@ -761,22 +772,11 @@
       "image_included": false
     },
     {
-      "text": "Task Folder",
-      "doc_index": 135,
-      "style": "소제목2",
-      "source_doc_indices": [
-        135
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "A task folder in ECMiner™ is a frequently used one, which can be renamed (aliased) with another name. Users need to add the task folder themselves, and once added, the work folders will appear in the Local menu within the resource window. [image:rId85] You may Add/Delete/Modify the folder using the toolbar",
-      "doc_index": 136,
+      "doc_index": 135,
       "style": null,
       "source_doc_indices": [
-        136
+        135
       ],
       "emphasized": [],
       "math_texts": [],
@@ -784,10 +784,10 @@
     },
     {
       "text": "Add Task Folder",
-      "doc_index": 138,
+      "doc_index": 137,
       "style": "소제목2",
       "source_doc_indices": [
-        138
+        137
       ],
       "emphasized": [],
       "math_texts": [],
@@ -795,10 +795,10 @@
     },
     {
       "text": "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name.",
-      "doc_index": 139,
+      "doc_index": 138,
       "style": "소제목2",
       "source_doc_indices": [
-        139
+        138
       ],
       "emphasized": [
         "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name."
@@ -808,10 +808,10 @@
     },
     {
       "text": "[image:rId87]",
-      "doc_index": 140,
+      "doc_index": 139,
       "style": null,
       "source_doc_indices": [
-        140
+        139
       ],
       "emphasized": [],
       "math_texts": [],
@@ -819,10 +819,10 @@
     },
     {
       "text": "Modify Task Folder",
-      "doc_index": 141,
+      "doc_index": 140,
       "style": "List Paragraph",
       "source_doc_indices": [
-        141
+        140
       ],
       "emphasized": [],
       "math_texts": [],
@@ -830,10 +830,10 @@
     },
     {
       "text": "To change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.",
-      "doc_index": 142,
+      "doc_index": 141,
       "style": "List Continue 2",
       "source_doc_indices": [
-        142
+        141
       ],
       "emphasized": [],
       "math_texts": [],
@@ -841,10 +841,10 @@
     },
     {
       "text": "Delete Task Folder",
-      "doc_index": 143,
+      "doc_index": 142,
       "style": "List Paragraph",
       "source_doc_indices": [
-        143
+        142
       ],
       "emphasized": [],
       "math_texts": [],
@@ -852,10 +852,10 @@
     },
     {
       "text": "To delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.",
-      "doc_index": 144,
+      "doc_index": 143,
       "style": "List Continue 2",
       "source_doc_indices": [
-        144
+        143
       ],
       "emphasized": [],
       "math_texts": [],
@@ -863,10 +863,10 @@
     },
     {
       "text": "Reload",
-      "doc_index": 145,
+      "doc_index": 144,
       "style": "List Paragraph",
       "source_doc_indices": [
-        145
+        144
       ],
       "emphasized": [],
       "math_texts": [],
@@ -874,10 +874,10 @@
     },
     {
       "text": "To reload the file list of the task folder, click the [image:rId90] button in the toolbar.",
-      "doc_index": 146,
+      "doc_index": 145,
       "style": "List Continue 2",
       "source_doc_indices": [
-        146
+        145
       ],
       "emphasized": [],
       "math_texts": [],
@@ -885,8 +885,19 @@
     },
     {
       "text": "Create New Folder",
-      "doc_index": 147,
+      "doc_index": 146,
       "style": "List Paragraph",
+      "source_doc_indices": [
+        146
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "Right-clicking on the task folder in the Resource menu.",
+      "doc_index": 147,
+      "style": "List Continue 2",
       "source_doc_indices": [
         147
       ],
@@ -895,7 +906,7 @@
       "image_included": false
     },
     {
-      "text": "Right-clicking on the task folder in the Resource menu.",
+      "text": "[image:rId91]",
       "doc_index": 148,
       "style": "List Continue 2",
       "source_doc_indices": [
@@ -903,10 +914,10 @@
       ],
       "emphasized": [],
       "math_texts": [],
-      "image_included": false
+      "image_included": true
     },
     {
-      "text": "[image:rId91]",
+      "text": "Give the name of folder, it will add the task folder.",
       "doc_index": 149,
       "style": "List Continue 2",
       "source_doc_indices": [
@@ -914,23 +925,23 @@
       ],
       "emphasized": [],
       "math_texts": [],
-      "image_included": true
+      "image_included": false
     },
     {
-      "text": "Give the name of folder, it will add the task folder.",
-      "doc_index": 150,
-      "style": "List Continue 2",
+      "text": "Utilizing Task Folders",
+      "doc_index": 151,
+      "style": "소제목2",
       "source_doc_indices": [
-        150
+        151
       ],
       "emphasized": [],
       "math_texts": [],
       "image_included": false
     },
     {
-      "text": "Utilizing Task Folders",
+      "text": "Project Management",
       "doc_index": 152,
-      "style": "소제목2",
+      "style": "List Paragraph",
       "source_doc_indices": [
         152
       ],
@@ -939,9 +950,9 @@
       "image_included": false
     },
     {
-      "text": "Project Management",
+      "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
       "doc_index": 153,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "source_doc_indices": [
         153
       ],
@@ -950,9 +961,9 @@
       "image_included": false
     },
     {
-      "text": "By creating a work folder and gathering all files generated during analysis, such as data files, project files, and model files, you can manage everything in one place. This makes it easy to understand the content of the project without searching through multiple folders.",
+      "text": "Data Sharing",
       "doc_index": 154,
-      "style": "List Continue 2",
+      "style": "List Paragraph",
       "source_doc_indices": [
         154
       ],
@@ -961,9 +972,9 @@
       "image_included": false
     },
     {
-      "text": "Data Sharing",
+      "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
       "doc_index": 155,
-      "style": "List Paragraph",
+      "style": "List Continue 2",
       "source_doc_indices": [
         155
       ],
@@ -972,9 +983,9 @@
       "image_included": false
     },
     {
-      "text": "Creating work folders with the same name allows users to share data files without additional effort, accommodating differences in user environments.",
+      "text": "Resource List",
       "doc_index": 156,
-      "style": "List Continue 2",
+      "style": "소제목2",
       "source_doc_indices": [
         156
       ],
@@ -983,23 +994,12 @@
       "image_included": false
     },
     {
-      "text": "Resource List",
-      "doc_index": 157,
-      "style": "소제목2",
-      "source_doc_indices": [
-        157
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "The file lists of the selected folder.\n[image:rId92]",
-      "doc_index": 158,
+      "doc_index": 157,
       "style": null,
       "source_doc_indices": [
-        158,
-        159
+        157,
+        158
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1007,10 +1007,10 @@
     },
     {
       "text": "Utilizing the Resource List",
-      "doc_index": 162,
+      "doc_index": 161,
       "style": "소제목2",
       "source_doc_indices": [
-        162
+        161
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1018,11 +1018,11 @@
     },
     {
       "text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.\n[image:rId101]",
-      "doc_index": 163,
+      "doc_index": 162,
       "style": null,
       "source_doc_indices": [
-        163,
-        164
+        162,
+        163
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1030,10 +1030,10 @@
     },
     {
       "text": "1.3.7 Resource Window -Model",
-      "doc_index": 167,
+      "doc_index": 166,
       "style": "heading 3",
       "source_doc_indices": [
-        167
+        166
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1041,10 +1041,10 @@
     },
     {
       "text": "After running the model stream, temporary models are listed in the resource window. [image:rId102]",
-      "doc_index": 168,
+      "doc_index": 167,
       "style": null,
       "source_doc_indices": [
-        168
+        167
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1052,10 +1052,10 @@
     },
     {
       "text": "Temporary Model",
-      "doc_index": 169,
+      "doc_index": 168,
       "style": "소제목2",
       "source_doc_indices": [
-        169
+        168
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1063,11 +1063,11 @@
     },
     {
       "text": "Files in the resource window are the result of executing the stream. The name executing result is identical with model node name.\n[image:rId102]",
-      "doc_index": 170,
+      "doc_index": 169,
       "style": null,
       "source_doc_indices": [
-        170,
-        171
+        169,
+        170
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1075,10 +1075,10 @@
     },
     {
       "text": "Delete Model",
-      "doc_index": 172,
+      "doc_index": 171,
       "style": "소제목2",
       "source_doc_indices": [
-        172
+        171
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1086,10 +1086,10 @@
     },
     {
       "text": "To remove an ou t put file in the list, press [image:rId103]",
-      "doc_index": 173,
+      "doc_index": 172,
       "style": null,
       "source_doc_indices": [
-        173
+        172
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1097,10 +1097,10 @@
     },
     {
       "text": "Save Model",
-      "doc_index": 174,
+      "doc_index": 173,
       "style": "소제목2",
       "source_doc_indices": [
-        174
+        173
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1108,15 +1108,15 @@
     },
     {
       "text": "[image:rId104]\nTo save a temporary model for another use, press [image:rId105] Give the model name and specify the path, \"given_model name.gms \" is saved in the task folder.\n[image:rId106]\nAnother method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).\n[image:rId107]\n[image:rId108] In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms \" in the task folder (or subfolder) where you dropped it, indicating the save path.",
-      "doc_index": 175,
+      "doc_index": 174,
       "style": null,
       "source_doc_indices": [
+        174,
         175,
         176,
         177,
         178,
-        179,
-        180
+        179
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1124,10 +1124,10 @@
     },
     {
       "text": "1.3.8 Resource Window -Output",
-      "doc_index": 181,
+      "doc_index": 180,
       "style": "heading 3",
       "source_doc_indices": [
-        181
+        180
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1135,11 +1135,11 @@
     },
     {
       "text": "The results created after executing the stream will appear in the list when the Output menu is selected.\n[image:rId109]",
-      "doc_index": 182,
+      "doc_index": 181,
       "style": null,
       "source_doc_indices": [
-        182,
-        183
+        181,
+        182
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1147,10 +1147,10 @@
     },
     {
       "text": "Output Review",
-      "doc_index": 184,
+      "doc_index": 183,
       "style": "소제목2",
       "source_doc_indices": [
-        184
+        183
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1158,10 +1158,10 @@
     },
     {
       "text": "To view a generated output again, double-click the output from the Result list. Alternatively, after selecting one or more outputs, press the [image:rId110] button located on the toolbar.",
-      "doc_index": 185,
+      "doc_index": 184,
       "style": null,
       "source_doc_indices": [
-        185
+        184
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1169,8 +1169,19 @@
     },
     {
       "text": "Output toolbar",
-      "doc_index": 186,
+      "doc_index": 185,
       "style": "소제목2",
+      "source_doc_indices": [
+        185
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "The toolbar provides the following functions:",
+      "doc_index": 186,
+      "style": null,
       "source_doc_indices": [
         186
       ],
@@ -1179,22 +1190,11 @@
       "image_included": false
     },
     {
-      "text": "The toolbar provides the following functions:",
-      "doc_index": 187,
-      "style": null,
-      "source_doc_indices": [
-        187
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "[image:rId110] Open Output",
-      "doc_index": 188,
+      "doc_index": 187,
       "style": "List Paragraph",
       "source_doc_indices": [
-        188
+        187
       ],
       "emphasized": [
         "[image:rId110]"
@@ -1204,10 +1204,10 @@
     },
     {
       "text": "Display all selected outputs from the list.",
-      "doc_index": 189,
+      "doc_index": 188,
       "style": "List Continue 2",
       "source_doc_indices": [
-        189
+        188
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1215,10 +1215,10 @@
     },
     {
       "text": "[image:rId111] Delete Output",
-      "doc_index": 190,
+      "doc_index": 189,
       "style": "List Paragraph",
       "source_doc_indices": [
-        190
+        189
       ],
       "emphasized": [
         "[image:rId111]"
@@ -1228,10 +1228,10 @@
     },
     {
       "text": "Delete all selected outputs from the list",
-      "doc_index": 191,
+      "doc_index": 190,
       "style": "List Continue 2",
       "source_doc_indices": [
-        191
+        190
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1239,10 +1239,10 @@
     },
     {
       "text": "[image:rId112] Close All Outputs",
-      "doc_index": 192,
+      "doc_index": 191,
       "style": "List Paragraph",
       "source_doc_indices": [
-        192
+        191
       ],
       "emphasized": [
         "[image:rId112]"
@@ -1252,10 +1252,10 @@
     },
     {
       "text": "Close all open output windows.",
-      "doc_index": 193,
+      "doc_index": 192,
       "style": "List Continue 2",
       "source_doc_indices": [
-        193
+        192
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1263,10 +1263,10 @@
     },
     {
       "text": "[image:rId113] Output Window Grid Alignment",
-      "doc_index": 194,
+      "doc_index": 193,
       "style": "List Paragraph",
       "source_doc_indices": [
-        194
+        193
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1274,10 +1274,10 @@
     },
     {
       "text": "If two or more output windows are currently open, arrange them into a grid format.",
-      "doc_index": 195,
+      "doc_index": 194,
       "style": "List Continue 2",
       "source_doc_indices": [
-        195
+        194
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1285,8 +1285,19 @@
     },
     {
       "text": "[image:rId114]",
-      "doc_index": 196,
+      "doc_index": 195,
       "style": "List Continue 2",
+      "source_doc_indices": [
+        195
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": true
+    },
+    {
+      "text": "[image:rId115] Display Grid Alignment",
+      "doc_index": 196,
+      "style": "List Paragraph",
       "source_doc_indices": [
         196
       ],
@@ -1295,22 +1306,11 @@
       "image_included": true
     },
     {
-      "text": "[image:rId115] Display Grid Alignment",
-      "doc_index": 197,
-      "style": "List Paragraph",
-      "source_doc_indices": [
-        197
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": true
-    },
-    {
       "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a grid format.",
-      "doc_index": 198,
+      "doc_index": 197,
       "style": "List Continue 2",
       "source_doc_indices": [
-        198
+        197
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1318,10 +1318,10 @@
     },
     {
       "text": "[image:rId116] Output Window Cascade Alignment",
-      "doc_index": 199,
+      "doc_index": 198,
       "style": "List Paragraph",
       "source_doc_indices": [
-        199
+        198
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1329,10 +1329,10 @@
     },
     {
       "text": "Arranges the currently open output windows in a cascading format.",
-      "doc_index": 200,
+      "doc_index": 199,
       "style": "List Continue 2",
       "source_doc_indices": [
-        200
+        199
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1340,10 +1340,10 @@
     },
     {
       "text": "[image:rId117] Display Cascade Alignment",
-      "doc_index": 201,
+      "doc_index": 200,
       "style": "List Paragraph",
       "source_doc_indices": [
-        201
+        200
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1351,10 +1351,10 @@
     },
     {
       "text": "Similar to the feature described above, when you open two or more selected closed outputs, the outputs will be arranged in a cascading format.",
-      "doc_index": 202,
+      "doc_index": 201,
       "style": "List Continue 2",
       "source_doc_indices": [
-        202
+        201
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1362,10 +1362,10 @@
     },
     {
       "text": "[image:rId118] Save output",
-      "doc_index": 203,
+      "doc_index": 202,
       "style": "List Paragraph",
       "source_doc_indices": [
-        203
+        202
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1373,10 +1373,10 @@
     },
     {
       "text": "Save the output to the desired path in the *. ept file format",
-      "doc_index": 204,
+      "doc_index": 203,
       "style": "List Continue 2",
       "source_doc_indices": [
-        204
+        203
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1384,10 +1384,10 @@
     },
     {
       "text": "[image:rId119] Load saved output",
-      "doc_index": 205,
+      "doc_index": 204,
       "style": "List Paragraph",
       "source_doc_indices": [
-        205
+        204
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1395,10 +1395,10 @@
     },
     {
       "text": "Open the saved output file(*. ept). The results will be added to the list under the \"Other” category",
-      "doc_index": 206,
+      "doc_index": 205,
       "style": "List Continue 2",
       "source_doc_indices": [
-        206
+        205
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1406,10 +1406,10 @@
     },
     {
       "text": "[image:rId120]",
-      "doc_index": 207,
+      "doc_index": 206,
       "style": "List Continue 2",
       "source_doc_indices": [
-        207
+        206
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1417,10 +1417,10 @@
     },
     {
       "text": "1.3.9 Message Window",
-      "doc_index": 211,
+      "doc_index": 210,
       "style": "heading 3",
       "source_doc_indices": [
-        211
+        210
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1428,11 +1428,11 @@
     },
     {
       "text": "The Message window displays execution information and errors related nodes during stream execution.\n[image:rId122]",
-      "doc_index": 212,
+      "doc_index": 211,
       "style": null,
       "source_doc_indices": [
-        212,
-        213
+        211,
+        212
       ],
       "emphasized": [],
       "math_texts": [],
@@ -1440,8 +1440,19 @@
     },
     {
       "text": "Type of Messages",
-      "doc_index": 215,
+      "doc_index": 214,
       "style": "소제목2",
+      "source_doc_indices": [
+        214
+      ],
+      "emphasized": [],
+      "math_texts": [],
+      "image_included": false
+    },
+    {
+      "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
+      "doc_index": 215,
+      "style": null,
       "source_doc_indices": [
         215
       ],
@@ -1450,42 +1461,30 @@
       "image_included": false
     },
     {
-      "text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
-      "doc_index": 216,
-      "style": null,
-      "source_doc_indices": [
-        216
-      ],
-      "emphasized": [],
-      "math_texts": [],
-      "image_included": false
-    },
-    {
       "text": "1.3.10 Dynamic Help",
-      "doc_index": 219,
+      "doc_index": 218,
       "style": "heading 3",
       "source_doc_indices": [
-        219
+        218
       ],
       "emphasized": [],
       "math_texts": [],
       "image_included": false
     },
     {
-      "text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\n[image:rId123]\nThe toolbar provides following functions:",
-      "doc_index": 220,
+      "text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
+      "doc_index": 219,
       "style": null,
       "source_doc_indices": [
-        220,
-        221,
+        219,
         222
       ],
       "emphasized": [],
       "math_texts": [],
-      "image_included": true
+      "image_included": false
     },
     {
-      "text": "[image:rId124] Toggle Help",
+      "text": "[image:rId126] Toggle Help",
       "doc_index": 223,
       "style": "List Paragraph",
       "source_doc_indices": [
@@ -1518,7 +1517,7 @@
       "image_included": false
     },
     {
-      "text": "[image:rId125] Index Search",
+      "text": "[image:rId127] Index Search",
       "doc_index": 226,
       "style": "List Paragraph",
       "source_doc_indices": [
@@ -1584,7 +1583,7 @@
       "image_included": false
     },
     {
-      "text": "Left-click and hold the title of the control window with the mouse",
+      "text": "1. Left-click and hold the title of the control window with the mouse",
       "doc_index": 234,
       "style": "List Paragraph",
       "source_doc_indices": [
@@ -1595,7 +1594,7 @@
       "image_included": false
     },
     {
-      "text": "[image:rId126]",
+      "text": "[image:rId128]",
       "doc_index": 235,
       "style": "List Continue 2",
       "source_doc_indices": [
@@ -1606,7 +1605,7 @@
       "image_included": true
     },
     {
-      "text": "While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
+      "text": "2. While dragging, move the mouse pointer over the icon of the location where you want to place the control window.",
       "doc_index": 236,
       "style": "List Paragraph",
       "source_doc_indices": [
@@ -1665,7 +1664,7 @@
       "image_included": false
     },
     {
-      "text": "[image:rId127]",
+      "text": "[image:rId129]",
       "doc_index": 241,
       "style": "List Continue 2",
       "source_doc_indices": [
@@ -1676,7 +1675,7 @@
       "image_included": true
     },
     {
-      "text": "A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
+      "text": "3. A blue rectangle will indicate where the control window will be located. Once you confirm the position, release the mouse button to change the location of the control window.",
       "doc_index": 242,
       "style": "List Paragraph",
       "source_doc_indices": [
@@ -1687,7 +1686,7 @@
       "image_included": false
     },
     {
-      "text": "[image:rId128]",
+      "text": "[image:rId130]",
       "doc_index": 243,
       "style": "List Continue 2",
       "source_doc_indices": [
@@ -1709,7 +1708,7 @@
       "image_included": false
     },
     {
-      "text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId129], [image:rId130]).",
+      "text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId131], [image:rId132]).",
       "doc_index": 248,
       "style": null,
       "source_doc_indices": [
@@ -1775,7 +1774,7 @@
       "image_included": false
     },
     {
-      "text": "Pressing the [image:rId131] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId132]",
+      "text": "Pressing the [image:rId133] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId134]",
       "doc_index": 257,
       "style": null,
       "source_doc_indices": [
@@ -1929,7 +1928,7 @@
       "image_included": false
     },
     {
-      "text": "The Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId133]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.",
+      "text": "The Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId135]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.",
       "doc_index": 277,
       "style": null,
       "source_doc_indices": [
@@ -1956,7 +1955,7 @@
       "image_included": false
     },
     {
-      "text": "When you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId140]",
+      "text": "When you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId142]",
       "doc_index": 287,
       "style": null,
       "source_doc_indices": [
@@ -1979,7 +1978,7 @@
       "image_included": false
     },
     {
-      "text": "Selecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId141]",
+      "text": "Selecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId143]",
       "doc_index": 293,
       "style": null,
       "source_doc_indices": [
@@ -2002,7 +2001,7 @@
       "image_included": false
     },
     {
-      "text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId142]",
+      "text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId144]",
       "doc_index": 299,
       "style": null,
       "source_doc_indices": [
@@ -2028,13 +2027,13 @@
   "lists": [
     {
       "text": "제목: Node Property about data\na. Node property for data tells the variable names and data type. Data types can be changed.\nb. Exclusion of variable in ‘Column Filter’.\nc. Define the dependent and independent variables in ‘Type Change’.\nd. [image:rId80]",
-      "doc_index": 108,
+      "doc_index": 107,
       "style": "List Bullet",
       "source_doc_indices": [
+        107,
         108,
         109,
-        110,
-        111
+        110
       ],
       "emphasized": [],
       "math_texts": [],
@@ -2042,12 +2041,12 @@
     },
     {
       "text": "제목: Resource Menu\na. Local menu displays a list of files in the resource list.\nb. Model menu shows the list of model files. You may utilize it for future runs.\nc. Output menu displays the list of output for each project.",
-      "doc_index": 119,
+      "doc_index": 118,
       "style": "List Bullet",
       "source_doc_indices": [
+        118,
         119,
-        120,
-        121
+        120
       ],
       "emphasized": [],
       "math_texts": [],
@@ -2310,8 +2309,8 @@
       ]
     },
     {
-      "tid": "t59",
-      "doc_index": 59,
+      "tid": "t58",
+      "doc_index": 58,
       "preceding_text": null,
       "rows": 9,
       "cols": 4,
@@ -2755,8 +2754,8 @@
       ]
     },
     {
-      "tid": "t65",
-      "doc_index": 65,
+      "tid": "t64",
+      "doc_index": 64,
       "preceding_text": null,
       "rows": 8,
       "cols": 2,
@@ -3010,8 +3009,8 @@
       ]
     },
     {
-      "tid": "t68",
-      "doc_index": 68,
+      "tid": "t67",
+      "doc_index": 67,
       "preceding_text": null,
       "rows": 3,
       "cols": 3,
@@ -3157,8 +3156,8 @@
       ]
     },
     {
-      "tid": "t72",
-      "doc_index": 72,
+      "tid": "t71",
+      "doc_index": 71,
       "preceding_text": "Tool Bar",
       "rows": 7,
       "cols": 4,
@@ -3589,8 +3588,8 @@
       ]
     },
     {
-      "tid": "t80",
-      "doc_index": 80,
+      "tid": "t79",
+      "doc_index": 79,
       "preceding_text": null,
       "rows": 8,
       "cols": 2,
@@ -3828,8 +3827,8 @@
       ]
     },
     {
-      "tid": "t95",
-      "doc_index": 95,
+      "tid": "t94",
+      "doc_index": 94,
       "preceding_text": "Various types of icons for different tasks.",
       "rows": 7,
       "cols": 3,
@@ -4148,8 +4147,8 @@
       ]
     },
     {
-      "tid": "t160",
-      "doc_index": 160,
+      "tid": "t159",
+      "doc_index": 159,
       "preceding_text": null,
       "rows": 5,
       "cols": 2,
@@ -4315,8 +4314,8 @@
       ]
     },
     {
-      "tid": "t209",
-      "doc_index": 209,
+      "tid": "t208",
+      "doc_index": 208,
       "preceding_text": null,
       "rows": 1,
       "cols": 1,
@@ -4347,8 +4346,8 @@
       ]
     },
     {
-      "tid": "t217",
-      "doc_index": 217,
+      "tid": "t216",
+      "doc_index": 216,
       "preceding_text": "The types of messages can be categorized into five categories, differentiated by color as follows:",
       "rows": 6,
       "cols": 3,
@@ -4601,6 +4600,68 @@
           "r": 5,
           "c": 2,
           "text": "Note Message",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        }
+      ]
+    },
+    {
+      "tid": "t220",
+      "doc_index": 220,
+      "preceding_text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
+      "rows": 1,
+      "cols": 3,
+      "data": [
+        [
+          {
+            "text": "[image:rId123]",
+            "images": [
+              "rId123"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId124]",
+            "images": [
+              "rId124"
+            ],
+            "styled": false
+          },
+          {
+            "text": "[image:rId125]",
+            "images": [
+              "rId125"
+            ],
+            "styled": false
+          }
+        ]
+      ],
+      "is_rowheader": false,
+      "is_colheader": false,
+      "has_borders": true,
+      "table_html": "<table>\n  <tr>\n    <td>[image:rId123]</td>\n    <td>[image:rId124]</td>\n    <td>[image:rId125]</td>\n  </tr>\n</table>",
+      "anchors": [
+        {
+          "r": 0,
+          "c": 0,
+          "text": "[image:rId123]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "text": "[image:rId124]",
+          "colspan": 1,
+          "vmerge": null,
+          "rowspan": 1
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "text": "[image:rId125]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -6011,10 +6072,10 @@
       "data": [
         [
           {
-            "text": "[image:rId134] [image:rId135]",
+            "text": "[image:rId136] [image:rId137]",
             "images": [
-              "rId134",
-              "rId135"
+              "rId136",
+              "rId137"
             ],
             "styled": false
           },
@@ -6031,10 +6092,10 @@
         ],
         [
           {
-            "text": "[image:rId136] [image:rId137]",
+            "text": "[image:rId138] [image:rId139]",
             "images": [
-              "rId136",
-              "rId137"
+              "rId138",
+              "rId139"
             ],
             "styled": false
           },
@@ -6051,10 +6112,10 @@
         ],
         [
           {
-            "text": "[image:rId138] [image:rId139]",
+            "text": "[image:rId140] [image:rId141]",
             "images": [
-              "rId138",
-              "rId139"
+              "rId140",
+              "rId141"
             ],
             "styled": false
           },
@@ -6073,12 +6134,12 @@
       "is_rowheader": false,
       "is_colheader": false,
       "has_borders": true,
-      "table_html": "<table>\n  <tr>\n    <td>[image:rId134] [image:rId135]</td>\n    <td>Program Settings</td>\n    <td>Set the program defaults for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window, Program Look, etc.</td>\n  </tr>\n  <tr>\n    <td>[image:rId136] [image:rId137]</td>\n    <td>Default Database Setting</td>\n    <td>Set the default driver and login information for ODBC or OLE DB.</td>\n  </tr>\n  <tr>\n    <td>[image:rId138] [image:rId139]</td>\n    <td>Edit Frequently Used Nodes</td>\n    <td>You can add or delete the most used nodes.</td>\n  </tr>\n</table>",
+      "table_html": "<table>\n  <tr>\n    <td>[image:rId136] [image:rId137]</td>\n    <td>Program Settings</td>\n    <td>Set the program defaults for Date/Time Format, Reading Data, Designate File Extensions to Display on Resource Window, Program Look, etc.</td>\n  </tr>\n  <tr>\n    <td>[image:rId138] [image:rId139]</td>\n    <td>Default Database Setting</td>\n    <td>Set the default driver and login information for ODBC or OLE DB.</td>\n  </tr>\n  <tr>\n    <td>[image:rId140] [image:rId141]</td>\n    <td>Edit Frequently Used Nodes</td>\n    <td>You can add or delete the most used nodes.</td>\n  </tr>\n</table>",
       "anchors": [
         {
           "r": 0,
           "c": 0,
-          "text": "[image:rId134] [image:rId135]",
+          "text": "[image:rId136] [image:rId137]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -6102,7 +6163,7 @@
         {
           "r": 1,
           "c": 0,
-          "text": "[image:rId136] [image:rId137]",
+          "text": "[image:rId138] [image:rId139]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -6126,7 +6187,7 @@
         {
           "r": 2,
           "c": 0,
-          "text": "[image:rId138] [image:rId139]",
+          "text": "[image:rId140] [image:rId141]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -6635,9 +6696,9 @@
         ],
         [
           {
-            "text": "[image:rId143]",
+            "text": "[image:rId145]",
             "images": [
-              "rId143"
+              "rId145"
             ],
             "styled": true
           },
@@ -6649,9 +6710,9 @@
         ],
         [
           {
-            "text": "[image:rId144]",
+            "text": "[image:rId146]",
             "images": [
-              "rId144"
+              "rId146"
             ],
             "styled": true
           },
@@ -6665,7 +6726,7 @@
       "is_rowheader": true,
       "is_colheader": true,
       "has_borders": true,
-      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">icon</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId143]</th>\n    <td>Adds the selected node to the Most Used Nodes list.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId144]</th>\n    <td>Deletes the selected node from the Most Used Nodes list.</td>\n  </tr>\n</table>",
+      "table_html": "<table>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">icon</th>\n    <th style=\"background-color: #f2f2f2;\">function</th>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId145]</th>\n    <td>Adds the selected node to the Most Used Nodes list.</td>\n  </tr>\n  <tr>\n    <th style=\"background-color: #f2f2f2;\">[image:rId146]</th>\n    <td>Deletes the selected node from the Most Used Nodes list.</td>\n  </tr>\n</table>",
       "anchors": [
         {
           "r": 0,
@@ -6686,7 +6747,7 @@
         {
           "r": 1,
           "c": 0,
-          "text": "[image:rId143]",
+          "text": "[image:rId145]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -6702,7 +6763,7 @@
         {
           "r": 2,
           "c": 0,
-          "text": "[image:rId144]",
+          "text": "[image:rId146]",
           "colspan": 1,
           "vmerge": null,
           "rowspan": 1
@@ -6725,9 +6786,9 @@
     {
       "rId": "rId26",
       "filename": "image18.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image18.png",
-      "ocr_text": "Window(w) | Help(H)\n\nCascade Array(Q)\nTile Array(T)\n\n¥ | 1 Project\n\nWindows...",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image18.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -6736,9 +6797,9 @@
     {
       "rId": "rId117",
       "filename": "image83.png",
-      "doc_index": 201,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image83.png",
-      "ocr_text": "",
+      "doc_index": 200,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image83.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId117] Display Cascade Alignment",
@@ -6747,9 +6808,9 @@
     {
       "rId": "rId21",
       "filename": "image13.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image13.png",
-      "ocr_text": "Project(P) | Edit(E) View(V)__ Stream(S)\n\n[New Ctri+N\n\nBB Opentoy Ctr+O\nClose(C)\n\nFI Savers) cites\nSave As(A)\n\nBy Printer) CtrlsP\nPrint Preview(V)\nPrint Setting(R)\n\n1 german_credit_scorecard_2.ecm\n2 german_credit_scorecard.ecm\n3 german_credit_scorecard.ecm\n\n4 german_credit_scorecard.ecm\n\nExit)",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image13.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -6758,8 +6819,8 @@
     {
       "rId": "rId42",
       "filename": "oleObject7.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject7.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject7.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -6769,9 +6830,9 @@
     {
       "rId": "rId47",
       "filename": "image30.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image30.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image30.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -6780,9 +6841,9 @@
     {
       "rId": "rId63",
       "filename": "image39.png",
-      "doc_index": 89,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image39.png",
-      "ocr_text": "| ABP Projectt x | APProject2 x AiPProject3 x",
+      "doc_index": 88,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image39.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "To activate a project, press the tab on the top.\n[image:rId63] [image:rId64]",
@@ -6791,9 +6852,9 @@
     {
       "rId": "rId68",
       "filename": "image43.png",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image43.png",
-      "ocr_text": "",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image43.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Various types of icons for different tasks.",
@@ -6802,9 +6863,9 @@
     {
       "rId": "rId84",
       "filename": "image54.png",
-      "doc_index": 131,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image54.png",
-      "ocr_text": "=|£3) 1.mirecm\n{A display\n1-5) 2per.ecm\n\n{A display\nBEG trend chart\n\n£3) spls.ecm\nBEG trend chart",
+      "doc_index": 130,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image54.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId84]",
@@ -6813,9 +6874,9 @@
     {
       "rId": "rId89",
       "filename": "image59.png",
-      "doc_index": 144,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image59.png",
-      "ocr_text": "",
+      "doc_index": 143,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image59.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "To delete a task folder, click the [image:rId89] button in the toolbar. A message box will pop up asking, \"Are you sure you want to delete?\" Pressing the ‘Yes’ button will delete the folder.",
@@ -6824,9 +6885,9 @@
     {
       "rId": "rId112",
       "filename": "image78.png",
-      "doc_index": 192,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image78.png",
-      "ocr_text": "",
+      "doc_index": 191,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image78.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId112] Close All Outputs",
@@ -6835,20 +6896,20 @@
     {
       "rId": "rId133",
       "filename": "image99.png",
-      "doc_index": 278,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image99.png",
-      "ocr_text": "Options\n\nFrequently\nUsed Nodes\n\nDefault Settings\nDate/Time Format:\n\nDefault Language ¥\n\n;- When Reading Data\n\nT All numeric data is recognized and imported as floating-point numbers.\n\nDesignate File Extensions to Display on Resource Window:\n\n{txt;csv;tab;datxlsxlsxmdb;cell;\n\nProgram Look\n\n© Microsoft Visual Studio .NET Style\n\n© Microsoft Office 2003 Style D0 One Note Style MDI Tab\nD1 Docking Tab Color\n\nFloating-Point Display Format\n\nD1 Scientific Style (1.23452) Number of Decimal Places:\n\nTemporary Folder Directory:\n\nC’¥ProgramDataWECMiner#£CMiner2014¥#Temporary#\n\nDefault Value(D)\n\not\n\nxel ala Asa !",
+      "doc_index": 257,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image99.png",
+      "ocr_text": null,
       "is_in_table": false,
-      "is_in_paragraph": false,
-      "preceding_text": "The Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId133]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.",
+      "is_in_paragraph": true,
+      "preceding_text": "Pressing the [image:rId133] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId134]",
       "llm_text": null
     },
     {
       "rId": "rId138",
-      "filename": "image102.png",
+      "filename": "image103.png",
       "doc_index": 283,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image102.png",
-      "ocr_text": "",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image103.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -6858,8 +6919,8 @@
       "rId": "rId16",
       "filename": "image8.png",
       "doc_index": 45,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image8.png",
-      "ocr_text": "iB) Setup - ECMiner64 version 1.0 -\n\nCompleting the ECMiner64 Setup\nWizard\n\n‘Setup has finished instaling ECMiner640on your computer. The\n‘pplication may be launched by selecting the installed\nshortcuts.\n\nClick Finish to exit Setup.\n\nFinish",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image8.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -6868,9 +6929,9 @@
     {
       "rId": "rId107",
       "filename": "image73.png",
-      "doc_index": 179,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image73.png",
-      "ocr_text": "Bia Bie\nBS Local\ns-E3 Samale*\nof\n\n5) Output\n\nfai ES Ee\nLogistic (8) LDA (6) QDA (6)\nge i",
+      "doc_index": 178,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image73.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -6880,8 +6941,8 @@
       "rId": "rId11",
       "filename": "image3.png",
       "doc_index": 37,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image3.png",
-      "ocr_text": "4\n1B) Setup - ECMiner64 version 1.0\n\nWhere should EcMineré4 be instaled?\n\nTy seup wi nt Eovmerstn th long fer\n\nTo continue, cick Next. If you would ike to selecta different folder, cick Browse.\nBrowse...\n\nAtleast 1.95 GB of free disk space is required.\n\nead [Cnet] (cone",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image3.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -6890,8 +6951,8 @@
     {
       "rId": "rId32",
       "filename": "oleObject2.bin",
-      "doc_index": 68,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject2.bin",
+      "doc_index": 67,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject2.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -6901,9 +6962,9 @@
     {
       "rId": "rId37",
       "filename": "image25.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image25.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image25.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -6912,9 +6973,9 @@
     {
       "rId": "rId53",
       "filename": "image33.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image33.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image33.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -6923,8 +6984,8 @@
     {
       "rId": "rId58",
       "filename": "oleObject15.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject15.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject15.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -6934,9 +6995,9 @@
     {
       "rId": "rId74",
       "filename": "image46.png",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image46.png",
-      "ocr_text": "",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image46.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Various types of icons for different tasks.",
@@ -6945,9 +7006,9 @@
     {
       "rId": "rId79",
       "filename": "image49.png",
-      "doc_index": 106,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image49.png",
-      "ocr_text": "Node Properties\n\nProject Properties\n\nProject Creator:\n\nECMiner_KGM\n\nProject Objective:\n\nProject Description",
+      "doc_index": 105,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image49.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "In the project properties window, you may add a memo of the project's objective and description. The Project Creator shows the username of the person logged into Windows and cannot be changed. [image:rId79]",
@@ -6956,9 +7017,9 @@
     {
       "rId": "rId102",
       "filename": "image68.png",
-      "doc_index": 168,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image68.png",
-      "ocr_text": "xi\n\n(el\nLogistic (8)\n\nEy\nLDA (6)\n\nxg\nPCA (0)",
+      "doc_index": 167,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image68.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "After running the model stream, temporary models are listed in the resource window. [image:rId102]",
@@ -6967,20 +7028,20 @@
     {
       "rId": "rId123",
       "filename": "image89.png",
-      "doc_index": 221,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image89.png",
-      "ocr_text": "& General Information a\nNode Name File Reader Ss = ical\n(EE File Reader Name\nDescription Enter the name of the node,\nB File\nFile Path\nReload Files\nB Preview\na\n’\nA. ™ Iv.",
-      "is_in_table": false,
+      "doc_index": 220,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image89.png",
+      "ocr_text": null,
+      "is_in_table": true,
       "is_in_paragraph": false,
-      "preceding_text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\n[image:rId123]\nThe toolbar provides following functions:",
+      "preceding_text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
       "llm_text": null
     },
     {
       "rId": "rId128",
       "filename": "image94.png",
-      "doc_index": 243,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image94.png",
-      "ocr_text": "@ EcMiner x64 - Project - ao x\nPromci®) FANE) ew) Streams) tensors) Too) Window) Hap)\nABR ADOXK Bios» D++O\nNode x [node Properties ax\nBe Most used nodes | @ Input | @ Preprocessing | @ Chart | M4 Modeling | Output | MM Model Evaluation | /Proiect Properties\n= ao S o\nBe S&S & BO DW eo BB By EB | frveccene\nfle Res... Fle Res... ODBC .. OLEDB... Detved... Column... Type C... 30 Char Bar Chart Trend... Eran. | | ECMneXGM\nPlt Obletve\nResource Window ax | project x Sic x | Project Desctison’\nBaas L_ shia} P\n© S Local\nModel\noutput b\nax\n700°\nFileName | ___ Size] Mod|\n(eed T T erinumiscrl",
+      "doc_index": 235,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image94.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId128]",
@@ -6989,20 +7050,20 @@
     {
       "rId": "rId144",
       "filename": "image107.png",
-      "doc_index": 304,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image107.png",
-      "ocr_text": "",
-      "is_in_table": true,
+      "doc_index": 300,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image107.png",
+      "ocr_text": null,
+      "is_in_table": false,
       "is_in_paragraph": false,
-      "preceding_text": "Function button",
+      "preceding_text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId144]",
       "llm_text": null
     },
     {
       "rId": "rId90",
       "filename": "image60.png",
-      "doc_index": 146,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image60.png",
-      "ocr_text": "+)",
+      "doc_index": 145,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image60.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "To reload the file list of the task folder, click the [image:rId90] button in the toolbar.",
@@ -7011,9 +7072,9 @@
     {
       "rId": "rId95",
       "filename": "image64.png",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image64.png",
-      "ocr_text": "",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image64.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7022,9 +7083,9 @@
     {
       "rId": "rId22",
       "filename": "image14.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image14.png",
-      "ocr_text": "Edit(E) | View(v) _ Stre\nXK cut\n\nT) copy)\n\n£) Paste)\n\nAK Delete(D)",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image14.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7033,9 +7094,9 @@
     {
       "rId": "rId27",
       "filename": "image19.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image19.png",
-      "ocr_text": "Help(H)\nUser Help(M)\n\n@ Ecwiner infor)",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image19.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7044,9 +7105,9 @@
     {
       "rId": "rId43",
       "filename": "image28.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image28.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image28.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7055,8 +7116,8 @@
     {
       "rId": "rId48",
       "filename": "oleObject10.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject10.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject10.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7066,9 +7127,9 @@
     {
       "rId": "rId64",
       "filename": "image40.png",
-      "doc_index": 89,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image40.png",
-      "ocr_text": "___|¥!\nBP Project\nBP Project2\nBP Project3",
+      "doc_index": 88,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image40.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "To activate a project, press the tab on the top.\n[image:rId63] [image:rId64]",
@@ -7077,8 +7138,8 @@
     {
       "rId": "rId69",
       "filename": "oleObject18.bin",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject18.bin",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject18.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7088,9 +7149,9 @@
     {
       "rId": "rId113",
       "filename": "image79.png",
-      "doc_index": 194,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image79.png",
-      "ocr_text": "",
+      "doc_index": 193,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image79.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId113] Output Window Grid Alignment",
@@ -7099,9 +7160,9 @@
     {
       "rId": "rId118",
       "filename": "image84.png",
-      "doc_index": 203,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image84.png",
-      "ocr_text": "",
+      "doc_index": 202,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image84.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId118] Save output",
@@ -7110,19 +7171,19 @@
     {
       "rId": "rId134",
       "filename": "image100.png",
-      "doc_index": 283,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image100.png",
-      "ocr_text": "",
-      "is_in_table": true,
-      "is_in_paragraph": false,
-      "preceding_text": null,
+      "doc_index": 257,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image100.png",
+      "ocr_text": null,
+      "is_in_table": false,
+      "is_in_paragraph": true,
+      "preceding_text": "Pressing the [image:rId133] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId134]",
       "llm_text": null
     },
     {
       "rId": "rId139",
-      "filename": "oleObject29.bin",
+      "filename": "oleObject28.bin",
       "doc_index": 283,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject29.bin",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject28.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7132,9 +7193,9 @@
     {
       "rId": "rId80",
       "filename": "image50.png",
-      "doc_index": 111,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image50.png",
-      "ocr_text": "Node Properties aX\n\n& General Information\n\nNode Name Column Filter\nName Column Filter\nDescription\nEl Variable Filter\na [ [— 2\nVariable Name Variable Filter | Variable Name |\nbeen — A\nB52 a2 —_— 2\nSe a3 — -&\n52 a4 —_\njbe2A5 — As\njbo 6 — 6\nb=207 — A\njdong > AB\n452 a9 ag\n\ne2chums. ——> churn status",
+      "doc_index": 110,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image50.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId80]",
@@ -7143,9 +7204,9 @@
     {
       "rId": "rId85",
       "filename": "image55.png",
-      "doc_index": 136,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image55.png",
-      "ocr_text": "",
+      "doc_index": 135,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image55.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "A task folder in ECMiner™ is a frequently used one, which can be renamed (aliased) with another name. Users need to add the task folder themselves, and once added, the work folders will appear in the Local menu within the resource window. [image:rId85] You may Add/Delete/Modify the folder using the toolbar",
@@ -7155,8 +7216,8 @@
       "rId": "rId12",
       "filename": "image4.png",
       "doc_index": 38,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image4.png",
-      "ocr_text": "1B) Setup - EcMiner64 version 1.0\n\nSelect Additional Tasks\nWhich additional tasks should be performed?\n\nthen dick Next.\n‘Additional shortcuts:\n\n© create a desktop shortcut\nCreate a Quick Launch shortcut\n\nSelect the additional tasks you would ke Setup to perform while instaling ECMineré4,\n\nceed 68>)\n\ncancel",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image4.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7166,8 +7227,8 @@
       "rId": "rId17",
       "filename": "image9.png",
       "doc_index": 45,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image9.png",
-      "ocr_text": "",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image9.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7176,9 +7237,9 @@
     {
       "rId": "rId25",
       "filename": "image17.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image17.png",
-      "ocr_text": "Extension(A) | Tool() _WindowiW\nDOE\nProbability Distribution\n\nReinforcement Learning\n\nVideo Analysis",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image17.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7187,9 +7248,9 @@
     {
       "rId": "rId33",
       "filename": "image23.png",
-      "doc_index": 68,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image23.png",
-      "ocr_text": "",
+      "doc_index": 67,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image23.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7198,8 +7259,8 @@
     {
       "rId": "rId38",
       "filename": "oleObject5.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject5.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject5.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7209,8 +7270,8 @@
     {
       "rId": "rId46",
       "filename": "oleObject9.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject9.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject9.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7220,9 +7281,9 @@
     {
       "rId": "rId59",
       "filename": "image36.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image36.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image36.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7231,8 +7292,8 @@
     {
       "rId": "rId67",
       "filename": "oleObject17.bin",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject17.bin",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject17.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7242,9 +7303,9 @@
     {
       "rId": "rId103",
       "filename": "image69.png",
-      "doc_index": 173,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image69.png",
-      "ocr_text": "",
+      "doc_index": 172,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image69.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "To remove an ou t put file in the list, press [image:rId103]",
@@ -7253,9 +7314,9 @@
     {
       "rId": "rId108",
       "filename": "image74.png",
-      "doc_index": 180,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image74.png",
-      "ocr_text": "Generalized Model\n\n‘Model Name:\n\nBrief Description:\n\n‘Save Directory:\n\n[RES:'WDesktop\n\nome |",
+      "doc_index": 179,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image74.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7264,9 +7325,9 @@
     {
       "rId": "rId116",
       "filename": "image82.png",
-      "doc_index": 199,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image82.png",
-      "ocr_text": "",
+      "doc_index": 198,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image82.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId116] Output Window Cascade Alignment",
@@ -7275,30 +7336,30 @@
     {
       "rId": "rId124",
       "filename": "image90.png",
-      "doc_index": 223,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image90.png",
-      "ocr_text": "",
-      "is_in_table": false,
-      "is_in_paragraph": true,
-      "preceding_text": "[image:rId124] Toggle Help",
+      "doc_index": 220,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image90.png",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
       "llm_text": null
     },
     {
       "rId": "rId129",
       "filename": "image95.png",
-      "doc_index": 248,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image95.png",
-      "ocr_text": "",
+      "doc_index": 241,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image95.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
-      "preceding_text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId129], [image:rId130]).",
+      "preceding_text": "[image:rId129]",
       "llm_text": null
     },
     {
       "rId": "rId137",
-      "filename": "oleObject28.bin",
+      "filename": "oleObject27.bin",
       "doc_index": 283,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject28.bin",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject27.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7309,8 +7370,8 @@
       "rId": "rId20",
       "filename": "image12.png",
       "doc_index": 57,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image12.png",
-      "ocr_text": "& EcMiner x64 - (MSPC.ecm]\n\nProject(®) Edit(E) View(W) Stream(S) Extension) Tool) Window(W) Help(Hi) (1)\n\nABA/*AHOX ale ++ @\nNode  X | |Node Properties aX\ni Most used nodes | @ Input | @ Preprocessing | @ Chart | JA Modeling | J Output | && Model Evaluation Project Properties\n7 o =\n@  &S & B® ¢ BS BB BE BO % B ke Be Lal | |prieccear\n(File Rea... Flle Rea... ODBC .., OLEDB... Derived... Column... Type C... 3 Chart Bar Chait Trend C.., Enhanc,.. Matix ... Pie Chait Associa... K-Means K-NN LDA LOGISTIC | |[Papca\n(2) Project Objective:\nResource Window aX BiMspcecm x | y | | Proiect Description:\n28 .\n© Local 5 6\nSweat (3) (5) (6)\nSl Output - — 2 —+ {jl —r 2°» ’\na P¢A — Colum Filter KMeans 30 Chart . .\nPCA g\nue = b Statistics Cluster Trend Cluster PCA\nTrend Chart\nI Help aX\nZA <n 2.24\nRow Select Trend Chart Trend Chait\nPLS\nParallel Coordinates GL Chatt,\n‘arallel Coordinates atts ou! (8)\n«| 0 oF Influence factor\nFile Name\na\n\n(4)\n\n(7)\n\nReady\n\n| [earlnumscri]",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image12.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "ECMiner™ provides the following main window to enable easy and efficient data mining.\n[image:rId20]",
@@ -7319,9 +7380,9 @@
     {
       "rId": "rId41",
       "filename": "image27.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image27.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image27.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7330,8 +7391,8 @@
     {
       "rId": "rId54",
       "filename": "oleObject13.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject13.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject13.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7341,9 +7402,9 @@
     {
       "rId": "rId62",
       "filename": "image38.png",
-      "doc_index": 84,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image38.png",
-      "ocr_text": "BP Projectt x RPProject2 x\n\nDA\n\na -<-S-@\n\nFile Reader Column Filter Type Change Split Loaistic",
+      "doc_index": 83,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image38.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "S tart with Input Node, ‘Column filter’ and ‘Type change’ to define indep. & dep. Variables, and select either ‘Continuous’ or ‘Discrete’. Connect to modeling node.\n[image:rId62]\nThe project window shows the flow map of the data analysis.",
@@ -7352,9 +7413,9 @@
     {
       "rId": "rId70",
       "filename": "image44.png",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image44.png",
-      "ocr_text": "",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image44.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Various types of icons for different tasks.",
@@ -7363,8 +7424,8 @@
     {
       "rId": "rId75",
       "filename": "oleObject21.bin",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject21.bin",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject21.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7374,9 +7435,9 @@
     {
       "rId": "rId83",
       "filename": "image53.png",
-      "doc_index": 128,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image53.png",
-      "ocr_text": "xA\n\nMLR",
+      "doc_index": 127,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image53.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId83]",
@@ -7385,9 +7446,9 @@
     {
       "rId": "rId88",
       "filename": "image58.png",
-      "doc_index": 142,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image58.png",
-      "ocr_text": "",
+      "doc_index": 141,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image58.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "To change the contents (folder path, folder name), click the [image:rId88] button in the toolbar.",
@@ -7396,9 +7457,9 @@
     {
       "rId": "rId91",
       "filename": "image61.png",
-      "doc_index": 149,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image61.png",
-      "ocr_text": "Add Folder\n\nEnter the folder name to add.\n\ni]\n2 Characters such as WY,\nincluded in the added folder title.\n\n=\n\n<>, | cannot be",
+      "doc_index": 148,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image61.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId91]",
@@ -7407,8 +7468,8 @@
     {
       "rId": "rId96",
       "filename": "oleObject24.bin",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject24.bin",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject24.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7418,9 +7479,9 @@
     {
       "rId": "rId111",
       "filename": "image77.png",
-      "doc_index": 190,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image77.png",
-      "ocr_text": "",
+      "doc_index": 189,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image77.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId111] Delete Output",
@@ -7429,31 +7490,42 @@
     {
       "rId": "rId132",
       "filename": "image98.png",
-      "doc_index": 257,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image98.png",
-      "ocr_text": "@ EcMiner x64 - [Project] - o x\nABR ADOX Boe» 1 e@\n\nProject?) Edie) View(V) Streami(S)_Extension(A) Took) WindowW) Help)\nNode a x|\nfe Most used nodes |@ Input _@ Preprocessing | @ Chart | MM Modeling | Ill Output | Mk Mode! Evaluation\n\nrvsnk eh & af ®t Sez\n\n‘Add Binning Counter Fill Group... Missing... mage S,.. Import Merge Muliole,.. RANKING Row Se... Spit Column\n\n‘me > Ow w BHSrs 8s i @\n\nSot Column... Derived,,. Column.,. Group By Image P... import... Transpo... Tagsing Preproc... Samoling Row Se... Type C.,. Standar\n\nResource Wndow 9 X)| Projet x | .\nC3 | |Ca\nLocal\n© Education |\n‘Model\nBase\nFile Name si\naaa ax)\n\nleary T TT licaplinumiscrt!",
+      "doc_index": 248,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image98.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
-      "preceding_text": "Pressing the [image:rId131] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId132]",
+      "preceding_text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId131], [image:rId132]).",
       "llm_text": null
     },
     {
       "rId": "rId140",
-      "filename": "image103.png",
-      "doc_index": 288,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image103.png",
-      "ocr_text": "Options\n\n| ®peiauit Settings\n\nDate/Time Format: [Default Language\n\nla\n\nProgram\nSettings\nwhen reading Data\nDefault\nhae T All numeric data is recognized and imported as floating-point numbers.\nSetting\n& Q.sonar File Extensions to Display on Resource Window:\nEdit\nFrequently [Ptesrtabidatxsxiscmdbscel;\nUsed Nodes\n@ program Look\n® Microsoft Visual Studio .NET Style\nO Microsoft Office 2003 Style 1 One Note Style MDI Tat\n\n@hoating-Point Display Format\n\nO Scientific Style (1.2345e2) Number of Decimal Places: |2\n\nTemporary Folder Directory:\n[CWProgramDataWECMiner#ECMiner2014¥Temporaryi# .\n\nDefault Value(D)\n\nHel ala ME",
-      "is_in_table": false,
+      "filename": "image104.png",
+      "doc_index": 283,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image104.png",
+      "ocr_text": null,
+      "is_in_table": true,
       "is_in_paragraph": false,
-      "preceding_text": "When you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId140]",
+      "preceding_text": null,
+      "llm_text": null
+    },
+    {
+      "rId": "rId145",
+      "filename": "image108.png",
+      "doc_index": 304,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image108.png",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "Function button",
       "llm_text": null
     },
     {
       "rId": "rId15",
       "filename": "image7.png",
       "doc_index": 43,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image7.png",
-      "ocr_text": "ill Microsoft .NET 2015\n\n1 Your installation will nt occur. See below for reasons why.\n\nDetails\n\nNET Framework 4.6 or a later update is already installed on this computer.\n\nMore information about blocked .NET Framework 4,6 installations.\n\n=o Continue",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image7.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7462,9 +7534,9 @@
     {
       "rId": "rId23",
       "filename": "image15.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image15.png",
-      "ocr_text": "View(V) | Stream(S) _ Extensi\nToolbar(T) »\nv | Status Bar(s)\n\n‘Stream Map(M)\n\n| Data Browser(E)",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image15.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7473,9 +7545,9 @@
     {
       "rId": "rId28",
       "filename": "image20.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image20.png",
-      "ocr_text": "Tool(M | Window(W) _Help(H)\nOption(O)\n\nInitialize Program Environment(l)",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image20.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7484,8 +7556,8 @@
     {
       "rId": "rId36",
       "filename": "oleObject4.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject4.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject4.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7495,9 +7567,9 @@
     {
       "rId": "rId49",
       "filename": "image31.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image31.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image31.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7506,9 +7578,9 @@
     {
       "rId": "rId57",
       "filename": "image35.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image35.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image35.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7517,9 +7589,9 @@
     {
       "rId": "rId106",
       "filename": "image72.png",
-      "doc_index": 177,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image72.png",
-      "ocr_text": "Generalized Model\n\n‘Model Name:\n\nBrief Description:\n\n‘Save Directory:",
+      "doc_index": 176,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image72.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7528,9 +7600,9 @@
     {
       "rId": "rId114",
       "filename": "image80.png",
-      "doc_index": 196,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image80.png",
-      "ocr_text": "a dere",
+      "doc_index": 195,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image80.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId114]",
@@ -7539,9 +7611,9 @@
     {
       "rId": "rId119",
       "filename": "image85.png",
-      "doc_index": 205,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image85.png",
-      "ocr_text": "",
+      "doc_index": 204,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image85.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId119] Load saved output",
@@ -7550,20 +7622,20 @@
     {
       "rId": "rId127",
       "filename": "image93.png",
-      "doc_index": 241,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image93.png",
-      "ocr_text": "®& EcMiner x64 - [Project1]\n\n= a x\nProject(P) Edit(E)_View(V) Stream(S) _Extension(A) Tool(T) Window(W) —_Help(H)\nABA AHOX/Al» » +\nNode Bx | [Node Properties ax\niy Most used nodes [@ Input | @ Preprocessing | @ Chart | J&A Modeling | [lf Output Bl lodel Evaluation | Project Properties\nn n ro)\nSS ® DO Sf BB BR BG | [priest crao:\nfile Rea, File Rea,,, ODBC ,,, OLEDB.., Derived... Column... Type C,., 8D Chart Bar Chart Trend C..,, Enhanc, ,| ECMiner_KGM\nProject Objective\nResource Window BX | fiPProject!. x Project Description\nC3| 4 Ca | .\n'B Local\nModel\n5 Output :\n>\nMessage\nRd\nFile Name Size | Mod|\nReady\n\nT licaplinumilsceul",
+      "doc_index": 226,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image93.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
-      "preceding_text": "[image:rId127]",
+      "preceding_text": "[image:rId127] Index Search",
       "llm_text": null
     },
     {
       "rId": "rId10",
       "filename": "image2.png",
       "doc_index": 35,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image2.png",
-      "ocr_text": "§5) Setup - ECMiner64 version 1.0 = x\n\nLicense Agreement\nPlease read the following important information before continuing.\n\nPlease read the following License Agreement. You must accept the terms of this\nagreement before continuing with the installation.\n\nCopyright (c) 2003-2018 ECMiner co., Ltd.\nAll rights reserved.\n\nOl accept the agreement\nOl do not accept the agreement\n\nNext > Cancel",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image2.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7572,9 +7644,9 @@
     {
       "rId": "rId31",
       "filename": "image22.png",
-      "doc_index": 68,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image22.png",
-      "ocr_text": "",
+      "doc_index": 67,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image22.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7583,8 +7655,8 @@
     {
       "rId": "rId44",
       "filename": "oleObject8.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject8.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject8.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7594,8 +7666,8 @@
     {
       "rId": "rId52",
       "filename": "oleObject12.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject12.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject12.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7605,8 +7677,8 @@
     {
       "rId": "rId60",
       "filename": "oleObject16.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject16.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject16.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7616,9 +7688,9 @@
     {
       "rId": "rId65",
       "filename": "image41.png",
-      "doc_index": 92,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image41.png",
-      "ocr_text": "“AB Project x Hi Project2 [x] Ai Poi x",
+      "doc_index": 91,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image41.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "Select \"Project > Close\" or press “X” button.\n[image:rId65].",
@@ -7627,8 +7699,8 @@
     {
       "rId": "rId73",
       "filename": "oleObject20.bin",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject20.bin",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject20.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7638,9 +7710,9 @@
     {
       "rId": "rId78",
       "filename": "image48.png",
-      "doc_index": 99,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image48.png",
-      "ocr_text": "Connect(N)\n\n‘Add Node(A)\n‘Connect Upon Creating Node(C)\n\nPart Execute\n\nCutt)\nCopy)\nPaste(P)\nDelete(D)\n\nDSR\n\nData Browser(E)..\nSave Model(M)\nNode Help(H)..\n\nInsert Memo.\n\nAdjust Screen Size",
+      "doc_index": 98,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image48.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "Right-clicking in the project window displays all the menu nodes.\n[image:rId78]\nThe newly added feature in this latest version, 'Insert Memo', is added for users to make notes when configuring nodes and projects",
@@ -7649,9 +7721,9 @@
     {
       "rId": "rId81",
       "filename": "image51.png",
-      "doc_index": 116,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image51.png",
-      "ocr_text": "Resource Window Ld\n\nQaGg es\n5-8 Local\n{& Education\n¥\\ Model\n©) Output\n“98 oO\nFile Name __/ | Size| Modified Date\n\nResource Menu\n\nResource List",
+      "doc_index": 115,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image51.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "In ECMiner™, resources refer to all files including data, results, models, and project files.\n[image:rId81]",
@@ -7660,9 +7732,9 @@
     {
       "rId": "rId86",
       "filename": "image56.png",
-      "doc_index": 139,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image56.png",
-      "ocr_text": "",
+      "doc_index": 138,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image56.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "Set the path where you want to add as a \"Task Folder\" pressing the [image:rId86] button, and give a folder name.",
@@ -7671,8 +7743,8 @@
     {
       "rId": "rId94",
       "filename": "oleObject23.bin",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject23.bin",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject23.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7682,9 +7754,9 @@
     {
       "rId": "rId99",
       "filename": "image66.png",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image66.png",
-      "ocr_text": "",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image66.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7693,9 +7765,9 @@
     {
       "rId": "rId101",
       "filename": "image67.png",
-      "doc_index": 164,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image67.png",
-      "ocr_text": "O44 Ge\n\n&~-® Local\n5 Desktop\n¥) Model\n©) Output\n\n*|9 7 oO\n\nFile Name\n\nbasic_chart_data\n\nMessage",
+      "doc_index": 163,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image67.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "If the data file you want to use is in the task folder, you can easily create an Input Node by drag & drop the file.\n[image:rId101]",
@@ -7704,9 +7776,9 @@
     {
       "rId": "rId122",
       "filename": "image88.png",
-      "doc_index": 213,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image88.png",
-      "ocr_text": "—-- Execute the Project, -—\n71 Check that the properties of each node are correct,\n72Checking Node [File Reader] properties,\n73Consistency check [Node File Reader] - No errors.\n74 Checking Node [Column Filter] properties\n75Consistency check [Node Column Filter] - No errors,\n76 Checking Node[Type Change] properties.",
+      "doc_index": 212,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image88.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "The Message window displays execution information and errors related nodes during stream execution.\n[image:rId122]",
@@ -7715,42 +7787,42 @@
     {
       "rId": "rId130",
       "filename": "image96.png",
-      "doc_index": 248,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image96.png",
-      "ocr_text": "4b",
+      "doc_index": 243,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image96.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
-      "preceding_text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId129], [image:rId130]).",
+      "preceding_text": "[image:rId130]",
       "llm_text": null
     },
     {
       "rId": "rId135",
-      "filename": "oleObject27.bin",
-      "doc_index": 283,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject27.bin",
+      "filename": "image101.png",
+      "doc_index": 278,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image101.png",
       "ocr_text": null,
-      "is_in_table": true,
+      "is_in_table": false,
       "is_in_paragraph": false,
-      "preceding_text": null,
+      "preceding_text": "The Program Settings opens when you select [Tool (T)] – [Option (O)] from the menu.\n[image:rId135]\nThe options are organized into menu tabs, and when a tab is selected, an editing window appears. The options that can be set include General Program Settings, Default Database Setting, and Editing Frequently Used Nodes, among others.\nThe dialog is divided into tabs for these menus, allowing for selective settings according to the relevant option.",
       "llm_text": null
     },
     {
       "rId": "rId143",
       "filename": "image106.png",
-      "doc_index": 304,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image106.png",
-      "ocr_text": "",
-      "is_in_table": true,
+      "doc_index": 294,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image106.png",
+      "ocr_text": null,
+      "is_in_table": false,
       "is_in_paragraph": false,
-      "preceding_text": "Function button",
+      "preceding_text": "Selecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId143]",
       "llm_text": null
     },
     {
       "rId": "rId9",
       "filename": "image1.png",
       "doc_index": 33,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image1.png",
-      "ocr_text": "Select Setup Language\n\nGa] Select the language to use during the\ninstallation.\n\nEnglish",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image1.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "Download the setup file and run it to install the software. For a trial version, you can download the trial version from the ECMiner Co., Ltd. website at www.ecminer.com.\n[image:rId9]\nSelect Setup Language “English”.\n[image:rId10]\nSelect [I accept the agreement(A)] and then click [Next(N)].\n[image:rId11]\n[image:rId12]\nChoose whether to Create a desktop shortcut or Create a Quick Launch shortcut. ‘Create a desktop shortcut’ is recommended.\n[image:rId13]\n[image:rId14]\nInstallation is processing.\n[image:rId15]\nIt checks the necessary .NET framework version for ECMiner operation. If it is already installed, this display does not come up.\n[image:rId16] The installation is complete. Clicking [image:rId17] icon, the program starts.\n[image:rId18]",
@@ -7760,8 +7832,8 @@
       "rId": "rId13",
       "filename": "image5.png",
       "doc_index": 40,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image5.png",
-      "ocr_text": "1B) Setup - EcMiner64 version 1.0 =\n\nReady to Install\n‘Setup is now ready to begin instaling ECMiner64 on your computer.\n\nClick Install to continue withthe installation, or cick Backif you want to review or\nchange any settings.\n\nDestination location:\n‘C:WProgram FiestHECMiner new WECMinerS-x64\n\n‘Additonal tasks:\n‘Additional shortcuts:\n‘Create a desktop shortaut\n\nead [at] (cone",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image5.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7771,8 +7843,8 @@
       "rId": "rId18",
       "filename": "image10.png",
       "doc_index": 46,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image10.png",
-      "ocr_text": "Version 5,2.0.7229,\n\nS _ECMiner™",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image10.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7781,9 +7853,9 @@
     {
       "rId": "rId39",
       "filename": "image26.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image26.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image26.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7792,9 +7864,9 @@
     {
       "rId": "rId109",
       "filename": "image75.png",
-      "doc_index": 183,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image75.png",
-      "ocr_text": "ia\n\n—> Function toolbar\n\nResult list",
+      "doc_index": 182,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image75.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "The results created after executing the stream will appear in the list when the Output menu is selected.\n[image:rId109]",
@@ -7803,8 +7875,8 @@
     {
       "rId": "rId34",
       "filename": "oleObject3.bin",
-      "doc_index": 68,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject3.bin",
+      "doc_index": 67,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject3.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7814,8 +7886,8 @@
     {
       "rId": "rId50",
       "filename": "oleObject11.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject11.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject11.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7825,9 +7897,9 @@
     {
       "rId": "rId55",
       "filename": "image34.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image34.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image34.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7836,9 +7908,9 @@
     {
       "rId": "rId76",
       "filename": "image47.png",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image47.png",
-      "ocr_text": "",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image47.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Various types of icons for different tasks.",
@@ -7847,9 +7919,9 @@
     {
       "rId": "rId97",
       "filename": "image65.png",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image65.png",
-      "ocr_text": "",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image65.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7858,9 +7930,9 @@
     {
       "rId": "rId104",
       "filename": "image70.png",
-      "doc_index": 175,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image70.png",
-      "ocr_text": "Ga Gia\n\n5 Sample\n5 Desktop\n1 Model\n5) Output\n\nLogistic (0)",
+      "doc_index": 174,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image70.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId104]\nTo save a temporary model for another use, press [image:rId105] Give the model name and specify the path, \"given_model name.gms \" is saved in the task folder.\n[image:rId106]\nAnother method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).\n[image:rId107]\n[image:rId108] In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms \" in the task folder (or subfolder) where you dropped it, indicating the save path.",
@@ -7869,9 +7941,9 @@
     {
       "rId": "rId120",
       "filename": "image86.png",
-      "doc_index": 207,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image86.png",
-      "ocr_text": "5 Project!\n1A pisplay @\nTel Matrix Chart (0)\n\nEl Pie chart @",
+      "doc_index": 206,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image86.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId120]",
@@ -7880,30 +7952,41 @@
     {
       "rId": "rId125",
       "filename": "image91.png",
-      "doc_index": 226,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image91.png",
-      "ocr_text": "",
-      "is_in_table": false,
-      "is_in_paragraph": true,
-      "preceding_text": "[image:rId125] Index Search",
+      "doc_index": 220,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image91.png",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "When you edit a node’s properties, a brief description of the selected property will be shown in the Dynamic Help section.\nThe toolbar provides following functions:",
       "llm_text": null
     },
     {
       "rId": "rId141",
-      "filename": "image104.png",
-      "doc_index": 294,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image104.png",
-      "ocr_text": "Options\n\n& Worcs\n\nProgram Base OLE DB Driver\nSettings\n\n#\n\nDefault DB Server Connection Information: (Enter the IP or name of the server.)\nDatabase\n\nSetting\n& User Name: Password:\nEdit\n\nFrequently\n\nConnection Test\n\nUsed Nodes @oosc\n\nDefault ODBC Driver :\n\nUser Name: Password:\n\n@® oracle\n\nConnection Test\n\nOracle DB Server Connection Information: (Enter the IP or name of the server.)\n\nUser Name: Password:\n\n[ Insert Default Value if Adding Database-Related Node\n\nConnection Test\n\nzel aa ABA)",
-      "is_in_table": false,
+      "filename": "oleObject29.bin",
+      "doc_index": 283,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject29.bin",
+      "ocr_text": null,
+      "is_in_table": true,
       "is_in_paragraph": false,
-      "preceding_text": "Selecting Default Database Setting from Tool (T) - Option (O) opens the following options window. The databases supported by ECMiner™ are ODBC and OLE DB. By entering the driver and login information in the options window below, it can be set as the default database information for database operations in the Project window, making it convenient to use.\n[image:rId141]",
+      "preceding_text": null,
+      "llm_text": null
+    },
+    {
+      "rId": "rId146",
+      "filename": "image109.png",
+      "doc_index": 304,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image109.png",
+      "ocr_text": null,
+      "is_in_table": true,
+      "is_in_paragraph": false,
+      "preceding_text": "Function button",
       "llm_text": null
     },
     {
       "rId": "rId71",
       "filename": "oleObject19.bin",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject19.bin",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject19.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7913,9 +7996,9 @@
     {
       "rId": "rId92",
       "filename": "image62.png",
-      "doc_index": 159,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image62.png",
-      "ocr_text": "a! oH |9\n\nFile Name Size | Modified Da...\n\nZ1.LDA, QDAecm 182 KByte 2021-10-18 1...\n91 KByte 2021-10-18 1...\n\n|®i2.Logistic.ecm",
+      "doc_index": 158,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image62.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "The file lists of the selected folder.\n[image:rId92]",
@@ -7924,9 +8007,9 @@
     {
       "rId": "rId29",
       "filename": "image21.png",
-      "doc_index": 68,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image21.png",
-      "ocr_text": "",
+      "doc_index": 67,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image21.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7935,9 +8018,9 @@
     {
       "rId": "rId24",
       "filename": "image16.png",
-      "doc_index": 65,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image16.png",
-      "ocr_text": "Stream(S) | Extension(A) Tool(T) Win\n‘Add Node(A) »\n\nConnect(N)\n\nDisconnect(L)\n\n>) Execute(R) F5\nStop Execution(S) Shift+F5\nPart Execute(N) Ctrl+FS\nRepeat Execute\nFolder Execute",
+      "doc_index": 64,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image16.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -7946,8 +8029,8 @@
     {
       "rId": "rId40",
       "filename": "oleObject6.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject6.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject6.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -7957,9 +8040,9 @@
     {
       "rId": "rId45",
       "filename": "image29.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image29.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image29.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -7968,9 +8051,9 @@
     {
       "rId": "rId66",
       "filename": "image42.png",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image42.png",
-      "ocr_text": "",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image42.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Various types of icons for different tasks.",
@@ -7979,9 +8062,9 @@
     {
       "rId": "rId87",
       "filename": "image57.png",
-      "doc_index": 140,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image57.png",
-      "ocr_text": "Task Folder x\n\nPath of task folder: [a]\n\nName of task folder:\n\n3% You cannot enter characters such as #¥, /, 2, i\", 2,\n<, >, | in the task folder name.\n\ncn",
+      "doc_index": 139,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image57.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId87]",
@@ -7990,9 +8073,9 @@
     {
       "rId": "rId110",
       "filename": "image76.png",
-      "doc_index": 185,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image76.png",
-      "ocr_text": "ler",
+      "doc_index": 184,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image76.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "To view a generated output again, double-click the output from the Result list. Alternatively, after selecting one or more outputs, press the [image:rId110] button located on the toolbar.",
@@ -8001,9 +8084,9 @@
     {
       "rId": "rId115",
       "filename": "image81.png",
-      "doc_index": 197,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image81.png",
-      "ocr_text": "",
+      "doc_index": 196,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image81.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId115] Display Grid Alignment",
@@ -8012,20 +8095,20 @@
     {
       "rId": "rId131",
       "filename": "image97.png",
-      "doc_index": 257,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image97.png",
-      "ocr_text": "",
+      "doc_index": 248,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image97.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
-      "preceding_text": "Pressing the [image:rId131] button will minimize the control window and can be found right side of the entire program window. If you hover the mouse pointer over the marked tab, it will pop up. [image:rId132]",
+      "preceding_text": "To resize the control window, left-click and drag its border when the mouse pointer changes to the resize shape ([image:rId131], [image:rId132]).",
       "llm_text": null
     },
     {
       "rId": "rId136",
-      "filename": "image101.png",
+      "filename": "image102.png",
       "doc_index": 283,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image101.png",
-      "ocr_text": "",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image102.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -8034,9 +8117,9 @@
     {
       "rId": "rId61",
       "filename": "image37.png",
-      "doc_index": 77,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image37.png",
-      "ocr_text": "Node\n\nWe Most used nodes | @ Input | @ Preprocessing | @ Chart | Ml Modeling | fl Output | Sf Model Evaluation\n\nBSBagmeh @ & 3\n\n3D Chart Bar Chart Derived... File Rea,., Column... K-NN LOGISTIC NeuralN,,. ODBC\n\n‘ST mB & = He =z\n\nAssocia... Trend C.,, Display File Writer K-Means LDA — Matrix MLR ODBC\n\nSBS a B\n\nOLEDB.,, PCA PLS\n\n8 é\n\nOLEDB,,, Pie Chart Type C,",
+      "doc_index": 76,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image37.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "Data loading, data preprocessing, modeling and evaluation. Select and drag each node in order in the working space, and connect to each in turn.\n[image:rId61]\nThe node window is classified into a total of seven categories.",
@@ -8045,9 +8128,9 @@
     {
       "rId": "rId82",
       "filename": "image52.png",
-      "doc_index": 125,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image52.png",
-      "ocr_text": "2/0079\n\nFile Name _/ | Size| Modified Date\n\nAimireem 7... 2021-10-18 11:31\nA2pereem 51... 2021-10-18 11:32\nABplseem 59... 2021-10-18 11:33\n#iasampling... 40... 2021-10-18 12:29\nBimodelecl 26... 2021-10-18 1229\nGs testect 65.. 2021-10-18 12:29",
+      "doc_index": 124,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image52.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
       "preceding_text": "[image:rId82]",
@@ -8057,8 +8140,8 @@
       "rId": "rId19",
       "filename": "image11.png",
       "doc_index": 50,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image11.png",
-      "ocr_text": "€\n\nSettings\n\n@ —sEcMiner\nWD cocal Account\n\nFind a setting\n\nRN @O8D\n\n@\n\n&\n\nHome\n\nSystem\n\nBluetooth & devices\n\nNetwork & internet\n\nPersonalization\n\n‘Apps\n\nAccounts\n\nTime & language\n\nGaming\n\nApps > Installed apps\n\nDTS:x Ultra\n\nDTS, tne. | 2/1/2024 TOKE\n\nECMiner64 version 1.0\n\n10 | ECMinerCo, Ltd | 4/1/2024 1e7cb\nModify\n\nECMinerIMS Server #11 1.0 P\n\n1.0 | )OLMDFO|LY | 12/27/2023 Uninstall\n\nEnglish (United States) Local Experience Pack ANB\n\nMicrosoft Corporation | 4/1/2024\n\nGoogle Chrome\n123.0.631286 | Google LIC | 4/1/2024\n\niniLINE CrossEX Service\n1.0.28 | iniLINECo, Ltd. | 4/5/2023",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image11.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "In \"Windows Settings (Control Panel)” _ \"Apps > Installed apps\", select ECMiner™ and click the 'Uninstall' button\n[image:rId19]",
@@ -8068,8 +8151,8 @@
       "rId": "rId14",
       "filename": "image6.png",
       "doc_index": 41,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image6.png",
-      "ocr_text": "1B) Setup - EcMiner64 version 1.0 =\nInstalling\nPlease wat whle Setup nstalsECMner64on your computer.\n\nExtracting fies...\nCCW... HECMiner Wnew WECMinerS-x64MWopency_videoio_ffmpeg460_64.",
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image6.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -8078,8 +8161,8 @@
     {
       "rId": "rId30",
       "filename": "oleObject1.bin",
-      "doc_index": 68,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject1.bin",
+      "doc_index": 67,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject1.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -8089,9 +8172,9 @@
     {
       "rId": "rId35",
       "filename": "image24.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image24.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image24.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -8100,8 +8183,8 @@
     {
       "rId": "rId56",
       "filename": "oleObject14.bin",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject14.bin",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject14.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -8111,8 +8194,8 @@
     {
       "rId": "rId77",
       "filename": "oleObject22.bin",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject22.bin",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject22.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -8122,8 +8205,8 @@
     {
       "rId": "rId100",
       "filename": "oleObject26.bin",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject26.bin",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject26.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -8133,9 +8216,9 @@
     {
       "rId": "rId105",
       "filename": "image71.png",
-      "doc_index": 176,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image71.png",
-      "ocr_text": "",
+      "doc_index": 175,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image71.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
       "preceding_text": "[image:rId104]\nTo save a temporary model for another use, press [image:rId105] Give the model name and specify the path, \"given_model name.gms \" is saved in the task folder.\n[image:rId106]\nAnother method to store a temporary is to ‘drag & drop’ into the task folder (subfolder).\n[image:rId107]\n[image:rId108] In the dialog box that appears, enter the name and a brief description for the model upon globalization. After specifying the save path, press the OK button. This will create a global model file named \"global model name.gms \" in the task folder (or subfolder) where you dropped it, indicating the save path.",
@@ -8144,20 +8227,20 @@
     {
       "rId": "rId126",
       "filename": "image92.png",
-      "doc_index": 235,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image92.png",
-      "ocr_text": "@ EcMiner x64 - [Projectt] - oOo xX\nProject) EditE) ViewV)Stream(S) Extension(A) Tool) Window) Help(t)\nAeA XHOX Blo» »\\a @\n\nNese | [Node Propeies ax\n“We Most used nodes input | @ Preprocessing | @® Chart | & Modeling | lJ Output [=JModel Evaluation | Project Properties\n\n88 8 & BB OM s BD BM DW Bi  Pesectcens\n«File Rea... File Rea,,, ODBC .., OLEDB.... Derived,,, Column,,. Type C.... SD Chart Bar Chart Trend C,.. Enhane,\n\nProlect Oblective:\n\nees 9 x|| MP Project! x ~ || Protect Descbton\n\nG2 o\\s\nLocal\nModel\nOutput\n\n99 O\n\nFile Name ‘Size Mod)\n\nReady y || \\\\caplNumi[scec|",
+      "doc_index": 223,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image92.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": true,
-      "preceding_text": "[image:rId126]",
+      "preceding_text": "[image:rId126] Toggle Help",
       "llm_text": null
     },
     {
       "rId": "rId51",
       "filename": "image32.png",
-      "doc_index": 72,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image32.png",
-      "ocr_text": "",
+      "doc_index": 71,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image32.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Tool Bar",
@@ -8166,9 +8249,9 @@
     {
       "rId": "rId72",
       "filename": "image45.png",
-      "doc_index": 95,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image45.png",
-      "ocr_text": "",
+      "doc_index": 94,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image45.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": "Various types of icons for different tasks.",
@@ -8177,9 +8260,9 @@
     {
       "rId": "rId93",
       "filename": "image63.png",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image63.png",
-      "ocr_text": "",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image63.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -8188,8 +8271,8 @@
     {
       "rId": "rId98",
       "filename": "oleObject25.bin",
-      "doc_index": 160,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject25.bin",
+      "doc_index": 159,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/oleObject25.bin",
       "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
@@ -8199,9 +8282,9 @@
     {
       "rId": "rId121",
       "filename": "image87.png",
-      "doc_index": 209,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image87.png",
-      "ocr_text": "1, Display\nFile(F) Edit(E) Analyze(A) Chart(C) Data(D) Window(W)\n\nPar\nEa\n\nA Ba = =\n1 2 3 4 5 6 7 8\nAl Az 3 Ad 5 AB a? AB\n4,118,00000/ 17,0000, | 108,00000/ | 21,0000 1n.00000/ | t.12515| 1.28113) 13,4908:\n\n4,121,00000/ 181,00000/ 108,00000/ -2n,a0000 11,0000 —t.asese| 1.68976) _T31,1978%\n4,121,00000/ 175,00000/ -108,00000/ 21,0000 11,0000, —t.7ates| 1.98620) 192,717\n1,120,00000/ 17800000) 17@,00000/ 22,0000 1n.00000/ —t.a8saz| —t.ense4)—131,5148e\n1,120,00000/ 178,00000/ | 108,00000/ 22,0000 11,0000, t.12515| 1.42739) _131,49086\n4,120,00000/ 175,00000/ 10800000) 22,0000 11,0000, .228a2|—t.S7180) 192.9278\n4,122,00000/ 176,00000/ 108,00000/ 22,0000 12,0000, t.a70a1| —t.747aS) 192.9278",
+      "doc_index": 208,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image87.png",
+      "ocr_text": null,
       "is_in_table": true,
       "is_in_paragraph": false,
       "preceding_text": null,
@@ -8210,12 +8293,12 @@
     {
       "rId": "rId142",
       "filename": "image105.png",
-      "doc_index": 300,
-      "saved_path": "/home/jinypark/vscodeProjects/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image105.png",
-      "ocr_text": "Options\n\na\n\nProgram\nSettings\n\n#\n\nDefault\nDatabase\nSetting\n\nBoy\n\nEdit\nFrequently\nUsed Nodes\n\nNode List\n\nNode Name\n\nDescription\n\nDP) Access Reader Retrieve data from the MDB file.\n\neB ac RL\n\nActor Critic reinforcement learnin...\nCombine the input data sources i...\nMerge specified ECL files into on...\nAlign the specified variables.\n\nBeg Autotncoder AutoEncoder\n\ntn\n24 Binning\n\n@2 °®\n\nGroup data by the values of spec...\n\nFrequently Used Node\n\nNode Name\n\nDescription\n\nB 3D Chart\n\nDraw a 3-dimensional chart.\n\n* > Association R... Association analysis algorithm.\n\nGear chart\n[Batrend chart\n\nhiss)\ni oisplay\n\nite Reader\n\nDraw a bar chart.\n\nDraw a basic 2-dimensional chart.\n\nived Colu... Generate a derived variable.\n\nDisplay the results on the screen.\n\nRead the data in the file.",
+      "doc_index": 288,
+      "saved_path": "/root/ecm-preprocess-1/output/processed/1장_v3.1/v0/_sanitized/_assets/image105.png",
+      "ocr_text": null,
       "is_in_table": false,
       "is_in_paragraph": false,
-      "preceding_text": "Selecting Edit Frequently Used Nodes (Favorites) from Tool (T) - Option (O) brings up the following options window. Use the function buttons to add or remove nodes from Most used nodes. Added or removed nodes can be checked in the Most used nodes tab of the Node window.\n[image:rId142]",
+      "preceding_text": "When you select the Program Settings under Tool(T) - Option(O), the following options window will appear. In this options window, you can set the Data/Time Format by country, the recognition method for numerical data, designate File Extensions to Display on the Resource window, and the Program Look method.\n[image:rId142]",
       "llm_text": null
     }
   ]

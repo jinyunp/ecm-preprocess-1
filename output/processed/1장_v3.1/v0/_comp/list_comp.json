@@ -2,13 +2,13 @@
   "lists": [
     {
       "text": "제목: Node Property about data\na. Node property for data tells the variable names and data type. Data types can be changed.\nb. Exclusion of variable in ‘Column Filter’.\nc. Define the dependent and independent variables in ‘Type Change’.\nd. [image:rId80]",
-      "doc_index": 108,
+      "doc_index": 107,
       "style": "List Bullet",
       "source_doc_indices": [
+        107,
         108,
         109,
-        110,
-        111
+        110
       ],
       "emphasized": [],
       "math_texts": [],
@@ -16,12 +16,12 @@
     },
     {
       "text": "제목: Resource Menu\na. Local menu displays a list of files in the resource list.\nb. Model menu shows the list of model files. You may utilize it for future runs.\nc. Output menu displays the list of output for each project.",
-      "doc_index": 119,
+      "doc_index": 118,
       "style": "List Bullet",
       "source_doc_indices": [
+        118,
         119,
-        120,
-        121
+        120
       ],
       "emphasized": [],
       "math_texts": [],
@@ -29,12 +29,12 @@
     }
   ],
   "consumed": [
+    107,
     108,
     109,
     110,
-    111,
+    118,
     119,
-    120,
-    121
+    120
   ]
 }
