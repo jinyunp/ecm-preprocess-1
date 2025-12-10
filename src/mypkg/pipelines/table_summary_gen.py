@@ -1,10 +1,9 @@
-# src/mypkg/pipelines/table_summary_gen.py
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import json
 import os
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
@@ -41,9 +40,6 @@ def extract_tables_from_sanitized(sanitized_path: str) -> List[Tuple[str, str]]:
     반환: [(tid, 테이블 요약용 텍스트), ...]
     """
 
-    from pathlib import Path
-    import json
-
     with open(sanitized_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -60,7 +56,7 @@ def extract_tables_from_sanitized(sanitized_path: str) -> List[Tuple[str, str]]:
             if not table_id:
                 continue
 
-            # table_html 우선 사용, 없으면 data/anchors 기반으로 fallback 텍스트 생성
+            # table_html 우선 사용, 없으면 data 기반 fallback 텍스트 생성
             table_html = tbl.get("table_html") or tbl.get("html")
 
             # preceding_text도 요약에 도움이 되므로 LLM 입력에 함께 포함
@@ -68,10 +64,7 @@ def extract_tables_from_sanitized(sanitized_path: str) -> List[Tuple[str, str]]:
 
             if table_html:
                 # LLM에 넘길 때 약간의 컨텍스트를 붙여줌
-                llm_input_text = (
-                    "다음은 ECMiner 매뉴얼의 한 표입니다.\n"
-                    "표 앞에 나오는 설명(preceding_text)과 HTML 구조를 함께 제공합니다.\n\n"
-                )
+                llm_input_text = ""
                 if preceding:
                     llm_input_text += f"[PRECEDING_TEXT]\n{preceding}\n\n"
                 llm_input_text += f"[TABLE_HTML]\n{table_html}"
@@ -92,7 +85,7 @@ def extract_tables_from_sanitized(sanitized_path: str) -> List[Tuple[str, str]]:
 
                 table_text = "\n".join(lines).strip()
 
-                llm_input_text = "다음은 ECMiner 매뉴얼의 한 표의 셀 텍스트를 행 단위로 나열한 것입니다.\n"
+                llm_input_text = ""
                 if preceding:
                     llm_input_text += f"[PRECEDING_TEXT]\n{preceding}\n\n"
                 llm_input_text += f"[TABLE_TEXT]\n{table_text}"
@@ -113,9 +106,9 @@ def load_qwen_text_model() -> Tuple[AutoTokenizer, AutoModelForCausalLM]:
     """
     Qwen 텍스트 모델 로드.
     - QWEN_TEXT_MODEL_PATH 환경변수가 있으면 그걸 쓰고,
-    - 없으면 기본값으로 'Qwen/Qwen2.5-7B-Instruct' 사용.
+    - 없으면 기본값으로 '/workspace/qwen/txt' 사용.
     """
-    model_name = os.environ.get("QWEN_TEXT_MODEL_PATH", "/workspace/qwen/VL") #"Qwen/Qwen2.5-7B-Instruct")
+    model_name = os.environ.get("QWEN_TEXT_MODEL_PATH", "/workspace/qwen/txt")
     print(f"[INFO][table_summary_gen] Loading text model: {model_name}")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
@@ -135,17 +128,21 @@ def summarize_table_html(
     table_html: str,
     tokenizer: AutoTokenizer,
     model: AutoModelForCausalLM,
-    max_new_tokens: int = 256,
+    max_new_tokens: int = 160,
 ) -> str:
     """
-    테이블 HTML을 LLM에 넣어 한국어 요약 생성.
-    프롬프트는 필요에 맞게 수정 가능.
+    테이블 HTML을 LLM에 넣어 영어 요약 생성.
+    - 2~3문장 이내로 요약하도록 요청
+    - 응답에 HTML 태그가 포함되지 않도록 가이드 + 후처리
+    - Summary: 이후 '첫 번째 문단'만 잘라서 사용
     """
     prompt = (
         "The following is an HTML table extracted from the ECMiner manual.\n"
-        "Please summarize its key meaning in clear and concise English.\n"
-        "If possible, also describe the roles of its rows and columns.\n\n"
-        f"[TABLE HTML]\n{table_html}\n\n"
+        "Please summarize its key meaning in clear and concise English in 2-3 sentences.\n"
+        "Also briefly describe the roles of its rows and columns if helpful.\n"
+        "Do NOT repeat or include any raw HTML tags (such as <table>, <tr>, <td>, etc.) in your answer.\n"
+        "Only provide the summary text itself.\n\n"
+        f"[TABLE_HTML]\n{table_html}\n\n"
         "Summary:"
     )
 
@@ -160,14 +157,36 @@ def summarize_table_html(
         )
 
     text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    # "요약:" 뒤 부분만 잘라내기 (프롬프트 그대로 반환되는 경우 대응)
-    idx = text.rfind("요약:")
-    if idx != -1:
-        summary = text[idx + len("요약:"):].strip()
+
+    # 1) "Summary:" 이후 부분만 가져오기
+    if "Summary:" in text:
+        summary = text.split("Summary:", 1)[-1].strip()
     else:
         summary = text.strip()
 
+    # 2) Qwen이 여러 블록을 [END_OF_TEXT] 등으로 나눠서 줄 때, 첫 블록만 사용
+    #    ex) "문단1 ... [END_OF_TEXT] 문단2 ... [END_OF_TEXT] ..."
+    for sep in ["[END_OF_TEXT]", "<|endoftext|>", "<|im_end|>", "<|im_separator|>"]:
+        if sep in summary:
+            summary = summary.split(sep, 1)[0].strip()
+
+    # 3) 첫 번째 문단만 사용 (빈 줄 기준으로 잘라서 첫 덩어리)
+    #    ex) "문단1...\n\n문단2..." -> "문단1..."
+    paragraphs = [p.strip() for p in summary.split("\n\n") if p.strip()]
+    if paragraphs:
+        summary = paragraphs[0]
+    else:
+        summary = summary.strip()
+
+    # 4) 혹시라도 남아있을 수 있는 HTML 태그 형태 제거
+    import re
+    summary = re.sub(r"<[^>]+>", "", summary).strip()
+
+    # 5) 공백 정리
+    summary = re.sub(r"\s+", " ", summary).strip()
+
     return summary
+
 
 
 # ------------------------------------------------------------
@@ -187,6 +206,7 @@ def process_tables_to_chunked(sanitized_path: str) -> str:
         print("[INFO][table_summary_gen] No tables found. Skipping.")
         # 그래도 빈 리스트 파일은 만들어 둔다.
         out_path = _get_default_output_path(sanitized_path)
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump([], f, ensure_ascii=False, indent=2)
         return out_path
@@ -194,9 +214,9 @@ def process_tables_to_chunked(sanitized_path: str) -> str:
     tokenizer, model = load_qwen_text_model()
 
     results: List[Dict[str, Any]] = []
-    for idx, (tbl_id, html) in enumerate(tables, start=1):
+    for idx, (tbl_id, html_or_text) in enumerate(tables, start=1):
         print(f"[INFO][table_summary_gen] Summarizing table {idx}/{len(tables)} (id={tbl_id})")
-        summary = summarize_table_html(html, tokenizer, model)
+        summary = summarize_table_html(html_or_text, tokenizer, model)
         results.append({
             "table_id": tbl_id,
             "llm_text": summary,
