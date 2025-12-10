@@ -6,18 +6,19 @@ End-to-end preprocessing pipeline for ECMiner manual:
 
 1) .docx -> sanitized JSON + assets (images)
 2) sanitized JSON -> image LLM summaries
-3) sanitized JSON -> text chunks
-4) chunks + image summaries -> chunks_with_imgsum JSON
+3) sanitized JSON -> table LLM summaries
+4) sanitized JSON -> text chunks
+5) chunks + (image + table) summaries -> chunks_with_imgsum JSON
 
 사용 예:
 
   # 단일 파일
-  python run_full_preprocess.py /root/ecm-preprocess-1/1장_v3.1.docx
-  python run_full_pipeline.py /path/to/manual.docx -o output/processed
+  python run_full_preprocess.py /path/to/manual.docx
+  python run_full_preprocess.py /path/to/manual.docx -o output/processed
 
   # 폴더(내부 모든 .docx)
-  python run_full_pipeline.py /path/to/docx_folder
-  python run_full_pipeline.py /path/to/docx_folder -o output/processed
+  python run_full_preprocess.py /path/to/docx_folder
+  python run_full_preprocess.py /path/to/docx_folder -o output/processed
 """
 
 import argparse
@@ -35,9 +36,10 @@ if str(SRC_ROOT) not in sys.path:
 # -------------------- 내부 모듈 import --------------------
 from mypkg.pipelines.docx_parsing_pipeline import DocxParsingPipeline
 from mypkg.pipelines.img_summary_gen import process_inline_images_to_chunked
+from mypkg.pipelines.table_summary_gen import process_tables_to_chunked
 from mypkg.pipelines import chunking
 from mypkg.pipelines.chunking import get_default_output_path
-from mypkg.pipelines.merge_image_summaries_into_chunks import merge_image_summaries
+from mypkg.pipelines.merge_summaries_into_chunks import merge_image_and_table_summaries
 
 
 # -------------------- 유틸: asyncio 러너 --------------------
@@ -99,28 +101,42 @@ def run_full_pipeline_for_file(
     sanitized_path = _run_async(_run_docx_parsing(docx_path, output_root_path))
     print(f"  -> sanitized JSON: {sanitized_path}")
 
-    # STEP 2) 이미지 요약 (Qwen2-VL)
+    # STEP 2) 이미지 요약 (Qwen-VL)
     print(f"[STEP 2] Image semantic summary generation ...")
     image_llm_path = process_inline_images_to_chunked(str(sanitized_path))
     print(f"  -> image LLM summaries: {image_llm_path}")
 
-    # STEP 3) 텍스트 chunking
-    print(f"[STEP 3] Chunking sanitized JSON ...")
+    # STEP 3) 테이블 요약 (Qwen 텍스트 LLM)
+    print(f"[STEP 3] Table semantic summary generation ...")
+    table_llm_path = process_tables_to_chunked(str(sanitized_path))
+    print(f"  -> table LLM summaries: {table_llm_path}")
+
+    # STEP 4) 텍스트 chunking
+    print(f"[STEP 4] Chunking sanitized JSON ...")
     # chunking.main은 output_path 인자를 생략하면 get_default_output_path 규칙을 사용
     chunking.main(str(sanitized_path))
     chunked_path = Path(get_default_output_path(str(sanitized_path)))
     print(f"  -> chunked JSON: {chunked_path}")
 
-    # STEP 4) chunk에 이미지 요약 주입
-    print(f"[STEP 4] Inject image summaries into chunks ...")
+    # STEP 5) chunk에 이미지 + 테이블 요약 주입
+    print(f"[STEP 5] Inject image & table summaries into chunks ...")
+    merged_output_path = chunked_path.with_name(
+        chunked_path.stem.replace("_chunked", "_chunked_with_imgsum") + chunked_path.suffix
+    )
     merged_path = Path(
-        merge_image_summaries(str(chunked_path), str(image_llm_path))
+        merge_image_and_table_summaries(
+            chunked_path=str(chunked_path),
+            image_llm_path=str(image_llm_path),
+            table_llm_path=str(table_llm_path),
+            output_path=str(merged_output_path),
+        )
     )
     print(f"  -> chunked_with_imgsum JSON: {merged_path}")
 
     return {
         "sanitized_json": str(sanitized_path),
         "image_llm_json": str(image_llm_path),
+        "table_llm_json": str(table_llm_path),
         "chunked_json": str(chunked_path),
         "chunked_with_imgsum_json": str(merged_path),
     }
@@ -171,7 +187,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Run full ECMiner manual preprocessing pipeline "
-            "(docx -> sanitized -> image summaries -> chunks -> chunks_with_imgsum).\n"
+            "(docx -> sanitized -> image summaries -> table summaries -> chunks -> chunks_with_imgsum).\n"
             "입력 경로가 파일이면 해당 파일만, 디렉터리면 내부의 모든 .docx 파일을 처리합니다."
         )
     )

@@ -3,7 +3,7 @@ set -e
 
 echo "=============================================="
 echo "   ECMiner Preprocessing Environment Setup"
-echo "        (GPU + Qwen2.5-VL-3B-Instruct)"
+echo "   (GPU + Qwen2.5-VL-3B-Instruct + Qwen2.5-7B-Instruct)"
 echo "=============================================="
 
 # -----------------------------------------------------------------------------------------
@@ -12,10 +12,18 @@ echo "=============================================="
 cd "$(dirname "$0")"
 PROJECT_ROOT=$(pwd)
 
-MODEL_DIR="/workspace/qwen"
-MODEL_REPO_HF="Qwen/Qwen2.5-VL-3B-Instruct"
+# Qwen 모델 디렉터리 설정
+BASE_QWEN_DIR="/workspace/qwen"
+VL_MODEL_DIR="$BASE_QWEN_DIR/VL"
+TXT_MODEL_DIR="$BASE_QWEN_DIR/txt"
+
+VL_MODEL_REPO_HF="Qwen/Qwen2.5-VL-3B-Instruct"
+TXT_MODEL_REPO_HF="Qwen/Qwen2.5-7B-Instruct"
 
 echo "[INFO] Project root: $PROJECT_ROOT"
+echo "[INFO] Qwen base dir: $BASE_QWEN_DIR"
+echo "[INFO] VL model dir : $VL_MODEL_DIR"
+echo "[INFO] TXT model dir: $TXT_MODEL_DIR"
 
 # -----------------------------------------------------------------------------------------
 # 1) 필수 시스템 패키지 설치
@@ -62,6 +70,7 @@ fi
 echo "[3/7] Creating Python virtual environment (.venv)..."
 
 python3 -m venv .venv
+# shellcheck source=/dev/null
 source .venv/bin/activate
 
 pip install --upgrade pip
@@ -101,20 +110,36 @@ pip install \
   hf_transfer
 
 # -----------------------------------------------------------------------------------------
-# 6) Qwen2.5-VL-3B-Instruct 모델 다운로드
+# 6) Qwen 모델 다운로드 (VL + TEXT 분리)
 # -----------------------------------------------------------------------------------------
-echo "[6/7] Downloading Qwen2.5-VL-3B-Instruct to $MODEL_DIR ..."
+echo "[6/7] Downloading Qwen models ..."
 
-mkdir -p "$MODEL_DIR"
+mkdir -p "$VL_MODEL_DIR"
+mkdir -p "$TXT_MODEL_DIR"
 
 # fast download 강제 off (hf_transfer 문제 방지)
+echo "[6.1] Downloading VL model: $VL_MODEL_REPO_HF -> $VL_MODEL_DIR"
 HF_HUB_ENABLE_HF_TRANSFER=0 python3 - <<EOF
 from huggingface_hub import snapshot_download
-repo = "$MODEL_REPO_HF"
-target_dir = "$MODEL_DIR"
-print(f"[INFO] Downloading model: {repo}")
-snapshot_download(repo_id=repo, local_dir=target_dir)
-print("[INFO] Model downloaded successfully.")
+
+vl_repo = "$VL_MODEL_REPO_HF"
+vl_dir = "$VL_MODEL_DIR"
+
+print(f"[INFO] Downloading VL model: {vl_repo}")
+snapshot_download(repo_id=vl_repo, local_dir=vl_dir)
+print("[INFO] VL model downloaded successfully to", vl_dir)
+EOF
+
+echo "[6.2] Downloading TEXT model: $TXT_MODEL_REPO_HF -> $TXT_MODEL_DIR"
+HF_HUB_ENABLE_HF_TRANSFER=0 python3 - <<EOF
+from huggingface_hub import snapshot_download
+
+txt_repo = "$TXT_MODEL_REPO_HF"
+txt_dir = "$TXT_MODEL_DIR"
+
+print(f"[INFO] Downloading TEXT model: {txt_repo}")
+snapshot_download(repo_id=txt_repo, local_dir=txt_dir)
+print("[INFO] TEXT model downloaded successfully to", txt_dir)
 EOF
 
 # -----------------------------------------------------------------------------------------
@@ -125,15 +150,23 @@ echo "[7/7] Setting env variables (.venv persist)..."
 {
   echo ""
   echo "# ECMiner preprocessing environment"
-  echo "export QWEN_MODEL_PATH=\"$MODEL_DIR\""
+  echo "export QWEN_MODEL_PATH=\"$VL_MODEL_DIR\""
+  echo "export QWEN_TEXT_MODEL_PATH=\"$TXT_MODEL_DIR\""
   echo "export PYTHONPATH=\"$PROJECT_ROOT/src:\$PYTHONPATH\""
 } >> .venv/bin/activate
+
+echo "[INFO] QWEN_MODEL_PATH      will be set to: $VL_MODEL_DIR"
+echo "[INFO] QWEN_TEXT_MODEL_PATH will be set to: $TXT_MODEL_DIR"
+echo "[INFO] PYTHONPATH will include: $PROJECT_ROOT/src"
 
 echo "=============================================="
 echo "Setup Complete!"
 echo ""
 echo "To start using the environment:"
 echo "    source .venv/bin/activate"
+echo ""
+echo "VL model path  (Qwen-VL):     \$QWEN_MODEL_PATH"
+echo "TEXT model path (Qwen-Text):  \$QWEN_TEXT_MODEL_PATH"
 echo ""
 echo "To run preprocessing:"
 echo "    python run_full_preprocess.py /path/to/docx_or_folder"

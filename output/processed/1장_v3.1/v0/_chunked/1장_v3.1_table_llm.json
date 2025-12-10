@@ -1,0 +1,78 @@
+[
+  {
+    "table_id": "t21",
+    "llm_text": "이 표는 ECMiner을 실행하기 위한 추천 시스템 요구 사항을 나열하고 있습니다. 각 항목은 다음과 같이 설명할 수 있습니다:\n\n- **CPU**: 최소 인텔 코어 i5 이상의 프로세서가 필요합니다. 이는 ECMiner이 복잡한 계산을 수행할 수 있도록 하기 위함입니다.\n- **메모리**: 16GB 이상의 RAM이 필요합니다. 충분한 메모리는 큰 데이터셋을 처리하고 동시에 여러 작업을 수행할 수 있게 해줍니다.\n- **운영 체제**: 윈도우 10 이상이 필요합니다. 최신 운영 체제는 최적화된 성능을 위해 필요한 기능을 제공합니다.\n- **하드 드라이브 공간**: 3.5GB 이상의 기본 공간과 추가적으로 분석할 데이터의 양의 두 배 이상의 자유 공간이 필요합니다. 이는 ECMiner이 분석에 필요한 임시 파일 등을 저장할 수 있게 합니다. [요약 내용]\n\n이 표는 ECMiner을 실행하기 위한 추천 시스템 요구 사항을 나열하고 있습니다. 각"
+  },
+  {
+    "table_id": "t24",
+    "llm_text": "이 표는 ECMiner 소프트웨어를 실행하기 위한 최소 요구 사항을 제시합니다. 각 항목은 다음과 같이 설명됩니다:\n\n1. **CPU (Central Processing Unit)**: 최소 인텔 코어 2 듀오 2.4GHz가 필요합니다. 이는 컴퓨터의 중앙 처리 장치이며, 소프트웨어의 계산 작업을 수행합니다.\n2. **Memory (RAM)**: 4기가바이트 이상의 메모리가 필요합니다. 메모리는 컴퓨터가 동시에 실행할 수 있는 데이터와 프로그램을 저장하는 공간입니다.\n3. **Operating System (운영 체제)**: 윈도우 8 또는 그 이상이 필요합니다. 운영 체제는 컴퓨터의 기본적인 기능을 관리하고, 사용자가 프로그램을 실행할 수 있게 해줍니다.\n4. **Hard Disk Space (하드 디스크 용량)**: 3.5기가바이트 이상의 초기 용량이 필요하며, 분석할 데이터의 양에 따라 적어도 두 배의 추가 공간이 필요합니다. 이는 데이터를 저장하고 분석하는데 사용됩니다"
+  },
+  {
+    "table_id": "t58",
+    "llm_text": "이 표는 ECMiner 프로그램의 주요 창과 기능을 설명하고 있습니다. 각 창이나 기능은 번호와 함께 표시되며, 해당 창이나 기능의 이름과 주요 역할이 설명되어 있습니다.\n\n- **Num.**: 창 또는 기능의 번호\n- **Window name**: 창 또는 기능의 이름\n- **Description**: 창 또는 기능의 주요 역할\n\n상세 내용:\n1. **Num. (1)**: \"Menu\"라는 창으로, 프로젝트와 파일을 생성/편집/저장하는 기능을 제공합니다.\n2. **Num. (2)**: \"Node\"라는 창으로, '데이터', '차트', '모델링', '출력', '모델 평가' 노드를 제공하며, 데이터 로딩, 필터링, 변수 추출 등을 수행합니다.\n3. **Num. (3)**: \"ResourceWindow\"라는 창으로, \"Local\", \"Model\", \"Output\" 메뉴를 표시하며, 현재 작업 폴더, 모델, 출력 결과를 관리합니다.\n4. **Num"
+  },
+  {
+    "table_id": "t64",
+    "llm_text": "이 표는 ECMiner 프로그램의 메뉴와 관련된 기능을 나타내며, 각 열은 다음과 같은 역"
+  },
+  {
+    "table_id": "t67",
+    "llm_text": "이 표는 ECMiner 프로그램에서 사용할 수 있는 세 가지 설정 메뉴를 설명하고 있습니다. 각 메뉴의 기능과 목적을 간략히 제시합니다.\n\n- **Program Settings**: 날짜/시간 형식 설정, 데이터 읽기 설정, 리소스 창에서 표시할 파일 확장자 지정 등 프로그램의 기본 설정을 조정할 수 있는 옵션을 제공합니다.\n- **Default Database Setting**: ODBC 또는 OLE DB의 기본 드라이버와 로그인 정보를 설정하여 데이터베이스 연결을 쉽게 관리할 수 있게 합니다.\n- **Edit Frequently Used Nodes**: 자주 사용하는 노드를 추가하거나 삭제하여 작업 효율성을 높일 수 있는 기능을 제공합니다. To summarize, this table outlines three key settings menus in the ECMiner program:\n\n1. **Program Settings**: This menu allows you to configure basic settings such as date/time format, data reading options, and file extensions to display in the resource window.\n2. **Default Database Setting**: Here, you can set up default drivers and login information for ODBC or OLE DB to simplify database connections.\n3. **Edit Frequently"
+  },
+  {
+    "table_id": "t71",
+    "llm_text": "이 표는 ECMiner 도구 바에서 사용 가능한 다양한 기능과 단축키를 나타내고 있습니다. 각 행은 하나의 기능 그룹을 나타내며, 첫 번째 열에는 해당 기능 그룹의 상징적인 이미지가 포함되어 있으며, 두 번째 열에는 기능 이름과 단축키가, 세 번째 열에는 비어 있는 경우가 많습니다.\n\n- New (Ctrl + N): 새로운 프로젝트를 생성합니다.\n- Open (Ctrl + O): 기존 프로젝트를 열기 위해 사용됩니다.\n- Save (Ctrl + S): 현재 작업을 저장합니다.\n- Cut: 선택한 항목을 클립보드에 복사하고 삭제합니다.\n- Copy: 선택한 항목을 클립보드에 복사합니다.\n- Paste: 클립보드의 내용을 붙여넣습니다.\n- Delete: 선택한 항목을 삭제합니다.\n- Print (Ctrl + P): 현재 문서를 인쇄합니다.\n- Execute (F5): 프로젝트를 실행합니다.\n- Stop Execution (Shift + F5): 실행 중인 프로젝트를 중단합니다.\n- Part Execute (Ctrl"
+  },
+  {
+    "table_id": "t79",
+    "llm_text": "이 표는 ECMiner 도구에서 사용 가능한 다양한 노드의 분류와 각 노드의 설명을 제공합니다. 노드들은 데이터 처리, 분석, 시각화 및 결과 저장 등에 관련된 기능을 수행합니다. 'Most used nodes'는 사용자가 설정할 수 있는 가장 자주 사용되는 노드 목록이며, 나머지 노드들은 데이터 로딩, 전처리, 모델링, 시각화, 모델 평가 등의 역할을 합니다.\n\n항목/열의 의미:\n- Classification: 노드의 분류 또는 범주\n- Description: 해당 노드의 기능이나 용도에 대한 설명\n\n행의 의미:\n1. Most used nodes: 가장 자주 사용되는 노드들\n2. Input Node: 데이터 로딩을 위한 노드\n3. Preprocessing Node: 데이터 필터링, 정렬, 분할 등을 위한 노드\n4. Chart Node: 데이터 시각화를 위한 그래픽 노드\n5. Modeling Node: 예측, 분류, 클러스터링, 인공지능 알고리즘 등을 위한 분석 노드\n6. Output Node: 데이터베이스나 파일 저장"
+  },
+  {
+    "table_id": "t94",
+    "llm_text": "이 표는 ECMiner에서 사용되는 다양한 아이콘과 해당 아이콘의 유형 및 하이라인 형태를 나타내고 있습니다. 아이콘은 입력 노드, 전처리 노드, 차트 노드, 모델링 노드, 출력 노드 또는 모델 평가 노드, 모델 노드 등 다양한 유형의 작업을 수행하기 위해 사용됩니다. 각 아이콘은 특정 모양의 하이라인을 가진 다각형으로 표현되며, 이는 해당 노드의 역할을 쉽게 식별할 수 있게 해줍니다.\n- ICON 열에는 아이콘 이미지가 포함되어 있으며, 실제 이미지는 표시되지 않지만 각 아이콘의 위치를 나타내는 [image:rId... ] 형식의 텍스트가 포함되어 있습니다.\n- Type 열에는 아이콘을 대표하는 노드의 유형이 나열되어 있습니다.\n- Underline 열에는 각 노드 유형이 가지는 다각형의 하이라인 형태가 나열되어 있습니다. Circle, Hexagon, Rhombus, Trapezoid, Rectangle, Diamond 등의 다각형이 사용됩니다. 이 다각형들은 각 노드의 역할을 직"
+  },
+  {
+    "table_id": "t159",
+    "llm_text": "이 표는 ECMiner™에서 사용되는 다양한 파일 유형을 나타내며, 각 파일 유형의 설명과 아이콘을 제공합니다. \"ICON\" 열에는 파일 유형을 나타내는 아이콘 이미지가 포함되어 있으며, \"Description\" 열에는 해당 파일 유형의 설명이 나와 있습니다. 표에서는 다음과 같은 파일 유형을 포함하고 있습니다:\n- 모든 유형의 파일 (ECMiner™ 옵션에 따라 지정됨)\n- *.ecl 파일 (데이터 파일)\n- *.gms 파일 (모델 파일)\n- *.ecm 파일 (ECMiner™ 프로젝트 파일)\n\nECMiner™는 데이터 분석 및 모델링을 위한 소프트웨어로, 이 표는 사용자가 ECMiner™에서 다루는 주요 파일 유형을 이해하는데 도움을 줍니다. 각 파일 유형은 특정 목적에 따라 사용되며, 이 표는 이러한 파일들의 종류와 그들의 용도를 명확히 합니다. To summarize, this table lists different file types used in ECMiner™ and provides descriptions for each:\n\n- **ICON** column shows icons representing various file types.\n- **Description**"
+  },
+  {
+    "table_id": "t208",
+    "llm_text": "표는 Display 노드의 출력이 데이터로 생성되기 때문에, 이 출력을 *.ecl 파일로 저장해야 함을 알려줍니다. 따라서 Display 노드 화면 내의 저장 버튼을 사용하여 출력을 저장해야 합니다. 이 표는 데이터 파일 형식(*.ecl)으로만 저장할 수 있다는 점을 강조하고 있습니다. 또한, *.ept 파일로 저장하면 원본 데이터가 손실될 수 있으므로 주의해야 한다는 점도 명시하고 있습니다.\n- **항목/열/행의 의미:**\n  - **NOTE:** 이 부분은 주의사항을 나타내며, Display 노드의 출력이 데이터로 생성되는 특성을 설명합니다.\n  - **Save button:** Display 노드 화면 내에서 데이터를 저장하기 위한 버튼을 가리킵니다.\n  - ***.ecl file:** 데이터를 저장할 때 사용해야 하는 파일 형식을 나타냅니다.\n  - ***.ept file:** 데이터를 저장할 때 피해야 하는 파일 형식을 나타냅니다. 이 파일 형식으로 저장하면 원본 데이터가 손실될 수 있습니다. To summarize, the table indicates that the output from"
+  },
+  {
+    "table_id": "t216",
+    "llm_text": "이 표는 ECMiner에서 발생할 수 있는 메시지 유형을 5가지로 분류하고 각 유형의 색상과 내용을 나타내고 있습니다. Num. 열은 메시지 유형 번호를, color 열은 해당 메시지 유형의 색상을, content 열은 메시지의 내용을 나타냅니다. 1번은 일반 메시지, 2번은 강조 메시지, 3번은 일반 오류 메시지, 4번은 심각한 오류 메시지, 5번은 노트 메시지를 나타냅니다. 색상은 모든 행이 동일한 흰색(#f2f2f2)으로 설정되어 있으며, 색상 정보는 표의 내용에 포함되지 않았습니다.\n이 요약은 표의 구조와 내용을 간결하게 설명하며, 각 열의 의미와 메시지 유형별 내용을 명확히 표현하였습니다. 색상 정보는 표의 배경색만 적용되었으며, 실제 메시지 유형별 색상은 표 내에 명시되어 있지 않다는 점을 주의해야"
+  },
+  {
+    "table_id": "t220",
+    "llm_text": "이 표는 노드 속성 편집 시 동적 도움말 섹션에 보여지는 간단한 설명을 제공하지만, 현재 표는 이미지만 포함하고 있어 실제 내용을 알 수 없다. 따라서, 표의 내용 자체는 요약할 것이 없으며, 대신 표의 목적과 관련된 정보만 요약하면 다음과 같다:\n\n- 표의 목적: 노드 속성 편집 시 동적 도움말 섹션에 대한 간략한 설명을 제공하기 위한 툴바 기능 중 하나\n- 표의 구성: 3개의 열로 이루어져 있으며, 각 열에는 이미지가 포함되어 있다\n- 각 열의 의미: 현재 표에서는 각 열의 의미를 알 수 없으나, 일반적으로는 노드 속성의 세 가지 다른 부분이나 옵션을 나타낼 수 있음\n\n이 표는 노드 속성 편집 시 사용자에게 도움을 주기 위한 이미지를 제공하려는 의도가 있지만, 실제 내용이 명시되어 있지 않아 그 의미를 정확히 파악하기 어렵습니다. [image:rId123], ["
+  },
+  {
+    "table_id": "t245",
+    "llm_text": "이 표는 마우스를 방향 아이콘 외부에서 놓으면 컨트롤 창이 독립적으로 열리지만 작업 영역의 위치를 변경할 수 없다는 주의 사항을 설명하고 있습니다. 이 정보는 사용자가 ECMiner에서 작업할 때 마우스를 어떻게 사용해야 하는지 이해하는데 도움이 됩니다. [TABLE HTML]은 단일 행의 테이블로 구성되어 있으며, 이 행에는 노트(notes) 또는 주의사항(warnings)이 포함되어 있습니다. 이 노트는 사용자가 ECMiner에서 작업할 때 마우스를 방향 아이콘 외부에서 놓으면 컨트롤 창이 독립적으로 열리지만, 작업 영역의 위치는 변경할 수 없다는 점을 알려줍니다. 이 정보는 사용자가 프로그램을 더 효과적으로 사용하도록 돕습니다. \n\n주요 내용:\n1. **노트**: \"If the mouse is released outside of the direction icon, the control window will open independently.\"\n   - **설명**: 마우스를 방향 아이콘 외부에서 놓으면 컨트롤"
+  },
+  {
+    "table_id": "t273",
+    "llm_text": "이 표는 ECMiner에서 사용할 수 있는 단축키와 해당 기능을 나타내고 있습니다. 각 행은 두 개의 단축키와 그에 따른 기능을 나열하고 있으며, 첫 번째 열에는 단축키, 두 번째 열에는 해당 기능이 기재되어 있습니다. 예를 들어, Ctrl + N은 'New' 기능을 수행하며, Alt + V, T는 'Toolbar'를 나타냅니다. 또한, F5는 'Execute'를, Shift + F5는 'Stop Execution'을, Alt + P는 'Project'를, Alt + E는 'Edit'을, Alt + V는 'View'를, Alt + H는 'Help'을 각각 나타냅니다. 마지막으로, Alt + H, A는 'ECMiner™ Info'를 나타냅니다.\n이 표는 ECMiner에서 다양한 작업을 수행하기 위한 단축키를 제공하며, 각 단축키는 해당 기능을 명확히 설명하고 있습니다. 이를 통해 사용자는 효율적으로 프로그램을 사용할 수 있습니다. 각 단축키와 기능은 두 열로 나뉘어져 있으며, 첫 번째"
+  },
+  {
+    "table_id": "t283",
+    "llm_text": "이 표는 ECMiner 프로그램에서 사용할 수 있는 세 가지 기본 설정 옵션을 설명하고 있습니다. 각 옵션은 다음과 같이 구성되어 있습니다:\n\n1. **Program Settings**: 이 항목은 프로그램의 기본 설정을 조정할 수 있는 옵션을 제공합니다. 사용자는 날짜 및 시간 형식, 데이터 읽기 방법, 리소스 창에서 표시할 파일 확장자 등을 설정할 수 있습니다.\n\n2. **Default Database Setting**: 이 항목은 ODBC 또는 OLE DB와 관련된 기본 데이터베이스 드라이버와 로그인 정보를 설정할 수 있는 옵션을 제공합니다.\n\n3. **Edit Frequently Used Nodes**: 이 항목은 자주 사용되는 노드를 추가하거나 삭제할 수 있는 기능을 제공합니다. 이를 통해 사용자는 작업 효율성을 높일 수 있습니다. To summarize, this table outlines three basic settings options available in the ECMiner program:\n\n1. **Program Settings**: This option allows users to configure various program defaults such as date/time format, data reading methods, file extensions to display in the resource window, and program appearance.\n\n2. **Default Database Setting**:"
+  },
+  {
+    "table_id": "t289",
+    "llm_text": "이 표는 ECMiner 프로그램에서 사용자 설정 옵션을 설명하고 있습니다. 각 번호는 설정 옵션을 나타내며, 해당 옵션의 설명은 각 행에 나와 있습니다. \n\n- (1) 번째 옵션은 사용자가 언어에 따라 날짜/시간 표시 형식을 선택할 수 있게 해줍니다.\n- (2) 번째 옵션은 데이터를 읽을 때 모든 숫자 데이터를 소수점 수치로 처리하도록 선택할 수 있게 합니다.\n- (3) 번째 옵션은 리소스 창에서 표시할 파일 유형을 지정합니다. 사용자가 직접 입력하지 않아도 기본적으로 ecm, ecl, ept, gms 등의 확장자가 선택됩니다.\n- (4) 번째 옵션은 프로그램의 전체적인 디자인을 설정합니다. 사용자에게 눈에 띄게 보이는 형태로 설정할 수 있습니다.\n- (5) 번째 옵션은 데이터를 화면이나 보고서에서 표시할 때 소수점 수치의 표시 형식을 지정합니다. To summarize"
+  },
+  {
+    "table_id": "t295",
+    "llm_text": "이 표는 ECMiner에서 데이터베이스 연결 정보를 입력하거나 자동으로 채우는 방법을 설명합니다. \n\n- Num. 열은 각 항목의 번호를 나타냅니다.\n- description 열은 해당 번호와 관련된 설명을 제공합니다.\n- (1)은 OLE DB 관련 노드의 데이터베이스 연결 정보를 수동으로 입력해야 한다는 설명을 담고 있습니다.\n- (2)는 ODBC 관련 노드의 데이터베이스 연결 정보를 수동으로 입력해야 한다는 설명을 담고 있습니다.\n- (3)는 데이터베이스 관련 노드를 추가할 때 자동으로 데이터베이스 연결 정보를 채워넣을 수 있는 옵션을 선택하면 된다는 설명을 담고 있습니다. 이 표는 ECMiner에서 데이터베이스 연결 정보를 관리하는 방법을 설명합니다.\n\n- **Num.** 열: 각 항목의 번호를 나타냅니다.\n- **description** 열: 해당 번호와 관련된 설명을 제공합니다.\n\n- **(1)**: OLE DB 관련 노드의 데이터베이스 연결 정보를 수동으로 입력"
+  },
+  {
+    "table_id": "t301",
+    "llm_text": "이 표는 ECMiner™에서 지원하는 노드 목록과 관련된 몇 가지 작업을 설명합니다. \n\n- **Num.**: 각 항목의 번호를 나타냅니다.\n- **description**: 해당 번호와 관련된 설명을 제공합니다.\n  \n1. **(1)**: ECMiner™에서 지원하는 모든 노드가 나열됩니다.\n2. **(2)**: 사용자가 선택한 노드를 \"최종 사용 노드\" 목록에 추가하기 위해 (1)을 사용할 수 있습니다.\n3. **(3)**: \"최종 사용 노드\" 목록에서 노드를 제거하려면 (4)에서 제거할 노드를 선택하고 해당 버튼을 클릭하면 됩니다.\n4. **(4)**: 현재 \"최종 사용 노드\" 목록에 추가된 노드들의 목록을 보여줍니다. To summarize, this table explains how to manage the list of frequently used nodes in ECMiner™:\n\n- **Num.**: Each item's number.\n- **description**: Description of what each number represents.\n\n1. **(1)**: Lists all nodes supported by ECMiner™.\n2. **"
+  },
+  {
+    "table_id": "t304",
+    "llm_text": "이 표는 ECMiner에서 사용되는 함수 버튼에 대한 정보를 제공합니다. 각 버튼 아이콘과 해당 기능을 설명하고 있습니다.\n\n- **icon** 열: 버튼의 아이콘 이미지를 나타냅니다. 여기서는 이미지 파일 이름(rId145, rId146)으로 표시되어 있습니다.\n- **function** 열: 각 버튼이 수행하는 기능을 설명합니다.\n  - 첫 번째 행: [image:rId145] 아이콘은 선택된 노드를 'Most Used Nodes' 리스트에 추가합니다.\n  - 두 번째 행: [image:rId146] 아이콘은 선택된 노드를 'Most Used Nodes' 리스트에서 삭제합니다. To summarize, this table in the ECMiner manual lists functions for buttons with icons. It includes:\n\n- **Icon**: The image icon of each button (e.g., `[image:rId145]` and `[image:rId146]`).\n- **Function**: What each button does:\n  - The first row's icon adds the selected node to the 'Most Used Nodes' list.\n  - The second row's icon removes the selected node from"
+  }
+]
