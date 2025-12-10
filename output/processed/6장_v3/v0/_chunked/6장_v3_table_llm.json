@@ -1,1 +1,94 @@
-[]
+[
+  {
+    "table_id": "t63",
+    "llm_text": "This table describes an experiment aimed at improving a chemical reaction process yield by varying three factors: reaction time (A), temperature (B), and ingredient amount (C). The experiment will use a 2-level fractional factorial design, confounding the ABC interaction with the experimental day to manage time constraints."
+  },
+  {
+    "table_id": "t101",
+    "llm_text": "The table outlines residual plots for model diagnostics, including histogram, normal probability, fitted values, and order plots to assess model fit."
+  },
+  {
+    "table_id": "t124",
+    "llm_text": "The table appears to contain images but lacks textual content, suggesting it may serve as a placeholder or decorative element rather than conveying functional information. Rows represent image pairs while columns likely denote side-by-side positioning for each pair. [image:rId30] and [image:rId32] are in the first row, and [image:rId31] and [image:rId33] are in the second row, indicating two sets of images displayed horizontally. [image:rId30] and [image:rId31] are in the first column, and [image:rId32] and [image:rId33] are in the second column. The table structure suggests a layout for displaying images side by side in pairs. [image:rId30] and"
+  },
+  {
+    "table_id": "t172",
+    "llm_text": "General Full Factorial Design allows testing all possible combinations of factor levels, unlike other designs which restrict to 2-level experiments. This table shows all combinations for 3 factors with levels 1, 2, 3, and 4."
+  },
+  {
+    "table_id": "t226",
+    "llm_text": "The table describes an experiment from 1979 where a tire company used response surface design methods to study how varying amounts of G300 and V130 impact the adhesion, modulus, and elongation properties of Monopoly radial tires."
+  },
+  {
+    "table_id": "t279",
+    "llm_text": "This table displays images related to residual analysis for adhesion response, likely showing plots or graphs. Rows represent different visual elements or stages of the analysis, while columns could indicate comparisons or categories within those visuals. [image:rId59] through [image:rId62] denote specific images or charts that provide insights into how residuals behave in relation to the adhesion response variable. The table structure organizes these visual representations for easier interpretation. [ADDITIONAL_EXPLANATION] The table's layout suggests a comparison or breakdown of various aspects of residual behavior for the adhesion response, possibly including different types of plots or stages in the analysis process. Each row contains two images, which might represent before and after views, or different types of plots like scatter plots and residual plots. Columns seem to"
+  },
+  {
+    "table_id": "t282",
+    "llm_text": "This table displays images related to residual analysis for the \"Modulus\" response value, likely showing plots that help assess the fit of a model to the data. Rows represent different types of residual plots while columns may compare before and after adjustments or different models. [image:rId63] and [image:rId65] could be pre-adjustment plots, and [image:rId64] and [image:rId66] post-adjustment or comparison plots. The table format suggests a side-by-side comparison of visual analyses."
+  },
+  {
+    "table_id": "t285",
+    "llm_text": "This table displays images related to residual analysis for the \"Elongation\" response value, likely showing visual representations of residuals or their distribution. Rows contain pairs of images, possibly comparing observed vs predicted values or different aspects of residuals. Columns may represent different types of plots or views of the same data. [image:rId67] and [image:rId69] appear to be the first row's images, while [image:rId68] and [image:rId70] are the second row's images. The table structure suggests a comparison or breakdown of residual patterns for better understanding of model fit in elongation measurements. [NO_HTML_TAGS] The table presents two pairs of images analyzing residuals for the \"Elongation\" response, likely including observed vs predicted comparisons or detailed"
+  },
+  {
+    "table_id": "t297",
+    "llm_text": "The table likely outlines some basic information or features, with rows possibly representing different aspects and columns showing related details or examples. Each cell contains an image reference indicating visual content rather than text descriptions. [image:rId72] and [image:rId73] suggest there are two images being referenced here without specific labels or captions provided. The table structure implies a comparison or side-by-side display of visual data. Roles: Rows represent distinct elements or categories, while columns offer corresponding visual representations for each row. Images referenced serve as primary content. [END] [SUMMARY] The table appears to compare two visual elements through images, likely illustrating differences or features side by side. Rows probably denote separate items being compared, and columns display the respective images for each item. [END] [SUMMARY"
+  },
+  {
+    "table_id": "t300",
+    "llm_text": "This table represents images for a surface plot and contour plot showing the \"Modulus\" response value. The rows display different visual representations while the columns likely correspond to distinct views or data sets within those plots."
+  },
+  {
+    "table_id": "t303",
+    "llm_text": "This table represents images for surface and contour plots showing elongation values. The first row contains two image references, likely depicting different views or aspects of the elongation data visualization."
+  },
+  {
+    "table_id": "t382",
+    "llm_text": "This table describes an experiment aimed at understanding how three unspecified components impact the firmness of a product. The experiment uses default values for these components and seeks to determine their individual effects on the response value."
+  },
+  {
+    "table_id": "t423",
+    "llm_text": "The table indicates options for visualizing residuals in statistical analysis. Rows show different types of residual plots while columns represent specific visualizations like histograms, normal probability plots, ordinal vs. residuals, and fitted values vs. residuals."
+  },
+  {
+    "table_id": "t432",
+    "llm_text": "This table shows two images, likely representing a surface plot and a contour plot, which visualize the regression model created in Step 4 of the Mixture Design process. The rows display different types of visual representations, while the single column indicates the two distinct views available for analysis."
+  },
+  {
+    "table_id": "t445",
+    "llm_text": "Simplex Lattice Design is a method for creating evenly distributed experimental points within a simplex region to fit m-order polynomials with n components, useful for mixture experiments where component ratios affect outcomes. The table introduces the concept of mixture volume design, which helps understand the relationship between component amounts and their effects, such as a metal's strength."
+  },
+  {
+    "table_id": "t475",
+    "llm_text": "This table shows images of a surface plot and contour plot for a regression model, with a response optimizer function available. The plots visualize the relationship between variables in the model when the mixture amount is set to 2."
+  },
+  {
+    "table_id": "t486",
+    "llm_text": "The table describes an experiment investigating the relationship between three ingredients and process variables like working temperature on product quality. It specifies ingredient constraints."
+  },
+  {
+    "table_id": "t528",
+    "llm_text": "The table illustrates visual tools for assessing model residuals in regression analysis, including residual histograms, normal probability plots, and plots comparing residuals to ordered values and fitted values. Rows represent different types of residual plots while columns likely show various images or graphical representations of these plots."
+  },
+  {
+    "table_id": "t537",
+    "llm_text": "The table displays two images representing a regression model created in Step 4 via surface and contour plots. Rows show different visual representations while columns correspond to distinct plot types."
+  },
+  {
+    "table_id": "t604",
+    "llm_text": "This table introduces an experiment aimed at reducing exhaust CO by arranging factors A-H in an orthogonal array and using noise factors across three road types to find optimal conditions. The rows describe the experimental setup and goals, while the single column details the process and factors involved."
+  },
+  {
+    "table_id": "t635",
+    "llm_text": "This table introduces an experiment aimed at reducing impurities in a resin by varying four control factors (bond mixing ratio, bonding method, surface treatment method, heat treatment method) across three levels each, while considering two non-controlling factors (worker skill level, production line). The goal is to optimize conditions to meet a specification limit of 4.0% impurity content, avoiding significant financial losses."
+  },
+  {
+    "table_id": "t806",
+    "llm_text": "The table indicates that images representing different types of residual graphs are provided for analysis. Rows show two distinct images while columns likely represent separate residual graph types such as histogram, normal probability plot, versus order, and versus fitted value."
+  },
+  {
+    "table_id": "t882",
+    "llm_text": "This table outlines different types of characteristic values for evaluating data quality, including nominal, smaller-the-better, and larger-the-better characteristics. Each row represents a type of characteristic with specific formulas for calculating loss functions and signal-to-noise ratios based on individual data points and averages across multiple data points."
+  }
+]

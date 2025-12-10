@@ -166,7 +166,7 @@ def summarize_table_html(
 
     # 2) Qwen이 여러 블록을 [END_OF_TEXT] 등으로 나눠서 줄 때, 첫 블록만 사용
     #    ex) "문단1 ... [END_OF_TEXT] 문단2 ... [END_OF_TEXT] ..."
-    for sep in ["[END_OF_TEXT]", "<|endoftext|>", "<|im_end|>", "<|im_separator|>"]:
+    for sep in ["[END_OF_TEXT]", "<|endoftext|>", "<|im_end|>", "<|im_separator|>", "[END]"]:
         if sep in summary:
             summary = summary.split(sep, 1)[0].strip()
 

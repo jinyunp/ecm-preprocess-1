@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "table_id": "t11",
+    "llm_text": "This table describes the components and functionalities of the expression editor in ECMiner, including a toolbar with undo/redo, find, and bookmark features, an expression editing window, available variables list, and various tools for inserting and modifying functions and expressions."
+  },
+  {
+    "table_id": "t16",
+    "llm_text": "This table outlines various toolbar icons and their corresponding functions in the ECMiner software, including undo, redo, line number toggling, and search features. Each row represents a different icon with its associated toolbar button, description of what the function does, and sometimes additional images referenced by IDs."
+  },
+  {
+    "table_id": "t46",
+    "llm_text": "The table categorizes various types of functions available in ECMiner, including transformations, math/trig operations, text processing, date/time extraction, statistical analysis, information retrieval, record-level processing, macro usage, and additional custom functions. Each row represents a different category with a brief description of what kind of operations are included within that category."
+  },
+  {
+    "table_id": "t62",
+    "llm_text": "This table lists various functions available in ECMiner along with their descriptions, return values, and examples. Rows represent individual functions while columns provide details such as function name, description, return value type, and usage example."
+  },
+  {
+    "table_id": "t67",
+    "llm_text": "The table lists various mathematical and statistical functions, each with a name, description, and example usage. Functions cover trigonometry, logarithms, probability distributions, and more. Rows represent individual functions while columns provide details like function name, purpose, and sample input/output."
+  },
+  {
+    "table_id": "t71",
+    "llm_text": "The table lists various functions for manipulating strings in a programming context, including operations like trimming, replacing, finding substrings, sorting, and converting case. Each function's purpose, return value, and example usage are provided."
+  },
+  {
+    "table_id": "t75",
+    "llm_text": "This table lists various functions for manipulating and extracting date and time information in ECMiner, including returning specific components like month, day, and time, calculating differences between dates and times, and formatting dates. Each function has a description, return value type, and example usage provided."
+  },
+  {
+    "table_id": "t80",
+    "llm_text": "The table lists various statistical functions for continuous variables, including measures of central tendency, dispersion, and distribution shape. Each function has a description, return value type, and example usage."
+  },
+  {
+    "table_id": "t82",
+    "llm_text": "The table lists discrete variable functions for a mining tool, including their descriptions, return types, and examples. Rows represent individual functions while columns detail function name, description, return value, and example usage."
+  },
+  {
+    "table_id": "t86",
+    "llm_text": "This table lists various functions available in ECMiner along with their descriptions, return values, and examples. Rows represent individual functions while columns provide details such as function name, description, return value type, and example usage."
+  },
+  {
+    "table_id": "t90",
+    "llm_text": "The table lists various statistical functions for analyzing data, including measures like mean, standard deviation, and count. Each function has a description of what it does, the return value type, and an example placeholder."
+  },
+  {
+    "table_id": "t95",
+    "llm_text": "This table lists various macros available for use in ECMiner, each with a description and return value. The rows represent different macros, while the columns provide information about their purpose and data type output."
+  },
+  {
+    "table_id": "t99",
+    "llm_text": "This table lists various functions available in ECMiner along with their descriptions and return types. Rows represent individual functions, while columns provide details such as function name, description, and return value."
+  }
+]
