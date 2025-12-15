@@ -12,8 +12,17 @@ echo "=============================================="
 cd "$(dirname "$0")"
 PROJECT_ROOT=$(pwd)
 
-MODEL_DIR="/workspace/qwen"
+DEFAULT_MODEL_DIR="/workspace/qwen"
+FALLBACK_MODEL_DIR="$PROJECT_ROOT/workspace/qwen"
 MODEL_REPO_HF="Qwen/Qwen2.5-VL-3B-Instruct"
+
+if [ -d "/workspace" ] && [ -w "/workspace" ]; then
+    MODEL_DIR="$DEFAULT_MODEL_DIR"
+    echo "[INFO] Using default model dir: $MODEL_DIR"
+else
+    MODEL_DIR="$FALLBACK_MODEL_DIR"
+    echo "[WARN] /workspace unavailable or read-only. Falling back to $MODEL_DIR"
+fi
 
 echo "[INFO] Project root: $PROJECT_ROOT"
 
