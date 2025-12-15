@@ -220,6 +220,7 @@ def process_tables_to_chunked(sanitized_path: str) -> str:
         results.append({
             "table_id": tbl_id,
             "llm_text": summary,
+            "table_html": html_or_text,
         })
 
     out_path = _get_default_output_path(sanitized_path)
