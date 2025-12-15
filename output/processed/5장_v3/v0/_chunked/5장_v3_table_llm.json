@@ -1,0 +1,78 @@
+[
+  {
+    "table_id": "t25",
+    "llm_text": "The table lists different types of neural network models including DNN, CNN, RNN, and Language Model, detailing their descriptions, supported models, and applications. Rows represent categories of models while columns provide specific details about each category."
+  },
+  {
+    "table_id": "t31",
+    "llm_text": "The note emphasizes the importance of adhering to specific data formats based on selected neural network models and mentions that a preview feature is accessible for up to 50 items."
+  },
+  {
+    "table_id": "t36",
+    "llm_text": "This table outlines various configuration options for defining a neural network's architecture and training process, including settings for hidden layers, activation functions, epochs, batch size, learning rate, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide details such as option names, descriptions, and possible values or ranges."
+  },
+  {
+    "table_id": "t41",
+    "llm_text": "The table displays options reviewed by users for ECMiner, including the neural network Python code and its structure diagram. Rows represent different aspects of the neural network - one for the code and another for the structure. Columns distinguish between visual elements and their descriptions. [image:rId9] and [image:rId10] likely refer to images of the code and structure respectively."
+  },
+  {
+    "table_id": "t62",
+    "llm_text": "This table outlines various options for configuring a neural network in ECMiner, including settings for network architecture, training parameters, and data preprocessing. Rows represent different categories of options (e.g., Network Option, Train Option), while columns detail specific option names, their descriptions, and possible values or constraints."
+  },
+  {
+    "table_id": "t80",
+    "llm_text": "This table outlines various options for configuring a neural network model in ECMiner, including settings for network architecture, training parameters, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide details such as option names, descriptions, and possible values or constraints."
+  },
+  {
+    "table_id": "t88",
+    "llm_text": "The table appears to have one row with three cells, likely used for displaying images or icons. Each cell contains either an image reference or is empty, suggesting it may be part of a user interface or guide for visual elements rather than containing textual data. Rows represent different visual elements while columns could indicate their positions or types. [image:rId11] and [image:rId12] are placeholders for images, possibly indicating specific icons or graphics within the manual. [image:rId11] and [image:rId12] likely correspond to distinct visual components or steps in a process described in the manual. The single row structure implies a linear sequence of these visual elements."
+  },
+  {
+    "table_id": "t107",
+    "llm_text": "This table outlines various options for configuring a neural network model, including details about the network's architecture such as input dimensions and convolutional layers, as well as training parameters like epochs, batch size, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide descriptions, notes, and specific values or ranges for each option."
+  },
+  {
+    "table_id": "t128",
+    "llm_text": "This table outlines various options for configuring the AlexNet model, including details about the network structure such as input dimensions and convolutional layers, as well as training parameters like epochs, batch size, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide descriptions, notes, and specific values or ranges for each option."
+  },
+  {
+    "table_id": "t144",
+    "llm_text": "This table outlines various options and their descriptions for configuring a VGGNet model, including details about the network structure such as input dimensions and convolutional layers, as well as training parameters like epochs, batch size, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide information on option names, descriptions, and notes."
+  },
+  {
+    "table_id": "t158",
+    "llm_text": "This table outlines the configuration options for a ResNet model, including details about the network structure such as input dimensions and convolutional layers, as well as training parameters like epochs, batch size, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide descriptions, notes, and specific values or ranges for each option."
+  },
+  {
+    "table_id": "t172",
+    "llm_text": "This table outlines the configuration options for an EfficientNet model, including details about the network structure such as input dimensions, convolutional and fully connected layers, and training parameters like epochs, batch size, and optimization methods. Rows represent different categories of options (e.g., Network Option, Train Option), while columns provide information on option names, descriptions, and specific settings or notes. [ENDING_TEXT] The table details configuration options for an EfficientNet model, covering input dimensions, network architecture components, and training parameters. Rows categorize these options (like Network Option and Train Option), and columns specify the option name, description, and additional notes or settings. [ENDING_TEXT] The table lists configuration options for an EfficientNet model, organized into categories like Network Option and Train Option. Each row represents a specific"
+  },
+  {
+    "table_id": "t193",
+    "llm_text": "This table outlines various options for configuring a recurrent neural network (RNN) in ECMiner, including settings for network architecture, training parameters, and data preprocessing. Rows represent different categories of options (e.g., Network Option, Train Option), while columns detail specific option names, their descriptions, and applicable notes or constraints."
+  },
+  {
+    "table_id": "t213",
+    "llm_text": "This table outlines various options for configuring a recurrent neural network (RNN) in ECMiner, including settings for network architecture, training parameters, and data preprocessing. Rows represent different categories of options (e.g., Network Option, Train Option), while columns detail specific option names, their descriptions, and applicable notes or constraints."
+  },
+  {
+    "table_id": "t230",
+    "llm_text": "This table outlines various options for configuring a Recurrent Neural Network (RNN) model, including settings for network architecture (hidden layers, nodes, activation functions, drop-out rate), training parameters (epochs, batch size, learning rate, optimization method), and data preprocessing (scaling method). Each option has a description and constraints on valid inputs."
+  },
+  {
+    "table_id": "t256",
+    "llm_text": "The table outlines various options for configuring a machine learning model, including network settings like input size, hidden layers, and sequence length, as well as training parameters such as epochs, batch size, and optimization methods. Rows represent different option groups, while columns provide details on specific options, their descriptions, and possible values or constraints."
+  },
+  {
+    "table_id": "t274",
+    "llm_text": "The table outlines various options for configuring a machine learning model, including network settings like input size, hidden layers, and attention mechanisms, as well as training parameters such as epochs, batch size, and optimization methods. Rows represent different option groups, while columns detail the specific option names, their descriptions, and possible values or notes."
+  },
+  {
+    "table_id": "t292",
+    "llm_text": "This table outlines various options for configuring a machine learning model, including network settings like input size, hidden layers, and sequence length, as well as training parameters such as epochs, batch size, and optimization methods. Rows represent different option groups, while columns detail the specific option names, their descriptions, and possible values or notes."
+  },
+  {
+    "table_id": "t294",
+    "llm_text": "The table notes that for the Multi-Head Self-Attention layer in a neural network, the input vector's dimension must be divisible by the number of attention heads to ensure even distribution across them. This ensures optimal performance of the MHSA mechanism."
+  }
+]

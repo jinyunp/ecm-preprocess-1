@@ -1,0 +1,102 @@
+[
+  {
+    "table_id": "t9",
+    "llm_text": "The Data Browser can be utilized in both Input and Output nodes within ECMiner. It lists various input methods such as file readers, Excel reader, and database readers under Input Node category, while Output Node includes Display Node and Result Pivoting for presenting data."
+  },
+  {
+    "table_id": "t30",
+    "llm_text": "The table outlines different types of windows in the ECMiner software, detailing their functions and notes. Rows represent distinct window types (Menu, Toolbar, Variable Type, Viewer, Results) while columns cover the window number, type, function, and additional notes."
+  },
+  {
+    "table_id": "t35",
+    "llm_text": "The table outlines various menu options and their corresponding functions in the ECMiner software, categorized into groups such as File, Edit, Analyze, SPC, Time Series Analysis, Table, Probability Distribution, Nonparametric Test, Accuracy Measurement, Gage R&R, and Chart. Each function provides specific statistical analyses, data manipulation, visualization, and quality control tools for data exploration and analysis."
+  },
+  {
+    "table_id": "t61",
+    "llm_text": "This table outlines various toolbar menu options available in the ECMiner software, including actions like saving data, calculating statistics, sorting, creating derived variables, and displaying charts. Each row represents a different menu option with its corresponding icon, description, and note."
+  },
+  {
+    "table_id": "t71",
+    "llm_text": "The table describes different sections of a data window in ECMiner, including column headers, row headers, data area, and sheet tabs, each with specific functions and right-click options for manipulation."
+  },
+  {
+    "table_id": "t80",
+    "llm_text": "The table outlines options for managing results windows in ECMiner, including showing, closing, and removing individual or all windows. Each row corresponds to a menu option with an associated icon, description, and notes."
+  },
+  {
+    "table_id": "t197",
+    "llm_text": "The table indicates that no results are available. It consists of a single row containing an image reference, suggesting there might be visual data associated with the lack of results. [FOLLOWING_TEXT] The table has one row displaying an image reference, likely indicating no textual results are present. There are no columns as only an image is shown. This suggests the absence of result data. [PRECEDING_TEXT] [FOLLOWING_TEXT] The table conveys that no results exist, with a single row featuring an image which may represent additional information about the non-availability of results. There are no columns since the content is purely graphical. [FOLLOWING_TEXT] [PRECEDING_TEXT] The table signifies the absence of results, with a solitary row including an image that possibly elaborates on"
+  },
+  {
+    "table_id": "t208",
+    "llm_text": "This table explains how to set up a statistical test by selecting a variable and defining its hypothesized mean along with the desired confidence level. The row describes the action needed while the column provides details on what needs to be specified for the test setup. [image:rId40] likely represents a placeholder for an image or icon related to the selection process. Summary: The table outlines the steps to configure a statistical test, instructing users to choose a variable and specify its hypothesized mean and confidence level. The single row guides the user action, while the column elaborates on the required inputs for the test setup. [image:rId40] denotes a placeholder for an illustrative element."
+  },
+  {
+    "table_id": "t219",
+    "llm_text": "This table outlines the initial step in the analysis process, where users select the variables to analyze and the grouping variable. It serves as a starting point for more detailed statistical analyses like mean comparison and t-tests. The row indicates the action required, while the column describes what needs to be selected for the analysis. [image:rId42] likely represents a visual element guiding user interaction. The second column explains how to proceed with variable selection. The third column appears empty, possibly intended for additional notes or instructions."
+  },
+  {
+    "table_id": "t230",
+    "llm_text": "The table appears to outline sections for basic statics, mean comparison analysis, and paired t-test. It includes a placeholder image likely indicating where more detailed information would be displayed."
+  },
+  {
+    "table_id": "t370",
+    "llm_text": "The table describes post-hoc analysis methods for comparing group differences, including LSD, Tukey, and Duncan, with notes on their sensitivity and reliability. Rows represent different analysis options while columns explain each method's characteristics and appropriate use cases. [END] The first row outlines three post-hoc analysis techniques (LSD, Tukey, Duncan) used to compare group differences, noting that LSD is sensitive to small differences, Tukey is robust and reliable, and Duncan is useful for comparing larger mean differences. Subsequent rows likely contain additional details or explanations not provided in the given snippet. [END] The table explains various post-hoc analysis methods for identifying group differences, highlighting the sensitivity and reliability of LSD, Tukey, and Duncan methods. Rows correspond to specific analysis techniques, while columns provide descriptions"
+  },
+  {
+    "table_id": "t374",
+    "llm_text": "The table indicates that results can be exported to an HTML file via a save icon. The single row shows an image icon labeled 'rId66', likely representing the save function. Columns don't apply as this is a single-column table."
+  },
+  {
+    "table_id": "t524",
+    "llm_text": "This table defines various statistical terms and metrics used in process capability analysis, including histograms, control limits, and capability indices like Cp, Cpk, Pp, and Ppk. Each row represents a different term or metric, with the first column listing the terminology and the second column providing a description of what each term means in the context of quality control and process improvement."
+  },
+  {
+    "table_id": "t604",
+    "llm_text": "The table lists two types of decomposition methods used in data analysis: multiplicative and additive. Rows represent different decomposition techniques while columns describe their characteristics or applications. [Summary] The table contrasts two data analysis techniques, multiplicative and additive decomposition, showing how they differ in approach. Rows denote the specific methods, and columns highlight their nature. [Summary] The table distinguishes between multiplicative and additive decomposition methods, with rows representing each technique and columns elaborating on their definitions or properties. [Summary] The table compares multiplicative and additive decomposition methods, where rows indicate the type of decomposition and columns provide details about each method. [Summary] The table outlines two data analysis methods: multiplicative and additive decomposition, with rows specifying each method and columns offering descriptions. [Summary] The table presents two decomposition"
+  },
+  {
+    "table_id": "t607",
+    "llm_text": "The table lists various types of time series data transformations including trend, detrended, seasonal index, deseasonal index, fitted values, and residuals. Each row represents a different transformation step applied to the original time series data."
+  },
+  {
+    "table_id": "t611",
+    "llm_text": "This table explains the components that make up a time series observation, with each component representing different aspects of the data's behavior over time. Rows describe the overall concept while columns break down the elements contributing to the observed value at a specific time point. [image:rId108] likely denotes an image or reference not included here. The table details how observed values are decomposed into trend, seasonal, cyclical, and irregular components to better understand patterns and anomalies in the data."
+  },
+  {
+    "table_id": "t615",
+    "llm_text": "The table explains the decomposition of an observed time series value into four components: trend, seasonal, cyclical, and irregular. Each component represents a different aspect of the data's behavior over time."
+  },
+  {
+    "table_id": "t638",
+    "llm_text": "The table lists various diagnostic plots used to assess time series data, including histogram, normal probability plot, residual vs. order, and residual vs. fitted values. Rows represent different types of plots, while columns show corresponding visual representations or images of these plots."
+  },
+  {
+    "table_id": "t668",
+    "llm_text": "This table outlines different types of diagnostic plots used for model validation, including histogram, normal probability plot, residual vs. order, and residual vs. fitted values. Rows represent various plot types while columns show corresponding visual representations or images."
+  },
+  {
+    "table_id": "t712",
+    "llm_text": "The table lists visualization tools for analyzing residuals and model fit in exponential smoothing, including histogram, normal probability plot, residual vs. order, and residual vs. fitted values plots. Rows represent different types of plots, while columns show the visual representations for each type."
+  },
+  {
+    "table_id": "t774",
+    "llm_text": "The table lists four types of residual plots used for diagnostic checks in regression analysis: histogram, normal probability plot, residual vs. order, and residual vs. fitted values. Each row represents a different type of plot, while each column shows two examples of these plots."
+  },
+  {
+    "table_id": "t783",
+    "llm_text": "The table lists five types of growth models: Linear, Quadratic, Exponential, Growth Logarithmic. Each row represents a different model type."
+  },
+  {
+    "table_id": "t803",
+    "llm_text": "The table lists various diagnostic plots for regression analysis including histogram, normal probability plot, residual vs order, and residual vs fitted values. These visualizations help assess the quality and assumptions of the regression model. Rows represent different types of plots while columns show images corresponding to each plot type."
+  },
+  {
+    "table_id": "t841",
+    "llm_text": "The table outlines four types of residual plots used to assess normality: histogram, normal probability plot, residual vs. order, and residual vs. fitted values. These visual tools help in checking whether the residuals from a statistical model are normally distributed, which is important for many statistical analyses. Rows represent different plot types while columns show the corresponding images."
+  },
+  {
+    "table_id": "t1305",
+    "llm_text": "The table instructs users to set the group to \"Factors\" and choose \"Variables\" in a specific interface. Rows represent steps in the process, while columns guide the user on what action to take for each step. [END] [TABLE_HTML] The table guides users through setting up a configuration by directing them to categorize the group as \"Factors\" and then selecting \"Variables.\" Each row corresponds to a step in this setup process, with the single column providing instructions for that step. [END] [TABLE_HTML] The table outlines how to configure a selection by instructing users to classify the group as \"Factors\" and then pick \"Variables.\" Rows denote sequential steps, and the column offers guidance for each step. [END] [TABLE_HTML] The table directs users to set the"
+  }
+]
