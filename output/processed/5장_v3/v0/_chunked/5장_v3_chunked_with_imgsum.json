@@ -29,7 +29,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to AI Wizard, focusing on User interface.\n\nECMiner™ AI wizard provides a step-by-step interface for defining neural network models and configuring model options. The stream configuration is divided into four steps as follows.\n[image:rId7] The image shows the process flow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results.\n\n[Image:rId7] The image shows the process flow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results.\n\nStep 1. Model Definition\n\nSelect the neural network model to train. T here are four available models.\n\n[Table:t25]\n\nStep 2. Data Input\n\nS pecify the data type, variable type, and whether each column should be used.\n[image:rId8] The image shows the Data Input tab in AI Wizard of ECMiner, where user can load customer churn data for analysis.\n\n[Image:rId8] The image shows the Data Input tab in AI Wizard of ECMiner, where user can load customer churn data for analysis.\n\n[Table:t31]\n\nStep 3. Option Settings\n\nDefine the structure of the neural network. Options vary according to the chosen model. The following options are general settings for all models.\n\n[Table:t36]\n\nStep 4. Definition Results\n\nReview of the options set by the user is available, along with the neural network python code and a diagram of the neural network structure.\n\n[Table:t41]\n\n[Image:rId10] The image shows an artificial neural network architecture with input tensor depth 0, linear layer depth 1, sigmoid layer depth 1, another linear layer depth 1, and ReLU activation function depth 1.\n\n[Image:rId9] The image shows a Python script for implementing an ECMiner model using PyTorch, focusing on neural network architecture and early stopping criteria.",
+    "Context": "This content is about the section AI, and more specifically it belongs to AI Wizard, focusing on User interface.\n\nECMiner™ AI wizard provides a step-by-step interface for defining neural network models and configuring model options. The stream configuration is divided into four steps as follows.\n[image:rId7] The image shows the process flow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results.\n\n[Image:rId7] The image shows the process flow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results.\n\nStep 1. Model Definition\n\nSelect the neural network model to train. T here are four available models.\n\n[Table:t25] The table lists different types of neural network models including DNN, CNN, RNN, and Language Model, each with their own characteristics and supported models. It also mentions their applications in regression analysis, classification, feature extraction, image analysis, sequential data prediction, and natural language processing tasks. Rows represent different categories of neural networks while columns provide details on description, supported models, and applications. Columns are further divided into three sub-columns for better organization.\n\nStep 2. Data Input\n\nS pecify the data type, variable type, and whether each column should be used.\n[image:rId8] The image shows the Data Input tab in AI Wizard of ECMiner, where user can load customer churn data for analysis.\n\n[Image:rId8] The image shows the Data Input tab in AI Wizard of ECMiner, where user can load customer churn data for analysis.\n\n[Table:t31] This note in the ECMiner manual highlights two important points about data handling: first, users should be aware of specific data formats required by different neural network models; second, a preview feature is available but limited to viewing up to 50 items at once. Rows represent individual notes or instructions, while columns contain details or explanations for each row. In this case, there's only one row with two pieces of information.\n\nStep 3. Option Settings\n\nDefine the structure of the neural network. Options vary according to the chosen model. The following options are general settings for all models.\n\n[Table:t36] This table outlines various neural network configuration options including the number of hidden layers, node count per layer, activation functions, training parameters like epochs, batch size, learning rate, and optimization methods. It also includes notes on acceptable ranges for certain parameters. Different models may have variations in these settings. Rows represent different categories of options, while columns detail the specific option name, description, and constraints. Columns are further divided into two main sections: Network Option and Train Option. The Network Option covers architecture details such as layers and nodes, while the Train Option focuses on training parameters that influence model performance during learning.\n\nStep 4. Definition Results\n\nReview of the options set by the user is available, along with the neural network python code and a diagram of the neural network structure.\n\n[Table:t41] The ECMiner manual provides a review of user-set options, along with Python code for the neural network and a diagram illustrating its structure. Rows represent different elements (code and structure), while columns show their respective visual representations.\n\n[Image:rId10] The image shows an artificial neural network architecture with input tensor depth 0, linear layer depth 1, sigmoid layer depth 1, another linear layer depth 1, and ReLU activation function depth 1.\n\n[Image:rId9] The image shows a Python script for implementing an ECMiner model using PyTorch, focusing on neural network architecture and early stopping criteria.",
     "Context_id": "5장_v3_sanitized::chunk_0003",
     "Is_image": true,
     "Image_ids": [
@@ -137,7 +137,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection DNN, with a detailed reference to Options.\n\n[Table:t62]",
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection DNN, with a detailed reference to Options.\n\n[Table:t62] This table outlines various options for configuring a neural network model in ECMiner, including settings like the number of hidden layers, their node count, activation functions, training parameters such as epochs, batch size, learning rate, and optimization methods. Each option has a description and sometimes a range or specific type of value required.",
     "Context_id": "5장_v3_sanitized::chunk_0009",
     "Is_image": false,
     "Image_ids": [],
@@ -223,7 +223,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection AutoEncoder, with a detailed reference to Options.\n\n[Table:t80]",
+    "Context": "This content is about the section AI, and more specifically it belongs to DNN, under the subsection AutoEncoder, with a detailed reference to Options.\n\n[Table:t80] This table outlines various options for configuring a neural network model in ECMiner, including settings for network architecture like the number of hidden layers and nodes, activation functions, and train parameters such as epochs, batch size, learning rate, and optimization method. Each option has a description and sometimes a range or default value noted.",
     "Context_id": "5장_v3_sanitized::chunk_0014",
     "Is_image": false,
     "Image_ids": [],
@@ -257,7 +257,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on Data Input Format.\n\nThe folder names will be designated as training labels, and the training image data corresponding to each label must be stored within the respective folders.\nThe folder structure for training data should be as follows:\n\n[Table:t88]\n\n[Image:rId12] The image shows a data input screen in ECMiner, where users can upload images for classification training.\n\n[Image:rId11] The image shows setting up a dataset for training in ECMiner, with folders for cat, dog, pig, cow, and sheep images labeled accordingly.",
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, focusing on Data Input Format.\n\nThe folder names will be designated as training labels, and the training image data corresponding to each label must be stored within the respective folders.\nThe folder structure for training data should be as follows:\n\n[Table:t88] The table shows image references for different components of ECMiner, with each row representing a specific component and columns indicating image identifiers. This helps users quickly locate and reference images related to those components in the ECMiner manual.\n\n[Image:rId12] The image shows a data input screen in ECMiner, where users can upload images for classification training.\n\n[Image:rId11] The image shows setting up a dataset for training in ECMiner, with folders for cat, dog, pig, cow, and sheep images labeled accordingly.",
     "Context_id": "5장_v3_sanitized::chunk_0016",
     "Is_image": true,
     "Image_ids": [
@@ -345,7 +345,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection LeNet, with a detailed reference to Options.\n\nThe architecture of the LeNet model is provided in a fixed form.\n\n[Table:t107]",
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection LeNet, with a detailed reference to Options.\n\nThe architecture of the LeNet model is provided in a fixed form.\n\n[Table:t107] This table describes various options for configuring the LeNet model's architecture and training process, including details like input dimensions, convolutional layers, fully connected layers, and training parameters such as epochs, batch size, learning rate, and optimization method. Rows represent different categories of options, while columns detail the specific option name, description, and notes. Key architectural choices are specified under Network Option, such as the number of input channels, width, height, and the structure of convolutional and fully connected layers. Training-related settings are outlined under Train Option, covering aspects like the number of epochs, batch size, learning rate, target loss, and optimization technique. [TABLE_HTML] Summary: This table outlines various options for configuring the LeNet model's architecture and training process, including details such as input dimensions,",
     "Context_id": "5장_v3_sanitized::chunk_0021",
     "Is_image": false,
     "Image_ids": [],
@@ -431,7 +431,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection AlexNet, with a detailed reference to Options.\n\nThe architecture of the AlexNet model is provided in a fixed form.\n\n[Table:t128]",
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection AlexNet, with a detailed reference to Options.\n\nThe architecture of the AlexNet model is provided in a fixed form.\n\n[Table:t128] This table describes options for configuring the AlexNet model, including details about input dimensions, convolutional layers, fully connected layers, and training parameters such as epochs, batch size, learning rate, and optimization methods. Rows represent different categories of options, while columns detail the specific option name, description, and sometimes additional notes. Key aspects like the number of input channels, width, height, and the structure of convolutional and fully connected layers are also specified. Training-related settings like the number of epochs, batch size, learning rate, and optimization method are outlined along with their respective descriptions and constraints. [TABLE_HTML] The table outlines various options for configuring the AlexNet model, detailing the number of input channels, width, height, convolutional layers producing feature maps with 64, 12",
     "Context_id": "5장_v3_sanitized::chunk_0026",
     "Is_image": false,
     "Image_ids": [],
@@ -517,7 +517,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection VGGNet, with a detailed reference to Options.\n\nThe architecture of the VGGNet model is provided in a fixed form.\n\n[Table:t144]",
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection VGGNet, with a detailed reference to Options.\n\nThe architecture of the VGGNet model is provided in a fixed form.\n\n[Table:t144] This table describes various options for configuring the VGGNet model, including details about the network structure like the number of convolutional layers and their feature map sizes, and training parameters such as epochs, batch size, learning rate, and optimization method. Rows represent different categories of options, while columns detail the specific option name, description, and sometimes additional notes or constraints. Key aspects are organized into Network Option and Train Option sections. [TABLE_HTML] The table summarizes various configuration options for the VGGNet model, detailing the network's structure with information on the number of convolutional layers and their feature map sizes, and providing training parameters such as epochs, batch size, learning rate, and optimization method. Rows categorize these options into Network Option and Train Option sections, while columns offer descriptions and sometimes additional",
     "Context_id": "5장_v3_sanitized::chunk_0031",
     "Is_image": false,
     "Image_ids": [],
@@ -603,7 +603,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection ResNet, with a detailed reference to Options.\n\nThe architecture of the ResNet model is provided in a fixed form.\n\n[Table:t158]",
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection ResNet, with a detailed reference to Options.\n\nThe architecture of the ResNet model is provided in a fixed form.\n\n[Table:t158] This table describes various options for configuring a ResNet model, including details about the network structure like convolutional layers and fully connected layers, as well as training parameters such as epochs, batch size, learning rate, and optimization methods. Rows represent different categories of options, while columns detail the specific option name, description, and sometimes additional notes or constraints. Key points include specifying the dimensions of input images, defining the number of convolutional layers, setting training parameters, and choosing an optimization method. The table provides comprehensive guidance for users to customize their ResNet models according to their needs. Columns explain each option's purpose, while rows categorize them into groups like Network and Train. The table offers detailed descriptions and constraints for each option, aiding users in effectively configuring their ResNet models.",
     "Context_id": "5장_v3_sanitized::chunk_0036",
     "Is_image": false,
     "Image_ids": [],
@@ -689,7 +689,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection EfficientNet, with a detailed reference to Options.\n\nThe architecture of the EfficientNet model is provided in a fixed form.\n\n[Table:t172]",
+    "Context": "This content is about the section AI, and more specifically it belongs to CNN, under the subsection EfficientNet, with a detailed reference to Options.\n\nThe architecture of the EfficientNet model is provided in a fixed form.\n\n[Table:t172] This table describes options for configuring the EfficientNet model, including details about network settings like input dimensions and convolutional layers, as well as training parameters such as epochs, batch size, learning rate, and optimization methods. Rows represent different categories of options, while columns detail the specific option name, description, and sometimes additional notes. [TABLE_HTML] The table outlines options for configuring the EfficientNet model, detailing aspects like input dimensions, convolutional layers, and training parameters such as epochs, batch size, learning rate, and optimization methods. Rows categorize these options, while columns provide the specific option name, description, and sometimes additional notes. [TABLE_HTML] The table outlines options for configuring the EfficientNet model, detailing aspects like input dimensions, convolutional layers, and training parameters such as epochs,",
     "Context_id": "5장_v3_sanitized::chunk_0041",
     "Is_image": false,
     "Image_ids": [],
@@ -790,7 +790,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection SimpleRNN, with a detailed reference to Options.\n\n[Table:t193]",
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection SimpleRNN, with a detailed reference to Options.\n\n[Table:t193] This table outlines various options for configuring an RNN model in ECMiner, including settings for network architecture like the number of hidden layers and nodes, activation functions, and dropout rates, as well as training parameters such as epochs, batch size, learning rate, and optimization methods. Each option has a description and sometimes a note specifying its range or type. Rows represent different categories of options, while columns detail the specific option name, description, and additional information where applicable. Columns are further divided into two sub-columns for the option name and description, with a third column for notes when necessary. Rows correspond to distinct options available for tuning the model's structure and training process.",
     "Context_id": "5장_v3_sanitized::chunk_0047",
     "Is_image": false,
     "Image_ids": [],
@@ -876,7 +876,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection LSTM, with a detailed reference to Options.\n\n[Table:t213]",
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection LSTM, with a detailed reference to Options.\n\n[Table:t213] This table outlines various options for configuring an RNN model in ECMiner, including settings for network architecture like the number of hidden layers and nodes, activation functions, and dropout rates, as well as training parameters such as epochs, batch size, learning rate, and optimization methods. Each option has a description and sometimes a note specifying its range or type. Rows represent different categories of options, while columns detail the specific option name, description, and additional information where applicable. Columns are further divided into two sub-columns for the option name and description, with a third column for notes when necessary. Rows correspond to distinct options available for tuning the model's structure and training process.",
     "Context_id": "5장_v3_sanitized::chunk_0052",
     "Is_image": false,
     "Image_ids": [],
@@ -962,7 +962,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection GRU, with a detailed reference to Options.\n\n[Table:t230]",
+    "Context": "This content is about the section AI, and more specifically it belongs to RNN, under the subsection GRU, with a detailed reference to Options.\n\n[Table:t230] This table outlines various options for configuring an RNN model in ECMiner, including settings for network architecture like the number of hidden layers and nodes, activation functions, and dropout rates, as well as training parameters such as epochs, batch size, learning rate, and optimization methods. Each option has a description and sometimes a range or default value noted. Rows represent different categories of options, while columns detail the specific option name, description, and additional notes. Columns are further divided into two sub-columns for the option name and description, with a third column for notes or constraints. Rows correspond to distinct types of options such as Network and Train. Options under the same category share similar characteristics and functionalities.",
     "Context_id": "5장_v3_sanitized::chunk_0057",
     "Is_image": false,
     "Image_ids": [],
@@ -1081,7 +1081,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Se q, with a detailed reference to Options.\n\n[Table:t256]",
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Se q, with a detailed reference to Options.\n\n[Table:t256] This table outlines various options for configuring a neural network model, including settings like input size, number of hidden layers, sequence length, dropout rate, and training parameters such as epochs, batch size, learning rate, and optimization method. Each option has a description and sometimes a range or default value noted.",
     "Context_id": "5장_v3_sanitized::chunk_0064",
     "Is_image": false,
     "Image_ids": [],
@@ -1167,7 +1167,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Seq with attention, with a detailed reference to Options.\n\n[Table:t274]",
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Seq2Seq with attention, with a detailed reference to Options.\n\n[Table:t274] This table outlines various options for configuring an LSTM model's architecture and training process, including settings like input size, number of hidden layers and nodes, sequence length, dropout rate, epochs, batch size, learning rate, target loss, and optimization method. Each option has a description and sometimes a range or default value noted in the notes column. Rows represent different categories of options such as Network and Train, while columns detail the option name, description, and additional information.",
     "Context_id": "5장_v3_sanitized::chunk_0069",
     "Is_image": false,
     "Image_ids": [],
@@ -1253,7 +1253,7 @@
     "File_name": "5장_v3_sanitized.json"
   },
   {
-    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Transformer, with a detailed reference to Options.\n\n[Table:t292]\n\n[Table:t294]",
+    "Context": "This content is about the section AI, and more specifically it belongs to Language Model, under the subsection Transformer, with a detailed reference to Options.\n\n[Table:t292] This table outlines various options for configuring an encoder-decoder model, including network settings like input size, number of hidden layers, and sequence length, as well as training parameters such as epochs, batch size, learning rate, and optimization method. Each option has a description and sometimes a default value or range. Rows represent different categories of options, while columns detail the name, description, and notes for each setting. Columns also include a row for default values where applicable. Options are grouped into 'Network' and 'Train' sections for clarity. [TABLE_HTML] The table summarizes various options for configuring an encoder-decoder model, detailing settings such as input size, number of hidden layers, sequence length, and training parameters like epochs, batch size, learning rate, and optimization method. Each option includes a\n\n[Table:t294] The table notes that for the MHSA layer in ECMiner, the input vector needs to be evenly split among multiple attention heads, which means the total input dimension must be divisible by the number of heads used.",
     "Context_id": "5장_v3_sanitized::chunk_0074",
     "Is_image": false,
     "Image_ids": [],

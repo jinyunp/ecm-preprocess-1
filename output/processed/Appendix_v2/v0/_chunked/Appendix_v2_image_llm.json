@@ -1,0 +1,26 @@
+[
+  {
+    "rId": "rId8",
+    "filename": "image1.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/Appendix_v2/v0/_sanitized/_assets/image1.png",
+    "llm_text": "The image shows an Expression Editor in ECMiner, used for creating and editing expressions with functions, variables, and operators."
+  },
+  {
+    "rId": "rId20",
+    "filename": "image13.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/Appendix_v2/v0/_sanitized/_assets/image13.png",
+    "llm_text": "The image shows an expression editor in ECMiner with a conditional statement IF(A1 > 100) THEN 'A' ELSE 'B'. The Find and Replace dialog is open, indicating text editing functionality within the software."
+  },
+  {
+    "rId": "rId24",
+    "filename": "image17.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/Appendix_v2/v0/_sanitized/_assets/image17.png",
+    "llm_text": "The image shows an IF-THEN-ELSE statement in ECMiner, used for conditional logic with line index selection for moving lines."
+  },
+  {
+    "rId": "rId31",
+    "filename": "image24.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/Appendix_v2/v0/_sanitized/_assets/image24.png",
+    "llm_text": "The image shows a code snippet in an SQL editor, specifically checking for null values in column A4 and filling them with 0 if they exist."
+  }
+]

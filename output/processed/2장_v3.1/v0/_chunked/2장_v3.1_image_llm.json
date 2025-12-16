@@ -1,0 +1,194 @@
+[
+  {
+    "rId": "rId13",
+    "filename": "image7.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image7.png",
+    "llm_text": "The image shows an interface for managing data nodes in ECMiner, with options to connect, disconnect, add, execute, cut, copy, paste, delete, and view data."
+  },
+  {
+    "rId": "rId18",
+    "filename": "image11.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image11.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and running analyses."
+  },
+  {
+    "rId": "rId26",
+    "filename": "image15.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image15.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a focus on feature selection and analysis, highlighting the importance of choosing relevant features for better model performance."
+  },
+  {
+    "rId": "rId34",
+    "filename": "image19.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image19.png",
+    "llm_text": "The image shows an ECMiner interface with a red flag indicating an error or warning message related to data mining tasks."
+  },
+  {
+    "rId": "rId42",
+    "filename": "image23.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image23.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and running analyses."
+  },
+  {
+    "rId": "rId50",
+    "filename": "image27.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image27.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a red stop sign icon indicating a warning or error message related to data processing issues."
+  },
+  {
+    "rId": "rId55",
+    "filename": "image31.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image31.png",
+    "llm_text": "This screenshot shows the \"Folder Execute\" settings in ECMiner, allowing users to specify input folder paths, filter options, and input/output settings for data processing tasks."
+  },
+  {
+    "rId": "rId7",
+    "filename": "image1.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image1.png",
+    "llm_text": "The image illustrates the process of data preprocessing in ECMiner, including loading data, handling missing values, type conversion, PCA for dimensionality reduction, and generating control charts and displays."
+  },
+  {
+    "rId": "rId12",
+    "filename": "image6.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image6.png",
+    "llm_text": "The image shows an ECMiner project workflow with steps like loading data, handling missing values, standardizing, type changing, PCA, and controlling charts for analysis."
+  },
+  {
+    "rId": "rId38",
+    "filename": "image21.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image21.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with options for selecting datasets, parameters, and analysis methods."
+  },
+  {
+    "rId": "rId46",
+    "filename": "image25.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image25.png",
+    "llm_text": "The image shows an ECMiner interface with a \"Done\" button indicating task completion, suggesting successful data mining operations."
+  },
+  {
+    "rId": "rId16",
+    "filename": "image10.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image10.png",
+    "llm_text": "The image shows an interface for loading data into ECMiner, a data mining tool, indicating preparation for analysis."
+  },
+  {
+    "rId": "rId20",
+    "filename": "image12.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image12.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with various tabs and options for analyzing and processing data."
+  },
+  {
+    "rId": "rId54",
+    "filename": "image30.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image30.png",
+    "llm_text": "The image shows the \"Folder Execute\" option in ECMiner x64, a data mining tool, which allows users to execute operations on multiple files within a folder."
+  },
+  {
+    "rId": "rId11",
+    "filename": "image5.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image5.png",
+    "llm_text": "The image shows an ECMiner workflow for data preprocessing and analysis, including standardization, handling missing values, type change, PCA, and control chart display."
+  },
+  {
+    "rId": "rId24",
+    "filename": "image14.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image14.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and viewing results."
+  },
+  {
+    "rId": "rId32",
+    "filename": "image18.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image18.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and running analyses."
+  },
+  {
+    "rId": "rId40",
+    "filename": "image22.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image22.png",
+    "llm_text": "The image shows an interface for loading data into ECMiner, a data mining tool, indicating preparation for analysis."
+  },
+  {
+    "rId": "rId53",
+    "filename": "image29.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image29.png",
+    "llm_text": "The image shows an ECMiner workflow with File Reader, Column Filter, Type Change, and File Writer steps for data processing and saving."
+  },
+  {
+    "rId": "rId15",
+    "filename": "image9.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image9.png",
+    "llm_text": "The image shows an ECMiner project with nodes for loading data, handling missing values, standardizing variables, type changing, PCA, and displaying results. The focus is on data preprocessing and analysis for quality control."
+  },
+  {
+    "rId": "rId28",
+    "filename": "image16.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image16.png",
+    "llm_text": "The image shows an interface for loading data into ECMiner, a data mining tool, indicating preparation for analysis."
+  },
+  {
+    "rId": "rId36",
+    "filename": "image20.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image20.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and viewing results."
+  },
+  {
+    "rId": "rId10",
+    "filename": "image4.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image4.png",
+    "llm_text": "The image shows a context menu in ECMiner software for managing project files, including loading, connecting, and manipulating data nodes."
+  },
+  {
+    "rId": "rId44",
+    "filename": "image24.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image24.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a grid layout, likely for visualizing and analyzing data patterns."
+  },
+  {
+    "rId": "rId52",
+    "filename": "image28.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image28.png",
+    "llm_text": "The image illustrates the process flow for data mining using ECMiner, including loading data, type change, splitting, QDA, MLR, RandomForests, and CART, with final display of results."
+  },
+  {
+    "rId": "rId9",
+    "filename": "image3.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image3.png",
+    "llm_text": "The image shows an ECMiner data mining workflow with nodes for loading data, handling missing values, standardizing, changing data types, performing PCA, and displaying results."
+  },
+  {
+    "rId": "rId14",
+    "filename": "image8.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image8.png",
+    "llm_text": "The image shows an interface for data mining in ECMiner, with nodes connected to represent a workflow involving production deviation, missing value handling, and type change operations."
+  },
+  {
+    "rId": "rId22",
+    "filename": "image13.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image13.png",
+    "llm_text": "The image shows an ECMiner interface with a red exclamation mark indicating an error or warning message related to data mining tasks."
+  },
+  {
+    "rId": "rId30",
+    "filename": "image17.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image17.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and running analyses."
+  },
+  {
+    "rId": "rId48",
+    "filename": "image26.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image26.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and viewing results."
+  },
+  {
+    "rId": "rId56",
+    "filename": "image32.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image32.png",
+    "llm_text": "The image shows the \"Folder Execution Option\" settings in ECMiner, where users can configure log file settings such as location, rotation, and format for efficient data processing and monitoring."
+  },
+  {
+    "rId": "rId8",
+    "filename": "image2.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/2장_v3.1/v0/_sanitized/_assets/image2.png",
+    "llm_text": "The image shows an ECMiner data mining workflow with nodes for loading data, handling missing values, type changes, PCA, and control charts."
+  }
+]

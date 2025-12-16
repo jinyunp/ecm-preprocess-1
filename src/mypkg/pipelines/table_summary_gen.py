@@ -108,7 +108,7 @@ def load_qwen_text_model() -> Tuple[AutoTokenizer, AutoModelForCausalLM]:
     - QWEN_TEXT_MODEL_PATH 환경변수가 있으면 그걸 쓰고,
     - 없으면 기본값으로 '/workspace/qwen/txt' 사용.
     """
-    model_name = os.environ.get("QWEN_TEXT_MODEL_PATH", "/workspace/qwen/txt")
+    model_name = os.environ.get("QWEN_TEXT_MODEL_PATH", "/model/qwen/txt")
     print(f"[INFO][table_summary_gen] Loading text model: {model_name}")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)

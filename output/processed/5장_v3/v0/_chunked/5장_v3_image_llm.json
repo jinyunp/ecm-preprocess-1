@@ -1,0 +1,44 @@
+[
+  {
+    "rId": "rId8",
+    "filename": "image2.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image2.png",
+    "llm_text": "The image shows the Data Input tab in AI Wizard of ECMiner, where user can load customer churn data for analysis."
+  },
+  {
+    "rId": "rId13",
+    "filename": "image7.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image7.png",
+    "llm_text": "The image shows a screenshot of an email conversation in Korean about product sales and inventory management. The sender is discussing the market reaction to a new product release and plans to call the manufacturer to increase orders."
+  },
+  {
+    "rId": "rId7",
+    "filename": "image1.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image1.png",
+    "llm_text": "The image shows the process flow for using ECMiner, starting with model definition, followed by data input, option settings, and finally results."
+  },
+  {
+    "rId": "rId12",
+    "filename": "image6.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image6.png",
+    "llm_text": "The image shows a data input screen in ECMiner, where users can upload images for classification training."
+  },
+  {
+    "rId": "rId11",
+    "filename": "image5.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image5.png",
+    "llm_text": "The image shows setting up a dataset for training in ECMiner, with folders for cat, dog, pig, cow, and sheep images labeled accordingly."
+  },
+  {
+    "rId": "rId10",
+    "filename": "image4.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image4.png",
+    "llm_text": "The image shows an artificial neural network architecture with input tensor depth 0, linear layer depth 1, sigmoid layer depth 1, another linear layer depth 1, and ReLU activation function depth 1."
+  },
+  {
+    "rId": "rId9",
+    "filename": "image3.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/5장_v3/v0/_sanitized/_assets/image3.png",
+    "llm_text": "The image shows a Python script for implementing an ECMiner model using PyTorch, focusing on neural network architecture and early stopping criteria."
+  }
+]

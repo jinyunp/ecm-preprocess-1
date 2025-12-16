@@ -41,10 +41,8 @@ hf_cache/
 workspace/qwen/
 workspace/qwen2vl/
 models/
+model/
 qwen/
-
-# Image summary output
-*_image_llm.json
 
 # Logs
 *.log

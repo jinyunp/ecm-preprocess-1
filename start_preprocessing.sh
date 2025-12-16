@@ -15,10 +15,10 @@ PROJECT_ROOT=$(pwd)
 # Qwen 모델 디렉터리 설정
 BASE_QWEN_DIR="/workspace/qwen"
 VL_MODEL_DIR="$BASE_QWEN_DIR/VL"
-TXT_MODEL_DIR="$BASE_QWEN_DIR/txt"
+TXT_MODEL_DIR="model/qwen/txt"
 
 VL_MODEL_REPO_HF="Qwen/Qwen2.5-VL-3B-Instruct"
-TXT_MODEL_REPO_HF="Qwen/Qwen2.5-7B-Instruct"
+TXT_MODEL_REPO_HF="Qwen/Qwen2.5-3B-Instruct"
 
 echo "[INFO] Project root: $PROJECT_ROOT"
 echo "[INFO] Qwen base dir: $BASE_QWEN_DIR"

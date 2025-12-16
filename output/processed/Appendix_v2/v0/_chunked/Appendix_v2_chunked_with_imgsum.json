@@ -15,7 +15,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on User Interface.\n\n[image:rId8] The image shows an Expression Editor in ECMiner, used for creating and editing expressions with functions, variables, and operators.\n\n[Image:rId8] The image shows an Expression Editor in ECMiner, used for creating and editing expressions with functions, variables, and operators.\n\n[Table:t11]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on User Interface.\n\n[image:rId8] The image shows an Expression Editor in ECMiner, used for creating and editing expressions with functions, variables, and operators.\n\n[Image:rId8] The image shows an Expression Editor in ECMiner, used for creating and editing expressions with functions, variables, and operators.\n\n[Table:t11] This table describes various features of the Expression Editing Window in ECMiner, detailing how users can create, edit, and validate expressions using different tools and functionalities like IF statements, function categories, numeric buttons, and syntax checking. Rows represent specific features, while columns explain their descriptions and purposes.",
     "Context_id": "Appendix_v2_sanitized::chunk_0002",
     "Is_image": true,
     "Image_ids": [
@@ -35,7 +35,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on Toolbar.\n\nThe toolbar provides a variety of useful features for expression editing. The icons and their corresponding functions are as follows: [image:rId9]\n\n[Image:rId9]\n\n[Table:t16]\n\n[Image:rId13]\n\n[Image:rId18]\n\n[Image:rId26]\n\n[Image:rId21]\n\n[Image:rId12]\n\n[Image:rId17]\n\n[Image:rId25]\n\n[Image:rId16]\n\n[Image:rId20] The image shows an expression editor in ECMiner with a conditional statement IF(A1 > 100) THEN 'A' ELSE 'B' ENDIF, indicating a data mining process where values greater than 100 are categorized as 'A', otherwise as 'B'.\n\n[Image:rId11]\n\n[Image:rId24] The image shows an IF-THEN-ELSE statement in ECMiner, used for conditional logic with line index selection for moving lines.\n\n[Image:rId15]\n\n[Image:rId23]\n\n[Image:rId10]\n\n[Image:rId19]\n\n[Image:rId14]\n\n[Image:rId22]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.1 Overview, focusing on Toolbar.\n\nThe toolbar provides a variety of useful features for expression editing. The icons and their corresponding functions are as follows: [image:rId9]\n\n[Image:rId9]\n\n[Table:t16] This table describes various toolbar icons and their functions in ECMiner software. Rows represent different icons, while columns detail the icon's image, associated keyboard shortcut, and description of what action it performs. Roles: Rows correspond to individual toolbar icons, each with its own set of information; columns provide details about the icon's appearance, a related keyboard shortcut, and a brief explanation of its functionality.\n\n[Image:rId13]\n\n[Image:rId18]\n\n[Image:rId26]\n\n[Image:rId21]\n\n[Image:rId12]\n\n[Image:rId17]\n\n[Image:rId25]\n\n[Image:rId16]\n\n[Image:rId20] The image shows an expression editor in ECMiner with a conditional statement IF(A1 > 100) THEN 'A' ELSE 'B'. The Find and Replace dialog is open, indicating text editing functionality within the software.\n\n[Image:rId11]\n\n[Image:rId24] The image shows an IF-THEN-ELSE statement in ECMiner, used for conditional logic with line index selection for moving lines.\n\n[Image:rId15]\n\n[Image:rId23]\n\n[Image:rId10]\n\n[Image:rId19]\n\n[Image:rId14]\n\n[Image:rId22]",
     "Context_id": "Appendix_v2_sanitized::chunk_0003",
     "Is_image": true,
     "Image_ids": [
@@ -109,7 +109,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category, focusing on Function Category.\n\n[Table:t46]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.2 Function Category, focusing on Function Category.\n\n[Table:t46] The table categorizes various functions available in ECMiner, detailing their purpose and application. Rows represent different function categories, while columns provide descriptions of each category's functionality.",
     "Context_id": "Appendix_v2_sanitized::chunk_0006",
     "Is_image": false,
     "Image_ids": [],
@@ -175,7 +175,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.3 Transformation.\n\n[Table:t62]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.3 Transformation.\n\n[Table:t62] This table outlines various functions in ECMiner's scripting language, detailing their names, descriptions, return types, and examples. Each row represents a function with its specific functionality, such as converting strings to numbers or dates, performing conditional evaluations, and manipulating numeric values. Columns provide essential information like the function's purpose, output type, and practical usage examples. The table serves as a comprehensive guide for users to understand how these functions operate within the ECMiner environment. Key roles include Function Name for identification, Description for understanding what each function does, Return Value for specifying the data type it outputs, and Example for demonstrating its use.",
     "Context_id": "Appendix_v2_sanitized::chunk_0010",
     "Is_image": false,
     "Image_ids": [],
@@ -192,7 +192,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.4 Math/Trig.\n\nAll of the Math/Trig functions return Real type values.\n\n[Table:t67]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.4 Math/Trig.\n\nAll of the Math/Trig functions return Real type values.\n\n[Table:t67] The table lists various mathematical and trigonometric functions used by ECMiner, including their descriptions and examples. Functions like ABS, ACOS, ASIN, ATAN, and others compute absolute values, trigonometric functions, and other statistical measures returning real numbers. Each function provides an example demonstrating how it works with specific inputs. For instance, ABS(-123) returns 123, while SIN(3.141592) equals 0. The table covers a wide range of operations such as calculating probabilities, means, variances, and distributions for different types of data distributions. To use these functions, one would input parameters according to the function's description and see the result returned.",
     "Context_id": "Appendix_v2_sanitized::chunk_0011",
     "Is_image": false,
     "Image_ids": [],
@@ -209,7 +209,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.5 Text.\n\n[Table:t71]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.5 Text.\n\n[Table:t71] This table lists various functions in the ECMiner manual, detailing their names, descriptions, return types, and examples. Each function performs specific operations like trimming strings, converting case, finding substrings, and more, which can be used for data manipulation and analysis within the system.",
     "Context_id": "Appendix_v2_sanitized::chunk_0012",
     "Is_image": false,
     "Image_ids": [],
@@ -226,7 +226,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.6 Date/Time.\n\n[Table:t75]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.6 Date/Time.\n\n[Table:t75] This table lists various functions in ECMiner for manipulating and extracting information from dates and times. Each function provides details on what it does, its return type, and an example. Functions like CMONTH, CWEEK, DATE, DATETIME, DAY, DAYOFYEAR, DAYS, GODAY, GOHOUR, GOMINUTE, GOMONTH, GOSECOND, GOYEAR, HOUR, HOURS, MINUTE, MINUTES, MONTH, MONTHS, SEC, SECS, TIME, TRIMDATE, TRIMTIME, WEEK, and YEAR offer functionalities such as returning specific date components, calculating differences, adding/subtracting time, and extracting just the date or time part from a date/time value.",
     "Context_id": "Appendix_v2_sanitized::chunk_0013",
     "Is_image": false,
     "Image_ids": [],
@@ -258,7 +258,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics, focusing on Continuous Variables.\n\n[Table:t80]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics, focusing on Continuous Variables.\n\n[Table:t80] The table lists various statistical functions for continuous variables, each with a specific function name, description, return type, and example usage. Functions like AVEDEV, CORR, COUNT, DEVSQ, MEAN, MIN, MAX, and others calculate different statistical measures such as mean, median, variance, and quartiles, among others.",
     "Context_id": "Appendix_v2_sanitized::chunk_0015",
     "Is_image": false,
     "Image_ids": [],
@@ -276,7 +276,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics, focusing on Discrete Variables.\n\n[Table:t82]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.7 Variable Statistics, focusing on Discrete Variables.\n\n[Table:t82] The table lists functions for working with discrete variables in ECMiner, including counting distinct classes, finding the most frequent class, and converting between class indices and their corresponding values. Each function provides details on its purpose, return type, and example usage. Rows represent different discrete variable analysis functions, while columns detail the function name, description, return type, and an example usage note.",
     "Context_id": "Appendix_v2_sanitized::chunk_0016",
     "Is_image": false,
     "Image_ids": [],
@@ -294,7 +294,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.8 Information.\n\n[Table:t86]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.8 Information.\n\n[Table:t86] This table lists various functions in ECMiner's scripting language, detailing their names, descriptions, return types, and examples. Each function performs a specific operation on data, such as checking for equality, determining data types, or finding maximum/minimum values, among others. The rows represent different functions, while columns provide information about the function's name, description, return type, and a practical example demonstrating usage. Columns also include a brief description of each column's purpose. Rows contain details about individual functions, including their functionality, expected input/output types, and sample code to illustrate their application. The table covers a wide range of operations useful for data manipulation and validation within the ECMiner environment.",
     "Context_id": "Appendix_v2_sanitized::chunk_0017",
     "Is_image": false,
     "Image_ids": [],
@@ -311,7 +311,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.9 Record Function.\n\n[Table:t90]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.9 Record Function.\n\n[Table:t90] The table lists various statistical functions for analyzing data, categorized by their function names. Each row describes a specific function, including its description, return type, and an example usage. Functions operate on variables (fields) and can be applied to all fields or specific ones based on optional parameters.",
     "Context_id": "Appendix_v2_sanitized::chunk_0018",
     "Is_image": false,
     "Image_ids": [],
@@ -328,7 +328,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.10 Macro.\n\nYou can use macros to reference predefined values. To use a macro, type @ followed by the name of the desired value.\n\n[Table:t95]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.10 Macro.\n\nYou can use macros to reference predefined values. To use a macro, type @ followed by the name of the desired value.\n\n[Table:t95] The table lists various macros available for use in ECMiner, each with a description and return type. These macros help reference predefined values within calculations or records, aiding in dynamic data processing.",
     "Context_id": "Appendix_v2_sanitized::chunk_0019",
     "Is_image": false,
     "Image_ids": [],
@@ -345,7 +345,7 @@
     "File_name": "Appendix_v2_sanitized.json"
   },
   {
-    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.11 Other Fu n ctions.\n\n[Table:t99]",
+    "Context": "This content is about the section Appendix 1 Expression Editor, and more specifically it belongs to A1.11 Other Fu n ctions.\n\n[Table:t99] This table lists various functions in ECMiner, each with a specific purpose like returning predefined values, searching for data, calculating statistics, and performing regression analysis. Functions are organized by their function names in rows, and columns detail the description, return type, and other relevant information about each function. Roles: Rows represent different functions, while columns provide details such as function description, return type, and additional notes.",
     "Context_id": "Appendix_v2_sanitized::chunk_0020",
     "Is_image": false,
     "Image_ids": [],

@@ -1,0 +1,1700 @@
+[
+  {
+    "rId": "rId117",
+    "filename": "image111.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image111.png",
+    "llm_text": "The image shows the \"Moving Average Configuration\" window in ECMiner, used for analyzing time series data with moving averages and generating forecasts."
+  },
+  {
+    "rId": "rId299",
+    "filename": "image289.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image289.png",
+    "llm_text": "The image shows the Johnson Transformation dialog in ECMiner, used for transforming data with a target variable A1 and setting a standard P-Value of 0.05 before proceeding."
+  },
+  {
+    "rId": "rId303",
+    "filename": "image293.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image293.png",
+    "llm_text": "The Johnson Transformation plot in ECMiner shows the transformation estimate, z-value of the maximum p-value, and reference P values for data analysis."
+  },
+  {
+    "rId": "rId21",
+    "filename": "image15.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image15.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks. It is used for data mining and analysis in machine learning."
+  },
+  {
+    "rId": "rId42",
+    "filename": "image36.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image36.png",
+    "llm_text": "This screenshot shows the Two Sample t-Test dialog in ECMiner, used for comparing two groups based on specified variables and significance level."
+  },
+  {
+    "rId": "rId63",
+    "filename": "image57.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image57.png",
+    "llm_text": "The image shows an ECMiner Poisson Distribution Goodness-of-Fit Test chart comparing expected (green) and observed (red) values for various intervals."
+  },
+  {
+    "rId": "rId84",
+    "filename": "image78.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image78.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a formula for calculating the sum of squared differences between predicted and actual values, with coefficients for each feature."
+  },
+  {
+    "rId": "rId138",
+    "filename": "image132.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image132.png",
+    "llm_text": "The image shows an equation used in ECMiner for data mining, calculating the difference between two sets of values based on specific parameters and coefficients."
+  },
+  {
+    "rId": "rId159",
+    "filename": "image153.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image153.png",
+    "llm_text": "The image shows an interface for time series analysis in ECMiner, specifically focusing on GARCH model estimation for predicting temperature data."
+  },
+  {
+    "rId": "rId170",
+    "filename": "image164.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image164.png",
+    "llm_text": "This screenshot shows the TimeSeries Sample window in ECMiner, used for analyzing time series data with dependent and independent variables, including target, predicted temperature, real temperature, day, day coefficient, and days."
+  },
+  {
+    "rId": "rId191",
+    "filename": "image184.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image184.png",
+    "llm_text": "The image shows the Granger Causality window in ECMiner, used for analyzing time series data relationships. It allows users to specify dependent and independent variables, set options like P-Value threshold, and view results."
+  },
+  {
+    "rId": "rId205",
+    "filename": "image198.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image198.png",
+    "llm_text": "The image shows frequency statistics tables for two datasets, A2 and A3, with detailed counts, percentages, cumulative frequencies, and cumulative percentages."
+  },
+  {
+    "rId": "rId226",
+    "filename": "image219.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image219.png",
+    "llm_text": "The screenshot shows results from a One-Sample Nonparametric Test using ECMiner, indicating that the median value of A1 is significantly different from zero, rejecting the null hypothesis."
+  },
+  {
+    "rId": "rId247",
+    "filename": "image237.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image237.png",
+    "llm_text": "This screenshot is from ECMiner's Gage R&R module, used for analyzing measurement system reliability by selecting variables like operator, part number, iteration count, and measurement data."
+  },
+  {
+    "rId": "rId107",
+    "filename": "image101.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image101.png",
+    "llm_text": "The image shows an A6 Histogram in ECMiner, displaying the distribution of values within tolerance intervals."
+  },
+  {
+    "rId": "rId268",
+    "filename": "image258.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image258.png",
+    "llm_text": "The image shows an ECMiner 2S Chart with two series, A7 and Series1, representing data over time. The chart illustrates fluctuations in values between -100 and 2,200, with Series1 starting at approximately 300 and A7 fluctuating around 60"
+  },
+  {
+    "rId": "rId289",
+    "filename": "image279.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image279.png",
+    "llm_text": "The image shows the Node Property window in ECMiner, where users can sort variables A2 and A3 in ascending order for analysis purposes."
+  },
+  {
+    "rId": "rId11",
+    "filename": "image5.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image5.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks. It is used for data mining and analysis in machine learning."
+  },
+  {
+    "rId": "rId53",
+    "filename": "image47.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image47.png",
+    "llm_text": "The image shows a Two Sample Poisson Test in ECMiner, comparing two variables A1 and A7 with null hypothesis that their population proportion difference is 0.5, and alternative hypothesis that one is larger than the other. The test results indicate no significant difference between the two variables."
+  },
+  {
+    "rId": "rId74",
+    "filename": "image68.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image68.png",
+    "llm_text": "The image shows an ECMiner GLM residual vs fitted values plot, displaying residuals for various intervals in a data mining context."
+  },
+  {
+    "rId": "rId128",
+    "filename": "image122.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image122.png",
+    "llm_text": "The image shows an ECMiner interface with various parameters and options for data mining analysis, including feature selection and model evaluation tools."
+  },
+  {
+    "rId": "rId149",
+    "filename": "image143.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image143.png",
+    "llm_text": "The image shows a residual normal probability plot in ECMiner, used to assess the normality of residuals in a regression model."
+  },
+  {
+    "rId": "rId95",
+    "filename": "image89.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image89.png",
+    "llm_text": "The image shows an interface for Process Capability Analysis in ECMiner, displaying control charts and trend analysis for data mining results."
+  },
+  {
+    "rId": "rId160",
+    "filename": "image154.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image154.png",
+    "llm_text": "The image shows the optimization settings window in ECMiner, where users can select an optimization method, set parameters like tolerance and maximum values, and choose initialization methods for data analysis."
+  },
+  {
+    "rId": "rId181",
+    "filename": "image175.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image175.png",
+    "llm_text": "The screenshot shows ARMAX model estimation for time series analysis in ECMiner, with parameters estimated and results displayed."
+  },
+  {
+    "rId": "rId216",
+    "filename": "image209.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image209.png",
+    "llm_text": "The image shows an interface for selecting probability distributions in ECMiner, with options like Binomial Distribution, Confidence Level set at 90%, and estimated values displayed."
+  },
+  {
+    "rId": "rId258",
+    "filename": "image248.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image248.png",
+    "llm_text": "This screenshot shows the Gage R&R (Reliability) setup in ECMiner, where users can select measurement data for gauging reliability, including variables like part number, operator, iteration count, and measurement data."
+  },
+  {
+    "rId": "rId279",
+    "filename": "image269.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image269.png",
+    "llm_text": "The image illustrates a data transformation workflow in ECMiner, showing steps like loading data, filtering columns, selecting rows, deriving new columns, and changing data types."
+  },
+  {
+    "rId": "rId22",
+    "filename": "image16.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image16.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with options for selecting datasets, parameters, and analysis methods."
+  },
+  {
+    "rId": "rId43",
+    "filename": "image37.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image37.png",
+    "llm_text": "This screenshot shows the results of a Two Sample t-Test comparing two groups in ECMiner, with group statistics and test outcomes displayed."
+  },
+  {
+    "rId": "rId118",
+    "filename": "image112.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image112.png",
+    "llm_text": "The image shows an Exponential Smoothing model analysis in ECMiner, with smoothing constant values set for forecasting time series data."
+  },
+  {
+    "rId": "rId139",
+    "filename": "image133.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image133.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a mathematical equation used for feature selection in machine learning. The equation involves multiple variables and coefficients, likely representing different features and their weights in a model."
+  },
+  {
+    "rId": "rId290",
+    "filename": "image280.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image280.png",
+    "llm_text": "The image shows an ECMiner data mining workflow with steps for loading customer churn data, filtering columns, selecting rows, deriving columns, and aligning them."
+  },
+  {
+    "rId": "rId85",
+    "filename": "image79.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image79.png",
+    "llm_text": "The image shows an ECMiner regression analysis setup with polynomial regression on variables A2 and A4, using Levenberg-Marquardt method, for residual plot evaluation."
+  },
+  {
+    "rId": "rId150",
+    "filename": "image144.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image144.png",
+    "llm_text": "The image shows a residual vs. order plot in ECMiner, indicating model residuals over different orders for data analysis."
+  },
+  {
+    "rId": "rId171",
+    "filename": "image165.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image165.png",
+    "llm_text": "The image shows the \"VAR Option\" window in ECMiner, used for selecting dependent and independent variable lags, specifying forecast-related options, and performing model testing."
+  },
+  {
+    "rId": "rId192",
+    "filename": "image185.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image185.png",
+    "llm_text": "The Granger Causality analysis shows that real temperature has a significant causal effect on another variable with an F-Statistic of 20,343 and a P-Value of 0."
+  },
+  {
+    "rId": "rId206",
+    "filename": "image199.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image199.png",
+    "llm_text": "The image shows a Cross Table setup in ECMiner for analyzing relationships between churn status and other variables A1 to A9, with contingency coefficient and Phi and Cramer's V statistics selected."
+  },
+  {
+    "rId": "rId227",
+    "filename": "image220.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image220.png",
+    "llm_text": "This screenshot shows the Nonparametric Test window in ECMiner for comparing independent samples, with variables A1 to A8 listed for analysis."
+  },
+  {
+    "rId": "rId248",
+    "filename": "image238.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image238.png",
+    "llm_text": "The Gage Linearity and Bias Study in ECMiner assesses measurement accuracy by plotting bias against reference values, showing linear regression and confidence intervals."
+  },
+  {
+    "rId": "rId269",
+    "filename": "image259.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image259.png",
+    "llm_text": "The pie chart in ECMiner displays the distribution of data points across different categories labeled A through G, with each slice representing a percentage of the total dataset."
+  },
+  {
+    "rId": "rId12",
+    "filename": "image6.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image6.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks."
+  },
+  {
+    "rId": "rId33",
+    "filename": "image27.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image27.png",
+    "llm_text": "The image shows the Descriptive Statistics window in ECMiner, used for calculating various statistical measures like Sum, Mean, Median, Variance, etc., on selected fields."
+  },
+  {
+    "rId": "rId108",
+    "filename": "image102.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image102.png",
+    "llm_text": "The image shows the ECMiner software interface with various parameters for data mining, including text features, similarity measures, and clustering algorithms."
+  },
+  {
+    "rId": "rId129",
+    "filename": "image123.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image123.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a linear regression model with coefficients β0, β1, and β2, along with noise εN and εE."
+  },
+  {
+    "rId": "rId280",
+    "filename": "image270.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image270.png",
+    "llm_text": "The image shows an Excel spreadsheet with customer churn data, where columns can be deleted for analysis."
+  },
+  {
+    "rId": "rId54",
+    "filename": "image48.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image48.png",
+    "llm_text": "The image shows an \"One Sample Variance Test\" dialog in ECMiner, where users can test if the population variance of variable A1 is significantly different from 0.5 at a significance level of 0.05."
+  },
+  {
+    "rId": "rId75",
+    "filename": "image69.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image69.png",
+    "llm_text": "The image shows an ECMiner data mining software window for production variance analysis, displaying residual plots with variable settings and model specifications."
+  },
+  {
+    "rId": "rId96",
+    "filename": "image90.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image90.png",
+    "llm_text": "The image shows the Process Capability Result window in ECMiner, displaying settings for LSL, USL, TSL, subgroup size, and bins, with variable names listed on the left."
+  },
+  {
+    "rId": "rId140",
+    "filename": "image134.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image134.png",
+    "llm_text": "The image illustrates the process of model selection and evaluation in data mining using ECMiner, including postulating models, identifying candidates, estimating parameters, diagnostic checking, and applying the model for forecasting or control."
+  },
+  {
+    "rId": "rId161",
+    "filename": "image155.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image155.png",
+    "llm_text": "The image shows an analysis of time series data using GARCH models in ECMiner software, focusing on predicting temperature with specific coefficients and statistical measures."
+  },
+  {
+    "rId": "rId182",
+    "filename": "image176.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image176.png",
+    "llm_text": "The screenshot shows ARMAX model analysis in ECMiner for time series data, with a focus on temperature forecasting and seasonal patterns."
+  },
+  {
+    "rId": "rId217",
+    "filename": "image210.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image210.png",
+    "llm_text": "The image shows an interface for selecting probability distributions in ECMiner, with exponential distribution selected, inputting field A5, and displaying estimated lambda values with confidence intervals."
+  },
+  {
+    "rId": "rId259",
+    "filename": "image249.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image249.png",
+    "llm_text": "This screenshot shows the Gage R&R Study Options window in ECMiner, used for setting study variation, process tolerance, and standard deviation for gauge reliability analysis."
+  },
+  {
+    "rId": "rId23",
+    "filename": "image17.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image17.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks."
+  },
+  {
+    "rId": "rId119",
+    "filename": "image113.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image113.png",
+    "llm_text": "The image shows an ECMiner software interface for time series analysis, focusing on moving average configuration with options for centered moving average and generating forecasts."
+  },
+  {
+    "rId": "rId270",
+    "filename": "image260.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image260.png",
+    "llm_text": "The image shows the ECMiner software interface for creating a trend chart with customizable axis labels and control limits."
+  },
+  {
+    "rId": "rId291",
+    "filename": "image281.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image281.png",
+    "llm_text": "The Variable Filter Dialog Window in ECMiner allows users to add or delete conditions for filtering variables based on statistical criteria."
+  },
+  {
+    "rId": "rId44",
+    "filename": "image38.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image38.png",
+    "llm_text": "This screenshot shows the Paired t-Test dialog in ECMiner, used for statistical analysis comparing two variables A1 and A5 with significance levels set at 0.05."
+  },
+  {
+    "rId": "rId65",
+    "filename": "image59.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image59.png",
+    "llm_text": "The image shows the Post-Hoc Analysis Options window in ECMiner, allowing users to select LSD, Tukey, Scheffe, or Duncan methods for pairwise comparisons with significance levels set at 0.05 or 0.01."
+  },
+  {
+    "rId": "rId86",
+    "filename": "image80.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image80.png",
+    "llm_text": "The image shows an ECMiner regression analysis with a scatter plot and curve fit results for variables A2 and A4."
+  },
+  {
+    "rId": "rId130",
+    "filename": "image124.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image124.png",
+    "llm_text": "The image shows the ECMiner software interface displaying a linear regression model with coefficients β₀, β₁, and noise SNI + εi."
+  },
+  {
+    "rId": "rId151",
+    "filename": "image145.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image145.png",
+    "llm_text": "The image shows a scatter plot in ECMiner, illustrating the relationship between fitted values and residuals for a dataset, with a focus on identifying model fit and potential outliers."
+  },
+  {
+    "rId": "rId172",
+    "filename": "image166.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image166.png",
+    "llm_text": "The image shows an analysis of time series data using ECMiner software, focusing on predicting temperature based on historical data."
+  },
+  {
+    "rId": "rId193",
+    "filename": "image186.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image186.png",
+    "llm_text": "The Cointegration Test window in ECMiner is used to analyze the relationship between two variables, Target and Predicted Temp, with options for additional variables like Real Temp, Day, and Days, set to None, and a lag of 2."
+  },
+  {
+    "rId": "rId207",
+    "filename": "image200.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image200.png",
+    "llm_text": "The image shows a Cross-Tabulation analysis in ECMiner, comparing churn status with A9 categories, revealing significant differences in counts and percentages across various categories."
+  },
+  {
+    "rId": "rId228",
+    "filename": "image221.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image221.png",
+    "llm_text": "The image shows a nonparametric test comparing churn status between two groups using Mann-Whitney U Test, concluding that the distributions differ significantly."
+  },
+  {
+    "rId": "rId249",
+    "filename": "image239.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image239.png",
+    "llm_text": "This screenshot shows the Gage R&R (Reliability) analysis setup in ECMiner, where users can select variables like Part Number, Operator, Iteration Count, and Measurement Data for variance analysis."
+  },
+  {
+    "rId": "rId13",
+    "filename": "image7.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image7.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a histogram displaying frequency distribution of data points."
+  },
+  {
+    "rId": "rId109",
+    "filename": "image103.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image103.png",
+    "llm_text": "This screenshot shows the Time Series Sample window in ECMiner, used for analyzing time series data with options for model identification, trend, seasonality, and forecasting."
+  },
+  {
+    "rId": "rId260",
+    "filename": "image250.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image250.png",
+    "llm_text": "This screenshot shows an ANOVA table for a Gage R&R study in ECMiner, detailing variance components and their contributions to total variation."
+  },
+  {
+    "rId": "rId281",
+    "filename": "image271.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image271.png",
+    "llm_text": "The image shows an interface for loading customer churn data into a Column Filter tool in ECMiner."
+  },
+  {
+    "rId": "rId34",
+    "filename": "image28.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image28.png",
+    "llm_text": "The image shows statistical summary statistics for a dataset with a mean of 177,83057, minimum of 59.94, maximum of 619,327, range of 559,387, variance of 6666,2"
+  },
+  {
+    "rId": "rId55",
+    "filename": "image49.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image49.png",
+    "llm_text": "The image shows a Single Sample Variance Test in ECMiner, testing if the population variance is equal to 5, with results indicating no significant difference."
+  },
+  {
+    "rId": "rId76",
+    "filename": "image70.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image70.png",
+    "llm_text": "The image shows an analysis of production variance using ECMiner software, focusing on residual plots and regression model results for predicting A10 based on other variables."
+  },
+  {
+    "rId": "rId97",
+    "filename": "image91.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image91.png",
+    "llm_text": "The image shows an ECMiner process capability summary with control charts, trend analysis, and normal probability plot for monitoring and analyzing manufacturing processes."
+  },
+  {
+    "rId": "rId120",
+    "filename": "image114.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image114.png",
+    "llm_text": "The Residual Histogram in ECMiner shows the distribution of residuals for a data mining model, with counts on the y-axis and residual values on the x-axis."
+  },
+  {
+    "rId": "rId141",
+    "filename": "image135.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image135.png",
+    "llm_text": "The image shows an ARIMA model estimation setup in ECMiner for time series analysis, with options for seasonal and non-seasonal models, including AR, MA, and constant terms."
+  },
+  {
+    "rId": "rId7",
+    "filename": "image1.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image1.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a loaded dataset containing time series data for five variables over multiple time points."
+  },
+  {
+    "rId": "rId162",
+    "filename": "image156.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image156.png",
+    "llm_text": "The image shows an ECMiner time series analysis tool with a GARCH model for forecasting temperature trends, displaying actual, predicted, and confidence intervals in a plot chart."
+  },
+  {
+    "rId": "rId183",
+    "filename": "image177.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image177.png",
+    "llm_text": "The Unit Root Test window in ECMiner software is used to analyze time series data for stationarity, with settings for target variable, test method, type, and lag length."
+  },
+  {
+    "rId": "rId218",
+    "filename": "image211.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image211.png",
+    "llm_text": "The image shows an interface for selecting probability distributions in ECMiner, with options like Beta, Binomial, Gamma, and more, used to estimate parameters such as Alpha and Beta with specified confidence levels."
+  },
+  {
+    "rId": "rId29",
+    "filename": "image23.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image23.png",
+    "llm_text": "The image shows an Excel spreadsheet with customer churn data, including customer IDs, gender, age, income, and churn status."
+  },
+  {
+    "rId": "rId250",
+    "filename": "image240.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image240.png",
+    "llm_text": "The Gage R&R Study Options window in ECMiner allows users to set study variation, process tolerance, and standard deviation for gauge reliability analysis."
+  },
+  {
+    "rId": "rId255",
+    "filename": "image245.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image245.png",
+    "llm_text": "This screenshot shows a Gage R&R Study using ECMiner, comparing observations per operator A, B, and C, with Operator B having the highest average observations."
+  },
+  {
+    "rId": "rId271",
+    "filename": "image261.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image261.png",
+    "llm_text": "The image shows a box plot analysis in ECMiner software for customer churn data, comparing variables A1, A5, A6, and A7 across different categories."
+  },
+  {
+    "rId": "rId276",
+    "filename": "image266.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image266.png",
+    "llm_text": "The image shows the \"Derived Variable\" dialog in ECMiner, where users can add or delete derived variables for analysis."
+  },
+  {
+    "rId": "rId292",
+    "filename": "image282.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image282.png",
+    "llm_text": "The screenshot shows the \"Freeze Column\" dialog in ECMiner, allowing users to freeze one column for better data visualization."
+  },
+  {
+    "rId": "rId297",
+    "filename": "image287.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image287.png",
+    "llm_text": "The image shows a Box-Cox Transformation plot in ECMiner, indicating that the transformed data is normally distributed after transformation."
+  },
+  {
+    "rId": "rId24",
+    "filename": "image18.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image18.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks."
+  },
+  {
+    "rId": "rId40",
+    "filename": "image34.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image34.png",
+    "llm_text": "This screenshot shows the One Sample t-Test dialog in ECMiner, used for statistical analysis to compare a sample mean against a hypothesized value."
+  },
+  {
+    "rId": "rId45",
+    "filename": "image39.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image39.png",
+    "llm_text": "This screenshot shows paired sample statistics and test results for two groups (A1 and A5) in an analysis using ECMiner software. The T-Test indicates a significant difference between the groups with a p-value of 0.0000."
+  },
+  {
+    "rId": "rId66",
+    "filename": "image60.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image60.png",
+    "llm_text": "This screenshot shows an analysis of variance (ANOVA) table for a one-way ANOVA test using ECMiner software. It compares four groups (A, B, C, D) based on variable AI, indicating no significant differences between group averages."
+  },
+  {
+    "rId": "rId87",
+    "filename": "image81.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image81.png",
+    "llm_text": "The image shows an ECMiner regression analysis with polynomial equation fitting, residual plot, and curve fit results for variables A2 and A4."
+  },
+  {
+    "rId": "rId110",
+    "filename": "image104.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image104.png",
+    "llm_text": "The screenshot shows time series decomposition results for a dataset with seasonal patterns, including fitted trend equation and seasonal index values."
+  },
+  {
+    "rId": "rId115",
+    "filename": "image109.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image109.png",
+    "llm_text": "The image shows a residual vs. order plot in ECMiner, indicating model residuals for different orders, with a trend line suggesting potential model improvement."
+  },
+  {
+    "rId": "rId131",
+    "filename": "image125.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image125.png",
+    "llm_text": "The image shows an interface for using Exponential Smoothing in ECMiner, specifically for time series analysis with Winters' Exponential smoothing method."
+  },
+  {
+    "rId": "rId136",
+    "filename": "image130.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image130.png",
+    "llm_text": "The image shows a residual vs fitted values plot in ECMiner, indicating model fit analysis with residuals scattered around the zero line."
+  },
+  {
+    "rId": "rId157",
+    "filename": "image151.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image151.png",
+    "llm_text": "The image shows a residual vs. order plot in ECMiner, used to assess model fit by plotting residuals against the order of observations."
+  },
+  {
+    "rId": "rId178",
+    "filename": "image172.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image172.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a linear regression equation with coefficients for multiple variables."
+  },
+  {
+    "rId": "rId301",
+    "filename": "image291.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image291.png",
+    "llm_text": "The image shows a normal probability plot before and after transformation using Johnson Transformation in ECMiner, indicating data distribution analysis."
+  },
+  {
+    "rId": "rId61",
+    "filename": "image55.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image55.png",
+    "llm_text": "The image shows the Poisson Distribution Goodness-of-Fit Test window in ECMiner, used to assess if observed data follows a Poisson distribution by selecting variables and choosing a graph type."
+  },
+  {
+    "rId": "rId82",
+    "filename": "image76.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image76.png",
+    "llm_text": "The Orthogonal Regression Test in ECMiner shows a regression equation with a constant term and coefficient for X, error variance, and confidence intervals."
+  },
+  {
+    "rId": "rId152",
+    "filename": "image146.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image146.png",
+    "llm_text": "The image shows the Trend Analysis settings in ECMiner, allowing users to choose between linear, quadratic, exponential, and logarithmic models for time series data analysis."
+  },
+  {
+    "rId": "rId173",
+    "filename": "image167.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image167.png",
+    "llm_text": "The image shows an ECMiner software interface for time series analysis, focusing on forecasting temperature data with various models and confidence intervals."
+  },
+  {
+    "rId": "rId194",
+    "filename": "image187.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image187.png",
+    "llm_text": "The image shows the results of an Augmented Dickey-Fuller Test in ECMiner, indicating that the null hypothesis is not rejected at any significance level."
+  },
+  {
+    "rId": "rId199",
+    "filename": "image192.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image192.png",
+    "llm_text": "The image shows the settings window for configuring a machine learning model in ECMiner, with the user setting the lag count to 10, selecting \"Target\" as the dependent variable, and specifying various independent variables like \"Predicted Temp,\" \"Real Temp,\" \"Day,\" \"Day Coeff,\" \"Days,\""
+  },
+  {
+    "rId": "rId203",
+    "filename": "image196.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image196.png",
+    "llm_text": "The image shows an autocorrelation function (ACF) plot in ECMiner, analyzing partial autocorrelation for a variable named \"Target\" with a maximum lag of 30. The ACF plot indicates strong positive correlation at lag 1, followed by diminishing correlations as lags increase."
+  },
+  {
+    "rId": "rId208",
+    "filename": "image201.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image201.png",
+    "llm_text": "The image shows the Chi-Square Distribution Goodness-of-Fit Test window in ECMiner, used for comparing observed and expected frequencies in categorical data."
+  },
+  {
+    "rId": "rId19",
+    "filename": "image13.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image13.png",
+    "llm_text": "The image shows an Excel spreadsheet with manufacturing defect dataset data, including production volume, cost, supplier quality, delivery delay, defect rate, and quality metrics. The user is analyzing the data using descriptive statistics and charts."
+  },
+  {
+    "rId": "rId224",
+    "filename": "image217.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image217.png",
+    "llm_text": "The image shows the results of statistical distribution identification for variable A2 using ECMiner software, including extreme value, exponential, gamma, and log-normal distributions with their respective parameters and test statistics."
+  },
+  {
+    "rId": "rId245",
+    "filename": "image235.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image235.png",
+    "llm_text": "The Gage Run Chart in ECMiner displays measurement data for different operators across various parts, showing variability and consistency in measurements."
+  },
+  {
+    "rId": "rId261",
+    "filename": "image251.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image251.png",
+    "llm_text": "The Gage R&R Study screen in ECMiner displays a control chart comparing range observations across three operators, with UCL, LCL, and R values provided for analysis."
+  },
+  {
+    "rId": "rId266",
+    "filename": "image256.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image256.png",
+    "llm_text": "The image shows a menu in ECMiner software for selecting different types of charts, including 2D, 3D, bar, box, matrix, Pareto, pie, and multi-chart options."
+  },
+  {
+    "rId": "rId287",
+    "filename": "image277.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image277.png",
+    "llm_text": "The image shows the Node Property window in ECMiner, where users can add, remove, and edit derived variables for data mining analysis."
+  },
+  {
+    "rId": "rId30",
+    "filename": "image24.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image24.png",
+    "llm_text": "The image shows an ECMiner data mining software window displaying basic chart data with continuous variables TIME, A, B, C, and a discrete variable GROUP. It provides statistical information like frequency, percentage, average, minimum, maximum, and range for each variable."
+  },
+  {
+    "rId": "rId35",
+    "filename": "image29.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image29.png",
+    "llm_text": "The image shows an analysis of categorical distribution and correlation relationships in ECMiner software, focusing on variables A1 to A8 and churn_status."
+  },
+  {
+    "rId": "rId56",
+    "filename": "image50.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image50.png",
+    "llm_text": "The image shows an interface for conducting a Two Sample Variance Test in ECMiner, comparing variables A1 and A5 with specified significance levels."
+  },
+  {
+    "rId": "rId77",
+    "filename": "image71.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image71.png",
+    "llm_text": "The residual plot in ECMiner shows the difference between actual values (Y) and predicted values (YHAT), indicating model accuracy."
+  },
+  {
+    "rId": "rId100",
+    "filename": "image94.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image94.png",
+    "llm_text": "The image shows graphs for attributes acceptance sampling, including OC curve, AOQ curve, and ATI curve, illustrating quality control metrics."
+  },
+  {
+    "rId": "rId105",
+    "filename": "image99.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image99.png",
+    "llm_text": "This screenshot shows the Tolerance Intervals settings in ECMiner, allowing users to specify confidence level, coverage proportion, and interval direction for variable selection."
+  },
+  {
+    "rId": "rId126",
+    "filename": "image120.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image120.png",
+    "llm_text": "The image shows an ECMiner interface with various tabs and options for data mining tasks, including clustering, classification, and association rule learning."
+  },
+  {
+    "rId": "rId147",
+    "filename": "image141.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image141.png",
+    "llm_text": "The image shows an ARIMA model analysis in ECMiner, with time series data plotted for forecasting and monitoring seasonal patterns."
+  },
+  {
+    "rId": "rId168",
+    "filename": "image162.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image162.png",
+    "llm_text": "The image shows a scatter plot in ECMiner, illustrating the relationship between fitted values and residuals for a regression analysis, with a focus on identifying model fit and potential outliers."
+  },
+  {
+    "rId": "rId282",
+    "filename": "image272.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image272.png",
+    "llm_text": "The image shows the Node Property window in ECMiner, displaying variable names and their corresponding filter settings for data mining analysis."
+  },
+  {
+    "rId": "rId8",
+    "filename": "image2.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image2.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a dataset containing time series data for variables A, B, C, and GROUP, along with descriptive statistics and analysis options."
+  },
+  {
+    "rId": "rId51",
+    "filename": "image45.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image45.png",
+    "llm_text": "The image shows a One Sample Poisson Test in ECMiner, testing if the population proportion is equal to 28.000000, with results indicating no significant difference."
+  },
+  {
+    "rId": "rId72",
+    "filename": "image66.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image66.png",
+    "llm_text": "The image shows a scatter plot with fitted values on the y-axis and residuals on the x-axis, indicating a regression analysis in GLM mode."
+  },
+  {
+    "rId": "rId93",
+    "filename": "image87.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image87.png",
+    "llm_text": "The image shows the Process Capability Analysis Settings window in ECMiner, used for setting up statistical analysis parameters like target variables, subgroup size, and number of bins."
+  },
+  {
+    "rId": "rId98",
+    "filename": "image92.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image92.png",
+    "llm_text": "The image shows the Attributes Acceptance Sampling window in ECMiner, used for setting up quality control parameters like pass/fail measurement type, defect rate, and risk levels for a sample size of 3000 items."
+  },
+  {
+    "rId": "rId121",
+    "filename": "image115.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image115.png",
+    "llm_text": "The image shows a residual normal probability plot in ECMiner, used to assess the normality of residuals in a statistical model."
+  },
+  {
+    "rId": "rId142",
+    "filename": "image136.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image136.png",
+    "llm_text": "The image shows an ARIMA model analysis in ECMiner, focusing on time series data with an autocorrelation function plot for identifying optimal model parameters."
+  },
+  {
+    "rId": "rId163",
+    "filename": "image157.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image157.png",
+    "llm_text": "The image shows an ECMiner software interface for analyzing time series data, specifically focusing on conditional volatility with GARCH model estimation."
+  },
+  {
+    "rId": "rId184",
+    "filename": "image178.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image178.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a time series prediction model with coefficients and residuals."
+  },
+  {
+    "rId": "rId219",
+    "filename": "image212.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image212.png",
+    "llm_text": "This screenshot shows the Probability Distribution window in ECMiner, where users can select a distribution type (e.g., Normal) for analysis, choose confidence levels, and view statistical estimates like mean (Mu) and standard deviation (Sigma)."
+  },
+  {
+    "rId": "rId214",
+    "filename": "image207.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image207.png",
+    "llm_text": "The image shows an interface for ECMiner, a data mining tool, with options for selecting datasets, parameters, and viewing results. It is used for analyzing and mining data efficiently."
+  },
+  {
+    "rId": "rId230",
+    "filename": "image223.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image223.png",
+    "llm_text": "The image shows paired sample statistics for A1 and A5 in an ECMiner data mining software, indicating a significant difference between their medians with a p-value of 0.00002."
+  },
+  {
+    "rId": "rId251",
+    "filename": "image241.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image241.png",
+    "llm_text": "This screenshot shows an ANOVA table for a Gage R&R study in ECMiner, detailing variance components and their contributions to measurement variability."
+  },
+  {
+    "rId": "rId256",
+    "filename": "image246.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image246.png",
+    "llm_text": "This screenshot shows a Gage R&R Study in ECMiner, analyzing average observations by part across different operators."
+  },
+  {
+    "rId": "rId277",
+    "filename": "image267.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image267.png",
+    "llm_text": "The image shows a screenshot of the ECMiner data mining software, where a derived variable is being created by adding two columns (A7 and A5) in a dataset."
+  },
+  {
+    "rId": "rId298",
+    "filename": "image288.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image288.png",
+    "llm_text": "The image shows a Lambda estimation plot in ECMiner, analyzing Box-Cox Transformation data with a focus on likelihood vs. lambda values for optimal transformation parameters."
+  },
+  {
+    "rId": "rId25",
+    "filename": "image19.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image19.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with various tabs and options for analyzing and processing data."
+  },
+  {
+    "rId": "rId46",
+    "filename": "image40.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image40.png",
+    "llm_text": "The image shows a One Sample Poisson Test setup in ECMiner, where the user is configuring parameters for testing if the population proportion is greater than 0.5."
+  },
+  {
+    "rId": "rId116",
+    "filename": "image110.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image110.png",
+    "llm_text": "The image shows a residual vs fitted values plot in ECMiner, indicating model fit analysis with residuals spread around the zero line."
+  },
+  {
+    "rId": "rId137",
+    "filename": "image131.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image131.png",
+    "llm_text": "The image shows an equation used in data mining, specifically for generating synthetic data with a specific distribution. The equation is: θ(b) * (1 - b)^d * x_t = θ(b) * a_t, where x_t represents independent and identically distributed normal white noise."
+  },
+  {
+    "rId": "rId158",
+    "filename": "image152.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image152.png",
+    "llm_text": "The image shows a residual vs fitted values plot in ECMiner, indicating model fit analysis for data mining."
+  },
+  {
+    "rId": "rId272",
+    "filename": "image262.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image262.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with charts displaying temperature (temp) and humidity (humid) over time, used for trend analysis and control limits."
+  },
+  {
+    "rId": "rId293",
+    "filename": "image283.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image283.png",
+    "llm_text": "The image shows an Excel spreadsheet with customer churn data, including columns for attributes, values, and churn status."
+  },
+  {
+    "rId": "rId302",
+    "filename": "image292.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image292.png",
+    "llm_text": "The image shows a normal probability plot after transformation in ECMiner, indicating that the transformed data is now normally distributed."
+  },
+  {
+    "rId": "rId20",
+    "filename": "image14.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image14.png",
+    "llm_text": "The image shows an ECMiner interface with options for \"Data\" and \"Settings,\" indicating it's used for data mining tasks."
+  },
+  {
+    "rId": "rId41",
+    "filename": "image35.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image35.png",
+    "llm_text": "The image shows an analysis using ECMiner software, specifically a One-Sample t-Test on variable A1 with 7596 data points, revealing a mean of 109.35402 and a p-value of 0.00000 indicating statistical significance."
+  },
+  {
+    "rId": "rId62",
+    "filename": "image56.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image56.png",
+    "llm_text": "The Poisson Distribution Goodness-of-Fit Test evaluates if observed data fits a Poisson distribution, showing categories, observations, mean, probability, expected value, and contribution to chi-square test statistic."
+  },
+  {
+    "rId": "rId83",
+    "filename": "image77.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image77.png",
+    "llm_text": "The image shows an Orthogonal Regression Test in ECMiner, displaying a scatter plot with a regression line, indicating a linear relationship between X and Y variables."
+  },
+  {
+    "rId": "rId88",
+    "filename": "image82.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image82.png",
+    "llm_text": "The image shows an ECMiner regression analysis setup with custom equation input, residual plot, and Levenberg-Marquardt method for data fitting."
+  },
+  {
+    "rId": "rId111",
+    "filename": "image105.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image105.png",
+    "llm_text": "The image shows an ECMiner software interface for time series analysis, focusing on decomposing data into trend, seasonality, and residual components."
+  },
+  {
+    "rId": "rId132",
+    "filename": "image126.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image126.png",
+    "llm_text": "The image shows an Exponential Smoothing plot in ECMiner software, analyzing time series data with smoothing type set to Winters Exponential, level at 0.1, trend at 0.001, seasonal length at 365, and forecast lag at 1000."
+  },
+  {
+    "rId": "rId153",
+    "filename": "image147.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image147.png",
+    "llm_text": "The image shows an ECMiner screen for trend analysis with linear model information, accuracy measures, and forecast results for time series data."
+  },
+  {
+    "rId": "rId174",
+    "filename": "image168.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image168.png",
+    "llm_text": "The image shows an equation used in data mining, specifically for calculating the difference between observed and expected values in a regression model."
+  },
+  {
+    "rId": "rId179",
+    "filename": "image173.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image173.png",
+    "llm_text": "The screenshot shows the ARMAX Variable Selection window in ECMiner, used for selecting variables for time series analysis, focusing on temperature forecasting with ARIMA models."
+  },
+  {
+    "rId": "rId195",
+    "filename": "image188.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image188.png",
+    "llm_text": "The ARCH Test window in ECMiner is used for analyzing time series data, focusing on the relationship between the target variable and predicted temperature, with options for lag length up to 4."
+  },
+  {
+    "rId": "rId209",
+    "filename": "image202.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image202.png",
+    "llm_text": "The image shows a Chi-Square Goodness-of-Fit Test results for different regions in the UK, with frequencies and specific ratios displayed."
+  },
+  {
+    "rId": "rId190",
+    "filename": "image183.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image183.png",
+    "llm_text": "The image shows the results of a KPSS (Kwiatkowski, Phillips, Schmidt, and Shin) test for unit root in time series data, indicating no evidence of non-stationarity at significance levels up to 10%."
+  },
+  {
+    "rId": "rId204",
+    "filename": "image197.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image197.png",
+    "llm_text": "The image shows a frequency table setup in ECMiner, where users can select variables for analysis by moving them between two lists."
+  },
+  {
+    "rId": "rId220",
+    "filename": "image213.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image213.png",
+    "llm_text": "The image shows an interface for selecting probability distributions in ECMiner, with options like Beta, Binomial, and Poisson, and displays estimated values for Lambda and confidence intervals."
+  },
+  {
+    "rId": "rId241",
+    "filename": "image231.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image231.png",
+    "llm_text": "The image shows the Statistics window in ECMiner, where the user is analyzing data with A1 as the dependent variable and PLS2_YHAT1 as the predictor."
+  },
+  {
+    "rId": "rId246",
+    "filename": "image236.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image236.png",
+    "llm_text": "The image shows an Excel spreadsheet with data related to operator performance, part numbers, iteration counts, measurement data, and standard values."
+  },
+  {
+    "rId": "rId267",
+    "filename": "image257.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image257.png",
+    "llm_text": "This screenshot shows the \"Chart\" settings in ECMiner, allowing users to add or delete series for a 2D chart with options for X and Y axes."
+  },
+  {
+    "rId": "rId288",
+    "filename": "image278.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image278.png",
+    "llm_text": "The image shows the ECMiner software interface for loading customer churn data and sorting it."
+  },
+  {
+    "rId": "rId15",
+    "filename": "image9.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image9.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with options for selecting datasets, parameters, and analysis methods."
+  },
+  {
+    "rId": "rId36",
+    "filename": "image30.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image30.png",
+    "llm_text": "The image shows an ECMiner correlation chart comparing A5 and A8 variables, indicating a strong positive linear relationship with a correlation coefficient of 0.88."
+  },
+  {
+    "rId": "rId57",
+    "filename": "image51.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image51.png",
+    "llm_text": "The image shows a Two Sample Variance Test in ECMiner, comparing two groups (A1 and A5) with 8530 observations each, testing if their variances are significantly different."
+  },
+  {
+    "rId": "rId106",
+    "filename": "image100.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image100.png",
+    "llm_text": "This screenshot shows tolerance intervals analysis for variable A6 with a confidence level of 0.95, displaying statistical summary, normal distribution limits, and nonparametric confidence levels."
+  },
+  {
+    "rId": "rId127",
+    "filename": "image121.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image121.png",
+    "llm_text": "The image shows an equation for linear regression with coefficients β0 and β1, and error term ε. It represents the relationship between variables y and x in a statistical model."
+  },
+  {
+    "rId": "rId262",
+    "filename": "image252.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image252.png",
+    "llm_text": "The Gage R&R Study screen in ECMiner displays an XBar control chart comparing operators' observations, showing variability and consistency across different operators."
+  },
+  {
+    "rId": "rId283",
+    "filename": "image273.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image273.png",
+    "llm_text": "The image shows an Excel spreadsheet with customer churn data, including columns for customer ID, age, gender, and churn status. The user is in the process of deleting rows based on specific criteria."
+  },
+  {
+    "rId": "rId10",
+    "filename": "image4.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image4.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks. It is used for data mining and analysis in machine learning."
+  },
+  {
+    "rId": "rId31",
+    "filename": "image25.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image25.png",
+    "llm_text": "The image shows an ECMiner data mining software window displaying continuous variable statistics for a dataset with 8,530 rows and 10 columns, including churn status."
+  },
+  {
+    "rId": "rId52",
+    "filename": "image46.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image46.png",
+    "llm_text": "This screenshot shows the Two Sample Poisson Test settings in ECMiner, where variables A1 and A7 are compared with 1 observation, null hypothesis is population proportion difference = 0.5, alternative hypothesis is \"Bigger than\", significance level is set to 0.05."
+  },
+  {
+    "rId": "rId73",
+    "filename": "image67.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image67.png",
+    "llm_text": "The image shows an ECMiner histogram plot with intervals ranging from -48.3 to 116.0, displaying frequency distribution in red bars."
+  },
+  {
+    "rId": "rId78",
+    "filename": "image72.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image72.png",
+    "llm_text": "The scatter plot in ECMiner shows a strong positive correlation between YHAT and Y values, indicating a linear relationship."
+  },
+  {
+    "rId": "rId94",
+    "filename": "image88.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image88.png",
+    "llm_text": "The image shows Process Capability Analysis in ECMiner, displaying histograms and statistical metrics for different clusters (A23, A29, A36, A45) with Cp, Cpk, Pp, and Ppk values indicating process performance."
+  },
+  {
+    "rId": "rId99",
+    "filename": "image93.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image93.png",
+    "llm_text": "This screenshot shows an Attributes Acceptance Sampling plan in ECMiner, detailing pass/fail defect rates, acceptance and failure quality levels, sample size, and generated sampling plan for quality control."
+  },
+  {
+    "rId": "rId101",
+    "filename": "image95.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image95.png",
+    "llm_text": "The image shows the \"Quantitative Acceptance Sampling\" window in ECMiner, where users can set parameters for defect rate sampling, including acceptable and rejectable quality levels and lot size."
+  },
+  {
+    "rId": "rId122",
+    "filename": "image116.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image116.png",
+    "llm_text": "The image shows a residual vs. order scatter plot in ECMiner, analyzing the relationship between residuals and order values for data mining purposes."
+  },
+  {
+    "rId": "rId143",
+    "filename": "image137.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image137.png",
+    "llm_text": "The image shows an ARIMA model estimation process in ECMiner, analyzing time series data with a focus on partial autocorrelation function analysis."
+  },
+  {
+    "rId": "rId148",
+    "filename": "image142.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image142.png",
+    "llm_text": "The residual histogram in ECMiner shows the distribution of residuals for a dataset, with counts on the y-axis and values on the x-axis."
+  },
+  {
+    "rId": "rId164",
+    "filename": "image158.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image158.png",
+    "llm_text": "The image shows an ECMiner software interface for analyzing time series data, specifically focusing on residual squares in a GARCH model."
+  },
+  {
+    "rId": "rId169",
+    "filename": "image163.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image163.png",
+    "llm_text": "The image shows an equation used in data mining, where yi is calculated based on previous values and coefficients."
+  },
+  {
+    "rId": "rId185",
+    "filename": "image179.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image179.png",
+    "llm_text": "The image shows an equation used in data mining, where yi is calculated as a linear combination of previous yi values and random noise terms ei."
+  },
+  {
+    "rId": "rId9",
+    "filename": "image3.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image3.png",
+    "llm_text": "The image shows an ECMiner interface with various tabs and options for data mining tasks, including settings, results, and analysis tools."
+  },
+  {
+    "rId": "rId180",
+    "filename": "image174.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image174.png",
+    "llm_text": "The ARMAX Options window in ECMiner allows users to configure parameters for ARIMA models, including selecting AR and MA lags, choosing optimization methods, setting parameter change status, and specifying forecast-related options."
+  },
+  {
+    "rId": "rId210",
+    "filename": "image203.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image203.png",
+    "llm_text": "The image shows a Chi-Square Goodness-of-Fit Test conducted on region data with N=1691 observations, comparing observed frequencies to expected values across different regions."
+  },
+  {
+    "rId": "rId215",
+    "filename": "image208.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image208.png",
+    "llm_text": "This screenshot shows the Probability Distribution window in ECMiner, where users can select a distribution type for analysis, choose a confidence level, and view estimated parameters like Alpha and Beta with their respective confidence intervals."
+  },
+  {
+    "rId": "rId257",
+    "filename": "image247.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image247.png",
+    "llm_text": "The Gage R&R Study screen in ECMiner displays contribution and research variability for different factors like Gage R&R, Iteration, Reproducibility, and Parts to parts, indicating variability analysis results."
+  },
+  {
+    "rId": "rId278",
+    "filename": "image268.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image268.png",
+    "llm_text": "The image shows an Excel spreadsheet with customer churn data, where columns represent different attributes like customer IDs, transaction amounts, and churn status. The red highlighted cells indicate derived values for each row."
+  },
+  {
+    "rId": "rId26",
+    "filename": "image20.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image20.png",
+    "llm_text": "The image shows an Excel-like interface with data analysis tools, including options for reloading, saving, and analyzing discrete data in columns A1, A2, and A3."
+  },
+  {
+    "rId": "rId231",
+    "filename": "image224.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image224.png",
+    "llm_text": "This screenshot shows the One-Way ANOVA setup in ECMiner, where users can select factors and variables for statistical analysis."
+  },
+  {
+    "rId": "rId252",
+    "filename": "image242.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image242.png",
+    "llm_text": "The Gage R&R Study screen in ECMiner displays a control chart comparing operators A, B, and C on their observations, with UCL, LCL, and R values provided for quality control analysis."
+  },
+  {
+    "rId": "rId273",
+    "filename": "image263.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image263.png",
+    "llm_text": "The image shows a screenshot of ECMiner software analyzing temperature, humidity, GHI, and ei data, displaying merged charts for each variable."
+  },
+  {
+    "rId": "rId294",
+    "filename": "image284.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image284.png",
+    "llm_text": "The image shows the \"Box-Cox Transformation\" window in ECMiner, where A1 is selected as the target variable for transformation."
+  },
+  {
+    "rId": "rId47",
+    "filename": "image41.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image41.png",
+    "llm_text": "The image shows a One Sample Proportion Test in ECMiner, testing if the population proportion is greater than 0.5 with 8530 observations and 4684 events, resulting in a z-value of 9.07339 and p-value of 0."
+  },
+  {
+    "rId": "rId68",
+    "filename": "image62.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image62.png",
+    "llm_text": "The Two-Way ANOVA Table shows results for brightness and temperature on observed variable name, with significant differences in variability between factors A and B."
+  },
+  {
+    "rId": "rId89",
+    "filename": "image83.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image83.png",
+    "llm_text": "The image shows an Expression Editor window in ECMiner, where users can create and edit expressions using variables and operators. The current expression is `@T1 + @T2 * {A4}`, and the available variables are listed below."
+  },
+  {
+    "rId": "rId112",
+    "filename": "image106.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image106.png",
+    "llm_text": "The image shows an ECMiner software interface for analyzing time series data, specifically focusing on trend + seasonal decomposition with a forecast generated using 1000 data points."
+  },
+  {
+    "rId": "rId133",
+    "filename": "image127.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image127.png",
+    "llm_text": "The residual histogram in ECMiner shows the distribution of residuals for a model, with most values clustered around zero, indicating good fit."
+  },
+  {
+    "rId": "rId154",
+    "filename": "image148.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image148.png",
+    "llm_text": "The image shows a time series analysis in ECMiner, displaying observed values (Y_Observation) and predicted values (Y_HAT) over time, with options for linear trend analysis."
+  },
+  {
+    "rId": "rId175",
+    "filename": "image169.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image169.png",
+    "llm_text": "The image shows an ECMiner interface with options for setting up mining parameters, including block size, number of threads, and mining algorithm."
+  },
+  {
+    "rId": "rId196",
+    "filename": "image189.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image189.png",
+    "llm_text": "The ARCH Test screen in ECMiner shows results for an ARCH model with order 4, indicating significant ARCH effects at various lags."
+  },
+  {
+    "rId": "rId200",
+    "filename": "image193.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image193.png",
+    "llm_text": "The image shows an ECMiner Cross-Correlation analysis for Predicted Temp, displaying negative correlations between lags ranging from -10 to 10."
+  },
+  {
+    "rId": "rId16",
+    "filename": "image10.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image10.png",
+    "llm_text": "The image shows an ECMiner data mining software interface with a focus on discrete dependent variables for analysis."
+  },
+  {
+    "rId": "rId221",
+    "filename": "image214.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image214.png",
+    "llm_text": "The image shows the Probability Distribution window in ECMiner, where users can select a distribution type and input parameters to estimate parameters like Alpha and Beta for continuous uniform distribution."
+  },
+  {
+    "rId": "rId242",
+    "filename": "image232.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image232.png",
+    "llm_text": "The screenshot shows the accuracy measures for regression analysis in ECMiner, including R Square, MAPE, MAE, and RMSE values."
+  },
+  {
+    "rId": "rId263",
+    "filename": "image253.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image253.png",
+    "llm_text": "The Gage R&R Study screen displays a box plot comparing observations across three operators, illustrating variability in measurements."
+  },
+  {
+    "rId": "rId284",
+    "filename": "image274.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image274.png",
+    "llm_text": "The image shows an interface for loading customer churn data into a database table using ECMiner software."
+  },
+  {
+    "rId": "rId37",
+    "filename": "image31.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image31.png",
+    "llm_text": "The image shows the \"Save Correlation Analysis Results\" dialog in ECMiner, where users can specify a filename for saved correlation data with a minimum coefficient value of 0.3."
+  },
+  {
+    "rId": "rId58",
+    "filename": "image52.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image52.png",
+    "llm_text": "The image shows the Normality Test window in ECMiner, where users can select variables for Anderson-Darling and Kolmogorov-Smirnov tests to assess normality."
+  },
+  {
+    "rId": "rId79",
+    "filename": "image73.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image73.png",
+    "llm_text": "The image shows a table with numerical data in columns labeled A2 to A13, likely representing different variables or features in a dataset being analyzed by ECMiner. The rows appear to be iterations or samples, possibly for machine learning or data mining purposes."
+  },
+  {
+    "rId": "rId102",
+    "filename": "image96.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image96.png",
+    "llm_text": "The image shows the \"Quantitative Acceptance Sampling\" window in ECMiner, where users can set parameters for comparing defect rates among lots."
+  },
+  {
+    "rId": "rId123",
+    "filename": "image117.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image117.png",
+    "llm_text": "The image shows a residual vs fitted values plot in ECMiner, indicating model fit analysis with residuals scattered around zero, suggesting good model performance."
+  },
+  {
+    "rId": "rId144",
+    "filename": "image138.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image138.png",
+    "llm_text": "The screenshot shows an ARIMA model estimation process in ECMiner, analyzing time series data with scatter plot visualization for forecasting purposes."
+  },
+  {
+    "rId": "rId90",
+    "filename": "image84.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image84.png",
+    "llm_text": "The image shows an ECMiner regression analysis with a scatter plot, non-linear regression equation, and error metrics."
+  },
+  {
+    "rId": "rId165",
+    "filename": "image159.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image159.png",
+    "llm_text": "The residual histogram in ECMiner shows the distribution of residuals for a model, with most values clustered around -1.87 to 0.29."
+  },
+  {
+    "rId": "rId186",
+    "filename": "image180.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image180.png",
+    "llm_text": "The image shows an equation used in data mining, where y_t is predicted based on past values, coefficients, and random noise."
+  },
+  {
+    "rId": "rId211",
+    "filename": "image204.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image204.png",
+    "llm_text": "The Chi-Square Goodness-of-Fit Test compares observed vs. expected counts for regions in ECMiner."
+  },
+  {
+    "rId": "rId232",
+    "filename": "image225.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image225.png",
+    "llm_text": "The screenshot shows a Nonparametric Test (One-way ANOVA) result for variable A1, indicating no significant difference between group distributions using Kruskal-Wallis Test. Group statistics reveal mean values, medians, average ranks, and standard deviations for M and MH groups."
+  },
+  {
+    "rId": "rId253",
+    "filename": "image243.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image243.png",
+    "llm_text": "The Gage R&R Study screen displays XBar control charts for three operators (A, B, C) with UCL and LCL limits, showing variability in observations over time."
+  },
+  {
+    "rId": "rId274",
+    "filename": "image264.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image264.png",
+    "llm_text": "The image shows an ECMiner data mining software window with correlation analysis between variables A14 and A15, as well as A14 and A19, using scatter plots."
+  },
+  {
+    "rId": "rId295",
+    "filename": "image285.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image285.png",
+    "llm_text": "The image shows Box-Cox Transformation results in ECMiner, indicating a lambda value of 0.03 for maximizing likelihood, transforming data with an equation, and testing normality before and after transformation."
+  },
+  {
+    "rId": "rId27",
+    "filename": "image21.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image21.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks."
+  },
+  {
+    "rId": "rId48",
+    "filename": "image42.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image42.png",
+    "llm_text": "This screenshot shows the Two Sample Proportion Test setup in ECMiner, comparing churn status between two groups with significance level set at 0.05."
+  },
+  {
+    "rId": "rId69",
+    "filename": "image63.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image63.png",
+    "llm_text": "The image shows GLM settings in ECMiner for analyzing data with factor variables and response variables, including residual plots and selected terms for analysis."
+  },
+  {
+    "rId": "rId113",
+    "filename": "image107.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image107.png",
+    "llm_text": "The Residual Histogram in ECMiner shows the distribution of residuals, indicating how well the model fits the data."
+  },
+  {
+    "rId": "rId134",
+    "filename": "image128.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image128.png",
+    "llm_text": "The image shows a residual normal probability plot in ECMiner, used to assess the normality of residuals in a statistical model."
+  },
+  {
+    "rId": "rId80",
+    "filename": "image74.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image74.png",
+    "llm_text": "This screenshot shows an ANOVA table from ECMiner data mining software, detailing regression model results with R-squared, RMSE, MAE, and MAPE metrics."
+  },
+  {
+    "rId": "rId155",
+    "filename": "image149.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image149.png",
+    "llm_text": "The Residual Histogram in ECMiner shows the distribution of residuals for a data mining model, with counts on the y-axis and ranges on the x-axis."
+  },
+  {
+    "rId": "rId176",
+    "filename": "image170.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image170.png",
+    "llm_text": "The image shows an ECMiner interface with various tabs and options for data mining tasks, including clustering, classification, and association rule learning."
+  },
+  {
+    "rId": "rId197",
+    "filename": "image190.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image190.png",
+    "llm_text": "The image shows an ECMiner interface with options for selecting datasets, parameters, and running mining tasks. It is used for data mining and analysis in machine learning."
+  },
+  {
+    "rId": "rId201",
+    "filename": "image194.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image194.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a statistical model with parameters z_t, phi_t, z_{t-1}, lambda_t, and random variables i_i^d ~ N(0, sigma^2). It represents a time-series analysis with Gaussian noise."
+  },
+  {
+    "rId": "rId222",
+    "filename": "image215.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image215.png",
+    "llm_text": "This screenshot shows the Probability Distribution window in ECMiner, where users can select a distribution type and input parameters to estimate parameters 'a' and 'b' with specified confidence levels."
+  },
+  {
+    "rId": "rId243",
+    "filename": "image233.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image233.png",
+    "llm_text": "The image shows an Excel-like table in ECMiner, displaying data related to operators, part numbers, iteration counts, and measurement data for analysis purposes."
+  },
+  {
+    "rId": "rId264",
+    "filename": "image254.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image254.png",
+    "llm_text": "The Gage R&R Study screen displays a control chart comparing average observations by part and observations by part for a gage study, indicating variability in measurements across different parts and operators."
+  },
+  {
+    "rId": "rId285",
+    "filename": "image275.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image275.png",
+    "llm_text": "The image shows the Node Property window in ECMiner, where users can configure selection options for a node, including condition format and selection condition."
+  },
+  {
+    "rId": "rId17",
+    "filename": "image11.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image11.png",
+    "llm_text": "The image shows an Excel spreadsheet with data related to correlation relationships between different variables in a dataset."
+  },
+  {
+    "rId": "rId38",
+    "filename": "image32.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image32.png",
+    "llm_text": "The image shows a correlation matrix in ECMiner, displaying relationships between variables A5, A7, and A8."
+  },
+  {
+    "rId": "rId59",
+    "filename": "image53.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image53.png",
+    "llm_text": "The image shows the results of a normality test for dataset A5 using Anderson-Darling and Kolmogorov-Smirnov methods, indicating that the data is normally distributed with p-values less than 0.00001."
+  },
+  {
+    "rId": "rId103",
+    "filename": "image97.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image97.png",
+    "llm_text": "This screenshot shows a Quantitative Acceptance Sampling plan in ECMiner, detailing pass sampling information, generated sampling plan, and defect rates with corresponding probabilities and quality levels."
+  },
+  {
+    "rId": "rId124",
+    "filename": "image118.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image118.png",
+    "llm_text": "The image shows an equation in the form y = β0 + εt, which represents a linear regression model with intercept β0 and error term εt."
+  },
+  {
+    "rId": "rId70",
+    "filename": "image64.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image64.png",
+    "llm_text": "The image shows an ANOVA table for response value A6 in GLM, analyzing factors A1, A2, and A3 with regression analysis results displayed below."
+  },
+  {
+    "rId": "rId91",
+    "filename": "image85.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image85.png",
+    "llm_text": "The image shows an ECMiner regression analysis with a residual plot, displaying non-linear regression results for predicting Y based on A29, A2, and A4."
+  },
+  {
+    "rId": "rId145",
+    "filename": "image139.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image139.png",
+    "llm_text": "The ARIMA Methodology Selection window in ECMiner shows options for selecting an ARIMA model with maximum likelihood estimation, parameter configuration, Levenberg-Marquardt optimization, and initialization method settings."
+  },
+  {
+    "rId": "rId166",
+    "filename": "image160.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image160.png",
+    "llm_text": "The image shows a residual normal probability plot in ECMiner, used to assess the normality of residuals in regression analysis."
+  },
+  {
+    "rId": "rId187",
+    "filename": "image181.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image181.png",
+    "llm_text": "The Unit Root Test screen in ECMiner shows results for an Augmented Dickey-Fuller test, indicating that the time series is non-stationary with a critical value of -1.718."
+  },
+  {
+    "rId": "rId212",
+    "filename": "image205.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image205.png",
+    "llm_text": "This screenshot shows the Chi-Square Test dialog in ECMiner, allowing users to select variables for analysis, set significance levels, and choose whether to consider null values."
+  },
+  {
+    "rId": "rId233",
+    "filename": "image226.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image226.png",
+    "llm_text": "The image shows the Classification window in ECMiner, where the user is selecting \" churn_status\" as the dependent variable, \"LRN1_YHAT\" as the predictor, and viewing results for classification analysis."
+  },
+  {
+    "rId": "rId254",
+    "filename": "image244.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image244.png",
+    "llm_text": "The Gage R&R Study screen displays a control chart comparing mean observations across three operators for ten parts, illustrating variability in measurement accuracy."
+  },
+  {
+    "rId": "rId28",
+    "filename": "image22.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image22.png",
+    "llm_text": "The image shows a screenshot of an Excel spreadsheet with data in cells A1, A2, and A3, and column headers B and M. The user is saving the file using the \"Save\" option under the \"File\" menu."
+  },
+  {
+    "rId": "rId49",
+    "filename": "image43.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image43.png",
+    "llm_text": "The image shows a Two Proportion Test in ECMiner, testing if the population proportion difference between A2 and A9 is greater than zero, with results indicating no significant difference."
+  },
+  {
+    "rId": "rId114",
+    "filename": "image108.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image108.png",
+    "llm_text": "The image shows a residual normal probability plot in ECMiner, used to assess the normality of residuals in regression analysis."
+  },
+  {
+    "rId": "rId275",
+    "filename": "image265.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image265.png",
+    "llm_text": "The image shows an Excel-like interface with a data table and sorting options for columns A2 and A3. The main purpose is to sort customer data by age and gender."
+  },
+  {
+    "rId": "rId296",
+    "filename": "image286.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image286.png",
+    "llm_text": "The image shows a Box-Cox Transformation plot in ECMiner, assessing the normality of variable A1 by plotting its transformed values against their expected values on a normal probability scale."
+  },
+  {
+    "rId": "rId300",
+    "filename": "image290.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image290.png",
+    "llm_text": "The image shows Johnson Transformation settings for A1 variable in ECMiner, indicating optimal transformation parameters and normality test results before and after transformation."
+  },
+  {
+    "rId": "rId60",
+    "filename": "image54.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image54.png",
+    "llm_text": "The image shows a Normality Distribution Results window in ECMiner, displaying a normal probability plot with Z values against A5 data points for assessing data distribution normality."
+  },
+  {
+    "rId": "rId81",
+    "filename": "image75.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image75.png",
+    "llm_text": "The image shows the Orthogonal Regression Test window in ECMiner, where users can specify independent and dependent variables for regression analysis."
+  },
+  {
+    "rId": "rId135",
+    "filename": "image129.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image129.png",
+    "llm_text": "The image shows a residual vs. order plot in ECMiner, indicating model residuals for different orders, with a focus on identifying potential issues in the model's fit."
+  },
+  {
+    "rId": "rId156",
+    "filename": "image150.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image150.png",
+    "llm_text": "The image shows an ECMiner residual normal probability plot, indicating that the model residuals follow a normal distribution with no significant outliers."
+  },
+  {
+    "rId": "rId177",
+    "filename": "image171.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image171.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a linear regression model with coefficients for variables x1 through xm and intercept y0."
+  },
+  {
+    "rId": "rId198",
+    "filename": "image191.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image191.png",
+    "llm_text": "The image shows the ECMiner software interface with a focus on data mining techniques, specifically calculating the correlation coefficient between two variables using the Pearson correlation formula."
+  },
+  {
+    "rId": "rId202",
+    "filename": "image195.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image195.png",
+    "llm_text": "The image shows an autocorrelation function plot in ECMiner, analyzing the correlation between variables over time with a maximum lag of 30."
+  },
+  {
+    "rId": "rId223",
+    "filename": "image216.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image216.png",
+    "llm_text": "The image shows the \"Individual Distribution Identification\" window in ECMiner, where users can select variables for distribution identification using various distributions like Extreme Value, Exponential, Gamma, Log-Normal, Normal, and Weibull."
+  },
+  {
+    "rId": "rId244",
+    "filename": "image234.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image234.png",
+    "llm_text": "This screenshot shows the Gage R&R (Reliability and Reproducibility) analysis setup in ECMiner, used for evaluating measurement system accuracy and consistency."
+  },
+  {
+    "rId": "rId18",
+    "filename": "image12.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image12.png",
+    "llm_text": "The image shows an Excel spreadsheet with data related to manufacturing defects, including production volume, cost, quality scores, and various metrics like downtime percentage and inventory turnover."
+  },
+  {
+    "rId": "rId39",
+    "filename": "image33.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image33.png",
+    "llm_text": "The Correlation Visualizer in ECMiner displays a scatter plot with points labeled A1, A2, A3, A4, and A7, showing correlations between variables within a specified interval."
+  },
+  {
+    "rId": "rId265",
+    "filename": "image255.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image255.png",
+    "llm_text": "The Gage R&R Study screen in ECMiner displays contribution and research variability for different factors like Gage R&R, Iteration, Reproducibility, and Parts to parts, indicating variability analysis results."
+  },
+  {
+    "rId": "rId286",
+    "filename": "image276.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image276.png",
+    "llm_text": "The image shows an action in ECMiner where a customer churn dataset is loaded into a derived column for analysis."
+  },
+  {
+    "rId": "rId50",
+    "filename": "image44.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image44.png",
+    "llm_text": "This screenshot shows an \"One Sample Proportion Test\" setup in ECMiner, where A1 is selected as the variable, event class 1 is chosen, null hypothesis is set at 28, alternative hypothesis is \"Not same,\" and significance level is set to 0.05."
+  },
+  {
+    "rId": "rId104",
+    "filename": "image98.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image98.png",
+    "llm_text": "The image shows graphs for Quantitative Acceptance Sampling, including OC curve, AOQ curve, and ATI curve, illustrating quality control metrics against lot defect rates."
+  },
+  {
+    "rId": "rId125",
+    "filename": "image119.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image119.png",
+    "llm_text": "The image shows an ECMiner data mining software interface displaying a regression analysis result with coefficients and predictions for a dataset."
+  },
+  {
+    "rId": "rId146",
+    "filename": "image140.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image140.png",
+    "llm_text": "This screenshot shows ARIMA model estimation results for time series analysis in ECMiner, with non-seasonal order 0, seasonal order 1, and parameters SAR(1) = 1,000 and SMA(1) = 0.817."
+  },
+  {
+    "rId": "rId167",
+    "filename": "image161.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image161.png",
+    "llm_text": "The image shows a residual vs. order plot in ECMiner, indicating model residuals for different orders, with no apparent pattern suggesting good model fit."
+  },
+  {
+    "rId": "rId71",
+    "filename": "image65.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image65.png",
+    "llm_text": "The image shows a Normal Probability Plot in GLM mode within ECMiner, displaying residuals against fitted values for assessing model fit."
+  },
+  {
+    "rId": "rId92",
+    "filename": "image86.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image86.png",
+    "llm_text": "The image shows the \"Process Capability Analysis\" window in ECMiner, used for analyzing process capability with settings and chart creation options."
+  },
+  {
+    "rId": "rId213",
+    "filename": "image206.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image206.png",
+    "llm_text": "The image shows a Chi-Square Test result comparing sex (male vs. female) and smoking status (no vs. yes). It indicates that females have a higher percentage of smokers compared to males, with a Pearson Chi-Square value of 0.50446 and a p-value of 0."
+  },
+  {
+    "rId": "rId234",
+    "filename": "image227.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/4장_v3/v0/_sanitized/_assets/image227.png",
+    "llm_text": "The screenshot shows an accuracy measurement for classification tasks in ECMiner, displaying a confusion matrix, misclassification rate, and frequency per class."
+  }
+]

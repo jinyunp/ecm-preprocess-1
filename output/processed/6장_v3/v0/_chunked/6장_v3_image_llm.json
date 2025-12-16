@@ -1,0 +1,1160 @@
+[
+  {
+    "rId": "rId117",
+    "filename": "image110.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image110.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residual plots with various lines indicating model fit and residuals for different runs."
+  },
+  {
+    "rId": "rId21",
+    "filename": "image14.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image14.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner DOE software, where users configure settings for statistical analysis, select response variables, available factors, and highest-order interactions before starting the analysis."
+  },
+  {
+    "rId": "rId42",
+    "filename": "image35.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image35.png",
+    "llm_text": "This screenshot shows the \"Factors and Levels\" tab in ECMiner, where users specify factors, their levels, and response values for design experiments."
+  },
+  {
+    "rId": "rId63",
+    "filename": "image56.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image56.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residual histograms for model evaluation with various ranges and corresponding counts."
+  },
+  {
+    "rId": "rId84",
+    "filename": "image77.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image77.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify design options for factorial experiments, including axis points, center points, vertices, and mixed designs."
+  },
+  {
+    "rId": "rId138",
+    "filename": "image131.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image131.png",
+    "llm_text": "The image shows the \"Misc Info\" window in ECMiner, displaying options for fitting values, residuals, standardized residuals, externally studentized residuals, leverage, distance of Cook, and DFITS for data analysis."
+  },
+  {
+    "rId": "rId159",
+    "filename": "image147.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image147.png",
+    "llm_text": "The image shows an output results window in ECMiner with a contour plot displaying the relationship between variables A and m, highlighting different regions with varying values."
+  },
+  {
+    "rId": "rId170",
+    "filename": "image158.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image158.png",
+    "llm_text": "The image shows an ECMiner graph displaying a Beta Distribution CDF (Cumulative Distribution Function) with values ranging from 0 to 1."
+  },
+  {
+    "rId": "rId191",
+    "filename": "image179.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image179.png",
+    "llm_text": "The image shows a Poisson distribution histogram in ECMiner, displaying probabilities for various values ranging from 0 to 5."
+  },
+  {
+    "rId": "rId205",
+    "filename": "image193.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image193.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId107",
+    "filename": "image100.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image100.png",
+    "llm_text": "The image shows the \"Process Variables\" window in ECMiner, where users can select process variables for a full factorial design with one variable ranging from 100 to 200."
+  },
+  {
+    "rId": "rId11",
+    "filename": "image4.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image4.png",
+    "llm_text": "The image shows different types of design methods in ECMiner for optimizing polynomial fitting in mixture designs."
+  },
+  {
+    "rId": "rId32",
+    "filename": "image25.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image25.png",
+    "llm_text": "The image shows an output results window in ECMiner with a surface plot displaying the relationship between two variables, highlighting interaction effects."
+  },
+  {
+    "rId": "rId53",
+    "filename": "image46.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image46.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table by entering response values for various factors and levels."
+  },
+  {
+    "rId": "rId74",
+    "filename": "image67.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image67.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a surface plot with three different plots: adhesion, modulus, and elongation, illustrating how these properties vary across different parameters."
+  },
+  {
+    "rId": "rId128",
+    "filename": "image121.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image121.png",
+    "llm_text": "The image shows the output results for an Experimental Design using Taguchi Design in ECMiner, detailing factors A, B, and C with their respective levels and level names."
+  },
+  {
+    "rId": "rId90",
+    "filename": "image83.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image83.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a residual vs. z-value plot for model diagnostics. The red dots represent residuals, while the line represents the fitted values."
+  },
+  {
+    "rId": "rId95",
+    "filename": "image88.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image88.png",
+    "llm_text": "The image shows an output results window with a contour plot displaying the relationship between variables A, B, and C on a surface plot."
+  },
+  {
+    "rId": "rId160",
+    "filename": "image148.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image148.png",
+    "llm_text": "The image shows an output results window in ECMiner with a surface plot displaying a 3D graph of data points, likely for analysis and visualization purposes."
+  },
+  {
+    "rId": "rId165",
+    "filename": "image153.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image153.png",
+    "llm_text": "The Response Optimizer window in ECMiner allows users to select up to five response variables for optimization, with \"y1\" already selected."
+  },
+  {
+    "rId": "rId181",
+    "filename": "image169.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image169.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId186",
+    "filename": "image174.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image174.png",
+    "llm_text": "The image shows the output of an analysis in ECMiner, displaying mean, variance, and inverse values for statistical calculations."
+  },
+  {
+    "rId": "rId22",
+    "filename": "image15.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image15.png",
+    "llm_text": "This screenshot shows an experimental design for a factorial study with three factors at two levels each, used in ECMiner software."
+  },
+  {
+    "rId": "rId27",
+    "filename": "image20.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image20.png",
+    "llm_text": "The image shows an output from ECMiner's Experimental Design module for a 2-level factorial design with predictions for response value y1 based on different experimental conditions."
+  },
+  {
+    "rId": "rId43",
+    "filename": "image36.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image36.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner DOE software, where users specify options for completing a design table with factors/levels, repetitions, and block designation."
+  },
+  {
+    "rId": "rId48",
+    "filename": "image41.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image41.png",
+    "llm_text": "The image shows output results from ECMiner, displaying main effect plots for variables A and B with different levels of factors A and B."
+  },
+  {
+    "rId": "rId64",
+    "filename": "image57.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image57.png",
+    "llm_text": "The image shows an output from ECMiner, displaying a residual vs. z-value plot for model diagnostics, indicating residuals are normally distributed with no significant outliers."
+  },
+  {
+    "rId": "rId69",
+    "filename": "image62.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image62.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot for data analysis, with residuals plotted against predicted values."
+  },
+  {
+    "rId": "rId113",
+    "filename": "image106.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image106.png",
+    "llm_text": "The image shows the results of an experimental design analysis using Mixture Design: Vertex Design in ECMiner software, focusing on response value y1 with various coefficients and their significance levels."
+  },
+  {
+    "rId": "rId118",
+    "filename": "image111.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image111.png",
+    "llm_text": "The image shows output results from an Experimental Design using a Mixture Design with Vertex Design, focusing on fitted values, residuals, and other statistical measures for response value y1."
+  },
+  {
+    "rId": "rId134",
+    "filename": "image127.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image127.png",
+    "llm_text": "The image shows an experimental design using Taguchi Design in ECMiner, detailing three factors with three levels each for bondizing ratio, bonding method, and surface treatment method."
+  },
+  {
+    "rId": "rId139",
+    "filename": "image132.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image132.png",
+    "llm_text": "The image shows an analysis table from ECMiner, displaying coefficients for different terms in a statistical model, with significance levels indicated by asterisks."
+  },
+  {
+    "rId": "rId80",
+    "filename": "image73.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image73.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users can specify design parameters like center point count, repetition count, and block count for experimental design analysis."
+  },
+  {
+    "rId": "rId85",
+    "filename": "image78.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image78.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table by entering response values for factors A, B, C, and D."
+  },
+  {
+    "rId": "rId171",
+    "filename": "image159.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image159.png",
+    "llm_text": "The image shows the output of ECMiner, displaying mean and variance values as 0.500000000 for both metrics."
+  },
+  {
+    "rId": "rId176",
+    "filename": "image164.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image164.png",
+    "llm_text": "The image shows a Chi-Square Distribution graph in ECMiner, displaying cumulative distribution function values for various degrees of freedom."
+  },
+  {
+    "rId": "rId192",
+    "filename": "image180.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image180.png",
+    "llm_text": "The image shows a Poisson distribution chart in ECMiner, displaying the probability of different values based on the CDF (Cumulative Distribution Function)."
+  },
+  {
+    "rId": "rId197",
+    "filename": "image185.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image185.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId206",
+    "filename": "image194.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image194.png",
+    "llm_text": "The image shows the output of ECMiner data mining software, displaying statistical values: mean, variance, and inverse."
+  },
+  {
+    "rId": "rId201",
+    "filename": "image189.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image189.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, pmf, and cdf values for a dataset analysis."
+  },
+  {
+    "rId": "rId12",
+    "filename": "image5.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image5.png",
+    "llm_text": "The image shows various design types in ECMiner, including 2-Level, 3-Level, 4-Level, and 5-Level designs, with options for Taguchi Design and Mixture Design. It explains how these designs help optimize experimental conditions by adjusting factor levels."
+  },
+  {
+    "rId": "rId17",
+    "filename": "image10.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image10.png",
+    "llm_text": "The image is a design chart for ECMiner, showing factor turns and their corresponding levels in a grid format."
+  },
+  {
+    "rId": "rId33",
+    "filename": "image26.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image26.png",
+    "llm_text": "The image shows an output results window from ECMiner, displaying a Contour Plot with Reaction Temperature on the y-axis and Response Time on the x-axis, illustrating the relationship between these variables."
+  },
+  {
+    "rId": "rId38",
+    "filename": "image31.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image31.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify design options for factorial experiments with 4 factors at two levels each, including center points and replicates."
+  },
+  {
+    "rId": "rId59",
+    "filename": "image52.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image52.png",
+    "llm_text": "The image shows an output from ECMiner, displaying residual histograms for adhesion, modulus, and elongation, with normal probability plots for model evaluation."
+  },
+  {
+    "rId": "rId103",
+    "filename": "image96.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image96.png",
+    "llm_text": "The image shows an output result from ECMiner software displaying a surface plot with variables A, B, and C, illustrating the relationship between these factors on a continuous scale."
+  },
+  {
+    "rId": "rId108",
+    "filename": "image101.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image101.png",
+    "llm_text": "The image shows the \"Factors and Levels\" tab in ECMiner, where users specify factors, their levels, and response values for feature selection and analysis."
+  },
+  {
+    "rId": "rId124",
+    "filename": "image117.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image117.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between various experimental planning methods like Factorial, Response Surface, Mixture, and Taguchi designs."
+  },
+  {
+    "rId": "rId129",
+    "filename": "image122.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image122.png",
+    "llm_text": "The image shows an output results graph from ECMiner, displaying main effect plots for average and standard deviation values across different categories."
+  },
+  {
+    "rId": "rId54",
+    "filename": "image47.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image47.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner DOE software, where users configure settings for statistical analysis on response variables like adhesion, modulus, and elongation."
+  },
+  {
+    "rId": "rId70",
+    "filename": "image63.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image63.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a residual vs. run number plot with various lines indicating different statistical limits."
+  },
+  {
+    "rId": "rId75",
+    "filename": "image68.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image68.png",
+    "llm_text": "The image shows an output from ECMiner, displaying a contour plot with values for V130 Amount and G300 Amount, illustrating relationships between variables in a surface plot format."
+  },
+  {
+    "rId": "rId91",
+    "filename": "image84.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image84.png",
+    "llm_text": "The image shows a residual vs. fitted values plot in ECMiner, used to evaluate model fit and identify potential outliers."
+  },
+  {
+    "rId": "rId96",
+    "filename": "image89.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image89.png",
+    "llm_text": "The image is a screenshot of the Response Optimizer settings in ECMiner, showing options for setting response objectives, limits, weights, and importance levels. It also displays graphs illustrating how different objective functions influence desirability curves."
+  },
+  {
+    "rId": "rId140",
+    "filename": "image133.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image133.png",
+    "llm_text": "The image shows statistical analysis results for a model with R Square = 0.10221, Adjusted R Square = 0, and RMSE = 29.54395."
+  },
+  {
+    "rId": "rId145",
+    "filename": "image138.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image138.png",
+    "llm_text": "The ANOVA table shows statistical analysis results for response variable y1, comparing block effects and main effects with residual error."
+  },
+  {
+    "rId": "rId161",
+    "filename": "image149.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image149.png",
+    "llm_text": "The image shows an output results window in ECMiner with a surface plot displaying a 3D graph of data points, likely for analysis and visualization purposes."
+  },
+  {
+    "rId": "rId166",
+    "filename": "image154.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image154.png",
+    "llm_text": "The image shows settings for a Response Optimizer in ECMiner, with options for minimizing, achieving, and maximizing objectives, and visualizing desirability functions for each."
+  },
+  {
+    "rId": "rId182",
+    "filename": "image170.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image170.png",
+    "llm_text": "The image shows the output of an analysis tool displaying statistical values: mean, variance, and inverse variance."
+  },
+  {
+    "rId": "rId187",
+    "filename": "image175.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image175.png",
+    "llm_text": "The image shows an ECMiner window displaying a normal distribution graph with a PDF line, indicating statistical analysis results."
+  },
+  {
+    "rId": "rId23",
+    "filename": "image16.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image16.png",
+    "llm_text": "The image shows an output results window in ECMiner with a histogram plot displaying residuals for model y1, indicating data distribution analysis."
+  },
+  {
+    "rId": "rId28",
+    "filename": "image21.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image21.png",
+    "llm_text": "This screenshot shows the output results for an Experimental Design using a 2-Level Factorial Design in ECMiner, displaying fitted values, residuals, and other statistical information for response variable y1."
+  },
+  {
+    "rId": "rId49",
+    "filename": "image42.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image42.png",
+    "llm_text": "The image shows an ECMiner matrix with alternating signs in rows and columns, representing a symmetric matrix with diagonal elements being negative and off-diagonal elements being positive."
+  },
+  {
+    "rId": "rId114",
+    "filename": "image107.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image107.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a residual histogram with various ranges and their corresponding residuals, used for model diagnostics."
+  },
+  {
+    "rId": "rId119",
+    "filename": "image112.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image112.png",
+    "llm_text": "The image shows an output results window in ECMiner with a surface plot displaying the relationship between variables A, B, and C, highlighting the maximum value at point A."
+  },
+  {
+    "rId": "rId44",
+    "filename": "image37.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image37.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiment) table where users can input design parameters, analyze results, and optimize plots for data mining analysis."
+  },
+  {
+    "rId": "rId60",
+    "filename": "image53.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image53.png",
+    "llm_text": "The image shows an output from ECMiner, displaying a residual vs. z-value plot for model diagnostics, indicating normality and homoscedasticity in the residuals."
+  },
+  {
+    "rId": "rId65",
+    "filename": "image58.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image58.png",
+    "llm_text": "The image shows an output results screen from ECMiner data mining software, displaying a residual vs. fitted values plot with various lines and labels indicating different statistical measures."
+  },
+  {
+    "rId": "rId81",
+    "filename": "image74.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image74.png",
+    "llm_text": "The image shows the D Optimal Design window in ECMiner, where users can select variables for sequential optimization with specific algorithm settings."
+  },
+  {
+    "rId": "rId86",
+    "filename": "image79.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image79.png",
+    "llm_text": "The image shows a simplex chart in ECMiner, displaying three vertices A, B, and C with corresponding coordinates for data analysis."
+  },
+  {
+    "rId": "rId130",
+    "filename": "image123.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image123.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between various experimental planning methods like Factorial, Response Surface, Mixture, and Taguchi designs."
+  },
+  {
+    "rId": "rId135",
+    "filename": "image128.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image128.png",
+    "llm_text": "The image shows an output results graph from ECMiner, displaying the main effect plot for average values across different mining methods and treatment methods."
+  },
+  {
+    "rId": "rId177",
+    "filename": "image165.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image165.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId198",
+    "filename": "image186.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image186.png",
+    "llm_text": "The image shows the output of ECMiner, displaying statistical measures like mean, variance, and inverse values for data analysis."
+  },
+  {
+    "rId": "rId172",
+    "filename": "image160.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image160.png",
+    "llm_text": "The image shows a Binomial Distribution graph in ECMiner, displaying probabilities for various outcomes ranging from 0 to 10."
+  },
+  {
+    "rId": "rId193",
+    "filename": "image181.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image181.png",
+    "llm_text": "The image shows output statistics from ECMiner, including mean, variance, pmf, and cdf values for a dataset analysis."
+  },
+  {
+    "rId": "rId202",
+    "filename": "image190.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image190.png",
+    "llm_text": "The image shows the output of ECMiner data mining software, displaying statistical values such as mean, variance, and inverse for a dataset."
+  },
+  {
+    "rId": "rId207",
+    "filename": "image195.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image195.png",
+    "llm_text": "The Weibull Distribution graph in ECMiner shows the probability density function (PDF) of a dataset, indicating how likely different values are within the range."
+  },
+  {
+    "rId": "rId13",
+    "filename": "image6.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image6.png",
+    "llm_text": "This screenshot shows the DOE (Design of Experiments) process in ECMiner, starting with factorial design and response surface design, then analyzing results and optimizing responses."
+  },
+  {
+    "rId": "rId18",
+    "filename": "image11.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image11.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify design options for factorial experiments with 4 factors at 3 levels each, including center points and replicates."
+  },
+  {
+    "rId": "rId39",
+    "filename": "image32.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image32.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiments) screen where users can complete a design table by entering response values for factors and levels."
+  },
+  {
+    "rId": "rId109",
+    "filename": "image102.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image102.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify design options for factorial experiments, including adding center points and axis points, with repetition settings for each point type."
+  },
+  {
+    "rId": "rId34",
+    "filename": "image27.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image27.png",
+    "llm_text": "The image shows the Response Optimizer settings in ECMiner, with options for setting response values, limits, weights, and importance, along with visualizations of desirability functions for minimizing, achieving, and maximizing objectives."
+  },
+  {
+    "rId": "rId50",
+    "filename": "image43.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image43.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between various experimental planning methods like Central Composite Design, Box-Behnken Design, and 2-Level Design for data mining and analysis."
+  },
+  {
+    "rId": "rId55",
+    "filename": "image48.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image48.png",
+    "llm_text": "This screenshot shows an Experimental Design in ECMiner for Response Surface Design with Central Composite Design, detailing factors A and B with their levels and design information."
+  },
+  {
+    "rId": "rId76",
+    "filename": "image69.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image69.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a surface plot with three axes representing adhesion, modulus, and elongation, illustrating how these properties vary across different values."
+  },
+  {
+    "rId": "rId97",
+    "filename": "image90.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image90.png",
+    "llm_text": "The image shows the output results of an Experimental Design using Mixture Design with Simplex Center Design in ECMiner, displaying response optimizer data for three runs with overall desirability values."
+  },
+  {
+    "rId": "rId104",
+    "filename": "image97.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image97.png",
+    "llm_text": "The image shows an output results window with a Contour Plot displaying surface data for variables A, B, and C, indicating different values at various points in the space."
+  },
+  {
+    "rId": "rId120",
+    "filename": "image113.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image113.png",
+    "llm_text": "The image shows an output results window with a Surface Plot displaying the relationship between variables A, B, and C on a contour plot."
+  },
+  {
+    "rId": "rId125",
+    "filename": "image118.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image118.png",
+    "llm_text": "The image shows the \"Factors and Levels\" tab in ECMiner software, where users specify factors, levels, and response values for design experiments."
+  },
+  {
+    "rId": "rId141",
+    "filename": "image134.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image134.png",
+    "llm_text": "The image shows the results of a statistical analysis using ECMiner, displaying estimated coefficients for two response variables y1 and y2, including their standard errors, t-values, and p-values."
+  },
+  {
+    "rId": "rId146",
+    "filename": "image139.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image139.png",
+    "llm_text": "The image shows an ANOVA table for response value y1 in ECMiner, analyzing linear, square, interaction, residual error, lack of fit, and pure error contributions."
+  },
+  {
+    "rId": "rId167",
+    "filename": "image155.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image155.png",
+    "llm_text": "The image shows the \"Response Optimizer - Option\" window in ECMiner, where users can set parameters for selecting initial values, including Beta, Delta, Initial Value Quantity, and Max Repetition Count."
+  },
+  {
+    "rId": "rId188",
+    "filename": "image176.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image176.png",
+    "llm_text": "The image shows an ECMiner CDF plot for a normal distribution, displaying the cumulative distribution function of data points."
+  },
+  {
+    "rId": "rId71",
+    "filename": "image64.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image64.png",
+    "llm_text": "The image shows the output results of an Experimental Design using Response Surface Design with Central Composite Design in ECMiner software, focusing on fitted values, residuals, and other statistical measures for response value adhesion."
+  },
+  {
+    "rId": "rId92",
+    "filename": "image85.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image85.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residual plots with UCL and LCL lines for model evaluation."
+  },
+  {
+    "rId": "rId162",
+    "filename": "image150.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image150.png",
+    "llm_text": "The image shows an simplex chart in ECMiner, displaying three vertices A, B, and C with coordinates representing different combinations of variables."
+  },
+  {
+    "rId": "rId183",
+    "filename": "image171.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image171.png",
+    "llm_text": "The image shows an F-Distribution graph in ECMiner, displaying the probability density function (PDF) for various values on the x-axis."
+  },
+  {
+    "rId": "rId29",
+    "filename": "image22.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image22.png",
+    "llm_text": "The image shows the Plot and Response Optimizer tab in ECMiner software, used for analyzing experimental data with plots and response optimization features."
+  },
+  {
+    "rId": "rId24",
+    "filename": "image17.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image17.png",
+    "llm_text": "The image shows an output from ECMiner data mining software displaying a residual vs. fitted values plot with red residuals and a linear trend line. It visualizes model residuals for analysis."
+  },
+  {
+    "rId": "rId40",
+    "filename": "image33.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image33.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMinerDOE software, where users specify design parameters like number of runs, center points, and repetitions for experimental design analysis."
+  },
+  {
+    "rId": "rId45",
+    "filename": "image38.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image38.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner DOE software, where users configure settings for statistical analysis, select response variables, available factors, and highest-order interactions before starting the analysis."
+  },
+  {
+    "rId": "rId66",
+    "filename": "image59.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image59.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residuals vs. order_modulus for a dataset, with a guide line and control limits."
+  },
+  {
+    "rId": "rId87",
+    "filename": "image80.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image80.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner DOE software, where users configure settings for statistical analysis, select response variables, available factors, and model type for mixture components."
+  },
+  {
+    "rId": "rId110",
+    "filename": "image103.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image103.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table by entering response values for various factors and levels."
+  },
+  {
+    "rId": "rId115",
+    "filename": "image108.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image108.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot with a linear trend line, indicating model fit analysis."
+  },
+  {
+    "rId": "rId131",
+    "filename": "image124.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image124.png",
+    "llm_text": "This screenshot shows the \"Factors and Levels\" tab in ECMiner, where users specify factors, levels, and response values for design experiments."
+  },
+  {
+    "rId": "rId136",
+    "filename": "image129.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image129.png",
+    "llm_text": "The image shows an ECMiner software window for predicting response values with one prediction quantity and significance level set at 0.05."
+  },
+  {
+    "rId": "rId178",
+    "filename": "image166.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image166.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, and inverse values for data analysis."
+  },
+  {
+    "rId": "rId61",
+    "filename": "image54.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image54.png",
+    "llm_text": "The image shows an output from ECMiner data mining software displaying residual vs. fitted values for adhesion, modulus, elongation, and order adjustments."
+  },
+  {
+    "rId": "rId82",
+    "filename": "image75.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image75.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between Factorial, Response Surface, Mixture, and Taguchi designs for experimental planning."
+  },
+  {
+    "rId": "rId173",
+    "filename": "image161.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image161.png",
+    "llm_text": "The image shows a CDF plot for a Binomial Distribution in ECMiner, displaying probabilities for various outcomes ranging from 0 to 10."
+  },
+  {
+    "rId": "rId194",
+    "filename": "image182.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image182.png",
+    "llm_text": "The image shows the output of ECMiner data mining software, displaying statistical values such as mean, variance, and inverse for a dataset."
+  },
+  {
+    "rId": "rId199",
+    "filename": "image187.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image187.png",
+    "llm_text": "The image shows a discrete uniform distribution chart in ECMiner, displaying equal probability bars for integers 1 through 10."
+  },
+  {
+    "rId": "rId203",
+    "filename": "image191.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image191.png",
+    "llm_text": "The image shows a screenshot of an ECMiner data mining software dialog for plotting a continuous uniform distribution with PDF type selected."
+  },
+  {
+    "rId": "rId208",
+    "filename": "image196.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image196.png",
+    "llm_text": "The image shows an ECMiner graph displaying a Weibull Distribution CDF (Cumulative Distribution Function) with a blue line on a grid, indicating statistical analysis results."
+  },
+  {
+    "rId": "rId19",
+    "filename": "image12.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image12.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table by entering response values for factors and levels."
+  },
+  {
+    "rId": "rId14",
+    "filename": "image7.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image7.png",
+    "llm_text": "ECMiner is a data mining tool that guides users through five steps: setting factors, designing experiments, entering responses, analyzing results, and optimizing responses based on goals."
+  },
+  {
+    "rId": "rId30",
+    "filename": "image23.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image23.png",
+    "llm_text": "The image shows an output results graph from ECMiner, displaying the main effect plot for response time, temperature, and ingredient count on y1."
+  },
+  {
+    "rId": "rId35",
+    "filename": "image28.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image28.png",
+    "llm_text": "The image shows an output results screen from ECMiner for an Experimental Design using a 2-Level Factorial Design with Response Optimizer results. It displays various factors like Response Time, Reaction Temperature, and Amount of Ingredients, along with their corresponding values and overall desirability scores."
+  },
+  {
+    "rId": "rId56",
+    "filename": "image49.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image49.png",
+    "llm_text": "The image shows the output results of an Experimental Design using Central Composite Design in ECMiner, focusing on response value adhesion and modulus analysis with coefficients and statistical significance."
+  },
+  {
+    "rId": "rId77",
+    "filename": "image70.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image70.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying contour plots for surface adhesion, modulus, and elongation, with values labeled on the graph."
+  },
+  {
+    "rId": "rId100",
+    "filename": "image93.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image93.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify design options for factorial experiments, including grid size, center points, and axis points."
+  },
+  {
+    "rId": "rId105",
+    "filename": "image98.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image98.png",
+    "llm_text": "The image shows the output results of an Experimental Design using Mixture Design with Simplex Lattice Design in ECMiner, displaying response optimizer data for three runs with various parameters and overall desirability scores."
+  },
+  {
+    "rId": "rId126",
+    "filename": "image119.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image119.png",
+    "llm_text": "The image shows the \"Design selection\" window in ECMiner, where users specify design options for factorial experiments with 2-level factors."
+  },
+  {
+    "rId": "rId147",
+    "filename": "image140.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image140.png",
+    "llm_text": "The image shows an ANOVA table for response value y1, analyzing the variability in terms of linear, A*B, A*C, B*C, and residual error."
+  },
+  {
+    "rId": "rId168",
+    "filename": "image156.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image156.png",
+    "llm_text": "The image shows an ECMiner dialog window displaying a Beta Distribution graph with PDF type selected, illustrating probability density function values ranging from 0 to 1."
+  },
+  {
+    "rId": "rId8",
+    "filename": "image1.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image1.png",
+    "llm_text": "This screenshot shows the process flow for conducting an experiment using ECMiner, including setting up experimental purposes, selecting response values, choosing DOE methods, setting factors, executing experiments, analyzing results, and improving designs."
+  },
+  {
+    "rId": "rId51",
+    "filename": "image44.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image44.png",
+    "llm_text": "This screenshot shows the \"Factors and Levels\" tab in ECMiner, where users specify factors, levels, and response values for design experiments."
+  },
+  {
+    "rId": "rId72",
+    "filename": "image65.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image65.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a surface plot with three dimensions representing adhesion, modulus, and elongation values."
+  },
+  {
+    "rId": "rId93",
+    "filename": "image86.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image86.png",
+    "llm_text": "The image shows output results from an Experimental Design using a Mixture Design with a Simplex Center Design, focusing on fitted values, residuals, and other statistical measures for response value y1."
+  },
+  {
+    "rId": "rId98",
+    "filename": "image91.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image91.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between Factorial, Response Surface, Mixture, and Taguchi designs for experimental planning."
+  },
+  {
+    "rId": "rId121",
+    "filename": "image114.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image114.png",
+    "llm_text": "The image shows the output results of an Experimental Design using Mixture Design and Vertex Design in ECMiner, focusing on Response Optimizer with three runs and their respective coefficients and overall desirability scores."
+  },
+  {
+    "rId": "rId142",
+    "filename": "image135.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image135.png",
+    "llm_text": "The image shows statistical results for a regression analysis in ECMiner, including R Square, Adjusted R Square, and RMSE values."
+  },
+  {
+    "rId": "rId163",
+    "filename": "image151.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image151.png",
+    "llm_text": "The image shows an simplex chart in ECMiner, displaying a triangular plot with points representing different combinations of variables A, B, and C, used for data mining analysis."
+  },
+  {
+    "rId": "rId184",
+    "filename": "image172.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image172.png",
+    "llm_text": "The image shows an F-Distribution graph in ECMiner, displaying cumulative distribution function values for various degrees of freedom."
+  },
+  {
+    "rId": "rId189",
+    "filename": "image177.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image177.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId25",
+    "filename": "image18.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image18.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a residual vs. fitted values plot with predicted and residual values on a graph."
+  },
+  {
+    "rId": "rId46",
+    "filename": "image39.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image39.png",
+    "llm_text": "The image shows an ANOVA table for response value y1 in ECMiner, analyzing variability in terms A, B, C, AB, AC, BC, and ABC with their respective degrees of freedom, mean sum of squares, F-values, and p-values."
+  },
+  {
+    "rId": "rId67",
+    "filename": "image60.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image60.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residual histograms for adhesion, modulus, and elongation, with normal probability plots below."
+  },
+  {
+    "rId": "rId116",
+    "filename": "image109.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image109.png",
+    "llm_text": "The image shows an output results screen from ECMiner data mining software, displaying a residual vs. fitted values plot with various lines and markers indicating model diagnostics."
+  },
+  {
+    "rId": "rId137",
+    "filename": "image130.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image130.png",
+    "llm_text": "The image shows the Graph settings window in ECMiner, used for analyzing residuals in data mining, including histogram, normal probability plot, residual vs fitted values, and residual vs order plots."
+  },
+  {
+    "rId": "rId158",
+    "filename": "image146.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image146.png",
+    "llm_text": "The image shows an output results window in ECMiner, displaying a contour plot with values for variables A and B, illustrating the relationship between them."
+  },
+  {
+    "rId": "rId20",
+    "filename": "image13.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image13.png",
+    "llm_text": "The image shows an ECMiner software window for predicting response values based on block data with significance level set at 0.05."
+  },
+  {
+    "rId": "rId41",
+    "filename": "image34.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image34.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner software, where users can configure settings for statistical analysis, select response variables, available factors, and start the analysis process."
+  },
+  {
+    "rId": "rId62",
+    "filename": "image55.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image55.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residuals vs. run number for a dataset, with UCL and LCL lines indicating control limits."
+  },
+  {
+    "rId": "rId83",
+    "filename": "image76.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image76.png",
+    "llm_text": "This screenshot shows the \"Factors and Levels\" tab in ECMiner, where users specify factors, their levels, and response values for data analysis."
+  },
+  {
+    "rId": "rId88",
+    "filename": "image81.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image81.png",
+    "llm_text": "The image shows the results of an experimental design using a Simplex Center Design in ECMiner, analyzing response values Y1 with coefficients for terms A, B, C, and their interactions."
+  },
+  {
+    "rId": "rId111",
+    "filename": "image104.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image104.png",
+    "llm_text": "The image shows a simplex chart in ECMiner, displaying data points on a triangular grid with coordinates A, B, and C, used for visualizing and analyzing multi-dimensional data."
+  },
+  {
+    "rId": "rId132",
+    "filename": "image125.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image125.png",
+    "llm_text": "The image shows the \"Design selection\" window in ECMiner software, where users specify design options for factorial experiments with 3-level factors."
+  },
+  {
+    "rId": "rId174",
+    "filename": "image162.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image162.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, pmf, and cdf values for a dataset analysis."
+  },
+  {
+    "rId": "rId179",
+    "filename": "image167.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image167.png",
+    "llm_text": "The image shows an exponential distribution graph in ECMiner, displaying a decreasing curve on a log-log scale, with options for PDF type selection and OK confirmation."
+  },
+  {
+    "rId": "rId195",
+    "filename": "image183.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image183.png",
+    "llm_text": "The image shows an ECMiner dialog window displaying a t-distribution graph with a PDF plot, indicating statistical analysis results."
+  },
+  {
+    "rId": "rId209",
+    "filename": "image197.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image197.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId190",
+    "filename": "image178.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image178.png",
+    "llm_text": "The image shows the output of ECMiner data mining software, displaying statistical values such as mean, variance, and inverse for a dataset."
+  },
+  {
+    "rId": "rId204",
+    "filename": "image192.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image192.png",
+    "llm_text": "The image shows a CDF plot for a Continuous Uniform Distribution in ECMiner, displaying the cumulative distribution function over a range from 10 to 20."
+  },
+  {
+    "rId": "rId15",
+    "filename": "image8.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image8.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" screen in ECMiner, where users can choose between Factorial Design, Response Surface Design, Mixture Design, and Taguchi Design for experimental planning."
+  },
+  {
+    "rId": "rId36",
+    "filename": "image29.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image29.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between various experimental planning methods like factorial design, response surface design, mixture design, and Taguchi design."
+  },
+  {
+    "rId": "rId57",
+    "filename": "image50.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image50.png",
+    "llm_text": "The image shows an ANOVA table for response value adhesion and modulus in ECMiner, analyzing variability and fitting models with statistical significance."
+  },
+  {
+    "rId": "rId106",
+    "filename": "image99.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image99.png",
+    "llm_text": "The image shows the \"Select Experimental Design Method\" window in ECMiner, allowing users to choose between Factorial, Response Surface, Mixture, and Taguchi designs for experimental planning."
+  },
+  {
+    "rId": "rId127",
+    "filename": "image120.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image120.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiments) window where users can complete a design table by entering response values for various factors and levels."
+  },
+  {
+    "rId": "rId10",
+    "filename": "image3.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image3.png",
+    "llm_text": "The image shows a screenshot of ECMiner software with options for Response Surface Design, including Central Composite Design and Box-Behnken Design, used for optimizing quadratic models."
+  },
+  {
+    "rId": "rId31",
+    "filename": "image24.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image24.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying graphs for response time and reaction temperature in relation to ingredient levels, illustrating how these factors affect the response time under different conditions."
+  },
+  {
+    "rId": "rId52",
+    "filename": "image45.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image45.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify design options for factorial experiments, including runs, blocks, total runs, cube axis, alpha default value, center point count, repetition count, and alpha value settings."
+  },
+  {
+    "rId": "rId73",
+    "filename": "image66.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image66.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying contour plots for surface adhesion, modulus, and elongation metrics across different V1.30 and G300 amounts."
+  },
+  {
+    "rId": "rId78",
+    "filename": "image71.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image71.png",
+    "llm_text": "The image shows the Response Optimizer settings in ECMiner, where users can set response values for adhesion, modulus, and elongation with specified limits and weights."
+  },
+  {
+    "rId": "rId94",
+    "filename": "image87.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image87.png",
+    "llm_text": "The image shows an output results window in ECMiner with a Surface Plot displaying a 3D graph representing data points on a surface."
+  },
+  {
+    "rId": "rId99",
+    "filename": "image92.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image92.png",
+    "llm_text": "The image shows the \"Factors and Levels\" tab in ECMiner, where users specify factors, their levels, and response values for data mining analysis."
+  },
+  {
+    "rId": "rId101",
+    "filename": "image94.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image94.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiment) window where users can complete a design table by entering response values for factors and levels."
+  },
+  {
+    "rId": "rId122",
+    "filename": "image115.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image115.png",
+    "llm_text": "This screenshot shows the D Optimal Design window in ECMiner, where users can select a linear model, specify design points, choose an algorithm, and set options for optimization."
+  },
+  {
+    "rId": "rId143",
+    "filename": "image136.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image136.png",
+    "llm_text": "The image shows the results of a statistical analysis using ECMiner, displaying estimated coefficients for response value y1 in a regression model with terms A, B, C, and their interactions."
+  },
+  {
+    "rId": "rId164",
+    "filename": "image152.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image152.png",
+    "llm_text": "The image shows an example of data mining using ECMiner, where input data x is transformed through regression and mapping to output data y and d, representing composite data."
+  },
+  {
+    "rId": "rId169",
+    "filename": "image157.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image157.png",
+    "llm_text": "The image shows an ECMiner graph displaying a Beta Distribution PDF, illustrating probability density function values across different parameters."
+  },
+  {
+    "rId": "rId185",
+    "filename": "image173.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image173.png",
+    "llm_text": "The image shows statistical output from ECMiner, displaying mean, variance, PDF, and CDF values for a dataset analysis."
+  },
+  {
+    "rId": "rId9",
+    "filename": "image2.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image2.png",
+    "llm_text": "The screenshot shows options for performing factorial designs in ECMiner, including default generators, specified generators, Plackett-Burman design, and general full factorial design."
+  },
+  {
+    "rId": "rId180",
+    "filename": "image168.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image168.png",
+    "llm_text": "The image shows an exponential distribution CDF graph in ECMiner, displaying cumulative probability over time."
+  },
+  {
+    "rId": "rId210",
+    "filename": "image198.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image198.png",
+    "llm_text": "The image shows the output of an analysis tool, displaying mean, variance, and inverse values for statistical calculations."
+  },
+  {
+    "rId": "rId26",
+    "filename": "image19.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image19.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying residual plots for model evaluation with UCL and LCL lines."
+  },
+  {
+    "rId": "rId47",
+    "filename": "image40.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image40.png",
+    "llm_text": "The image shows an output results screen from ECMiner, displaying a main effect plot with three variables A, B, and C, illustrating their individual effects on a dependent variable y1."
+  },
+  {
+    "rId": "rId68",
+    "filename": "image61.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image61.png",
+    "llm_text": "The image shows an output from ECMiner, displaying a residual vs. z-value plot for model diagnostics, indicating normality and residuals' independence."
+  },
+  {
+    "rId": "rId89",
+    "filename": "image82.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image82.png",
+    "llm_text": "The image shows an output results window in ECMiner, displaying a residual histogram for model y1, illustrating residuals' distribution across different ranges."
+  },
+  {
+    "rId": "rId112",
+    "filename": "image105.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image105.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner software, where users configure settings for statistical analysis, select response variables, available factors, and model type before starting the analysis."
+  },
+  {
+    "rId": "rId133",
+    "filename": "image126.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image126.png",
+    "llm_text": "The image shows an ECMiner DOE (Design of Experiments) window where users can input design table values for analysis and optimization."
+  },
+  {
+    "rId": "rId175",
+    "filename": "image163.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image163.png",
+    "llm_text": "The image shows a Chi-Square Distribution graph in ECMiner, displaying probability density function (PDF) values for various degrees of freedom (df)."
+  },
+  {
+    "rId": "rId196",
+    "filename": "image184.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image184.png",
+    "llm_text": "The image shows an ECMiner CDF plot for the t-distribution, displaying cumulative distribution function values against various t-values."
+  },
+  {
+    "rId": "rId200",
+    "filename": "image188.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image188.png",
+    "llm_text": "The image shows a Discrete Uniform Distribution chart in ECMiner, displaying probabilities for discrete values from 0 to 10."
+  },
+  {
+    "rId": "rId16",
+    "filename": "image9.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image9.png",
+    "llm_text": "The image shows the \"Factors and Levels\" tab in ECMiner software, where users specify factors like reaction time, temperature, and ingredient amount with their respective low and high values for analysis."
+  },
+  {
+    "rId": "rId37",
+    "filename": "image30.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image30.png",
+    "llm_text": "The image shows the \"Design\" tab in ECMiner software, where users specify options for completing a design table with 4 runs, full factorial analysis, k(2) p(0) resolution, 1 replicate, and 1 center point."
+  },
+  {
+    "rId": "rId58",
+    "filename": "image51.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image51.png",
+    "llm_text": "The image shows output results from ECMiner data mining software, focusing on identifying unusual observations in response values using Extreme Leverage and Standardized Residual criteria."
+  },
+  {
+    "rId": "rId79",
+    "filename": "image72.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image72.png",
+    "llm_text": "The image shows an output results window from ECMiner software, displaying experimental design response surface optimization for a central composite design with coded units and uncoded units."
+  },
+  {
+    "rId": "rId102",
+    "filename": "image95.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image95.png",
+    "llm_text": "The image shows the Analysis Result tab in ECMiner DOE software, where users configure settings for statistical analysis, select response variables, available factors, and model type for mixture quantity experiments."
+  },
+  {
+    "rId": "rId123",
+    "filename": "image116.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image116.png",
+    "llm_text": "ECMiner encountered an error during algorithm execution due to an inability to calculate the inverse matrix of the Dispersion Matrix."
+  },
+  {
+    "rId": "rId144",
+    "filename": "image137.png",
+    "saved_path": "/root/ecm-preprocess-1/output/processed/6장_v3/v0/_sanitized/_assets/image137.png",
+    "llm_text": "The image shows an R Squared value of 0.18109 for a dataset in ECMiner, indicating a moderate fit between the model and the data."
+  }
+]
